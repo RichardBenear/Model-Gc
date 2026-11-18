@@ -16,3 +16,7 @@
 3. **Token / hypergraph Gc (2D, then 3D):** G tokens only hop and are destroyed only at W, so conservation is exact.
 4. **Existence window** in (A, B, k, c), and the P3 retest with the short-range part separated (registered).
 5. **Gc2 with built-in charge symmetry**, and the gravity/charge strength ratio.
+
+## Update 2026-11-18: EX-GC01 done
+Weighted action and reaction holds for particles with equal mobility μ; free fall is not universal when μ differs
+(doubled k: 1.8 times faster). New design target: a universal μ across particle types (results/EX-GC01/EX-GC01_note.md).
