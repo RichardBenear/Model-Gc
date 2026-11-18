@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+*.tmp
+# Pair states and other bulky fields stay out of git (SHA-256 manifests are committed)
+results/*/partial/
+/local_raw/

@@ -1,0 +1,45 @@
+# Model Gc — standing instructions for Claude
+
+Read automatically at the start of every Claude Code session here. Current state and next steps are in `HANDOFF.md`.
+
+## What the project is
+A research programme on **Model Gc**, our conserved-G reaction–diffusion model (`spec/MODEL_Gc.md`). It branched on
+2026-11-18 from the Model G hypergraph study (RichardBenear/ModelG). The aim is to test whether particles with a
+conserved, core-consumed carrier give long-range (1/r, inverse-square) gravity and a charge analogue, and eventually a
+discrete, causally invariant rule version (the parent programme's goal of a link to quantum mechanics and gravity).
+Model Gc is our own construction: always say so, and never present it as LaViolette's.
+
+## Roles and protocol
+- **PI: Richard Benear.** Direction, registration, budgets, closure sign-off.
+- **AI collaborators:** Claude and ChatGPT / Codex take any role the PI assigns. AIs never sign off closures or
+  approve compute.
+- Follow `RESEARCH_PROTOCOL.md` (version 2, adopted from ModelG).
+  - **Exploratory track:** the PI's go-ahead in words, an `explore/LOG.md` entry before running, a 2 core-hour cap,
+    and the label EXPLORATORY.
+  - **Confirmatory track:** a frozen spec plus a GATES entry committed before production, a separate recomputation
+    path, and PI closure.
+- Study numbers: GC001, GC002, … for registered stages; EX-GC01, EX-GC02, … for explorations. Inherited ModelG labels
+  (EX008–EX010, MG195) keep their names.
+- A registered result is never re-scored after the data are seen. Deviations are recorded, not smoothed over.
+
+## Working conventions
+- Commit and push regularly with stage-prefixed messages (e.g. `GC001: ...`). **Pull before you push.** The PI also
+  commits from VS Code.
+- Every number in a record must be reproducible from committed files. Keep the repo small: commit records, small
+  profiles and summaries. Bulky fields and pair states stay out of git with a committed SHA-256 manifest.
+- All PNG figures go in `paper/figures/`.
+- Write for the PI in plain language: the conclusion first, then the evidence. Say plainly when something failed.
+
+## Compute
+- Worker count comes from the environment variable `MODELG_WORKERS` (name kept from ModelG; default 2 to 4). On the
+  PI's 10-core PC use at most 8. Set numerical-library threads to 1 per worker.
+- The PI's PC: Windows, Python 3.13.2, numpy 2.2.4, scipy 1.16.1. Cloud runs use newer versions, so record the
+  platform with results.
+
+## Code map (src/)
+- `ex008_longrange.py`: 3D radial Gc1 solver (`Model`, `particle`, `drift` = l = 1 mobility, `leading_eigs`).
+- `ex009_pair2d.py`: axisymmetric (ρ, z) two-particle co-moving bordered-Newton solver (`Axi`); EX009 scripts.
+- `ex010_network.py`: generic mass-action network solver (`Net`) for Gc2 (charge plus gravity).
+- `mg195_*.py`: the MG195 confirmatory study (inverse-square), with its recomputation and figure.
+- `fig_particle_*.py`: illustrative figures (Model G vs Model Gc particles).
+- Test: `python tests/test_regression.py` (seconds; add `--pair` for the 2D pair regression, about 1 minute).
