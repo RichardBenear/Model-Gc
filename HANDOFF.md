@@ -20,3 +20,8 @@
 ## Update 2026-11-18: EX-GC01 done
 Weighted action and reaction holds for particles with equal mobility μ; free fall is not universal when μ differs
 (doubled k: 1.8 times faster). New design target: a universal μ across particle types (results/EX-GC01/EX-GC01_note.md).
+
+## Update 2026-11-18: EX-GC02 done
+Inertia appears when the core species W responds slowly (drag → 0 at τ_W ≈ 28; effective mass confirmed by a direct
+time response), but the threshold is type-dependent, so free fall becomes non-universal. Revised design target: one
+quantity setting both G consumption and inertia (results/EX-GC02/EX-GC02_note.md).
