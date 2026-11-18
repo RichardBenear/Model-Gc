@@ -30,3 +30,9 @@ quantity setting both G consumption and inertia (results/EX-GC02/EX-GC02_note.md
 Push ∝ M (active = passive gravitational mass) but drag is set by the shared X/Y core, so free fall differs by
 type (35%). Suggested next: a bound pair of identical particles, to see whether binding breaks universality
 (results/EX-GC03/EX-GC03_note.md).
+
+## Update 2026-11-18: EX-GC04 done
+Identical particles bind at d = 7.145 and 10.11 (short-range Turing force), and a bound pair falls 6% (3%) more slowly
+than a single particle. Cause: consumption grows with local G, so the upper partner pulls harder; the deficit fades as
+(dM/dG)/(8πd). In Gc1 the same G-dependence that makes particles fall breaks the equivalence principle for composites
+(results/EX-GC04/EX-GC04_note.md). Next idea: a variant where drift does not come from G-dependent consumption.
