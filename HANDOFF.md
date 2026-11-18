@@ -10,8 +10,7 @@
   - MG195 (confirmatory, PI CLOSED 2026-11-18): P1 and P2 SUPPORTED, P3 UNRESOLVED, C2 PASS.
 
 ## Candidate next steps (none approved yet)
-1. **Physics mapping note:** Poisson analogy; global G budget (cosmological supply or a falling G∞); diffusive
-   propagation and how a wave-like carrier could fix it.
+1. **Physics mapping note:** done, `docs/PHYSICS_MAPPING.md`. Suggested tests from it: weighted action-reaction with an unequal pair; drift bifurcation (inertia); telegraph G carrier (finite speed); G budget.
 2. **Stochastic survival (EX-GC01):** noisy 3D continuum (tau-leap or Langevin), to find the minimum Ω at which a Gc
    particle survives. This is a prerequisite for a token version.
 3. **Token / hypergraph Gc (2D, then 3D):** G tokens only hop and are destroyed only at W, so conservation is exact.
