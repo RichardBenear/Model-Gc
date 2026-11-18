@@ -25,3 +25,8 @@ Weighted action and reaction holds for particles with equal mobility μ; free fa
 Inertia appears when the core species W responds slowly (drag → 0 at τ_W ≈ 28; effective mass confirmed by a direct
 time response), but the threshold is type-dependent, so free fall becomes non-universal. Revised design target: one
 quantity setting both G consumption and inertia (results/EX-GC02/EX-GC02_note.md).
+
+## Update 2026-11-18: EX-GC03 done
+Push ∝ M (active = passive gravitational mass) but drag is set by the shared X/Y core, so free fall differs by
+type (35%). Suggested next: a bound pair of identical particles, to see whether binding breaks universality
+(results/EX-GC03/EX-GC03_note.md).
