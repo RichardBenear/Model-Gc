@@ -57,3 +57,9 @@ docs/ROUTE3_RIBBON_DESIGN.md: 720° from a ribbon-structured Gc hypergraph tethe
 a local three-node rule (no edge may swing through the half-turn ambiguity) on cube-rotation frames reproduces the
 belt trick (1 turn stuck, 2 turns untangle); pairwise rules fail. Next: Stage 2, Gc tokens on this ribbon graph
 (results/EX-GC08/EX-GC08_note.md).
+
+## Update 2026-11-19: EX-GC09 done (route 3, Stage 2)
+Gc1 as tokens on a 3D cubic lattice (h = 0.5): the particle survives at Ω = 1000 (M −6%) and 300 (−20%) over T = 30,
+fades at 100, dies at 30 (about 10⁴ core tokens needed). Far G deficit matches the lattice point-sink field (1–4%).
+A splitting bias in the first token update was found and fixed (results/EX-GC09/EX-GC09_note.md). Next: Stage 3,
+tethered particle (needs the PI's go-ahead).
