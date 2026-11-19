@@ -5,3 +5,4 @@ __pycache__/
 # Pair states and other bulky fields stay out of git (SHA-256 manifests are committed)
 results/*/partial/
 /local_raw/
+results/EX-GC10/*.npy
