@@ -168,7 +168,11 @@ def run(mode, turns, eps, rule="lift", Tf=0.5, nu=1.0, T=40.0, Omega=3000.0, h=0
     for i in range(nsteps + 1):
         c = u if mode == "det" else nt / OV
         if i % int(round(every / dt)) == 0:
+            wsum = c[2].sum()
+            cen = [float((c[2] * ((np.arange(n) - (n - 1) / 2) * h).reshape(sh)).sum() / max(wsum, 1e-12))
+                   for sh in ((-1, 1, 1), (1, -1, 1), (1, 1, -1))]
             rows.append(dict(t=round(i * dt, 6), M=float(np.sum(K * c[3] * c[2]) * V), Wtot=float(c[2].sum() * V),
+                             Wcen=[round(x, 4) for x in cen], Wmax=float(c[2].max()),
                              E=fr.energy(), z2=fr.z2(), acc=acc, wall=round(time.time() - t0, 1)))
             if c[2].sum() * V < 1e-3:
                 break
