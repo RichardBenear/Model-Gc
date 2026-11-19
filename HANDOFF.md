@@ -36,3 +36,8 @@ Identical particles bind at d = 7.145 and 10.11 (short-range Turing force), and 
 than a single particle. Cause: consumption grows with local G, so the upper partner pulls harder; the deficit fades as
 (dM/dG)/(8πd). In Gc1 the same G-dependence that makes particles fall breaks the equivalence principle for composites
 (results/EX-GC04/EX-GC04_note.md). Next idea: a variant where drift does not come from G-dependent consumption.
+
+## Update 2026-11-18: EX-GC05 done (Stage A)
+No rotating Gc1 particle: non-round core modes never oscillate; the X/Y chemistry oscillates only as a whole medium
+(ether Hopf τ_Y = 8.64). Route 1 to a 720° particle needs a core with its own clock (e.g. a slow inhibitor of W);
+routes 2 (orientation field) and 3 (hypergraph ribbons) need new ingredients too (results/EX-GC05/EX-GC05_note.md).
