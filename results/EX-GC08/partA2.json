@@ -1,0 +1,35 @@
+[
+ {
+  "S": "90",
+  "edges": 72,
+  "triangles_all": 0,
+  "triangles_consistent": 0,
+  "H1_GF2": 49,
+  "H1_Q": 49,
+  "loop1": "NOT boundary",
+  "lift_product_1turn": -1.0,
+  "lift_product_2turn": 1.0
+ },
+ {
+  "S": "120",
+  "edges": 96,
+  "triangles_all": 128,
+  "triangles_consistent": 96,
+  "H1_GF2": 2,
+  "H1_Q": 0,
+  "loop1": "NOT boundary",
+  "lift_product_1turn": -1.0,
+  "lift_product_2turn": 1.0
+ },
+ {
+  "S": "90+120",
+  "edges": 168,
+  "triangles_all": 416,
+  "triangles_consistent": 384,
+  "H1_GF2": 1,
+  "H1_Q": 0,
+  "loop1": "NOT boundary",
+  "lift_product_1turn": -1.0,
+  "lift_product_2turn": 1.0
+ }
+]

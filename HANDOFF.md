@@ -51,3 +51,9 @@ time simulation (does breathing saturate, does l = 1 become circling, any 2:1 lo
 3D (spectral-in-angle) time runs of Gc3: breathing grows until the core collapses; no steady pulse seen, no circling.
 Route 1 would need a saturating brake (another tuned ingredient); routes 2/3 get 720° from structure instead
 (results/EX-GC07/EX-GC07_note.md). Solver src/exgc07_sim3d.py (8 ms/step) is reusable for other Gc variants.
+
+## Update 2026-11-19: route 3 design note and EX-GC08 done
+docs/ROUTE3_RIBBON_DESIGN.md: 720° from a ribbon-structured Gc hypergraph tethered by its G supply. EX-GC08 (Stage 1):
+a local three-node rule (no edge may swing through the half-turn ambiguity) on cube-rotation frames reproduces the
+belt trick (1 turn stuck, 2 turns untangle); pairwise rules fail. Next: Stage 2, Gc tokens on this ribbon graph
+(results/EX-GC08/EX-GC08_note.md).

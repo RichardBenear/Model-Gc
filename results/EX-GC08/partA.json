@@ -1,0 +1,152 @@
+[
+ {
+  "S": "90",
+  "n_steps": 6,
+  "edges": 72,
+  "triangles": 0,
+  "H1_GF2": 49,
+  "H1_Q": 49,
+  "loop1": "NOT boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "180f",
+  "n_steps": 3,
+  "edges": 36,
+  "triangles": 24,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "trivial (backtrack)",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "120",
+  "n_steps": 8,
+  "edges": 96,
+  "triangles": 128,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "180e",
+  "n_steps": 6,
+  "edges": 72,
+  "triangles": 0,
+  "H1_GF2": 49,
+  "H1_Q": 49,
+  "loop1": null,
+  "loop2": null
+ },
+ {
+  "S": "90+180f",
+  "n_steps": 9,
+  "edges": 108,
+  "triangles": 96,
+  "H1_GF2": 13,
+  "H1_Q": 13,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "90+120",
+  "n_steps": 14,
+  "edges": 168,
+  "triangles": 416,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "90+180e",
+  "n_steps": 12,
+  "edges": 144,
+  "triangles": 0,
+  "H1_GF2": 121,
+  "H1_Q": 121,
+  "loop1": "NOT boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "180f+120",
+  "n_steps": 11,
+  "edges": 132,
+  "triangles": 440,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "180f+180e",
+  "n_steps": 9,
+  "edges": 108,
+  "triangles": 96,
+  "H1_GF2": 13,
+  "H1_Q": 13,
+  "loop1": "trivial (backtrack)",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "120+180e",
+  "n_steps": 14,
+  "edges": 168,
+  "triangles": 416,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "90+180f+120",
+  "n_steps": 17,
+  "edges": 204,
+  "triangles": 800,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "90+180f+180e",
+  "n_steps": 15,
+  "edges": 180,
+  "triangles": 456,
+  "H1_GF2": 4,
+  "H1_Q": 4,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "90+120+180e",
+  "n_steps": 20,
+  "edges": 240,
+  "triangles": 1280,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "180f+120+180e",
+  "n_steps": 17,
+  "edges": 204,
+  "triangles": 800,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ },
+ {
+  "S": "90+180f+120+180e",
+  "n_steps": 23,
+  "edges": 276,
+  "triangles": 2024,
+  "H1_GF2": 0,
+  "H1_Q": 0,
+  "loop1": "boundary",
+  "loop2": "trivial (backtrack)"
+ }
+]
