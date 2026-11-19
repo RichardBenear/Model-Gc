@@ -1,0 +1,109 @@
+{
+ "knot_grad_lam0_sig1.5_E0.02_s0": {
+  "case": "knot_grad",
+  "lam": 0.0,
+  "E": 0.02,
+  "seed": 0,
+  "M0": 5.878935992818878,
+  "M_final": 5.859295730627085,
+  "alive": true,
+  "degrees": [
+   -1
+  ],
+  "M_late": 5.859438037078285,
+  "knot_core_dist_late": 0.48239359651490576,
+  "Wcen_z_final": -0.009394877281463971
+ },
+ "knot_grad_lam1_sig1.5_E0.02_s0": {
+  "case": "knot_grad",
+  "lam": 1.0,
+  "E": 0.02,
+  "seed": 0,
+  "M0": 5.878935992818878,
+  "M_final": 5.523472066888768,
+  "alive": true,
+  "degrees": [
+   -1
+  ],
+  "M_late": 5.520576174058902,
+  "knot_core_dist_late": 0.37346509520048815,
+  "Wcen_z_final": 0.0111756827028805
+ },
+ "knot_lam1_sig1.5_E0_s0": {
+  "case": "knot",
+  "lam": 1.0,
+  "E": 0.0,
+  "seed": 0,
+  "M0": 5.878935992818876,
+  "M_final": 5.5301321550129945,
+  "alive": true,
+  "degrees": [
+   -1
+  ],
+  "M_late": 5.525236350548458,
+  "knot_core_dist_late": 0.3698137427779767,
+  "Wcen_z_final": 0.019807892267685197,
+  "far_ratio": 0.9989419142526549
+ },
+ "knot_lam1_sig1.5_E0_s1": {
+  "case": "knot",
+  "lam": 1.0,
+  "E": 0.0,
+  "seed": 1,
+  "M0": 5.878935992818876,
+  "M_final": 5.87618900846415,
+  "alive": true,
+  "degrees": [
+   -1
+  ],
+  "M_late": 5.876630255638906,
+  "knot_core_dist_late": 0.1384866835009945,
+  "Wcen_z_final": -6.626046634448251e-05,
+  "far_ratio": 0.9999337985367682
+ },
+ "noknot_lam1_sig1.5_E0_s0": {
+  "case": "noknot",
+  "lam": 1.0,
+  "E": 0.0,
+  "seed": 0,
+  "M0": 5.878935992818876,
+  "M_final": 1.1166338969983148e-25,
+  "alive": false,
+  "degrees": [
+   0
+  ],
+  "M_late": 2.3978210452540316e-14,
+  "knot_core_dist_late": null,
+  "Wcen_z_final": 4.642513787899567e-05
+ },
+ "plain_grad_lam1_sig1.5_E0.02_s0": {
+  "case": "plain_grad",
+  "lam": 1.0,
+  "E": 0.02,
+  "seed": 0,
+  "M0": 5.878935992818878,
+  "M_final": 5.877593126573346,
+  "alive": true,
+  "degrees": [
+   0
+  ],
+  "M_late": 5.877876500076117,
+  "knot_core_dist_late": 1.8311333398311012,
+  "Wcen_z_final": -0.00950050101132598
+ },
+ "seed_lam1_sig1.5_E0_s0": {
+  "case": "seed",
+  "lam": 1.0,
+  "E": 0.0,
+  "seed": 0,
+  "M0": 0.40203195239025047,
+  "M_final": 2.3363957046415613e-26,
+  "alive": false,
+  "degrees": [
+   -1
+  ],
+  "M_late": 5.0172274520119765e-15,
+  "knot_core_dist_late": null,
+  "Wcen_z_final": -6.29772814748628e-05
+ }
+}

@@ -77,3 +77,5 @@ EX-GC11: the frame-field tether gives no exchange sign (tethers lack identity). 
 (docs/SOLITON_PARTICLE_DESIGN.md). EX-GC12: a degree-1 knot of lattice frames is stable, degree conserved. EX-GC13:
 loop classes (Pontryagin–Thom): 360° turn = 1, swap of two knots = 1, swap + turn = 0, degree 2 = 0; the loops run on
 the lattice through allowed moves. Next (needs go-ahead): make the knot a Gc particle (consumes G, gravitates).
+
+EX-GC14 (2026-11-19): knot as a Gc particle: the gated W core lives only on a knot; 1/r source confirmed; falling not resolved (lattice pinning at h = 0.5).
