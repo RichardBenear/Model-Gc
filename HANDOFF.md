@@ -71,3 +71,9 @@ untangle, M within 0.6%. Controls (ε = 0, pairwise rule) as predicted. Token ru
 topology but the mass signal is noisy (shared drift artefact). Open: exchange sign, a real rotating particle.
 
 Overall status summary as of 2026-11-19: docs/STATUS_2026-11-19.md.
+
+## Update 2026-11-19: soliton route (EX-GC11 to EX-GC13)
+EX-GC11: the frame-field tether gives no exchange sign (tethers lack identity). Richard chose the soliton route
+(docs/SOLITON_PARTICLE_DESIGN.md). EX-GC12: a degree-1 knot of lattice frames is stable, degree conserved. EX-GC13:
+loop classes (Pontryagin–Thom): 360° turn = 1, swap of two knots = 1, swap + turn = 0, degree 2 = 0; the loops run on
+the lattice through allowed moves. Next (needs go-ahead): make the knot a Gc particle (consumes G, gravitates).
