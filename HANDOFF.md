@@ -63,3 +63,9 @@ Gc1 as tokens on a 3D cubic lattice (h = 0.5): the particle survives at Ω = 100
 fades at 100, dies at 30 (about 10⁴ core tokens needed). Far G deficit matches the lattice point-sink field (1–4%).
 A splitting bias in the first token update was found and fixed (results/EX-GC09/EX-GC09_note.md). Next: Stage 3,
 tethered particle (needs the PI's go-ahead).
+
+## Update 2026-11-19: EX-GC10 done (route 3, Stage 3)
+Particle tethered by its G supply (frames on the EX-GC09 lattice, no-cut lift rule, twisted edges pass G with
+probability 1 − ε). One turn: twist stuck next to the core, index −1, M −7.9% (deterministic, 3 seeds); two turns
+untangle, M within 0.6%. Controls (ε = 0, pairwise rule) as predicted. Token runs (Ω = 3000, partly on the PC) agree on
+topology but the mass signal is noisy (shared drift artefact). Open: exchange sign, a real rotating particle.
