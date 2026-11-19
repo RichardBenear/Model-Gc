@@ -46,3 +46,8 @@ routes 2 (orientation field) and 3 (hypergraph ribbons) need new ingredients too
 A slow local core inhibitor V ("Gc3") gives the particle a breathing clock (period ≈ 18–20) near the existence
 edge (κ ≈ 0.9–1). Rotation does not come first: l = 1 oscillates only later, and l = 2, 3 never. Next would be a 3D
 time simulation (does breathing saturate, does l = 1 become circling, any 2:1 lock) (results/EX-GC06/EX-GC06_note.md).
+
+## Update 2026-11-18: EX-GC07 done
+3D (spectral-in-angle) time runs of Gc3: breathing grows until the core collapses; no steady pulse seen, no circling.
+Route 1 would need a saturating brake (another tuned ingredient); routes 2/3 get 720° from structure instead
+(results/EX-GC07/EX-GC07_note.md). Solver src/exgc07_sim3d.py (8 ms/step) is reusable for other Gc variants.
