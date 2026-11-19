@@ -69,3 +69,5 @@ Particle tethered by its G supply (frames on the EX-GC09 lattice, no-cut lift ru
 probability 1 − ε). One turn: twist stuck next to the core, index −1, M −7.9% (deterministic, 3 seeds); two turns
 untangle, M within 0.6%. Controls (ε = 0, pairwise rule) as predicted. Token runs (Ω = 3000, partly on the PC) agree on
 topology but the mass signal is noisy (shared drift artefact). Open: exchange sign, a real rotating particle.
+
+Overall status summary as of 2026-11-19: docs/STATUS_2026-11-19.md.
