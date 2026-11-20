@@ -10,7 +10,7 @@ for file in sorted(p.glob('full_*.json')):
     gamma=-np.polyfit(t[late],np.log(v[late]),1)[0] if np.all(v[late]>0) else None
     row=dict(K=j['K'],D=j['D'],h=j['h'],M0=a[0]['M'],depletion0=a[0]['depletion'],settle_M_rel=s[-1]['M']/s[-6]['M']-1,
              gamma_late=gamma,gamma_early=j['gamma_early'],velocity_retention=last['Vcore_z']/a[0]['Vcore_z'],M_retention=last['M']/a[0]['M'],Wmax_retention=last['Wmax']/a[0]['Wmax'],
-             centroid_z=last['Wcen_z'],centroid_speed_late=np.polyfit(t[late],z[late],1)[0],flow_speed_late=v[late].mean(),cpu_s=j['cpu_s'])
+             centroid_z=last['Wcen_z'],centroid_speed_early=np.polyfit(t[t<=5],z[t<=5],1)[0],centroid_speed_late=np.polyfit(t[late],z[late],1)[0],flow_speed_late=v[late].mean(),cpu_s=j['cpu_s'])
     row['centroid_flow_ratio']=row['centroid_speed_late']/row['flow_speed_late']
     if 'flux' in j:
         b=j['flux']; tt=np.array([r['t'] for r in b]); vv=np.array([r['Vcore_z'] for r in b]); zz=np.array([r['Wcen_z'] for r in b]); early=tt<=5

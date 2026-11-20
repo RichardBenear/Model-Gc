@@ -1,0 +1,8 @@
+6932f31970af39b0325899f4115723204ea3f161f30cd8eefcc9d5c90dcea5b5  local_raw/EX-GC22/settle_K0.001_D1_h0.5.npz
+bd35f8ccf92ad9c2cf5f35a2587ea9cd0d8906c3ce721891b507feed17b62b7e  local_raw/EX-GC22/settle_K0.001_D80_h0.5.npz
+a70892c247fd4a31a08e06cc13d6eed02095b3901dd61e46c40dc759a4479f4c  local_raw/EX-GC22/settle_K0.01_D1_h0.5.npz
+0cfc7bf28c9518a414c16eec2b6388de2580b3fbd08c3280352b36e4ee830a3b  local_raw/EX-GC22/settle_K0.01_D80_h0.5.npz
+46a01ceb62f67ada8b8a3ceab14d30bf17d32cf9a213887c7522793bb9ac93a8  local_raw/EX-GC22/settle_K0.05_D1_h0.5.npz
+21bd5be81d9346a11947309b5f6ef103e4ba55c3b06074d5f90f1f56495524c8  local_raw/EX-GC22/settle_K0.05_D80_h0.5.npz
+af794186280eea7f6547c2a5e87008d1234dbd24f8ab2fa5090ee213ed9383c2  local_raw/EX-GC22/settle_K0.2_D1_h0.5.npz
+ac235783b0e99ac895cf1ae277078f0de5d6d3ee2aab7ffbb452267cfe249c1d  local_raw/EX-GC22/settle_K0.2_D80_h0.5.npz
