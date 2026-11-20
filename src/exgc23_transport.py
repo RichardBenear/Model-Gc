@@ -23,7 +23,7 @@ def load():
     lib=Path(tmp.name)/'kernel.so'
     subprocess.run(['c++','-O3','-shared','-fPIC',str(Path(__file__).with_name('exgc23_kernel.cpp')),'-o',str(lib)],check=True)
     LIB=ctypes.CDLL(str(lib)); LIB.chem.argtypes=[ctypes.c_int]+[ctypes.c_double]*7+[PTR]*3
-    LIB.chem.restype=None; LIB.wave_step.argtypes=[ctypes.c_int]+[ctypes.c_double]*5+[PTR]*5; LIB.wave_step.restype=None
+    LIB.chem.restype=None; LIB.chem_fast.argtypes=LIB.chem.argtypes; LIB.chem_fast.restype=None; LIB.wave_step.argtypes=[ctypes.c_int]+[ctypes.c_double]*5+[PTR]*5; LIB.wave_step.restype=None
     return tmp
 
 def dump(name,obj):
@@ -51,11 +51,11 @@ class Box(g22.Box):
     def __init__(self,K,L):
         super().__init__(.25,L,80,K);self.du=np.empty((3,*self.shape));self.gn=np.empty(self.shape)
     def chem_inplace(self,u,V):
-        LIB.chem(self.n,self.h,self.K,e.A,e.B,e.DY,e.DW,e.C,u,V,self.du)
+        LIB.chem_fast(self.n,self.h,self.K,e.A,e.B,e.DY,e.DW,e.C,u,V,self.du)
         self.du*=self.dt;u[:3]+=self.du
     def step(self,u,V,J,E):
         # G/s old for both chemistry and medium. Compute both before mutation.
-        LIB.chem(self.n,self.h,self.K,e.A,e.B,e.DY,e.DW,e.C,u,V,self.du)
+        LIB.chem_fast(self.n,self.h,self.K,e.A,e.B,e.DY,e.DW,e.C,u,V,self.du)
         LIB.wave_step(self.n,self.h,self.dt,self.K,20.,E,u,*J,self.gn)
         self.du*=self.dt;u[:3]+=self.du;u[3]=self.gn
     def terms(self,u,V,push,mode):
@@ -125,13 +125,14 @@ CASES=[('strong_off',.2,6,'off',.05,0,20),('strong_on',.2,6,'on',.05,0,20),('wea
 def validate():
     b=g22.Box(.25,1,80,.2);rng=np.random.default_rng(23);u=rng.uniform(.8,1.2,(4,*b.shape));V=rng.normal(0,.05,(3,*b.shape));E=.002
     J=[np.ascontiguousarray(rng.normal(0,.02,g.shape)) for g in wave.grad_faces(u[3],b.h,b.bc(E))];out=np.empty((3,*b.shape));gn=np.empty(b.shape)
-    LIB.chem(b.n,b.h,b.K,e.A,e.B,e.DY,e.DW,e.C,u,V,out);err1=float(abs(out-b.chem_numpy(u,V)).max())
+    LIB.chem(b.n,b.h,b.K,e.A,e.B,e.DY,e.DW,e.C,u,V,out);err1=float(abs(out-b.chem_numpy(u,V)).max());ref=out.copy()
+    LIB.chem_fast(b.n,b.h,b.K,e.A,e.B,e.DY,e.DW,e.C,u,V,out);errfast=float(abs(out-ref).max())
     refG=u[3]+b.dt*(-wave.div_faces(J,b.h)-b.K*u[2]*u[3]);refJ=[j+b.dt*(-4*g-j/20) for j,g in zip(J,wave.grad_faces(u[3],b.h,b.bc(E)))];LIB.wave_step(b.n,b.h,b.dt,b.K,20.,E,u,*J,gn)
     err2=max(float(abs(gn-refG).max()),*(float(abs(j-r).max()) for j,r in zip(J,refJ)))
     x,y,z=np.meshgrid(b.ax,b.ax,b.ax,indexing='ij');v=np.array([.1*x,.2*y,.3*z+.05]);err3=float(abs(material(v,b.h)+v*np.array([.1,.2,.3])[:,None,None,None]).max())
     s=rng.uniform(.01,1,b.shape);adv,dm,dp=conservative(s,V,b.h);err4=float(max(abs(dm.sum()),abs(dp.sum(axis=(1,2,3))).max(),abs((s*adv+V*dm-dp)).max()));sm=gaussian_filter(s,2,mode='constant');sv=np.array([gaussian_filter(s*v,2,mode='constant') for v in V]);err5=float(abs(integral(s,(sv-V*sm)/sm.max(),b.h)).max())
-    assert max(err1,err2,err3,err4,err5)<1e-10,(err1,err2,err3,err4,err5)
-    dump('validation',dict(chem_max=err1,wave_max=err2,affine_material_max=err3,flux_balance_max=err4,cohesion_balance_max=err5));print('validation passed',err1,err2,err3,err4,err5,flush=True)
+    assert max(err1,err2,err3,err4,err5,errfast)<1e-10,(err1,err2,err3,err4,err5,errfast)
+    dump('validation',dict(chem_max=err1,wave_max=err2,affine_material_max=err3,flux_balance_max=err4,cohesion_balance_max=err5,fast_vs_original_max=errfast));print('validation passed',err1,err2,err3,err4,err5,errfast,flush=True)
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('--workers',type=int,default=4);p.add_argument('--phase',choices=['validate','settle','run'],required=True);p.add_argument('--cases',nargs='*');a=p.parse_args();tmp=load()
