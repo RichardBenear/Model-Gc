@@ -6,3 +6,4 @@ __pycache__/
 results/*/partial/
 /local_raw/
 results/EX-GC10/*.npy
+results/EX-GC18/*.npy
