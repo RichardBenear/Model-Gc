@@ -105,3 +105,9 @@ A shared flow field carried by the particle lets recoil move it as one body and 
 But the particle's own lagging G wake (G diffuses) acts as drag even with drag switched off (coasting time ≈ 46), and the
 knot cannot keep up with the core at these speeds. Candidate next step (not approved): make G propagate as a wave
 (finite speed) so the wake drag vanishes for uniform motion. Note: results/EX-GC19/EX-GC19_note.md.
+
+## Update 2026-11-20: EX-GC20/21 done (wave-like G; faster knot)
+Wave-like G reduces the kicked particle's speed loss only ~27% (0.023 → 0.017); a push-off control coasts exactly, so the
+loss is a real backward push from absorbing G that is at rest (hypothesis: accretion drag in a medium with a rest frame).
+Faster/stronger frame dynamics do not help the knot; carrying the knot with the flow keeps it within one lattice step.
+Candidate next steps (not approved): coasting time vs particle strength (weak-field limit); Lorentz-invariant G field.

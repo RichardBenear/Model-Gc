@@ -1,0 +1,4 @@
+RESULT kick_tauJ20_nopush t 7.0009 M 5.515 -> 6.277 Wcen_z -0.342 Vcore_z -0.05 Vspread 0.0 Vmax 0.05 Kcen_z None wall 350
+RESULT knot_flowadv t 19.0024 M 5.515 -> 5.054 Wcen_z -0.394 Vcore_z -0.0393 Vspread 0.0182 Vmax 0.06 Kcen_z -0.28 wall 796
+RESULT fall_tauJ20_K0.2_jinit t 19.0024 M 5.515 -> 6.242 Wcen_z -0.323 Vcore_z -0.033 Vspread 0.0174 Vmax 0.053 Kcen_z None wall 864
+RESULT fall_tauJ20_K0.4_jinit t 19.0024 M 8.165 -> 8.932 Wcen_z -0.306 Vcore_z -0.03 Vspread 0.0287 Vmax 0.063 Kcen_z None wall 868

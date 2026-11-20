@@ -1,0 +1,7 @@
+RESULT kick_tauJ2 t 19.0024 M 5.515 -> 6.035 Wcen_z -0.804 Vcore_z -0.0369 Vspread 0.0183 Vmax 0.058 Kcen_z None wall 941
+RESULT kick_tauJ0.25 t 19.0024 M 5.515 -> 5.095 Wcen_z -0.777 Vcore_z -0.0333 Vspread 0.0182 Vmax 0.054 Kcen_z None wall 944
+RESULT knot_kfr5_lam1 t 19.0024 M 5.515 -> 5.054 Wcen_z -0.394 Vcore_z -0.0393 Vspread 0.0182 Vmax 0.06 Kcen_z -0.113 wall 1103
+RESULT knot_kfr5_lam4 t 19.0024 M 5.515 -> 5.054 Wcen_z -0.394 Vcore_z -0.0393 Vspread 0.0182 Vmax 0.06 Kcen_z -0.17 wall 1106
+RESULT kick_tauJ20 t 19.0024 M 5.515 -> 6.256 Wcen_z -0.809 Vcore_z -0.037 Vspread 0.0175 Vmax 0.057 Kcen_z None wall 909
+RESULT fall_tauJ20_K0.2 t 19.0024 M 5.515 -> 6.239 Wcen_z -0.086 Vcore_z -0.0124 Vspread 0.0174 Vmax 0.032 Kcen_z None wall 907
+RESULT fall_tauJ20_K0.4 t 19.0024 M 8.165 -> 8.928 Wcen_z -0.081 Vcore_z -0.0115 Vspread 0.0287 Vmax 0.044 Kcen_z None wall 887
