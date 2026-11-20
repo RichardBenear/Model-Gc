@@ -41,35 +41,40 @@ fig.tight_layout()
 fig.savefig(os.path.join(FIG, "wp_loop_classes.png"), dpi=150)
 assert all(M[i, s] == loops[i][2] for i in range(len(loops)) for s in range(3))
 
-# --- coasting times
+# --- coasting times (panel a: Model Gc; panel b: EX-GC25 kinks, separate units and measure)
 rows = []
 for lab, retained in (("EX-GC23 strong, transport off", .739108), ("EX-GC23 strong, transport on", .970598),
                       ("EX-GC23 weak, transport on", .998139)):       # V(20)/V(0), results/EX-GC23 note table
-    rows.append((lab, -20 / np.log(retained), "C0"))
+    rows.append((lab + "\n(measured speed retention)", -20 / np.log(retained), "C0"))
 d = json.load(open(os.path.join(ROOT, "results", "EX-GC24", "diagnostics.json")))
 st = {r["S"]: r for r in d["steady"] if r["v"] == 0.01}
 wh = {r["S"]: r for r in d["weighted_harmonic"]}
-for S, lab in ((5.32, "EX-GC24A strong (m / b_total)"), (0.266, "EX-GC24A weak (m / b_total)")):
+for S, lab in ((5.32, "EX-GC24A strong"), (0.266, "EX-GC24A weak")):
     b_total = -st[S]["total"] / 0.01
-    rows.append((lab, wh[S]["m"] / b_total, "C3"))
-r25 = json.load(open(os.path.join(ROOT, "results", "EX-GC25", "EX-GC25_runs.json")))
-for r in r25["coast"]["rows"]:
-    if r["kink"] == "A" and r["h"] in (0.4, 0.1):
-        rows.append((f"EX-GC25 kink, h = {r['h']} (1+1 D)", 150 / abs(r["loss"]), "C2"))
-fig, ax = plt.subplots(figsize=(7.5, 3.8))
+    rows.append((lab + "\n(derived m / b_total)", wh[S]["m"] / b_total, "C3"))
+fig, (ax, bx) = plt.subplots(1, 2, figsize=(11, 4), gridspec_kw=dict(width_ratios=[1.4, 1]))
 y = np.arange(len(rows))[::-1]
 ax.barh(y, [r[1] for r in rows], color=[r[2] for r in rows])
 for yi, r in zip(y, rows):
     ax.text(r[1] * 1.3, yi, f"{r[1]:.3g}", va="center", fontsize=8)
-ax.set_yticks(y, [r[0] for r in rows], fontsize=8)
+ax.set_yticks(y, [r[0] for r in rows], fontsize=7)
 ax.set_xscale("log")
-ax.set_xlim(1e-3, 1e9)
+ax.set_xlim(1e-3, 1e6)
 ax.axvline(20, color="k", ls=":", lw=1)
-ax.text(22, y[0] + 0.5, "20-unit EX-GC23 runs", fontsize=7)
-ax.set_xlabel("characteristic coasting time (model time units)")
-ax.set_title("Coasting: assigned inertia (EX-GC23), medium-generated inertia vs absorption drag (EX-GC24A),\n"
-             "conservative kink with no rest frame (EX-GC25). EXPLORATORY; EX-GC25 units are not Gc units.", fontsize=8)
+ax.text(22, y[0] + 0.45, "length of the EX-GC23 runs (20)", fontsize=7)
+ax.set_xlabel("characteristic coasting time (Model Gc time units)")
+ax.set_title("(a) Model Gc: imposed inertia, no head-on drag (blue)\nvs medium inertia against total drag (red)", fontsize=9)
+r25 = json.load(open(os.path.join(ROOT, "results", "EX-GC25", "EX-GC25_runs.json")))
+for k, mk in (("A", "o-"), ("B", "s-")):
+    rr = [r for r in r25["coast"]["rows"] if r["kink"] == k]
+    bx.plot([r["h"] for r in rr], [abs(r["loss"]) for r in rr], mk, label=f"kink {k}")
+bx.set_xscale("log"); bx.set_yscale("log"); bx.invert_xaxis()
+bx.set_xlabel("lattice spacing h (finer to the right)")
+bx.set_ylabel("|fractional speed change|, early vs late fit")
+bx.set_title("(b) EX-GC25, 1+1 D kinks at u = 0.5, t = 0-200\n(different model and units; not comparable to (a))", fontsize=9)
+bx.legend(fontsize=8)
+fig.suptitle("EXPLORATORY", fontsize=8)
 fig.tight_layout()
 fig.savefig(os.path.join(FIG, "wp_coasting_times.png"), dpi=150)
 for r in rows:
-    print(f"{r[0]:40s} {r[1]:.4g}")
+    print(r[0].replace("\n", " "), f"{r[1]:.4g}")

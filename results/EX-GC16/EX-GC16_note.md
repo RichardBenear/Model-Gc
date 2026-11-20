@@ -74,3 +74,8 @@ Figure: `paper/figures/exgc16_recoil.png`.
   proportional to velocity. That is the classic objection to Le Sage gravity, and it is the next thing to test.
 - The consumer units are bare rules, not yet the EX-GC14/15 knot particle. Joining the two (a knot whose core absorbs
   at a fixed rate and recoils) is the step after that.
+
+## Erratum (2026-11-20, found in ChatGPT's review of the white paper v0.2)
+The summary "within 0.2–0.5%" (conclusion 1) holds for four of the five types. The double-rate type at m₀ = 50 fell at
+1.0177 of m₀E/3, which is within its statistical uncertainty (±0.057, 1 SEM, from `summary.json`). The conclusion of
+universal response within the uncertainty is unchanged.
