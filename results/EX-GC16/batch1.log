@@ -1,0 +1,22 @@
+RESULT single_m50_E0.02_d4_s0 fall_exp [-0.0073 -0.0048 -0.3358] fall_real [-0.013 -0.016 -0.322] per-unit force_exp [[-0.0073, -0.0048, -0.3358]] abs [49.8] G_unit [0.987] wall 82
+RESULT single_m50_E0.02_d4_s1 fall_exp [-0.0095 -0.01   -0.3288] fall_real [-0.109  0.048 -0.268] per-unit force_exp [[-0.0095, -0.01, -0.3288]] abs [50.1] G_unit [0.989] wall 82
+RESULT double_site_m50_E0.02_d4_s0 fall_exp [-0.0136  0.0016 -0.3584] fall_real [-0.041  0.028 -0.396] per-unit force_exp [[-0.0273, 0.0032, -0.7167]] abs [99.7] G_unit [0.976] wall 83
+RESULT double_site_m50_E0.02_d4_s1 fall_exp [ 0.0017 -0.0143 -0.3201] fall_real [ 0.012 -0.107 -0.406] per-unit force_exp [[0.0035, -0.0285, -0.6402]] abs [100.2] G_unit [0.976] wall 84
+RESULT spread7_m50_E0.02_d4_s0 fall_exp [ 0.0008 -0.0007 -0.3364] fall_real [ 0.057 -0.024 -0.359] per-unit force_exp [[0.0008, -0.0007, -0.3364]] abs [49.9] G_unit [0.995] wall 92
+RESULT spread7_m50_E0.02_d4_s1 fall_exp [ 0.0075  0.0025 -0.3329] fall_real [-0.044 -0.037 -0.182] per-unit force_exp [[0.0075, 0.0025, -0.3329]] abs [50.0] G_unit [0.995] wall 93
+RESULT pair_z_m50_E0.02_d4_s1 fall_exp [ 0.0033 -0.008  -0.3305] fall_real [-0.007  0.063 -0.394] per-unit force_exp [[-0.0013, -0.0056, -0.3379], [0.0078, -0.0104, -0.3232]] abs [49.9, 50.1] G_unit [0.947, 1.028] wall 92
+RESULT pair_z_m50_E0.02_d4_s0 fall_exp [-0.0022 -0.0114 -0.3378] fall_real [-0.004  0.037 -0.271] per-unit force_exp [[-0.0028, -0.0014, -0.3493], [-0.0016, -0.0214, -0.3263]] abs [50.0, 50.0] G_unit [0.947, 1.026] wall 94
+RESULT pair_x_m50_E0.02_d4_s0 fall_exp [-0.0157  0.0166 -0.3365] fall_real [ 0.091 -0.036 -0.302] per-unit force_exp [[-0.0204, 0.0102, -0.3382], [-0.0111, 0.0231, -0.3349]] abs [50.1, 50.3] G_unit [0.987, 0.987] wall 83
+RESULT pair_x_m50_E0.02_d4_s1 fall_exp [ 0.0042  0.0075 -0.3321] fall_real [ 0.054 -0.104 -0.367] per-unit force_exp [[0.0085, 0.0073, -0.3301], [0.0, 0.0076, -0.334]] abs [49.8, 49.8] G_unit [0.987, 0.988] wall 83
+RESULT single_m500_E0.02_d4_s0 fall_exp [-0.0696 -0.0075 -3.4403] fall_real [-0.323 -0.471 -3.808] per-unit force_exp [[-0.0696, -0.0075, -3.4403]] abs [501.5] G_unit [0.876] wall 84
+RESULT single_m500_E0.02_d4_s1 fall_exp [ 0.0057  0.0329 -3.3757] fall_real [-0.179  0.104 -3.599] per-unit force_exp [[0.0057, 0.0329, -3.3757]] abs [499.5] G_unit [0.877] wall 84
+RESULT double_site_m500_E0.02_d4_s0 fall_exp [ 0.0955 -0.0075 -3.58  ] fall_real [ 0.052  0.197 -3.472] per-unit force_exp [[0.191, -0.0149, -7.1599]] abs [1000.5] G_unit [0.752] wall 83
+RESULT double_site_m500_E0.02_d4_s1 fall_exp [-0.1189  0.0349 -3.5323] fall_real [-0.147 -0.127 -3.649] per-unit force_exp [[-0.2378, 0.0699, -7.0645]] abs [1001.3] G_unit [0.754] wall 83
+RESULT spread7_m500_E0.02_d4_s0 fall_exp [ 0.0136 -0.0521 -3.484 ] fall_real [ 0.264 -0.317 -3.278] per-unit force_exp [[0.0136, -0.0521, -3.484]] abs [500.3] G_unit [0.949] wall 84
+RESULT spread7_m500_E0.02_d4_s1 fall_exp [ 1.3100e-02  1.1000e-03 -3.3927e+00] fall_real [-0.116  0.251 -3.589] per-unit force_exp [[0.0131, 0.0011, -3.3927]] abs [500.3] G_unit [0.948] wall 84
+RESULT pair_z_m500_E0.02_d4_s1 fall_exp [-8.8900e-02 -1.4000e-03 -3.5085e+00] fall_real [-0.217 -0.512 -3.386] per-unit force_exp [[-0.0333, 0.0269, -3.0955], [-0.1446, -0.0297, -3.9215]] abs [500.0, 500.6] G_unit [0.829, 0.909] wall 81
+RESULT pair_z_m500_E0.02_d4_s0 fall_exp [ 0.0214  0.0742 -3.4888] fall_real [-0.134  0.286 -3.591] per-unit force_exp [[0.0379, 0.0198, -3.1547], [0.005, 0.1286, -3.8229]] abs [499.6, 500.8] G_unit [0.83, 0.911] wall 83
+RESULT pair_x_m500_E0.02_d4_s1 fall_exp [ 0.0538  0.0491 -3.5346] fall_real [ 0.5    0.267 -3.296] per-unit force_exp [[0.5622, 0.0828, -3.5466], [-0.4546, 0.0153, -3.5227]] abs [498.7, 500.7] G_unit [0.87, 0.869] wall 81
+RESULT pair_x_m500_E0.02_d4_s0 fall_exp [-0.1062 -0.0506 -3.4964] fall_real [ 0.255 -0.152 -3.499] per-unit force_exp [[0.3996, -0.0827, -3.5187], [-0.612, -0.0186, -3.474]] abs [499.9, 500.4] G_unit [0.87, 0.87] wall 84
+RESULT pair_z_m500_E0_d4_s0 fall_exp [-0.0324 -0.1103  0.0787] fall_real [-0.001 -0.022 -0.058] per-unit force_exp [[-0.0375, -0.1154, 0.5027], [-0.0273, -0.1052, -0.3452]] abs [500.7, 500.1] G_unit [0.869, 0.869] wall 83
+RESULT single_m500_E0_d4_s0 fall_exp [ 0.0811  0.202  -0.1338] fall_real [ 0.284  0.103 -0.246] per-unit force_exp [[0.0811, 0.202, -0.1338]] abs [500.7] G_unit [0.878] wall 84

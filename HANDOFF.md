@@ -81,3 +81,9 @@ the lattice through allowed moves. Next (needs go-ahead): make the knot a Gc par
 EX-GC14 (2026-11-19): knot as a Gc particle: the gated W core lives only on a knot; 1/r source confirmed; falling not resolved (lattice pinning at h = 0.5).
 
 EX-GC15 (2026-11-20): at h = 0.25 the knot particle (λ = 1) falls at exactly the plain Gc rate (continuum within 2%); without the pull (λ = 0) the knot shrinks and the particle dies.
+
+## Update 2026-11-20: EX-GC16 done (recoil rule)
+Fixed-rate consumers that recoil from absorbed G tokens fall universally in the weak regime (5 types within 0.5% of
+m₀E/3), attract each other with an inverse-square force (matches lattice prediction 1–11%), and break universality
+by 2–7% when self-depletion is strong (m₀/Ω large). Note: results/EX-GC16/EX-GC16_note.md. Candidate next steps (not
+approved): drag on a moving absorber (Le Sage objection); put the recoil rule on the knot particle.
