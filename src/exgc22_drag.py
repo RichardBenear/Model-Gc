@@ -7,6 +7,9 @@ import argparse
 import json
 import os
 import platform
+import ctypes
+import subprocess
+import tempfile
 import time
 from concurrent.futures import ProcessPoolExecutor
 from pathlib import Path
@@ -20,6 +23,19 @@ import exgc09_lattice as g9
 import exgc20_wave as wave
 
 OUT = Path(e.ROOT) / 'results/EX-GC22'
+KERNEL=None
+
+
+def load_kernel():
+    global KERNEL
+    tmp=tempfile.TemporaryDirectory(prefix='exgc22-kernel-')
+    path=Path(tmp.name)/'chem.so'
+    subprocess.run(['c++','-O3','-shared','-fPIC',str(Path(__file__).with_name('exgc22_kernel.cpp')),'-o',str(path)],check=True)
+    lib=ctypes.CDLL(str(path)); KERNEL=lib.chem
+    ptr=np.ctypeslib.ndpointer(dtype=np.float64,flags='C_CONTIGUOUS')
+    KERNEL.argtypes=[ctypes.c_int]+[ctypes.c_double]*7+[ptr,ptr,ptr]
+    KERNEL.restype=None
+    return tmp
 
 
 def dump(name, obj):
@@ -94,6 +110,10 @@ class Box:
         Vbar=np.array([gaussian_filter(s*vv,sig,mode='constant')/sm for vv in V])
         return V+self.dtV*(wgt*np.array(push)/20-(V-Vbar))
     def chem(self,u,V):
+        if KERNEL is not None:
+            out=np.empty((3,*self.shape)); KERNEL(self.n,self.h,self.K,e.A,e.B,e.DY,e.DW,e.C,u,V,out); return out
+        return self.chem_numpy(u,V)
+    def chem_numpy(self,u,V):
         X,Y,W,G=u; s=self.K*G*W; adv=[-wave.div([(u[j]-self.f0[j])*vv for vv in V],self.h) for j in range(3)]
         return np.array([g9.lap(X,self.h)+e.A-(1+e.B)*X+X*X*Y+s+adv[0],
                          e.DY*g9.lap(Y,self.h)+e.B*X-X*X*Y+adv[1],
@@ -107,8 +127,9 @@ class Box:
         _,_,u=g9.init(self.h,float(self.ax[-1])); V=np.zeros((3,*self.shape)); u[3]=self.poisson(u[2],u[3])
         rows=[]; n=round(T/self.dt); every=round(1/self.dt)
         for i in range(n+1):
+            if i%(self.kf*10)==0 or i==n:
+                u[3]=self.poisson(u[2],u[3])
             if i%self.kf==0 or i==n:
-                u[3]=self.poisson(u[2],u[3]); push=[-2*self.D*g/np.maximum(u[3],1e-9) for g in np.gradient(u[3],self.h)]
                 # Use identical face-centred force as production.
                 push=[2*j/u[3] for j in wave.centre_flux([-self.D*g for g in wave.grad_faces(u[3],self.h,self.bc(0))])]
                 V=self.vel(u,V,push)
@@ -128,10 +149,10 @@ class Box:
                 V=self.vel(u,V,push)
             X,Y,W,G=u; s=self.K*G*W
             u[:3]+=self.dt*self.chem(u,V)
-            if J is None: u[3]+=self.dt*(wave.div_faces(wave.grad_faces(G,self.h,bc))-s)
+            if J is None: u[3]+=self.dt*(wave.div_faces(wave.grad_faces(G,self.h,bc),self.h)-s)
             else:
                 gf=wave.grad_faces(G,self.h,bc)
-                u[3]+=self.dt*(-wave.div_faces(J)-s)
+                u[3]+=self.dt*(-wave.div_faces(J,self.h)-s)
                 J=[jj+self.dt*(-4*gg-jj/tj) for jj,gg in zip(J,gf)]
             if not np.isfinite(u).all() or W.max()<.01: raise RuntimeError('particle lost')
         return rows
@@ -139,7 +160,17 @@ class Box:
 
 def full_case(args):
     K,D,h,flux_test=args; t=time.monotonic(); cpu=time.process_time(); b=Box(h,6,D,K)
-    u,V,settle=b.settle(); rows=b.evolve(u,V,kick=.05)
+    cache=Path(e.ROOT)/'local_raw'/'EX-GC22'; cache.mkdir(parents=True,exist_ok=True)
+    cachefile=cache/f'settle_K{K:g}_D{D:g}_h{h:g}.npz'
+    settlefile=OUT/f'settle_K{K:g}_D{D:g}_h{h:g}.json'
+    if cachefile.exists() and settlefile.exists():
+        with np.load(cachefile) as dat: u,V=dat['u'],dat['V']
+        settle=json.loads(settlefile.read_text())['settle']
+    else:
+        u,V,settle=b.settle(); np.savez_compressed(cachefile,u=u,V=V)
+    print('settled',K,D,h,settle[-1],flush=True)
+    dump(f'settle_K{K:g}_D{D:g}_h{h:g}.json',dict(K=K,D=D,h=h,settle=settle))
+    rows=b.evolve(u,V,kick=.05)
     out=dict(K=K,D=D,h=h,dt=b.dt,settle=settle,kick=rows)
     if flux_test:
         out['flux']=b.evolve(u,V,flux=.02)
@@ -163,8 +194,17 @@ def full_main(workers):
 
 
 if __name__=='__main__':
-    parser=argparse.ArgumentParser(); parser.add_argument('mode',choices=['fixed','full','refine']); parser.add_argument('--workers',type=int,default=2)
+    parser=argparse.ArgumentParser(); parser.add_argument('mode',choices=['fixed','full','refine','smoke']); parser.add_argument('--workers',type=int,default=2)
     args=parser.parse_args()
     if args.mode=='fixed': fixed_main()
-    elif args.mode=='full': full_main(args.workers)
-    else: full_case((.2,80,.25,False))
+    else:
+        tmp=load_kernel(); b=Box(.5,2,1,.2); rng=np.random.default_rng(22)
+        u=rng.uniform(.5,2,(4,*b.shape)); V=rng.normal(0,.05,(3,*b.shape))
+        assert np.max(np.abs(b.chem(u,V)-b.chem_numpy(u,V)))<1e-10
+        print('C++ chemistry stencil matches NumPy smoke test',flush=True)
+        if args.mode=='smoke':
+            for D in (1,80):
+                b=Box(.5,2,D,.01); u,V,_=b.settle(T=.03); b.evolve(u,V,kick=.05,T=.03)
+            print('both integration branches pass short smoke test')
+        elif args.mode=='full': full_main(args.workers)
+        else: full_case((.2,80,.25,False))
