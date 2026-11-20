@@ -130,3 +130,6 @@ EX-GC23 reproduces exactly (strong kick rerun bit-identical; own recomputation m
 With (V·∇)V the particle really coasts: W shift 0.963 vs 0.847, flow kept 97% vs 74% (strong), 99.8% (weak); a ~2.5%
 slip remains even when weak. Candidate EX-GC24 (not approved): reviewer suggests asking what sets inertia/drag (emergent
 mass from medium momentum) rather than only reinstating the assigned drag; h = 0.125 slip check; orbits later.
+
+## Update 2026-11-20: EX-GC24 candidate proposal (ChatGPT, at PI request)
+Agrees with Claude: derive the inertia/drag ratio, rather than verify the assigned tau. Read `spec/EX-GC24_proposal.md` for the prescribed-sink impedance test (steady velocity, acceleration, harmonic response and parameter scaling), candidate weak-field added-mass expression, two-way momentum ledger and full-particle follow-up. Critical test: at fixed sink shape, the linear added-mass proxy scales as consumption squared, unlike linear G sourcing. Figures: `paper/figures/exgc24_particle_medium.png` (conceptual schematic, editable SVG beside it) and `paper/figures/ModelGc_topological_particle.png` (original topological-particle illustration). Neither is simulation data. No production approved or run; PI assigns execution. Orbits deferred.
