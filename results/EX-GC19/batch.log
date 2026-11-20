@@ -1,0 +1,7 @@
+RESULT f_K04_nodrag t 24.003 M 8.165 -> 7.057 Wcen_z -0.625 Vcore_z -0.0454 Vspread 0.0309 Vmax 0.081 Kcen_z None wall 905
+RESULT b_nodrag t 24.003 M 5.515 -> 5.033 Wcen_z -0.607 Vcore_z -0.0471 Vspread 0.0181 Vmax 0.068 Kcen_z None wall 907
+RESULT e_nodrag_kappa0 t 24.003 M 5.515 -> 1.641 Wcen_z -0.301 Vcore_z -0.0015 Vspread 0.299 Vmax 0.39 Kcen_z None wall 923
+RESULT g_knot_nodrag t 24.003 M 5.515 -> 5.033 Wcen_z -0.607 Vcore_z -0.0471 Vspread 0.0181 Vmax 0.068 Kcen_z -0.13 wall 1014
+RESULT a_drag t 24.003 M 5.515 -> 5.073 Wcen_z -0.437 Vcore_z -0.0289 Vspread 0.0171 Vmax 0.048 Kcen_z None wall 873
+RESULT c_kick_nodrag t 24.003 M 5.515 -> 5.093 Wcen_z -0.933 Vcore_z -0.0296 Vspread 0.0181 Vmax 0.05 Kcen_z None wall 895
+RESULT d_kick_drag t 24.003 M 5.515 -> 5.115 Wcen_z -0.573 Vcore_z -0.0087 Vspread 0.0171 Vmax 0.028 Kcen_z None wall 887

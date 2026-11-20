@@ -99,3 +99,9 @@ Kicking only the knot tears it off the core; pushing W locally squeezes the core
 shift of the whole particle moves it (and then K 0.2 vs 0.4 differ by ~10%). A Gc particle is a chemistry pattern
 with no way to carry momentum as a whole: the same gap as the missing inertia. Candidate next step (not approved):
 give the Gc fields a velocity/momentum variable. Note: results/EX-GC18/EX-GC18_note.md.
+
+## Update 2026-11-20: EX-GC19 done (flow/momentum field)
+A shared flow field carried by the particle lets recoil move it as one body and accelerate it (K 0.2 vs 0.4 within 4%).
+But the particle's own lagging G wake (G diffuses) acts as drag even with drag switched off (coasting time ≈ 46), and the
+knot cannot keep up with the core at these speeds. Candidate next step (not approved): make G propagate as a wave
+(finite speed) so the wake drag vanishes for uniform motion. Note: results/EX-GC19/EX-GC19_note.md.
