@@ -87,3 +87,9 @@ Fixed-rate consumers that recoil from absorbed G tokens fall universally in the 
 m₀E/3), attract each other with an inverse-square force (matches lattice prediction 1–11%), and break universality
 by 2–7% when self-depletion is strong (m₀/Ω large). Note: results/EX-GC16/EX-GC16_note.md. Candidate next steps (not
 approved): drag on a moving absorber (Le Sage objection); put the recoil rule on the knot particle.
+
+## Update 2026-11-20: EX-GC17 done (drag vs inertia)
+Head-on tokens give drag γ ≈ m₀/6 per unit, not inertia; the acceleration response is small and positive (anti-inertia,
+lagging wake). Terminal fall speed (push / drag) is universal within ±2% for all types, even where the push alone
+differs by 7%. So the token medium yields Aristotelian (overdamped) universal free fall. Newtonian inertia needs another
+source (internal dynamics, or a medium with no rest frame as in Rueda–Haisch–Puthoff). Note: results/EX-GC17/EX-GC17_note.md.
