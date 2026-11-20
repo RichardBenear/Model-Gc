@@ -42,4 +42,11 @@ Model Gc is our own construction: always say so, and never present it as LaViole
 - `ex010_network.py`: generic mass-action network solver (`Net`) for Gc2 (charge plus gravity).
 - `mg195_*.py`: the MG195 confirmatory study (inverse-square), with its recomputation and figure.
 - `fig_particle_*.py`: illustrative figures (Model G vs Model Gc particles).
+- `exgcNN_*.py`: one script family per exploration EX-GC01 to EX-GC25 (run, summary, figure). Reusable pieces:
+  `exgc07_sim3d.py` (3D spectral-in-angle solver), `exgc08_belt.py` (cube-rotation frames, lifts, three-node move
+  table), `exgc09_lattice.py` (3D lattice Gc1, tokens), `exgc12_soliton.py` (lattice knot, degree),
+  `exgc14_knotgc.py` (knot-gated Gc particle), `exgc16_recoil.py` (token recoil absorbers), `exgc20_wave.py` (wave-like
+  G medium), `exgc23_transport.py` (+ C++ kernel; ChatGPT), `exgc24_impedance.py` (ChatGPT), `exgc25_framefree.py`.
+- `whitepaper_figures.py`: white-paper figures computed from committed records only.
+- White paper: `paper/Model_Gc_white_paper_v0.3.md` (frozen through EX-GC25).
 - Test: `python tests/test_regression.py` (seconds; add `--pair` for the 2D pair regression, about 1 minute).

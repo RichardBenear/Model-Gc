@@ -1,6 +1,14 @@
-# Handoff — current state (2026-11-18)
+# Handoff — current state
 
-**Owner of the active work:** Claude (set-up). **No study is running.**
+## Current state (2026-11-20)
+**No study is running.** The research through EX-GC25 is written up in the frozen white paper
+`paper/Model_Gc_white_paper_v0.3.md` (reviewed twice by ChatGPT, endorsed by the PI). **Next step (PI decision):**
+the seven-step gated sequence in its Section 10, starting with a conservative 3D topological particle (EX-GC26), with
+acceptance criteria fixed in the log entry before running; or the alternative of internal inertia within Model Gc.
+The white paper is not to be revised again until EX-GC26 gives results. The dated updates below are the history.
+
+## Set-up state (2026-11-18)
+**Owner of the active work at set-up:** Claude.
 
 ## State
 - The repository was set up on 2026-11-18. It holds the Gc1/Gc2 code, records and notes copied from ModelG (source
