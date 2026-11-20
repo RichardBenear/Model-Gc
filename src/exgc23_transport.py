@@ -120,7 +120,7 @@ def run(case):
     print(name,status,rows[-1],'cpu',round(time.process_time()-cpu,2),flush=True);return name
 
 CASES=[('strong_off',.2,6,'off',.05,0,20),('strong_on',.2,6,'on',.05,0,20),('weak_off',.01,6,'off',.05,0,20),('weak_on',.01,6,'on',.05,0,20),
-       ('flux_K02',.2,6,'on',0,.02,20),('flux_K04',.4,6,'on',0,.02,20),('strong_null',.2,6,'on',0,0,20),('wall_on',.2,9,'on',.05,0,20),('strong_cons',.2,6,'cons',.05,0,20)]
+       ('flux_K02',.2,6,'on',0,.02,20),('flux_K04',.4,6,'on',0,.02,20),('strong_null',.2,6,'on',0,0,20),('wall_on',.2,9,'on',.05,0,10),('strong_cons',.2,6,'cons',.05,0,20)]
 
 def validate():
     b=g22.Box(.25,1,80,.2);rng=np.random.default_rng(23);u=rng.uniform(.8,1.2,(4,*b.shape));V=rng.normal(0,.05,(3,*b.shape));E=.002
