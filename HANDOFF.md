@@ -79,3 +79,5 @@ loop classes (Pontryagin–Thom): 360° turn = 1, swap of two knots = 1, swap + 
 the lattice through allowed moves. Next (needs go-ahead): make the knot a Gc particle (consumes G, gravitates).
 
 EX-GC14 (2026-11-19): knot as a Gc particle: the gated W core lives only on a knot; 1/r source confirmed; falling not resolved (lattice pinning at h = 0.5).
+
+EX-GC15 (2026-11-20): at h = 0.25 the knot particle (λ = 1) falls at exactly the plain Gc rate (continuum within 2%); without the pull (λ = 0) the knot shrinks and the particle dies.
