@@ -8,7 +8,7 @@ root=Path(__file__).resolve().parents[1]
 p=root/'results/EX-GC22'
 fixed=json.loads((p/'fixed.json').read_text())
 full=[json.loads(f.read_text()) for f in sorted(p.glob('full_*.json'))]
-fig,axs=plt.subplots(1,3,figsize=(13,4.1),layout='constrained')
+fig,axs=plt.subplots(1,4,figsize=(15,4.1),layout='constrained')
 for D,col in [(1,'#b9552d'),(8,'#657b9e'),(80,'#147a76')]:
     rows=sorted([r for r in fixed['rows'] if r['D']==D and r['v']==.05],key=lambda r:r['K'])
     axs[0].loglog([r['K'] for r in rows],[r['gamma'] for r in rows],'o-',c=col,label=f'D={D}')
@@ -21,9 +21,15 @@ for D,col in [(1,'#b9552d'),(80,'#147a76')]:
     cases=sorted([r for r in full if r['D']==D and r['h']==.5],key=lambda r:r['K'])
     if cases:
         axs[2].semilogx([r['K'] for r in cases],[r['gamma_late'] for r in cases],'o-',c=col,label=f'D={D}')
+        ratios=[]
+        for r in cases:
+            a=[q for q in r['kick'] if 10<=q['t']<=20]
+            ratios.append(np.polyfit([q['t'] for q in a],[q['Wcen_z'] for q in a],1)[0]/np.mean([q['Vcore_z'] for q in a]))
+        axs[3].semilogx([r['K'] for r in cases],ratios,'o-',c=col,label=f'D={D}')
 axs[2].axhline(0,color='k',ls=':',lw=1)
 axs[2].set(xlabel='Chemical sink strength K',ylabel='Late fitted decay rate',title='C. Free chemical particle (h=0.5)')
 if full: axs[2].legend()
 axs[2].grid(alpha=.2)
+axs[3].axhline(1,color='k',ls=':',lw=1); axs[3].set(xlabel='Chemical sink strength K',ylabel='Centroid speed / flow speed',title='D. Coarse-grid core slip'); axs[3].grid(alpha=.2)
 fig.suptitle('EX-GC22 — self-wake drag and weak sourcing (exploratory)')
 fig.savefig(root/'paper/figures/exgc22_drag.png',dpi=180)
