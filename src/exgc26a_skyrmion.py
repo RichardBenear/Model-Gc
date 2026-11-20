@@ -162,7 +162,7 @@ def tangent(phi, v):
     return v - phi * (phi * v).sum(0)
 
 
-def relax(G, phi, dt_fac=0.15, maxit=20000, tol=1e-9, check=50):
+def relax(G, phi, dt_fac=0.05, maxit=20000, tol=1e-8, check=50):
     """Arrested Newton flow: phi'' = -grad (tangent), velocity zeroed whenever the energy rises."""
     dt = dt_fac * G.h
     v = np.zeros_like(phi)
@@ -254,7 +254,7 @@ def evolve(G, phi, v, T, dt, every):
     return phi, v, rows
 
 
-PROF = lambda r: np.pi * np.exp(-r / 1.2)
+PROF = lambda r: np.pi * np.exp(-r * r / 2)
 
 
 def case_static(h, Lb, kind):
@@ -285,8 +285,8 @@ def main(which):
         _, h, Lb, kind = which.split(":")
         G, phi, rec = case_static(float(h), float(Lb), kind)
         print("static", rec)
-        if kind == "hedgehog" and abs(float(h) - 0.2) < 1e-9:
-            np.save(os.path.join(OUT, f"relaxed_h{h}_L{Lb}.npy"), phi)
+        if kind == "hedgehog" and abs(float(h) - 0.2) < 1e-9 and abs(float(Lb) - 5) < 1e-9:
+            np.save(os.path.join(OUT, "relaxed_h0.2_L5.npy"), phi)
     elif which.startswith("kick"):
         _, h, Lb, T = which.split(":")
         h, Lb, T = float(h), float(Lb), float(T)
@@ -300,11 +300,11 @@ def main(which):
         v = tangent(phi, dv) * G.inner
         H, _ = hamiltonian(G, phi, v)
         v *= np.sqrt(0.05 * E0 / (H - E0))                    # kinetic energy = 5% of E0
-        phi1, v1, rows = evolve(G, phi, v, T, 0.1 * h, 0.5)
+        phi1, v1, rows = evolve(G, phi, v, T, 0.05 * h, 0.5)
         Eend_static = G.energy(phi1)
         phi2, info = relax(G, phi1)
-        rec = dict(E0=E0, rows=rows, E_static_end=Eend_static, recovered_E=info["E"], recovered_B=G.degree(phi2),
-                   recover_iters=info["iters"], centre_shift=None)
+        rec = dict(E0=E0, B0=G.degree(phi), rows=rows, E_static_end=Eend_static, recovered_E=info["E"],
+                   recovered_B=G.degree(phi2), recover_iters=info["iters"])
         print("kick: recovered E", info["E"], "B", rec["recovered_B"])
     rec.update(which=which, cpu_s=time.process_time() - t0, platform=sys.version.split()[0] + " numpy " + np.__version__)
     tag = which.replace(":", "_")
