@@ -488,13 +488,13 @@ with its results). Only MG195 is confirmatory. Same-author recomputations are no
 - EX-GC16 weak-regime agreement corrected (double-rate type 1.8% high, within ±5.7%); MG195 P3 null floor exceeded every
   P3 prediction; EX-GC24A infinite-domain mass 0.265 separated from the finite-box coefficient 0.231.
 - "Gravitational charge" replaced by "gravitational source strength"; Appendix A links each study's records.
-- Still to do before any external publication: the edition of LaViolette's book.
+- Reference to LaViolette's book completed (expanded 2nd edition, 2003; edition supplied by the PI).
 
 ## References
 - Derrick, G. H. (1964). Comments on nonlinear wave equations as models for elementary particles. J. Math. Phys. 5, 1252.
 - Finkelstein, D., Rubinstein, J. (1968). Connection between spin, statistics, and kinks. J. Math. Phys. 9, 1762.
 - Haisch, B., Rueda, A., Puthoff, H. E. (1994). Inertia as a zero-point-field Lorentz force. Phys. Rev. A 49, 678.
-- LaViolette, P. A. Subquantum Kinetics: A Systems Approach to Physics and Cosmology. Starlane Publications (edition to be confirmed).
+- LaViolette, P. A. (2003). Subquantum Kinetics: A Systems Approach to Physics and Cosmology (expanded 2nd ed.). Starlane Publications.
 - von Laue, M. (1911). Zur Dynamik der Relativitätstheorie. Ann. Phys. 35, 524.
 - Nordström, G. (1913). Zur Theorie der Gravitation vom Standpunkt des Relativitätsprinzips. Ann. Phys. 42, 533.
 - Rueda, A., Haisch, B. (1998). Contribution to inertial mass by reaction of the vacuum to accelerated motion. Found. Phys. 28, 1057 (arXiv:physics/9802031).
