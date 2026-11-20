@@ -144,7 +144,7 @@ def settled(h, L):
     path = os.path.join(OUT, f"settled_h{h:g}_L{L:g}.npy")
     if os.path.exists(path):
         return np.load(path)
-    ax, R, u, rows = g9.deterministic(h, L, 30.0, 0.0015)
+    ax, R, u, rows = g9.deterministic(h, L, 30.0, 0.0015 * min(1.0, (h / 0.5) ** 2))
     np.save(path, u)
     return u
 

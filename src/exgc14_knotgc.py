@@ -22,7 +22,7 @@ import exgc09_lattice as g9  # noqa: E402
 import exgc10_tether as t10  # noqa: E402
 import exgc12_soliton as s12  # noqa: E402
 
-OUT = os.path.join(e.ROOT, "results", "EX-GC14")
+OUT = os.path.join(e.ROOT, "results", os.environ.get("EXGC_OUT", "EX-GC14"))
 K = g9.K
 RHO = (1 - s12.Q[:, 0]) / 2                     # knot density per lift
 
@@ -122,7 +122,7 @@ def run(case, T=60.0, lam=1.0, sig=1.5, rho_ref=0.017, E=0.0, gate=True, h=0.5, 
                                e.DY * g9.lap(Y, h) + e.B * X - X * X * Y,
                                e.DW * g9.lap(W, h) - W + e.C * Y * W * W * gfac - W ** 3,
                                lap_bc(G, h, bc) - s])
-    tag = f"{case}_lam{lam:g}_sig{sig:g}_E{E:g}_s{seed}"
+    tag = f"{case}_lam{lam:g}_sig{sig:g}_E{E:g}_s{seed}" + (f"_h{h:g}" if h != 0.5 else "")
     prof = g9.gprofile(np.sqrt(Xg ** 2 + Yg ** 2 + Zg ** 2), u[3] - E * Zg, h)
     rec = dict(case=case, T=T, lam=lam, sig=sig, E=E, gate=use_gate, h=h, L=L, dt=dt, kf=kf, Tf=Tf, seed=seed,
                knot_R=knot_R, rho_ref=rho_ref, rows=rows, Gprofile=prof)
