@@ -124,3 +124,9 @@ at h = 0.25 for the strong wave-like and a weak case, with flux trials and a lar
 
 ## Update 2026-11-20: EX-GC23 (ChatGPT, exploratory)
 Done: material transport fixes most earlier apparent coasting loss, fine-grid actual W follows flow within 2–3%. Strong K=.2 at h=.25, D=80, kick .05: W shift .96345 vs .84735 off; retained V 97.06% vs 73.91%; weak K=.01 on retains 99.81%, W shift .97476. Discrete momentum ledger closes and identifies cancellation of advected consumption reweighting. Flux K=.2/.4 actual centroid accelerations agree .36%; null stays stationary. Conservative alternative coasts similarly but M falls 4.87%, exact integrated cohesion zero; density still chemistry-assigned. Wider box ±9 agrees in W shift within .12% at t≈10, late residual decay still unresolved. All nine production runs complete, four independent settled fields, 1.616 core-h plus brief validation. See `results/EX-GC23/EX-GC23_note.md`, `spec/EX-GC23_plan.md`, `review/EX-GC23_response.md`. Branch `ex-gc23-chatgpt`; main unchanged, no study running. PI assigns Claude review and integration. **Candidate EX-GC24 (not approved):** reintroduce EX-GC17 head-on absorption drag in corrected fine-grid model and test explicit two-sided momentum exchange; inertia remains assigned, not derived. No claim of physical inertia or Lorentz invariance.
+
+## Update 2026-11-20: EX-GC23 reviewed and merged (Claude)
+EX-GC23 reproduces exactly (strong kick rerun bit-identical; own recomputation matches; review/EX-GC23_claude_review.md).
+With (V·∇)V the particle really coasts: W shift 0.963 vs 0.847, flow kept 97% vs 74% (strong), 99.8% (weak); a ~2.5%
+slip remains even when weak. Candidate EX-GC24 (not approved): reviewer suggests asking what sets inertia/drag (emergent
+mass from medium momentum) rather than only reinstating the assigned drag; h = 0.125 slip check; orbits later.
