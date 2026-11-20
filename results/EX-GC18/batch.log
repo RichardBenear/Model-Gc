@@ -1,0 +1,5 @@
+settled K 0.4 M 8.165952545949004 W0 3.0526980588209778
+RESULT plain_K0.2_E0.02_rec1_s0 t 29.0036 M 5.515 -> 5.4 drift_z -0.05052 v [-0.0, 0.0, -0.0465] shifts [0, 0, -5] Wcen [-0.0, 0.0, -1.26] Kcen None deg None wall 498
+RESULT knot_K0.2_E0.02_rec1_s0 t 29.0036 M 5.515 -> 5.42 drift_z -0.00124 v [-0.0, 0.0, -0.0484] shifts [0, 0, -5] Wcen [-0.0, -0.0, -0.04] Kcen [0.07, -0.01, -0.82] deg -1 wall 574
+RESULT knot_K0.2_E0_rec1_s0 t 29.0036 M 5.515 -> 5.515 drift_z 0.0 v [-0.0, 0.0, -0.0] shifts [0, 0, 0] Wcen [0.0, -0.0, -0.0] Kcen [0.04, -0.02, -0.0] deg -1 wall 612
+RESULT knot_K0.4_E0.02_rec1_s0 t 29.0036 M 8.165 -> 6.197 drift_z -0.00635 v [-0.0001, -0.0004, -0.0343] shifts [0, 0, -6] Wcen [-0.0, 0.0, -0.23] Kcen [0.11, 0.07, -0.97] deg -1 wall 606

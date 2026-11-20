@@ -93,3 +93,9 @@ Head-on tokens give drag γ ≈ m₀/6 per unit, not inertia; the acceleration r
 lagging wake). Terminal fall speed (push / drag) is universal within ±2% for all types, even where the push alone
 differs by 7%. So the token medium yields Aristotelian (overdamped) universal free fall. Newtonian inertia needs another
 source (internal dynamics, or a medium with no rest frame as in Rueda–Haisch–Puthoff). Note: results/EX-GC17/EX-GC17_note.md.
+
+## Update 2026-11-20: EX-GC18 done (recoil on the knot particle) — failed
+Kicking only the knot tears it off the core; pushing W locally squeezes the core and does not move it; only a rigid
+shift of the whole particle moves it (and then K 0.2 vs 0.4 differ by ~10%). A Gc particle is a chemistry pattern
+with no way to carry momentum as a whole: the same gap as the missing inertia. Candidate next step (not approved):
+give the Gc fields a velocity/momentum variable. Note: results/EX-GC18/EX-GC18_note.md.

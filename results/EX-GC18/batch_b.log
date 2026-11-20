@@ -1,0 +1,4 @@
+RESULT plain_K0.4_E0.02_rec1_s0_field t 29.0036 M 8.165 -> 2.857 drift_z 0.00281 v [-0.0, 0.0, -0.0485] shifts [0, 0, 0] Wcen [0.0, 0.0, -0.11] Kcen None deg None wall 871
+RESULT plain_K0.2_E0.02_rec1_s0_field t 29.0036 M 5.515 -> 3.224 drift_z 0.00256 v [-0.0, -0.0, -0.0462] shifts [0, 0, 0] Wcen [-0.0, 0.0, -0.05] Kcen None deg None wall 882
+RESULT knot_K0.2_E0.02_rec1_s0_field t 29.0036 M 5.515 -> 3.224 drift_z 0.00256 v [0.0, -0.0, -0.0462] shifts [0, 0, 0] Wcen [-0.0, -0.0, -0.05] Kcen [0.01, 0.01, -0.04] deg -1 wall 989
+RESULT knot_K0.4_E0.02_rec1_s0_field t 29.0036 M 8.165 -> 2.856 drift_z 0.00282 v [0.0, -0.0, -0.0485] shifts [0, 0, 0] Wcen [-0.0, -0.0, -0.11] Kcen [0.06, 0.04, -0.13] deg -1 wall 996
