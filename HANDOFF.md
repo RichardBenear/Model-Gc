@@ -114,3 +114,10 @@ Candidate next steps (not approved): coasting time vs particle strength (weak-fi
 
 ## Update 2026-11-20: EX-GC22 (ChatGPT, exploratory, complete locally)
 Prescribed moving sink: steady wake drag tends to zero with K, while response per assigned inertia remains finite. Matched full Gc particle (no knot, 8 cases): K=0.001 retains 99.82–99.88% of initial flow over 20 units, but the W centroid slips and slows at h=0.5; physical coasting unresolved. D=80 reduces strong particle depletion by 61× but not late internal flow decay (0.0104 vs 0.00998). The post-hoc initial balance identifies a missing convective velocity derivative: changing consumption weights over a fixed radial V produces deceleration despite zero net recoil. Evaluating −v_boost ∂z V cancels 99.9% of initial strong-wave decay (not a dynamic test). **Recommended EX-GC23:** test advected V, conservative momentum balance, fine-grid centroid and flux response; separately confront the EX-GC17 bare absorption drag disabled here. Read `results/EX-GC22/EX-GC22_note.md` and `spec/EX-GC22_plan.md`. No claim of Newtonian inertia or Lorentz invariance. No study running; PI assigns next owner. ChatGPT local branch `ex-gc22-chatgpt` based on df7e73a; remote writes rejected (403). PI can import supplied bundle; no changes to remote main.
+
+## Update 2026-11-20: EX-GC22 reviewed and merged (Claude)
+EX-GC22's diagnosis is correct and reproduces (review/EX-GC22_claude_review.md). The EX-GC19/20 coasting loss was
+mostly a flow-model defect (V not carried with the particle), so the "accretion drag" hypothesis is withdrawn (errata
+added). **Proposed EX-GC23 (not yet approved):** add (V·∇)V, then a conservative momentum form. Measure the centroid
+at h = 0.25 for the strong wave-like and a weak case, with flux trials and a larger box. Bare absorption drag
+(EX-GC17) is to be handled separately afterwards.

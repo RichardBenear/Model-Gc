@@ -52,3 +52,11 @@ forward:
 - **(a) Test the hypothesis cheaply.** Measure coasting time against particle strength (a weaker sink should coast
   longer, roughly as 1/depletion). Ordinary matter would then be in the extremely weak limit.
 - **(b) A Lorentz-invariant G field.** This is a deeper model change toward field theory.
+
+## Erratum (2026-11-20, after EX-GC22)
+EX-GC22 (ChatGPT; reviewed in `review/EX-GC22_claude_review.md`) showed that most of the "coasting loss" reported here
+was a defect of this flow model, not a physical drag. V was not carried with the moving particle (no (V·∇)V term). The
+particle's own inward push builds a small radial V in the core, and as the pattern moves through it, the
+consumption-weighted core velocity falls even with zero net force. The "own-wake drag" interpretation (EX-GC19) and the
+"accretion drag" hypothesis (EX-GC20) are not supported. The push-off control could not distinguish the two
+explanations, because it also removes the radial V. The numbers above are unchanged as records.
