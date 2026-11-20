@@ -76,20 +76,25 @@ class Box(g22.Box):
             if i%every==0 or i==n: rows.append(self.measure(i*self.dt,u,V))
             if i<n: self.chem_inplace(u,V)
         return u,V,rows
-    def evolve(self,u0,V0,mode,kick,flux,T):
+    def evolve(self,u0,V0,mode,kick,flux,T,name=None):
         u=u0.copy();V=V0.copy();V[2]+=kick;E=-flux/self.D;u[3]+=E*self.Z;J=[np.ascontiguousarray(-self.D*g) for g in wave.grad_faces(u[3],self.h,self.bc(E))]
         # Ledger in units of s*V; the omitted common assigned inertia multiplier is tau=20.
         p0=integral(self.K*u[2]*u[3],V,self.h);previous=p0.copy();last=previous.copy();ledger=np.zeros((4,3));rows=[]
         n=round(T/self.dt);every=round(.5/self.dt)
         for i in range(n+1):
             sample=i%every==0 or i==n;update=i%self.kf==0 and i<n
+            if sample and (not np.isfinite(u).all() or not np.isfinite(V).all()):
+                return rows,f'nonfinite failure at t={i*self.dt}'
             if sample or update:
                 s=self.K*u[2]*u[3];p=integral(s,V,self.h);ledger[3]+=p-last;last=p.copy()
             if sample:
                 r=self.measure(i*self.dt,u,V);r.update(scen_z=float((s*self.Z).sum()/s.sum()),P=p.tolist(),ledger=ledger.tolist(),
                     residual=(p-p0-ledger.sum(axis=0)).tolist(),Gmin=float(u[3].min()),Vmax=float(abs(V).max()))
                 rows.append(r)
-                if not np.isfinite(u).all() or not np.isfinite(V).all() or r['Gmin']<=0 or r['Wmax']<.01 or u[2].min()<-1e-6:
+                if name and (len(rows)-1)%10==0:
+                    RAW.mkdir(exist_ok=True,parents=True); progress=RAW/(name+'_progress.json');tmp=progress.with_suffix('.tmp');tmp.write_text(json.dumps(dict(name=name,rows=rows),allow_nan=False));tmp.replace(progress)
+                    print(name,'t',round(r['t'],3),'Wcen',round(r['Wcen_z'],5),'Vcore',round(r['Vcore_z'],6),flush=True)
+                if r['Gmin']<=0 or r['Wmax']<.01 or u[2].min()<-1e-6:
                     return rows,'failed survival/finite/positivity'
             if i==n: break
             if update:
@@ -109,7 +114,7 @@ def start(K,L):
 def run(case):
     name,K,L,mode,kick,flux,T=case;t=time.monotonic();cpu=time.process_time();b=Box(K,L)
     with np.load(RAW/f'settle_K{K:g}_L{L:g}.npz') as dat:u,V=dat['u'],dat['V']
-    rows,status=b.evolve(u,V,mode,kick,flux,T)
+    rows,status=b.evolve(u,V,mode,kick,flux,T,name)
     dump(name,dict(name=name,K=K,L=L,h=b.h,mode=mode,kick=kick,flux=flux,T=T,dt=b.dt,dtV=b.dtV,D=80,status=status,rows=rows,
         cpu_s=time.process_time()-cpu,wall_s=time.monotonic()-t,platform=platform.platform(),numpy=np.__version__,scipy=scipy.__version__))
     print(name,status,rows[-1],'cpu',round(time.process_time()-cpu,2),flush=True);return name

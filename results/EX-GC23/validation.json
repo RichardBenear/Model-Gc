@@ -1,0 +1,7 @@
+{
+ "chem_max": 3.410605131648481e-13,
+ "wave_max": 0.0,
+ "affine_material_max": 1.3877787807814457e-17,
+ "flux_balance_max": 3.3306690738754696e-16,
+ "cohesion_balance_max": 3.2526065174565133e-18
+}
