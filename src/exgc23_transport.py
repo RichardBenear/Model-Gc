@@ -51,7 +51,8 @@ class Box(g22.Box):
     def __init__(self,K,L):
         super().__init__(.25,L,80,K);self.du=np.empty((3,*self.shape));self.gn=np.empty(self.shape)
     def chem_inplace(self,u,V):
-        LIB.chem_fast(self.n,self.h,self.K,e.A,e.B,e.DY,e.DW,e.C,u,V,self.du)
+        # Reproduce the four original rest checkpoints with the inherited stencil.
+        LIB.chem(self.n,self.h,self.K,e.A,e.B,e.DY,e.DW,e.C,u,V,self.du)
         self.du*=self.dt;u[:3]+=self.du
     def step(self,u,V,J,E):
         # G/s old for both chemistry and medium. Compute both before mutation.
