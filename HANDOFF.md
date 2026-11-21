@@ -192,3 +192,11 @@ centroid, two fit windows); lattice prediction (2E₂/E ratio) 1.013, continuum 
 predicted 1.425. Binding 3.9%, so "binding does not gravitate" would give 1.041: suggestive (baryon centroid) but not
 decisive (energy centroid 1.020). Momentum/impulse 0.964–0.969 for all runs (common lattice factor, = 26B3). 1.04 core-h.
 Next: 26E2 at h = 0.15 (~3–4 core-h: cap increase or PC), then 26E3. See `results/EX-GC26E1/EX-GC26E1_note.md`.
+
+## EX-GC26E2 (Claude, exploratory, PI's PC; 2026-11-21)
+
+Done, PI closure pending. Plan 3ec3738; records 9e5eb3c (PC, MSVC build, PI option A), merged. h = 0.15: B2/B1 fall
+ratio 0.988–1.009 (baryon/energy centroid, two windows), lattice prediction 1.006, continuum 1; no-binding alternative
+2E1/E2 = 1.043 excluded by all readouts. Energy-centroid ratio moved 1.020 -> 1.009. Control 1.32–1.41 vs 1.39.
+Momentum/impulse 0.982 (= 26B3). Candidate result: binding energy gravitates. 4.39 core-h of PC allowance (~29–31 left).
+Next (PI decision): 26E3 (isospinning / breathing B = 1) or 26C (self-sourced field).
