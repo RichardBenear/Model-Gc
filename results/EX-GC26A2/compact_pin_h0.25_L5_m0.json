@@ -1,0 +1,95 @@
+{
+ "h": 0.25,
+ "L": 5,
+ "mode": 0,
+ "rows": [
+  {
+   "fraction": [
+    0,
+    0,
+    0
+   ],
+   "E_fourier": 1.202942223790005,
+   "E_cubic": 1.202942223790005
+  },
+  {
+   "fraction": [
+    0.25,
+    0,
+    0
+   ],
+   "E_fourier": 1.2029422372315999,
+   "E_cubic": 1.2029176505111052
+  },
+  {
+   "fraction": [
+    0.5,
+    0,
+    0
+   ],
+   "E_fourier": 1.2029422505626117,
+   "E_cubic": 1.2028971734845568
+  },
+  {
+   "fraction": [
+    0.75,
+    0,
+    0
+   ],
+   "E_fourier": 1.2029422369042733,
+   "E_cubic": 1.2029176507529664
+  },
+  {
+   "fraction": [
+    1,
+    0,
+    0
+   ],
+   "E_fourier": 1.202942223790005,
+   "E_cubic": 1.202942223790005
+  },
+  {
+   "fraction": [
+    0.5,
+    0.5,
+    0
+   ],
+   "E_fourier": 1.202942277753953,
+   "E_cubic": 1.2028526299640658
+  },
+  {
+   "fraction": [
+    0.5,
+    0.5,
+    0.5
+   ],
+   "E_fourier": 1.202942304338433,
+   "E_cubic": 1.2028085225450014
+  },
+  {
+   "fraction": [
+    -0.5,
+    0,
+    0
+   ],
+   "E_fourier": 1.2029422505633298,
+   "E_cubic": 1.2028971734845522
+  }
+ ],
+ "relative_range_fourier": 6.695951522581324e-08,
+ "relative_range_cubic": 0.00011114519247842032,
+ "integer_shift_relative": 0.0,
+ "geometric_reflection": {
+  "degrees": [
+   1,
+   1,
+   1
+  ],
+  "min_hemisphere_dot": 0.836916440411434,
+  "bad_tetrahedra": 0,
+  "degenerate_tetrahedra": 286704,
+  "total_tetrahedra": 384000,
+  "min_positive_preimage_coefficient": 0.047704068218321544
+ },
+ "cpu_s": 1.4068578479999998
+}

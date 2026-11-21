@@ -1,0 +1,94 @@
+{
+ "iterations": 250,
+ "evals": 257,
+ "success": false,
+ "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+ "E2": 0.6578754077919942,
+ "E4": 0.601939402627416,
+ "E": 1.2598148104194102,
+ "ratio": 1.0929263060707144,
+ "projected_gradient_max": 0.00039941082040966924,
+ "cpu_s": 154.780128839,
+ "h": 0.2,
+ "L": 7.0,
+ "mode": 1,
+ "kind": "hedgehog",
+ "B_fd": -0.948479949784718,
+ "geometric": {
+  "degrees": [
+   -1,
+   -1,
+   -1
+  ],
+  "min_hemisphere_dot": 0.941376614572003,
+  "bad_tetrahedra": 0,
+  "degenerate_tetrahedra": 251302,
+  "total_tetrahedra": 2058000,
+  "min_positive_preimage_coefficient": 0.007006788058664708
+ },
+ "pinning": {
+  "rows": [
+   {
+    "fraction": [
+     0,
+     0,
+     0
+    ],
+    "E": 1.25981481041941
+   },
+   {
+    "fraction": [
+     0.25,
+     0,
+     0
+    ],
+    "E": 1.2598254014406813
+   },
+   {
+    "fraction": [
+     0.5,
+     0,
+     0
+    ],
+    "E": 1.2598571635001488
+   },
+   {
+    "fraction": [
+     0.75,
+     0,
+     0
+    ],
+    "E": 1.2599049807281568
+   },
+   {
+    "fraction": [
+     1,
+     0,
+     0
+    ],
+    "E": 1.2599627214473892
+   },
+   {
+    "fraction": [
+     0.5,
+     0.5,
+     0
+    ],
+    "E": 1.2599011874588548
+   },
+   {
+    "fraction": [
+     0.5,
+     0.5,
+     0.5
+    ],
+    "E": 1.2599458864972506
+   }
+  ],
+  "relative_range": 0.00011740696073412048,
+  "integer_shift_relative": 0.00011740696073412048
+ },
+ "actual_L": 7.0,
+ "sha256": "c09cdfba5d0a5fd713a4320671b3f86df1817a233261412f1f3e1baa99de2a2e",
+ "cpu_total": 162.70428619400002
+}

@@ -1,0 +1,20 @@
+{
+ "energy": 3.885780586188048e-16,
+ "gradient": 2.7755575615628914e-17,
+ "tangent_0": 5.707933821812496e-08,
+ "tangent_1": 1.0501295476071034e-08,
+ "acceleration_max_error": 2.4868995751603507e-14,
+ "checkerboard_energy": 3.264999789465188,
+ "vacuum_degree": {
+  "degrees": [
+   0,
+   0,
+   0
+  ],
+  "min_hemisphere_dot": 1.0,
+  "bad_tetrahedra": 0,
+  "degenerate_tetrahedra": 3072,
+  "total_tetrahedra": 3072,
+  "min_positive_preimage_coefficient": 1.0
+ }
+}
