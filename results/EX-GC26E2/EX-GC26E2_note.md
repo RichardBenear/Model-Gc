@@ -1,6 +1,6 @@
 # EX-GC26E2 — EX-GC26E1 repeated at h = 0.15 (EXPLORATORY)
 
-Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "Go ahead and use my PC for 26E2", "Use up to 8 cores".
+Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "Go ahead and use my PC for 26E2", "Use up to 8 cores". **PI CLOSED 2026-11-21.**
 Plan `spec/EX-GC26E2_plan.md`, pushed before the run (3ec3738). The run was on the PI's PC: 6 workers, records in
 commit 9e5eb3c, merged to main. Code unchanged from 26E1: `src/exgc26e1.py --h 0.15`, driver `src/exgc26e2_run.py`,
 analysis `src/exgc26e1_analysis.py E2`. Figure `paper/figures/exgc26e2_fall.png`.
