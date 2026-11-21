@@ -159,3 +159,6 @@ Independent qualification complete, Claude review pending. See `results/EX-GC26A
 
 ## Update 2026-11-20: EX-GC26A2 reviewed (Claude)
 EX-GC26A2 (ChatGPT) reproduces and checks out (review/EX-GC26A2_claude_review.md): geometric degree exactly −1, lopsided start converges, momentum leak mostly from the box. 26A scoring corrected to 4 of 8 fully met (C1 partial). Next (PI decision): 26B as a gated exploratory inertia check under ChatGPT's five conditions plus the review's additions (Lorentz-boosted initial data, stress-tensor momentum flux, optional pion-mass term to remove wall effects; target ~1%).
+## EX-GC26B (ChatGPT, exploratory; 2026-11-20)
+
+Complete, review/PI closure pending. Plan published before production d4c98a1. 15 dynamics cases, all endpoint geometric degrees −1, energy drift ≤3.66e-11. Fine h=.15,L=7 low-speed axial/diagonal mass errors +.734%/+.019%; axial .3/.5 misses 1% (+1.08%/+2.43%), transverse and high-speed flux residual gates fail. Larger box and half dt do not materially change .3 axial mass; spatial refinement halves errors. Centered static tensor max error .48%, matched stress caveat. Full precision gate not met; recommend low-speed exploratory continuation or targeted 26B2 stencil qualification before 26E. See `results/EX-GC26B/EX-GC26B_note.md`. 0.56 core-h production within cap.

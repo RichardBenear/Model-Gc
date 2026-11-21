@@ -1,0 +1,92 @@
+[
+ {
+  "path": "local_raw/EX-GC26B/h0.15_L7_u0.1_axis100_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "9e88b96e3ec030190c836135b73127349ac8a70a1db07e40c7c4a30b175a62a8"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.15_L7_u0.1_axis111_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "c9bd28e456390ad11fb09f50432944f326c8a77001772a27be1d149c86d39904"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.15_L7_u0.3_axis100_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "725841b94b19dd7e146db0d760146e50adf1fa0a8f44ba43e9401851607e0167"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.15_L7_u0.3_axis111_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "fde735c9c8c01a1177da9b72d2f701480a91747a943924dfee3805e663455b9a"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.15_L7_u0.5_axis100_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "0aec8497413870207b0dd2e88916d3e2a6c68dd0ff68e06557a412b969111448"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.15_L7_u0.5_axis111_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "3cd56d54ab044991a14a2e98482110e2fc801894d0102e58139ef22dc3e4c24f"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0.1_axis100_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "e19745dd1bdbb4077f980907b9b73b601d0c9da7c11925dd40feb22397ffa633"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0.1_axis111_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "742c41b8c7ae82e63b32268ab8f33e4b5288c14e5456d70e83de79c8366c77d7"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0.3_axis100_dt0.025_end.npy",
+  "bytes": 11453280,
+  "sha256": "541a41bdc8ac22a74e48e0e07815eedb33d633795620ce4f8d9e578d36b89284"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0.3_axis100_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "b5dc35ed3defdaeb21d0c9f97cd9db1600a99bc12d37de17f0dfeddb7c5733d5"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0.3_axis111_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "c62f69ff482d3de5548e4e2111c383fd6c8e5bb2b45c6081f57c998c581fa4a7"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0.5_axis100_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "3e55e8015c8fdc483c3012d427b9da5833cbb009facfe97af189d0a0bfaddcf3"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0.5_axis111_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "51474177211de0d25b15a45662b9ccf48c59846bbbdb789619207c96aad4978f"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L7_u0_axis100_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "248d6ee1e7634d378737cb7a46333d9e881f13c1de32ae25c2271e543e58fae1"
+ },
+ {
+  "path": "local_raw/EX-GC26B/h0.2_L9_u0.3_axis100_dt0.05_end.npy",
+  "bytes": 24114400,
+  "sha256": "cd3c2f67a7d5318621db81d7d205a34ed8e45b1527e200c33442ee4c6b692985"
+ },
+ {
+  "path": "local_raw/EX-GC26B/rest_h0.15_L7.npy",
+  "bytes": 26578816,
+  "sha256": "b296c0d148bf8efd93e9a201eb5be0e97a180633bb9438c13b37497d2f695d28"
+ },
+ {
+  "path": "local_raw/EX-GC26B/rest_h0.2_L7.npy",
+  "bytes": 11453280,
+  "sha256": "bfb2e92fb15e75dadfd92f8ae438db3e0414524621c33bd2d7ec0aa14b78967a"
+ },
+ {
+  "path": "local_raw/EX-GC26B/rest_h0.2_L9.npy",
+  "bytes": 24114400,
+  "sha256": "5dd6868da6e7c5ee4fd2a1f0238458e97eb54d2cbdd0e035e127f3cc28646e98"
+ }
+]
