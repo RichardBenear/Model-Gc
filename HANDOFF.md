@@ -200,3 +200,10 @@ ratio 0.988–1.009 (baryon/energy centroid, two windows), lattice prediction 1.
 2E1/E2 = 1.043 excluded by all readouts. Energy-centroid ratio moved 1.020 -> 1.009. Control 1.32–1.41 vs 1.39.
 Momentum/impulse 0.982 (= 26B3). Candidate result: binding energy gravitates. 4.39 core-h of PC allowance (~29–31 left).
 Next (PI decision): 26E3 (isospinning / breathing B = 1) or 26C (self-sourced field).
+
+## EX-GC26C (Claude, exploratory; 2026-11-21)
+
+Done, PI closure pending. Plan 2f8c24e. Knot + dynamical Nordström scalar (common action), h = 0.2, field box ±17,
+G_N = 0.01 (and 0.02 for B = 1), T = 12. Field 1/r behind a light-speed front (rΦ flat to 2%); A/G_N = 0.995 × source,
+→ 2E₂ as G_N → 0; B2/B1 active mass 1.936 (lattice 1.947, E ratio 1.922, no binding 2). Stable, energy 3e-12.
+1.71 core-h cloud. Next (PI): 26D (boosted coupled knot) or 26F (two-body), better on the PC.
