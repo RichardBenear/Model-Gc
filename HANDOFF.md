@@ -171,3 +171,6 @@ excess is a low centroid speed: energy moves slower than P/H along the axes (0.9
 consistent with the two-orientation stencil lacking single-axis mirror symmetry. Momentum loss at speed is lattice
 non-conservation, not box flux. Recommend 26B2: eight-orientation stencil, speed/(P/H) and transverse-P gates, longer
 coast, force-response test. PI closure pending.
+## EX-GC26B2 (ChatGPT, exploratory; 2026-11-20)
+
+Complete, Claude review and PI closure pending. Plan published prospectively 897db1c. Eight-orientation mirror-symmetric solver eliminates transverse momentum (~2 million-fold improvement at .2/.3 axis), but primary v/(P/H) still fails .5%; exact semidiscrete bond energy-current expression explains old/new ratios to 1.7e-4. T5 speed loss .63% passes, global momentum drift 1.98e-3 fails. Linear weak-force pair M/E=.783, squared-deficit core control 1.056; both fail 1% force and impulse gates, strong tail/centroid coupling sensitivity. All ten dynamics endpoints degree −1, total energy drift ≤4.40e-11. .856 core-h. Precision 26E remains blocked; recommend current-consistent higher-order operator and force-response convergence tests. See `results/EX-GC26B2/EX-GC26B2_note.md`.

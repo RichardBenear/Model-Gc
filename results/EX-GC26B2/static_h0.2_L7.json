@@ -1,0 +1,28 @@
+{
+ "iterations": 300,
+ "evals": 314,
+ "success": false,
+ "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+ "E2": 0.5626864691679677,
+ "E4": 0.6397153023788298,
+ "E": 1.2024017715467976,
+ "ratio": 0.8795888844233919,
+ "projected_gradient_max": 7.952994245402133e-06,
+ "cpu_s": 89.208745416,
+ "h": 0.2,
+ "L": 7.0,
+ "actual_L": 7.0,
+ "degree": {
+  "degrees": [
+   -1,
+   -1,
+   -1
+  ],
+  "min_hemisphere_dot": 0.9141470941552993,
+  "bad_tetrahedra": 0,
+  "degenerate_tetrahedra": 215680,
+  "total_tetrahedra": 2058000,
+  "min_positive_preimage_coefficient": 0.05856942679260692
+ },
+ "sha256": "14f48019a61cc5927e31c242a7d72ebc4a070befbf2dcab48a3f08fb1af0c064"
+}

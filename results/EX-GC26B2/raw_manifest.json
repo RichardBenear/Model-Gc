@@ -1,0 +1,62 @@
+[
+ {
+  "path": "local_raw/EX-GC26B2/h0.15_L7_u0.1_axis100_T0.8_force+0_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "fb03da9fb6ce90c7ea8c34b981c0aa06de16ea692f59b1e4c1d934c6517ccdbb"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.15_L7_u0.3_axis100_T0.8_force+0_dt0.05_end.npy",
+  "bytes": 26578816,
+  "sha256": "bb8bc5f2ef2c0db1c39c5219892a448f90302d1416011505e82f53e150837be6"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0.1_axis100_T0.8_force+0_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "7013933df0163fad7cb92e25bea639742622de05596d0e26961a2cb5371c13f1"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0.3_axis100_T0.8_force+0_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "b001781702c02ee3c02fde86b6fd501a01b0853c724d777e76e8c4c371aed115"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0.3_axis100_T5_force+0_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "dff202de4c2521fa4b8b5fc898bd9696d07eb7f123efb091648504ba252bedd7"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0.3_axis111_T0.8_force+0_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "19fbad542a1563576cc07523ec0176df9662af92347c71db056449ede9cd4dcb"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0_axis100_T1.6_force+0_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "b5df8bf13afac1fad727a81111a9a2bf5c50e55105e9e418947cd22fe0ca0644"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0_axis100_T1.6_force+1_dt0.05_coreforce_end.npy",
+  "bytes": 11453280,
+  "sha256": "a9b39fe461764181a2d404e7bd1439408bf1ed073cbe9eb03fe40c9958effe9b"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0_axis100_T1.6_force+1_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "1effdbe598c1cab063e94a0c820abfcc7ef443c5c5b25fae5f2239bb26a084e8"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/h0.2_L7_u0_axis100_T1.6_force-1_dt0.05_end.npy",
+  "bytes": 11453280,
+  "sha256": "75bc4ddede2749728a87f0afd7d2074806cc56dbf328c84b5ad7ba578d5d3c48"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/rest_h0.15_L7.npy",
+  "bytes": 26578816,
+  "sha256": "c08f4fcfbc6f67d5bcfbd4d4719ef2a9eac9e1462e44c47a150edb2c7b5e50f8"
+ },
+ {
+  "path": "local_raw/EX-GC26B2/rest_h0.2_L7.npy",
+  "bytes": 11453280,
+  "sha256": "14f48019a61cc5927e31c242a7d72ebc4a070befbf2dcab48a3f08fb1af0c064"
+ }
+]
