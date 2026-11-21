@@ -210,7 +210,7 @@ G_N = 0.01 (and 0.02 for B = 1), T = 12. Field 1/r behind a light-speed front (r
 
 ## EX-GC26D (Claude, exploratory, PI's PC; 2026-11-21)
 
-Done, awaiting PI closure. Plan df01310 (amended ef866e8, 820ac4f before any PC run); PC records 6dec330. Boosted B = 1
+Done, PI CLOSED 2026-11-21. Plan df01310 (amended ef866e8, 820ac4f before any PC run); PC records 6dec330. Boosted B = 1
 knot with its own Nordström field (26C end state), u = 0.1, 0.3, T = 8, vs no-field controls. No field-induced drag:
 coupled − control speed change −7e-5 / +5e-6. Energy ≤ 5e-10. The PC co-motion readout at d ≥ 3 was spoiled by the far
 taper (my plan flaw); field-only check with exact far field (review/EX-GC26D_check) gives fore/aft 1.00–1.01 and

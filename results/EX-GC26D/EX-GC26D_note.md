@@ -1,6 +1,6 @@
 # EX-GC26D — moving knot with its own field: is there drag? (EXPLORATORY)
 
-Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "I sign off on EX-GC26C. Go ahead with 26D on my PC." Plan
+Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "I sign off on EX-GC26C. Go ahead with 26D on my PC." **PI CLOSED 2026-11-21.** Plan
 `spec/EX-GC26D_plan.md` (df01310, amended before any PC run in ef866e8 and 820ac4f). Code `src/exgc26d.py`, driver
 `src/exgc26d_run.py`; records from the PI's PC in 6dec330. Post-run field check `review/EX-GC26D_check/field_only.py`;
 figure `src/exgc26d_figure.py` → `paper/figures/exgc26d_drag.png`.
