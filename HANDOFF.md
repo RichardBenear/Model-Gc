@@ -203,7 +203,7 @@ Next (PI decision): 26E3 (isospinning / breathing B = 1) or 26C (self-sourced fi
 
 ## EX-GC26C (Claude, exploratory; 2026-11-21)
 
-Done, PI closure pending. Plan 2f8c24e. Knot + dynamical Nordström scalar (common action), h = 0.2, field box ±17,
+Done, PI CLOSED 2026-11-21. Plan 2f8c24e. Knot + dynamical Nordström scalar (common action), h = 0.2, field box ±17,
 G_N = 0.01 (and 0.02 for B = 1), T = 12. Field 1/r behind a light-speed front (rΦ flat to 2%); A/G_N = 0.995 × source,
 → 2E₂ as G_N → 0; B2/B1 active mass 1.936 (lattice 1.947, E ratio 1.922, no binding 2). Stable, energy 3e-12.
 1.71 core-h cloud. Next (PI): 26D (boosted coupled knot) or 26F (two-body), better on the PC.

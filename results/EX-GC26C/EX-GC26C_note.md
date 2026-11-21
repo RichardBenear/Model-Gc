@@ -1,6 +1,6 @@
 # EX-GC26C — knot sourcing its own scalar gravity field (EXPLORATORY)
 
-Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "Go ahead with the GC26C test." Plan
+Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "Go ahead with the GC26C test." **PI CLOSED 2026-11-21.** Plan
 `spec/EX-GC26C_plan.md`, pushed before the runs (2f8c24e). Code `src/exgc26c.py` (matter kernel from 26E1 unchanged);
 analysis and figure `src/exgc26c_analysis.py`; figure `paper/figures/exgc26c_field.png`.
 
