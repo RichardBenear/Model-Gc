@@ -69,3 +69,9 @@ a deviation. Platform: Linux cloud container, Python 3, numpy 2.x.
 The particle is ready for boosts if the grid is h ≤ 0.15. Before measuring inertia, 26B should measure the lattice's
 momentum leakage as a function of h, since it acts like a small drag. 26B will need more than the 2 core-hour cloud
 cap; the PI's PC is the better place.
+
+## Correction (2026-11-20, after ChatGPT's review)
+The scoring "5 of 8" above counted C1 as met on its energy part. As registered, C1 also required the degree condition
+at h = 0.2, which failed, so C1 is a **partial pass** and **4 of 8 criteria were fully met** (C4, C5, C7, C8). The
+results are unchanged. EX-GC26A2 later showed with a geometric degree that the particle's degree is exactly −1 in every
+resolved state; the registered C1 verdict stays as scored.

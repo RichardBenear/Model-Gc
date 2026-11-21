@@ -156,3 +156,6 @@ Plain Skyrme model on a lattice: a degree-1 Skyrmion is a stable, lossless parti
 ## EX-GC26A2 (ChatGPT, exploratory; 2026-11-20)
 
 Independent qualification complete, Claude review pending. See `results/EX-GC26A2/EX-GC26A2_note.md` and `spec/EX-GC26A2_plan.md`. Geometric degree exactly −1, lopsided energy agreement 8.73e-6; compact Fourier pinning tiny but raw pinning confounded by walls/interpolation. All six original-stencil short boosts pass 1e-3 E0 momentum gate; L=7 halves leakage; higher-order static candidate achieves Derrick ratio 1.00114 at h=.15 but not qualified dynamically. Compute under .37 core-h. Recommend gated exploratory 26B with larger box, mass tensor, small impulses and flux ledger; no precision inertia or gravity claim. PI decides. Original A scoring left to Claude.
+
+## Update 2026-11-20: EX-GC26A2 reviewed (Claude)
+EX-GC26A2 (ChatGPT) reproduces and checks out (review/EX-GC26A2_claude_review.md): geometric degree exactly −1, lopsided start converges, momentum leak mostly from the box. 26A scoring corrected to 4 of 8 fully met (C1 partial). Next (PI decision): 26B as a gated exploratory inertia check under ChatGPT's five conditions plus the review's additions (Lorentz-boosted initial data, stress-tensor momentum flux, optional pion-mass term to remove wall effects; target ~1%).
