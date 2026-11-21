@@ -1,7 +1,9 @@
 """EX-GC26E1 analysis and figure, from the committed compact records only (separate path from the run driver).
 
-  python src/exgc26e1_analysis.py   -> results/EX-GC26E1/summary.json, paper/figures/exgc26e1_fall.png
+  python src/exgc26e1_analysis.py          -> results/EX-GC26E1/summary.json, paper/figures/exgc26e1_fall.png
+  python src/exgc26e1_analysis.py E2       -> results/EX-GC26E2/summary.json, paper/figures/exgc26e2_fall.png
 """
+import sys
 import json
 from pathlib import Path
 import numpy as np
@@ -10,7 +12,8 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'results/EX-GC26E1'
+STAGE = 'EX-GC26' + (sys.argv[1] if len(sys.argv) > 1 else 'E1')
+OUT = ROOT / 'results' / STAGE
 
 
 def load(B, mode):
@@ -101,8 +104,8 @@ def main():
     x = np.arange(len(labels)); axs[1].bar(x - .18, meas, .36, label='measured (baryon centroid, t≥1)'); axs[1].bar(x + .18, prd, .36, label='lattice prediction')
     axs[1].axhline(1, color='k', lw=.7, ls=':'); axs[1].set_xticks(x); axs[1].set_xticklabels(labels); axs[1].set(ylabel='fall acceleration / g'); axs[1].legend(fontsize=8)
     axs[1].set_ylim(0, max(meas + prd + [1]) * 1.15); axs[1].grid(alpha=.2, axis='y')
-    fig.suptitle('EX-GC26E1 — single Skyrmion vs bound pair in a Nordström field (exploratory)'); fig.tight_layout()
-    fig.savefig(ROOT / 'paper/figures/exgc26e1_fall.png', dpi=150); plt.close(fig)
+    fig.suptitle(f'{STAGE} — single Skyrmion vs bound pair in a Nordström field (exploratory)'); fig.tight_layout()
+    fig.savefig(ROOT / f'paper/figures/{STAGE.lower().replace("-", "")}_fall.png', dpi=150); plt.close(fig)
     print(json.dumps(dict(binding=res['binding'], predicted=res['predicted_a_over_g'], ratios=R,
                           runs={k: {kk: v[kk] for kk in v if 'a_over_g_t1' in kk or kk in ('momentum_over_impulse', 'ratio_to_prediction', 'energy_drift_after_ramp', 'max_bcentroid_drift', 'P_drift_over_E', 'degree_final')} for k, v in res['runs'].items()}), indent=1))
 

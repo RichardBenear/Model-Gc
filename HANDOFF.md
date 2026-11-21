@@ -186,7 +186,7 @@ one short ramped core-force step first. PI decision and closure pending.
 
 ## EX-GC26E1 (Claude, exploratory; 2026-11-21)
 
-Done, PI closure pending. Plan 493cba7 before runs. B = 1 vs B = 2 torus in a ramped Nordström field (W = e^{2Φ} on the
+Done, PI CLOSED 2026-11-21. Plan 493cba7 before runs. B = 1 vs B = 2 torus in a ramped Nordström field (W = e^{2Φ} on the
 quadratic term), h = 0.2, L = 7, same box, null-subtracted. Fall-rate ratio B2/B1 = 0.995–1.020 (baryon vs energy
 centroid, two fit windows); lattice prediction (2E₂/E ratio) 1.013, continuum 1. Non-energy control: 1.345–1.445 vs
 predicted 1.425. Binding 3.9%, so "binding does not gravitate" would give 1.041: suggestive (baryon centroid) but not

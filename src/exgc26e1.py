@@ -9,11 +9,17 @@ start; baryon-density centroid. Control: 26B2 squared-deficit coupling with one 
   python src/exgc26e1.py validate
   python src/exgc26e1.py static --B 1|2 [--maxiter N]
   python src/exgc26e1.py run --B 1|2 --mode energy|control|null
+  add --h 0.15 for EX-GC26E2 (records in results/EX-GC26E2, raw in local_raw/EX-GC26E2)
 """
 import os
 for k in ('OMP_NUM_THREADS', 'OPENBLAS_NUM_THREADS', 'MKL_NUM_THREADS', 'NUMEXPR_NUM_THREADS'):
     os.environ[k] = '1'
-import argparse, ctypes, hashlib, itertools, json, platform, resource, subprocess, time
+import argparse, ctypes, hashlib, itertools, json, platform, subprocess, sys, time, types
+try:
+    import resource
+except ImportError:      # Windows (PI's PC): no CPU rlimit; stub so the inherited exgc26b2 import works
+    resource = None
+    sys.modules['resource'] = types.ModuleType('resource')
 from pathlib import Path
 import numpy as np
 import scipy
@@ -31,6 +37,13 @@ GRAV = 0.0125          # field gradient g: nominal F/E = 2g = 0.025, as in 26B3
 T_END = 5.0
 LIB = None
 PTR = a2.PTR
+
+
+def configure(h):
+    """h = 0.2 -> EX-GC26E1 (default); h = 0.15 -> EX-GC26E2. Same box, field, ramp, T and dt/h."""
+    global H, OUT, RAW
+    H = h; stage = 'EX-GC26E1' if h == 0.2 else 'EX-GC26E2'
+    OUT = ROOT / 'results' / stage; RAW = ROOT / 'local_raw' / stage
 
 
 def save(tag, r):
@@ -255,7 +268,11 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument('phase', choices=['validate', 'static', 'run'])
     ap.add_argument('--B', type=int, choices=[1, 2], default=1); ap.add_argument('--maxiter', type=int, default=300)
     ap.add_argument('--mode', choices=['energy', 'control', 'null'], default='null'); ap.add_argument('--cpu-limit', type=int, default=1500)
-    a = ap.parse_args(); resource.setrlimit(resource.RLIMIT_CPU, (a.cpu_limit, a.cpu_limit + 1)); load()
+    ap.add_argument('--h', type=float, choices=[0.2, 0.15], default=0.2)
+    a = ap.parse_args(); configure(a.h)
+    if resource is not None and a.cpu_limit > 0:
+        resource.setrlimit(resource.RLIMIT_CPU, (a.cpu_limit, a.cpu_limit + 1))
+    load()
     if a.phase == 'validate': validate()
     elif a.phase == 'static': static(a.B, a.maxiter)
     else: run(a.B, a.mode)

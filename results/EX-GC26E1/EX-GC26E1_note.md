@@ -1,6 +1,6 @@
 # EX-GC26E1 — single knot vs bound pair in a scalar gravity field (EXPLORATORY)
 
-Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21). Plan `spec/EX-GC26E1_plan.md`, pushed before any run
+Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21); **PI CLOSED 2026-11-21**. Plan `spec/EX-GC26E1_plan.md`, pushed before any run
 (493cba7). Code `src/exgc26e1.py` and `src/exgc26e1_stencil.cpp`; analysis and figure `src/exgc26e1_analysis.py`;
 records in `results/EX-GC26E1/`; figure `paper/figures/exgc26e1_fall.png`.
 
