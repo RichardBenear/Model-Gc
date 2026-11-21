@@ -162,3 +162,12 @@ EX-GC26A2 (ChatGPT) reproduces and checks out (review/EX-GC26A2_claude_review.md
 ## EX-GC26B (ChatGPT, exploratory; 2026-11-20)
 
 Complete, review/PI closure pending. Plan published before production d4c98a1. 15 dynamics cases, all endpoint geometric degrees −1, energy drift ≤3.66e-11. Fine h=.15,L=7 low-speed axial/diagonal mass errors +.734%/+.019%; axial .3/.5 misses 1% (+1.08%/+2.43%), transverse and high-speed flux residual gates fail. Larger box and half dt do not materially change .3 axial mass; spatial refinement halves errors. Centered static tensor max error .48%, matched stress caveat. Full precision gate not met; recommend low-speed exploratory continuation or targeted 26B2 stencil qualification before 26E. See `results/EX-GC26B/EX-GC26B_note.md`. 0.56 core-h production within cap.
+
+## EX-GC26B review (Claude, 2026-11-21)
+
+`review/EX-GC26B_claude_review.md`. All 15 runs recomputed exactly; axial/diagonal split reproduced with the original
+26A NumPy solver (`review/EX-GC26B_check/`). P and H match Lorentz values within 0.85% at h = 0.15; the axial mass
+excess is a low centroid speed: energy moves slower than P/H along the axes (0.971–0.993) but not diagonally (≥0.995),
+consistent with the two-orientation stencil lacking single-axis mirror symmetry. Momentum loss at speed is lattice
+non-conservation, not box flux. Recommend 26B2: eight-orientation stencil, speed/(P/H) and transverse-P gates, longer
+coast, force-response test. PI closure pending.
