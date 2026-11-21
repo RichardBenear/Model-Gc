@@ -1,0 +1,194 @@
+{
+ "static": {
+  "1": {
+   "E": 1.2171060710994581,
+   "E2": 0.5871244507616256,
+   "E4": 0.6299816203378326,
+   "derrick_ratio": 0.931970762014891,
+   "Q": 0.07668054288798937,
+   "degree": [
+    -1,
+    -1,
+    -1
+   ],
+   "residual": 1.4217538032006713e-05,
+   "wall_energy_fraction": 0.0015599356608742528
+  },
+  "2": {
+   "E": 2.3336348547547168,
+   "E2": 1.1322490631247453,
+   "E4": 1.2013857916299717,
+   "derrick_ratio": 0.9424525169292824,
+   "Q": 0.2043184573973774,
+   "degree": [
+    -2,
+    -2,
+    -2
+   ],
+   "residual": 2.8096421440663207e-08,
+   "wall_energy_fraction": 0.0012931197451105869
+  }
+ },
+ "runs": {
+  "energy_B1": {
+   "bcentroid_a_over_g_t1": -0.975774641986313,
+   "bcentroid_fit_resid_t1": 0.00026870179860033353,
+   "bcentroid_a_over_g_t2": -0.9848191755169444,
+   "bcentroid_fit_resid_t2": 7.639608839442313e-05,
+   "centroid_a_over_g_t1": -0.9380118379636443,
+   "centroid_fit_resid_t1": 6.372898935682117e-06,
+   "centroid_a_over_g_t2": -0.9385735052598415,
+   "centroid_fit_resid_t2": 4.931371419200636e-06,
+   "predicted_a_over_g": -0.9647876462094281,
+   "momentum_over_impulse": 0.9818447482985578,
+   "impulse_over_E": -0.054242166515911405,
+   "energy_drift_after_ramp": 1.6475709685437323e-12,
+   "transverse_P_over_E": 3.291510819692495e-09,
+   "degree_initial": [
+    -1,
+    -1,
+    -1
+   ],
+   "degree_final": [
+    -1,
+    -1,
+    -1
+   ],
+   "baryon_number_density_end": -0.9633961290618817,
+   "cpu_s": 2553.78125,
+   "ratio_to_prediction": 1.0113879938451242
+  },
+  "control_B1": {
+   "bcentroid_a_over_g_t1": -1.0058196120227894,
+   "bcentroid_fit_resid_t1": 0.0005649290718974342,
+   "bcentroid_a_over_g_t2": -1.0286017408701527,
+   "bcentroid_fit_resid_t2": 9.881131523845066e-05,
+   "centroid_a_over_g_t1": -0.9451473081931344,
+   "centroid_fit_resid_t1": 5.69047932044678e-05,
+   "centroid_a_over_g_t2": -0.9495539163489342,
+   "centroid_fit_resid_t2": 1.674272394960874e-05,
+   "predicted_a_over_g": -0.9647876462094281,
+   "momentum_over_impulse": 0.9810562327712552,
+   "impulse_over_E": -0.05447385210054716,
+   "energy_drift_after_ramp": 1.6497914145929826e-12,
+   "transverse_P_over_E": 3.2926764504700362e-09,
+   "degree_initial": [
+    -1,
+    -1,
+    -1
+   ],
+   "degree_final": [
+    -1,
+    -1,
+    -1
+   ],
+   "baryon_number_density_end": -0.9636564440578199,
+   "cpu_s": 2540.984375,
+   "ratio_to_prediction": 1.042529530694731
+  },
+  "null_B1": {
+   "max_bcentroid_drift": 5.867508163140344e-09,
+   "max_centroid_drift": 3.23054438168837e-09,
+   "P_drift_over_E": 1.4975691114530985e-09,
+   "energy_drift": 2.099653784171096e-12,
+   "cpu_s": 2561.921875,
+   "degree_final": [
+    -1,
+    -1,
+    -1
+   ]
+  },
+  "energy_B2": {
+   "bcentroid_a_over_g_t1": -0.9645143949131924,
+   "bcentroid_fit_resid_t1": 0.0002649120750636332,
+   "bcentroid_a_over_g_t2": -0.9826278828709807,
+   "bcentroid_fit_resid_t2": 5.363024112768275e-05,
+   "centroid_a_over_g_t1": -0.9461375864223717,
+   "centroid_fit_resid_t1": 7.5773645320798e-06,
+   "centroid_a_over_g_t2": -0.9470645603080696,
+   "centroid_fit_resid_t2": 7.682007661018696e-06,
+   "predicted_a_over_g": -0.9703738018977724,
+   "momentum_over_impulse": 0.9830808783994794,
+   "impulse_over_E": -0.054578818281698464,
+   "energy_drift_after_ramp": 7.771561172376096e-16,
+   "transverse_P_over_E": 4.625403818738459e-10,
+   "degree_initial": [
+    -2,
+    -2,
+    -2
+   ],
+   "degree_final": [
+    -2,
+    -2,
+    -2
+   ],
+   "baryon_number_density_end": -1.9353619313976063,
+   "cpu_s": 2580.703125,
+   "ratio_to_prediction": 0.9939617011783286
+  },
+  "control_B2": {
+   "bcentroid_a_over_g_t1": -1.3231542103674587,
+   "bcentroid_fit_resid_t1": 0.0005304791993873265,
+   "bcentroid_a_over_g_t2": -1.3633137536822377,
+   "bcentroid_fit_resid_t2": 0.0001481227135953049,
+   "centroid_a_over_g_t1": -1.3300254238028044,
+   "centroid_fit_resid_t1": 8.403493579919874e-05,
+   "centroid_a_over_g_t2": -1.337582737401849,
+   "centroid_fit_resid_t2": 4.5277076428738156e-05,
+   "predicted_a_over_g": -1.3407557924818727,
+   "momentum_over_impulse": 0.9832748689485143,
+   "impulse_over_E": -0.07610732895217859,
+   "energy_drift_after_ramp": 3.1086244689504383e-15,
+   "transverse_P_over_E": 5.015705713642346e-10,
+   "degree_initial": [
+    -2,
+    -2,
+    -2
+   ],
+   "degree_final": [
+    -2,
+    -2,
+    -2
+   ],
+   "baryon_number_density_end": -1.9361927358664137,
+   "cpu_s": 2558.015625,
+   "ratio_to_prediction": 0.9868718955285424
+  },
+  "null_B2": {
+   "max_bcentroid_drift": 6.273702294967628e-10,
+   "max_centroid_drift": 4.232213532657158e-10,
+   "P_drift_over_E": 1.738917492646801e-10,
+   "energy_drift": 1.1102230246251565e-15,
+   "cpu_s": 2525.625,
+   "degree_final": [
+    -2,
+    -2,
+    -2
+   ]
+  }
+ },
+ "binding": {
+  "E_bind": 0.10057728744419947,
+  "fraction": 0.04131820957615641
+ },
+ "predicted_a_over_g": {
+  "energy_B1": -0.9647876462094281,
+  "control_B1": -0.9647876462094281,
+  "energy_B2": -0.9703738018977724,
+  "control_B2": -1.3407557924818727
+ },
+ "ratio_B2_over_B1": {
+  "energy_bcentroid_t1": 0.9884601970694801,
+  "energy_bcentroid_t2": 0.9977749289408246,
+  "energy_centroid_t1": 1.0086627355112787,
+  "energy_centroid_t2": 1.0090467661836218,
+  "energy_predicted": 1.0057900365021173,
+  "control_bcentroid_t1": 1.315498519368182,
+  "control_bcentroid_t2": 1.325404867124698,
+  "control_centroid_t1": 1.4072149518633796,
+  "control_centroid_t2": 1.4086432738278816,
+  "control_predicted": 1.3896900501883422,
+  "continuum_energy": 1.0
+ },
+ "cpu_s_total": 15808.734375
+}
