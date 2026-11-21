@@ -1,0 +1,10 @@
+{
+ "c26_p.npy": "c9837922b4240b8b11eedf20f3b93f19a40c9acdb917030d00da7554411cddee",
+ "c26_Fcrop.npy": "e97c9e27af2fa76fc409bdca1bd37a9ada29a66df6e19a79768897cf3a52522c",
+ "rest_B1_h0.2_L7.npy": "e05d84adcb643d4f775b65faa9620c3e85a71d5d319995e6ecbeb56cb31e99b7",
+ "source": "local_raw/EX-GC26C/B1_GN0.01_end.npz (sha256 69349e6f...b189, = results/EX-GC26C/B1_GN0.01.json end_sha256)",
+ "crop_half_cells": 60,
+ "field_n": 171,
+ "v_max": 0.0009151679292716262,
+ "Pi_max_r_lt_9p5": null
+}

@@ -3,7 +3,7 @@
 Uses the closed EX-GC26C coupled solver (common action) and the 26B Lorentz-boost initial data. Massless Skyrme
 reference model, not Model Gc; the construction is ours.
 
-  python src/exgc26d.py prep                      # rerun 26C B=1 (G_N 0.01, T 12) into local_raw/EX-GC26D
+  inputs: local_raw/EX-GC26D/{c26_p.npy, c26_Fcrop.npy, rest_B1_h0.2_L7.npy}, hashes in results/EX-GC26D/inputs.json
   python src/exgc26d.py run --u 0.3 --GN 0.01     # coupled (needs prep)
   python src/exgc26d.py run --u 0.3 --GN 0        # uncoupled control (26E1 rest state, Phi = 0)
   python src/exgc26d.py analyse
@@ -74,14 +74,17 @@ def field_momentum(Fd, F, Pi, GN):
 def run(u, GN):
     t0 = time.process_time(); e1.configure(0.2); e1.load(); G = e1.ref.Grid(e1.H, e1.L); Fd = c.Field(G, c.L_PHI)
     x0 = -u * T_RUN / 2; n = np.array([1., 0., 0.]); tag = f'u{u:g}_GN{GN:g}'
+    man = json.loads((OUT / 'inputs.json').read_text())
+    def inp(name):
+        path = RAW / name; assert hashlib.sha256(path.read_bytes()).hexdigest() == man[name], name; return np.load(path)
     if GN > 0:
-        z = np.load(RAW / 'B1_GN0.01_end.npz'); p_rest, Frest = z['p'], z['F']
-        resid = dict(v_max=float(np.abs(z['v']).max()), Pi_core_max=float(np.abs(z['Pi'][Fd.r < 9.5]).max()))
-        A = fit_A(Fd, Frest); fn = rest_field_fn(Fd, Frest, A); F, Pi = boost_field(Fd, fn, u, x0)
-        src = hashlib.sha256((RAW / 'B1_GN0.01_end.npz').read_bytes()).hexdigest()
+        # closed 26C end state (cloud), shipped as the matter field p and the field Phi cropped to +-12 (see inputs.json)
+        p_rest = inp('c26_p.npy'); Fc = inp('c26_Fcrop.npy'); k = man['crop_half_cells']; cc = Fd.n // 2
+        Frest = np.zeros(Fd.r.shape); Frest[cc - k:cc + k + 1, cc - k:cc + k + 1, cc - k:cc + k + 1] = Fc
+        resid = dict(v_max_26C_end=man['v_max'])
+        A = fit_A(Fd, Frest); fn = rest_field_fn(Fd, Frest, A); F, Pi = boost_field(Fd, fn, u, x0); src = man['c26_p.npy']
     else:
-        p_rest = np.load(e1.restpath(1)); F = np.zeros(Fd.r.shape); Pi = np.zeros_like(F); A = 0.; resid = {}
-        src = hashlib.sha256(e1.restpath(1).read_bytes()).hexdigest()
+        p_rest = inp('rest_B1_h0.2_L7.npy'); F = np.zeros(Fd.r.shape); Pi = np.zeros_like(F); A = 0.; resid = {}; src = man['rest_B1_h0.2_L7.npy']
     p, v = bm.init_boost(G, p_rest, u, n, t=x0 / u)
     s = (p, v, F, Pi); dt = .05 * G.h; steps = round(T_RUN / dt); every = round(.25 / dt); rows = []; d0 = e1.a2.geometric(p)
     fac = G.h ** 3 / e1.NORM
