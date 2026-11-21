@@ -1,0 +1,44 @@
+{
+ "iterations": 451,
+ "evals": 467,
+ "success": true,
+ "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+ "E2": 1.0957227046118285,
+ "E4": 1.2149085431279458,
+ "E": 2.3106312477397744,
+ "ratio": 0.9018972751568136,
+ "projected_gradient_max": 2.4144217744027918e-08,
+ "cpu_s": 126.544990404,
+ "B": 2,
+ "h": 0.2,
+ "L": 7.0,
+ "actual_L": 7.0,
+ "geometric": {
+  "degrees": [
+   -2,
+   -2,
+   -2
+  ],
+  "min_hemisphere_dot": 0.9352716437010951,
+  "bad_tetrahedra": 0,
+  "degenerate_tetrahedra": 204752,
+  "total_tetrahedra": 2058000,
+  "min_positive_preimage_coefficient": 0.0005389089849665071
+ },
+ "B_density": -1.879619836267779,
+ "Q": 0.1874705871291939,
+ "wall_energy_fraction": 0.0012372196749462817,
+ "bcentroid": [
+  -3.5293835232427157e-07,
+  3.045643968074568e-08,
+  1.026415450190537e-07
+ ],
+ "centroid": [
+  -3.530101560001337e-07,
+  3.046746835532391e-08,
+  1.025406395900562e-07
+ ],
+ "pred_energy_a_over_g": -0.948418494455702,
+ "sha256": "04ffce6a69ad0ac9fdfbd9d125ce57e7e086d2047389651756f5c0ace70b7ff4",
+ "cpu_total": 130.681023467
+}

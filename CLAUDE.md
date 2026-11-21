@@ -46,7 +46,7 @@ Model Gc is our own construction: always say so, and never present it as LaViole
   `exgc07_sim3d.py` (3D spectral-in-angle solver), `exgc08_belt.py` (cube-rotation frames, lifts, three-node move
   table), `exgc09_lattice.py` (3D lattice Gc1, tokens), `exgc12_soliton.py` (lattice knot, degree),
   `exgc14_knotgc.py` (knot-gated Gc particle), `exgc16_recoil.py` (token recoil absorbers), `exgc20_wave.py` (wave-like
-  G medium), `exgc23_transport.py` (+ C++ kernel; ChatGPT), `exgc24_impedance.py` (ChatGPT), `exgc25_framefree.py`.
+  G medium), `exgc23_transport.py` (+ C++ kernel; ChatGPT), `exgc24_impedance.py` (ChatGPT), `exgc25_framefree.py`, `exgc26e1.py` (+ `exgc26e1_stencil.cpp`: Nordström-weighted 26B2 stencil, B = 2 rational map, baryon centroid).
 - `whitepaper_figures.py`: white-paper figures computed from committed records only.
 - White paper: `paper/Model_Gc_white_paper_v0.3.md` (frozen through EX-GC25).
 - Test: `python tests/test_regression.py` (seconds; add `--pair` for the 2D pair regression, about 1 minute).

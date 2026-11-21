@@ -1,0 +1,20 @@
+{
+ "ramp_ledger": {
+  "H_change": 0.00816234571715313,
+  "integrated_rate": 0.008161917373595135,
+  "rel_mismatch": 5.247799748234445e-05
+ },
+ "W1_vs_26B2_E": 5.551115123125783e-17,
+ "W1_vs_26B2_grad": 0.0,
+ "W1_vs_26B2_accel": 0.0,
+ "numpy_E": 8.326672684688674e-16,
+ "numpy_grad": 2.0816681711721685e-17,
+ "numpy_accel": 3.197442310920451e-14,
+ "directional_grad_rel": 1.1391875476243705e-09,
+ "energy_rate": 5.551115123125783e-11,
+ "mirror_accel": 2.842170943040401e-14,
+ "vacuum_E": 0.0,
+ "vacuum_accel": 0.0,
+ "platform": "Python 3.13.18 numpy 2.5.3 scipy 1.18.1 Linux-6.18.44-fc-v726-x86_64-with-glibc2.39",
+ "cpu_s": 0.820724265
+}

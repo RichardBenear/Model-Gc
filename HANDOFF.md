@@ -183,3 +183,12 @@ old stencil with the 26A code (`review/EX-GC26B2_check/`): J/P 0.9815 axis, 0.99
 Post hoc: core-force P/v = 1.008 E0; the force miss is mainly dP/dt ≈ 0.96 fQ. Recommendation: stop stencil
 qualification, record error budget (~1.5% h=.2, ~0.7% h=.15, ~h²), design 26E as a comparative test at matched w/h,
 one short ramped core-force step first. PI decision and closure pending.
+
+## EX-GC26E1 (Claude, exploratory; 2026-11-21)
+
+Done, PI closure pending. Plan 493cba7 before runs. B = 1 vs B = 2 torus in a ramped Nordström field (W = e^{2Φ} on the
+quadratic term), h = 0.2, L = 7, same box, null-subtracted. Fall-rate ratio B2/B1 = 0.995–1.020 (baryon vs energy
+centroid, two fit windows); lattice prediction (2E₂/E ratio) 1.013, continuum 1. Non-energy control: 1.345–1.445 vs
+predicted 1.425. Binding 3.9%, so "binding does not gravitate" would give 1.041: suggestive (baryon centroid) but not
+decisive (energy centroid 1.020). Momentum/impulse 0.964–0.969 for all runs (common lattice factor, = 26B3). 1.04 core-h.
+Next: 26E2 at h = 0.15 (~3–4 core-h: cap increase or PC), then 26E3. See `results/EX-GC26E1/EX-GC26E1_note.md`.
