@@ -12,12 +12,14 @@ should be carried along with it, Lorentz-contracted, with no lag behind the knot
 
 ## Initial data
 
-1. **Static coupled state.** Rerun 26C for B = 1 (G_N = 0.01, T = 12) on the PC into `local_raw/EX-GC26D`. This
-   regenerates the knot in its own settled well. Its record goes to `results/EX-GC26D/prep_B1.json`; the committed 26C
-   record is not overwritten.
+1. **Static coupled state.** The closed 26C B = 1 end state (G_N = 0.01, T = 12), copied from the cloud and
+   hash-checked against `results/EX-GC26C/B1_GN0.01.json`. (Amended before any PC run: transferring it is exact and
+   saves rerunning 26C on the PC.) The uncoupled control uses the 26E1 B = 1 rest state, also hash-checked.
 2. **Static field.** Take Φ from that state for r ≤ 9.5, blended smoothly over 9.5–10.5 into the fitted −A/r outside.
-   This removes the outgoing front. Φ = 0 is kept on the outer wall at 17; the mismatch there emits a wave, but it
-   cannot reach the knot before t ≈ 15.
+   This removes the outgoing front. The −A/r tail is tapered smoothly to 0 between r = 12 and 16 (rest frame) to meet the
+   wall value Φ = 0; the taper is static-inconsistent, but its disturbance cannot reach the knot before t ≈ 11 > T.
+   (Amended before any PC run, after a 0.5-time-unit cloud smoke test showed a large spurious wall-gradient energy
+   without the taper.)
 3. **Exact Lorentz transform** at t = 0 of the static knot *and* field. Speed u along +x, starting at x₀ = −uT/2, so the
    knot ends as far right of the centre as it started left. φ and v are transformed as in 26B; for
    the field, Φ(x) = Φ_rest(x′) and Φ̇ = −γu ∂′Φ_rest, using cubic interpolation.
@@ -31,7 +33,7 @@ should be carried along with it, Lorentz-contracted, with no lag behind the knot
 | 3 | coupled, u = 0.1 |
 | 4 | uncoupled control, u = 0.1 |
 
-Runs 2 and 4 need no prep, so they run alongside it.
+All four run in parallel (driver `src/exgc26d_run.py`).
 
 ## Readouts and predictions
 
@@ -48,4 +50,4 @@ Runs 2 and 4 need no prep, so they run alongside it.
 - **Conservation.** Total energy (knot + field) to ≲ 1e-9 relative, since the action is time-independent. Total
   momentum (knot + field) drift is reported; it is not exact on the lattice. Geometric degree at start and end.
 
-**Cost:** about 6 runs-worth at about 0.5 core-hours each on the PC: roughly 3 core-hours, about 1.5 hours wall.
+**Cost:** four runs, about 0.5–0.7 core-hours each on the PC: roughly 2–3 core-hours, under an hour of wall time.
