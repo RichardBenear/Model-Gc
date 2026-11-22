@@ -1,5 +1,5 @@
 # EX-GC31B1 — Native rule screen (EXPLORATORY)
-2026-11-22 | ChatGPT | PI authorized GC31B | bounded first gate complete; review and closure pending.
+2026-11-22 | ChatGPT | PI authorized GC31B | bounded first gate complete; review and closure pending. **PI CLOSED 2026-11-22** (Richard: "I sign off on GC31A–GC33A."). Claude review: review/EX-GC31A-33A_claude_review.md.
 [Registered plan](../../spec/EX-GC31B1_plan.md). Source population: [CRR P9 W21 CSV](https://github.com/RichardBenear/CRR-Investigation/blob/main/Publish_Paper/CRR_P9_REBUTTAL_INTEGRATED/supporting_primary/lineage/W21_CLOSED_PARTICLE_HITS.csv) blob 16315e32eaf7edb7fbc5326ee2660663f9597308. [CRR draft](https://github.com/RichardBenear/CRR-Investigation/blob/main/StageCheckpoints/CRR_White_Paper_Draft.md), complete verified rule 55744 grammar in formula appendix. Original Stage W ZIP is listed local-only; no claim original executable reproduced. Same documented gate schema applied to each archived output template as a conditional reconstruction. No modification of parent repositories.
 
 ## Method

@@ -1,6 +1,6 @@
 # EX-GC32C — Vacuum-selected relational geometry
 
-2026-11-22 | ChatGPT | EXPLORATORY | complete; independent review and PI closure pending.
+2026-11-22 | ChatGPT | EXPLORATORY | complete; independent review and PI closure pending. **PI CLOSED 2026-11-22** (Richard: "I sign off on GC31A–GC33A."). Claude review: review/EX-GC31A-33A_claude_review.md.
 [Registered plan](../../spec/EX-GC32C_plan.md), [Python source](../../src/exgc32c_relational.py), [exact/reference/perturb data](geometry_reference.json), [search data 1](geometry_search_1.json), [search data 2](geometry_search_2.json), [excitation data](excitation_response.json). Reproduce with OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python src/exgc32c_relational.py. 15.03 CPU seconds and 15.04 wall seconds; single thread, well inside 2 core-hour cap. All registered runs completed, no parent changes and no further production. The plan and LOG were committed before production.
 
 ## 1. Disposition
