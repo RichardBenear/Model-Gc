@@ -1,0 +1,41 @@
+{
+  "parts": [
+    1.0302587219681518,
+    1.2854901043981348,
+    0.04172662192768166
+  ],
+  "E": 2.357475448293968,
+  "R": 1.1189749170216254,
+  "gradient": 7.417123636718065e-08,
+  "virial": -0.05516558687432028,
+  "degree": {
+    "degrees": [
+      -2,
+      -2,
+      -2
+    ],
+    "min_hemisphere_dot": 0.9271879226854398,
+    "bad_tetrahedra": 0,
+    "degenerate_tetrahedra": 273928,
+    "total_tetrahedra": 2058000,
+    "min_positive_preimage_coefficient": 0.012898588461015553
+  },
+  "wall_energy_fraction": 0.00045367660232704623,
+  "h": 0.2,
+  "B": 2,
+  "C0": 0.17839644285107545,
+  "sha256": "b15844f6b9bf814d529352e46f7c78eef96cd3ff4d0d6cde608cf6dd23b1e354",
+  "optimization": {
+    "iterations": 350,
+    "evals": 361,
+    "success": false,
+    "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+    "E2": 1.0719853438958336,
+    "E4": 1.2854901043981348,
+    "E": 2.357475448293968,
+    "ratio": 0.8339117821507743,
+    "projected_gradient_max": 7.417123636718065e-08,
+    "cpu_s": 81.76089489999993
+  },
+  "cpu_total": 941.020838999
+}
