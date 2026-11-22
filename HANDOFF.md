@@ -1,10 +1,10 @@
 # Handoff — current state
 
-## Current state (2026-11-22, updated after EX-GC30B2)
-**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A are PI CLOSED (2026-11-22). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
-**EX-GC30A/B:** five-arm analytical screen and condensate benchmark; 4/15 symmetry-preserving BEC conditions meet common cone gate, tuning fails under density change. Review/PI closure as recorded in LOG.
-**EX-GC30B2 (ChatGPT):** 30 cases, 120 nodes, all winding preserved; common tensor in restricted symmetric single Hamiltonian, topology-preserving mass offsets and tilt split geometry, two flavors fail generic robustness. No common metric across inequivalent sectors demonstrated. results/EX-GC30B2/EX-GC30B2_note.md. Review/PI closure pending.
-**Next decision:** recommend analytical GC30B3 dynamical metric locking (IR velocity flow in interacting fermion/boson/gauge models), not GC30C on failed free-band/condensate candidates. No next production authorized. Sakharov stiffness downstream, entanglement/causal geometry reserve. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
+## Current state (2026-11-22, updated after EX-GC30B3)
+**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A PI CLOSED (2026-11-22). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
+**EX-GC30A/B/B2:** analytic screen, BEC tuning failure under density, Weyl winding conserved but metrics split except symmetry-restricted controls. Review/PI closure as recorded in LOG.
+**EX-GC30B3 (ChatGPT):** 20 Yukawa, 35 linear gauge, 12 conditional tensor cases. Published one-loop IR common speed is attractive, but weak coupling runs down; ~20% initial speed mismatch remains ~4% after 40 decades, weak/disconnected sector bottleneck. Finite-scale gate fails. No full metric, tensor gravity or energy sourcing. results/EX-GC30B3/EX-GC30B3_note.md. Review/PI closure pending.
+**Next decision:** recommend GC31A pregeometric operational causal/correlation geometry screen; nonzero interacting fixed-point mechanism reserve. No GC30C on failed reference candidates. No next production authorized. Sakharov curvature stiffness downstream. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
