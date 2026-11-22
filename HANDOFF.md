@@ -232,3 +232,7 @@ all readouts 4–16% low (candidate: gravity × Skyrme-force cross term, unteste
 moving knot with an O(h²) lattice P-vs-J gap (26B/B2/B3), binding energy falls with gravity (26E1/E2), knot sources a
 1/r field with active mass = source (26C), coasts with its own field and no drag (26D), two knots attract ~1/d² at
 0.90–0.96 of the Newtonian prediction (26F). Next (PI): white-paper revision for EX-GC26.
+
+## EX-GC27A/B (ChatGPT, exploratory; 2026-11-22)
+
+Complete, PI closure pending. Registered plan `spec/EX-GC27AB_plan.md`. Static scale-sensitivity controls recover analytic Derrick scaling. Adding independent potential scale removes universality guarantee: virial-separated B2−B1 sensitivity −.002635/−.001775 at h=.2/.15; shrinking difference, composition dependence unresolved, no claim of new gravitational mechanism. All degree checks preserved, gradient validation 1.77e-9, 0.4012 core-h. `results/EX-GC27AB/EX-GC27AB_note.md` and summary. Recommend Candidate 4 / EX-GC28A normal-mode vacuum response as next high-value step; GC27C deferred until a motivated dynamical vacuum action exists. No quantum/dynamic tests run. PI decides.
