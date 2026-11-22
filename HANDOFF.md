@@ -1,9 +1,10 @@
 # Handoff — current state
 
-## Current state (2026-11-22, updated after EX-GC30A)
-**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A are PI CLOSED (2026-11-22). EX-GC29B is deferred. The white paper v0.4 (frozen) covers work through EX-GC26 only.
-**EX-GC30A (ChatGPT):** analytical exploratory screen completed, five arms, exact counterexample to exchange-symmetric common cones; no candidate establishes universal metric gravity. Analogue multicomponent condensate is selected as falsification benchmark; collective kinetic tensor/tetrad is reserve. Sakharov retained for stiffness once common geometry exists. Entanglement and causal geometry remain speculative alternatives. See results/EX-GC30A/EX-GC30A_note.md and spec/EX-GC30A_plan.md. PI closure pending.
-**Next decision:** authorize GC30B (multi-probe cone robustness, not assumed metric); no production authorized yet. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. The dated updates below are history.
+## Current state (2026-11-22, updated after EX-GC30B)
+**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A are PI CLOSED (2026-11-22). EX-GC29B is deferred. White paper v0.4 covers through EX-GC26.
+**EX-GC30A:** five-arm analytical screen; collective analogue benchmark selected, tetrad reserve. Review/PI closure as recorded in LOG.
+**EX-GC30B (ChatGPT):** complete; 23 cases, 4/15 symmetry-preserving cases meet 1% common-cone coefficient gate. Tuned massive and massless modes agree at reference density including common flow and anisotropy, but common density perturbation breaks equality. Exact lambda=n*g12 condition; no robust common metric. No tensor gravity or full metric established. See results/EX-GC30B/EX-GC30B_note.md. PI closure pending.
+**Next decision:** recommend separate GC30B2/GC30T collective tetrad candidate, not GC30C on failed analogue. No further production authorized. Sakharov stiffness downstream. Entanglement and causal geometry reserve. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
