@@ -1,0 +1,3 @@
+# EX-GC28A prospective regulator diagnostic
+
+Initial run: radial midpoint Hessian/nodal kinetic metric produces a growing Born-subtracted radial sum as h decreases. Before interpreting this as physics, repeat the radial channel in continuum canonical normal form: solve the static radial BVP, transform u=sqrt(K) delta f, discretize -d²/dr²+V_eff with identical principal symbol in defect and vacuum. Same boundary conditions, C, h, R and scale perturbations as the original plan. Compare raw and first Born-subtracted sums; this is a single radial channel, not renormalized 3D Skyrme theory. No change to 2 core-hour cap; initial run used under 3 CPU s. This amendment is registered before its production run.
