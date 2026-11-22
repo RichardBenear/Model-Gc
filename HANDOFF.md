@@ -2,9 +2,9 @@
 
 ## Current state (2026-11-22)
 **No study is running.** The EX-GC26 series (26A–F, Skyrme–Nordström reference model) is complete and PI CLOSED
-(2026-11-22). The research through EX-GC26 is written up in the white paper draft `paper/Model_Gc_white_paper_v0.4.md`
-(Claude, not yet reviewed; v0.3 through EX-GC25 stays frozen). **Next step (PI decision):** a review of v0.4 (e.g. by
-ChatGPT), then one of the directions in its Section 11: tensor gravity, a discrete reversible rule for the knot,
+(2026-11-22). The research through EX-GC26 is written up in the white paper `paper/Model_Gc_white_paper_v0.4.md`
+(frozen 2026-11-22, PI approved; v0.3 through EX-GC25 kept). **Next step (PI decision):** one of the directions in its
+Section 11: tensor gravity, a discrete reversible rule for the knot,
 closing the 26F deficit and orbits, or a quantum version. PC allowance left: about 21–23 of 40 core-hours. The dated
 updates below are the history.
 

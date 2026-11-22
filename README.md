@@ -28,7 +28,7 @@ A = 140/9, B = 29, G∞ = 1. (c_x, c_y) = (1, 0) is "G feeds X"; (0, 1) is "G fe
 
 ## Where the programme stands (2026-11-22)
 The full account is the white paper **[`paper/Model_Gc_white_paper_v0.4.md`](paper/Model_Gc_white_paper_v0.4.md)**
-(draft, through EX-GC26; not yet reviewed). v0.3 ([`paper/Model_Gc_white_paper_v0.3.md`](paper/Model_Gc_white_paper_v0.3.md),
+(frozen 2026-11-22, through EX-GC26). v0.3 ([`paper/Model_Gc_white_paper_v0.3.md`](paper/Model_Gc_white_paper_v0.3.md),
 through EX-GC25) was frozen after two rounds of review by ChatGPT. Everything except MG195 is EXPLORATORY and supports no
 claim on its own.
 
@@ -50,7 +50,7 @@ Studies EX008–EX010 and MG195 were run in the ModelG repository and copied her
 Claude. EX-GC26E2, 26D and 26F ran on the PI's PC.
 
 ## Layout
-- `paper/`: the white paper (v0.4 draft through EX-GC26; v0.3 frozen through EX-GC25; drafts v0.1 and v0.2 kept).
+- `paper/`: the white paper (v0.4 frozen through EX-GC26; v0.3 frozen through EX-GC25; drafts v0.1 and v0.2 kept).
   `paper/figures/`: all PNG figures.
 - `spec/`: model definition, study plans and frozen specifications. `GATES.md`: registered criteria and outcomes.
 - `STAGE_LOG.md`, `explore/LOG.md`: stage history and exploratory log. `HANDOFF.md`: current state.

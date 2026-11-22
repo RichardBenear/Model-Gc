@@ -2,10 +2,10 @@
 
 ### From reaction–diffusion particles to relativistic topological field configurations
 
-**Version 0.4 (draft), 2026-11-22: documents the research through EX-GC26 (the series closed by the PI on 2026-11-22).**
+**Version 0.4, frozen 2026-11-22 (PI approved): documents the research through EX-GC26 (the series closed by the PI on 2026-11-22).**
 PI: Richard Benear. Drafted by Claude (Anthropic) from the records in this repository. v0.3 (through EX-GC25) was
 revised after two rounds of review by ChatGPT, both endorsed by the PI. This v0.4 adds Section 8 (EX-GC26) and updates
-the abstract, findings, status and direction sections; it has not yet been reviewed. The changes are listed in
+the abstract, findings, status and direction sections. The PI approved it on 2026-11-22 without a separate review round, since ChatGPT had already agreed with the EX-GC26E results. The changes are listed in
 Appendix C. Earlier versions are kept unchanged (`paper/Model_Gc_white_paper_draft_v0.1.md`,
 `paper/Model_Gc_white_paper_draft_v0.2.md`, `paper/Model_Gc_white_paper_v0.3.md`).
 
@@ -682,7 +682,7 @@ independent replications.
 - "Gravitational charge" replaced by "gravitational source strength"; Appendix A links each study's records.
 - Reference to LaViolette's book completed (expanded 2nd edition, 2003; edition supplied by the PI).
 
-**v0.3 → v0.4 (Claude draft, not yet reviewed):**
+**v0.3 → v0.4 (Claude; approved by the PI 2026-11-22):**
 - New Section 8 on EX-GC26 (Skyrme–Nordström reference model), with Figures 6–9 taken from the study records.
 - Abstract and principal findings extended with EX-GC26; Section 7 cross-references it.
 - Sections renumbered: evolution diagram (9), status (10, updated), research direction (11, rewritten: the v0.3 gated
