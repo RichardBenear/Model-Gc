@@ -1,0 +1,61 @@
+{
+ "static (26E1)": {
+  "E_total": 1.2024017799860591,
+  "force_over_gE": -0.9354060499447409,
+  "dPdt_over_force": 0.9626918068999856,
+  "momentum_over_impulse_end": 0.9642405510598688,
+  "bcentroid": {
+   "a_over_g": -0.9203643866251802,
+   "inertia_dPdv_over_E": 0.9784252340624452
+  },
+  "centroid": {
+   "a_over_g": -0.886851768408022,
+   "inertia_dPdv_over_E": 1.0153982576174736
+  },
+  "baryon_minus_energy_centroid_end": -0.007190875637644906
+ },
+ "\u03c9 = 0.5": {
+  "E_total": 1.2842966728568745,
+  "force_over_gE": -0.9495410064512073,
+  "dPdt_over_force": 0.9802384054318771,
+  "momentum_over_impulse_end": 0.9722278321030283,
+  "bcentroid": {
+   "a_over_g": -0.9941468823298186,
+   "inertia_dPdv_over_E": 0.9362565819998383
+  },
+  "centroid": {
+   "a_over_g": -0.9263821016296688,
+   "inertia_dPdv_over_E": 1.0047436801925593
+  },
+  "baryon_minus_energy_centroid_end": -0.01746044316880116
+ },
+ "\u03c9 = 0.7": {
+  "E_total": 1.3629157699956342,
+  "force_over_gE": -0.9475964010484428,
+  "dPdt_over_force": 0.9902954174233148,
+  "momentum_over_impulse_end": 0.9735542001071025,
+  "bcentroid": {
+   "a_over_g": -1.0435811276958378,
+   "inertia_dPdv_over_E": 0.8992117130337806
+  },
+  "centroid": {
+   "a_over_g": -0.9404867550951407,
+   "inertia_dPdv_over_E": 0.9977815938834451
+  },
+  "baryon_minus_energy_centroid_end": -0.026485618918138668
+ },
+ "\u03c9 = 0.7 control": {
+  "E_total": 1.3629157699956342,
+  "force_over_gE": -1.5909138178279174,
+  "dPdt_over_force": 1.01150821665737,
+  "momentum_over_impulse_end": 0.9769337428023761,
+  "bcentroid": {
+   "a_over_g": -1.7294019369789566,
+   "inertia_dPdv_over_E": 0.9305080353603571
+  },
+  "centroid": {
+   "a_over_g": -1.5054509090723722,
+   "inertia_dPdv_over_E": 1.0689305038304135
+  }
+ }
+}

@@ -236,3 +236,11 @@ moving knot with an O(h²) lattice P-vs-J gap (26B/B2/B3), binding energy falls 
 ## EX-GC27A/B (ChatGPT, exploratory; 2026-11-22)
 
 Complete, PI closure pending. Registered plan `spec/EX-GC27AB_plan.md`. Static scale-sensitivity controls recover analytic Derrick scaling. Adding independent potential scale removes universality guarantee: virial-separated B2−B1 sensitivity −.002635/−.001775 at h=.2/.15; shrinking difference, composition dependence unresolved, no claim of new gravitational mechanism. All degree checks preserved, gradient validation 1.77e-9, 0.4012 core-h. `results/EX-GC27AB/EX-GC27AB_note.md` and summary. Recommend Candidate 4 / EX-GC28A normal-mode vacuum response as next high-value step; GC27C deferred until a motivated dynamical vacuum action exists. No quantum/dynamic tests run. PI decides.
+
+## EX-GC26E3 (Claude, exploratory, cloud; 2026-11-22)
+
+Done, awaiting PI closure. Plan 4c286fe, stage-2 registration c7e5563. Isospinning B = 1 knot (ω = 0.5, 0.7; kinetic
+6–12%) in the 26E1 field. Registered baryon-centroid readout NOT SUPPORTED (falls 8%/13% faster than static, near the
+"no extra inertia" alternative). Momentum ledger: weight = energy-coupling prediction to 0.1%, momentum/energy-centroid
+velocity = total energy to 0.5%; the baryon centroid drifts away from the energy centroid when spinning. Untested
+candidates: charge redistribution in the gradient, radiation from the sudden spin-up. 1.20 core-h cloud.
