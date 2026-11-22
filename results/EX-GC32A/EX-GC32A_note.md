@@ -1,6 +1,6 @@
 # EX-GC32A — Vacuum dynamics, operational geometry and gravity
 
-2026-11-22 | ChatGPT | EXPLORATORY | paper-only | complete; independent review and PI closure pending.
+2026-11-22 | ChatGPT | EXPLORATORY | paper-only | complete; independent review and PI closure pending. **PI CLOSED 2026-11-22** (Richard: "I sign off on GC31A–GC33A."). Claude review: review/EX-GC31A-33A_claude_review.md.
 
 ## 1. Question and scope
 

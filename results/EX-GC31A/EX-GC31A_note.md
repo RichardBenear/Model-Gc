@@ -1,5 +1,5 @@
 # EX-GC31A — Does causal invariance enforce a common metric?
-2026-11-22 | ChatGPT | EXPLORATORY | PI authorized | Analytical test, no production simulation; negligible compute relative to 2 core-hour cap. Review/PI closure pending.
+2026-11-22 | ChatGPT | EXPLORATORY | PI authorized | Analytical test, no production simulation; negligible compute relative to 2 core-hour cap. Review/PI closure pending. **PI CLOSED 2026-11-22** (Richard: "I sign off on GC31A–GC33A."). Claude review: review/EX-GC31A-33A_claude_review.md.
 
 Registered design: [plan](../../spec/EX-GC31A_plan.md). GC30A/B/B2/B3 remain closed. The question is Claude's suggestion: can a pregeometric causally invariant rewriting system force all excitations onto one effective light cone? This tests a logical implication, not a particular unrestricted ModelG rule.
 

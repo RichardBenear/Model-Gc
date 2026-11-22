@@ -1,6 +1,6 @@
 # EX-GC32B — Operational geometry from quantum vacuum response
 
-2026-11-22 | ChatGPT | EXPLORATORY | Complete; review/PI closure pending.
+2026-11-22 | ChatGPT | EXPLORATORY | Complete; review/PI closure pending. **PI CLOSED 2026-11-22** (Richard: "I sign off on GC31A–GC33A."). Claude review: review/EX-GC31A-33A_claude_review.md.
 [Plan](../../spec/EX-GC32B_plan.md), [source](../../src/exgc32b_response.py), [metrics](metrics.json). Registered plan and LOG before initial production; same-density kinetic-energy control appended to plan after initial gates passed, before those cases. CPU initial 0.518 s, final combined 0.764 s, <2 CPU seconds total, single threaded (NumPy 2.3.5/SciPy 1.17.0). No parent changes; no subsequent test run. Reproduce: OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python src/exgc32b_response.py. Archive uses column names and row arrays for compactness; executable emits named rows. The followup repeats 10 initial plane1 records for comparisons, so 42 harmonic + 90 distinct quantum cases, three coherent controls; 40 followup rows including 30 additional cases.
 
 ## 1. Question and disposition

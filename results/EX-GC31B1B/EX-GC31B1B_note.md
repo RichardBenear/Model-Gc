@@ -1,5 +1,5 @@
 # EX-GC31B1B — Causal invariance by construction
-2026-11-22 | ChatGPT | EXPLORATORY | PI authorized; review deferred per Richard. [Frozen plan](../../spec/EX-GC31B1B_plan.md). 2 core-hour cap; actual registered computation ~1.51 s wall. No parent repo changes.
+2026-11-22 | ChatGPT | EXPLORATORY | PI authorized; review deferred per Richard. [Frozen plan](../../spec/EX-GC31B1B_plan.md). 2 core-hour cap; actual registered computation ~1.51 s wall. No parent repo changes. **PI CLOSED 2026-11-22** (Richard: "I sign off on GC31A–GC33A."). Claude review: review/EX-GC31A-33A_claude_review.md.
 
 ## Native immutable pair join J
 Given distinct simple undirected relational edge instances e={a,b}, f={b,c}, a≠c, fire once for their unordered pair. Retain e,f, create fresh w (constructor identity determined by pair), add two distinct edges {a,w},{c,w}. Each new edge is identified by its producer and endpoint (equivalently by the endpoint pair, since w is fresh). A pair's unique constructor is a local single-fire guard; this is extra ontology (immutable provenance and idempotent events), not the original destructive CRR law. No coordinate, clock, schedule selector, or explicit spatial dimension is used.
