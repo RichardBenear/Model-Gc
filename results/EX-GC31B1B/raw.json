@@ -1,0 +1,6403 @@
+{
+  "records": [
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "single",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 0,
+      "grade": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "vertices": 2,
+      "edges": 1,
+      "maxDegree": 1,
+      "meanDegree": 1,
+      "diameter": 1,
+      "connected": true,
+      "maxEnabled": 0,
+      "sharedOverlap": false,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 2,
+      "grade": [
+        0,
+        2
+      ],
+      "vertices": 6,
+      "edges": 7,
+      "maxDegree": 3,
+      "meanDegree": 2.3333333333333335,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 2,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 7,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 7,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 5,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 5,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 5,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 10,
+      "grade": [
+        0,
+        2,
+        8
+      ],
+      "vertices": 14,
+      "edges": 23,
+      "maxDegree": 6,
+      "meanDegree": 3.2857142857142856,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 5,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          6
+        ],
+        [
+          "s2",
+          6
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 41,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 41,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 13,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 13,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 33,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 36,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 33,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "path",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 70,
+      "grade": [
+        0,
+        2,
+        8,
+        60
+      ],
+      "vertices": 74,
+      "edges": 143,
+      "maxDegree": 17,
+      "meanDegree": 3.864864864864865,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 31,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          1
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          12
+        ],
+        [
+          "s1",
+          17
+        ],
+        [
+          "s2",
+          17
+        ],
+        [
+          "s3",
+          12
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 6,
+      "edges": 9,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 2,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 16,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 16,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 7,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 7,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 15,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 15,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 12,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 21,
+      "grade": [
+        0,
+        3,
+        18
+      ],
+      "vertices": 24,
+      "edges": 45,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 12,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 126,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 126,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 27,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 27,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 64,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 64,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 75,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "triangle",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 237,
+      "grade": [
+        0,
+        3,
+        18,
+        216
+      ],
+      "vertices": 240,
+      "edges": 477,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 75,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 4,
+      "grade": [
+        0,
+        4
+      ],
+      "vertices": 8,
+      "edges": 12,
+      "maxDegree": 4,
+      "meanDegree": 3,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 4,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          4
+        ],
+        [
+          "s1",
+          4
+        ],
+        [
+          "s2",
+          4
+        ],
+        [
+          "s3",
+          4
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 18,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 18,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 13,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 13,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 12,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 28,
+      "grade": [
+        0,
+        4,
+        24
+      ],
+      "vertices": 32,
+      "edges": 60,
+      "maxDegree": 10,
+      "meanDegree": 3.75,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 12,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          10
+        ],
+        [
+          "s1",
+          10
+        ],
+        [
+          "s2",
+          10
+        ],
+        [
+          "s3",
+          10
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 160,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 160,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 29,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 29,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 105,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 88,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 108,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "cycle",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 316,
+      "grade": [
+        0,
+        4,
+        24,
+        288
+      ],
+      "vertices": 320,
+      "edges": 636,
+      "maxDegree": 40,
+      "meanDegree": 3.975,
+      "diameter": 7,
+      "connected": true,
+      "maxEnabled": 131,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          2
+        ],
+        [
+          "s1",
+          2
+        ],
+        [
+          "s2",
+          2
+        ],
+        [
+          "s3",
+          2
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          40
+        ],
+        [
+          "s1",
+          40
+        ],
+        [
+          "s2",
+          40
+        ],
+        [
+          "s3",
+          40
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 1,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 3,
+      "grade": [
+        0,
+        3
+      ],
+      "vertices": 7,
+      "edges": 9,
+      "maxDegree": 3,
+      "meanDegree": 2.5714285714285716,
+      "diameter": 3,
+      "connected": true,
+      "maxEnabled": 3,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          3
+        ],
+        [
+          "s2",
+          3
+        ],
+        [
+          "s3",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 10,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 10,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 5,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 5,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 2,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 15,
+      "grade": [
+        0,
+        3,
+        12
+      ],
+      "vertices": 19,
+      "edges": 33,
+      "maxDegree": 9,
+      "meanDegree": 3.473684210526316,
+      "diameter": 4,
+      "connected": true,
+      "maxEnabled": 8,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          9
+        ],
+        [
+          "s1",
+          5
+        ],
+        [
+          "s2",
+          5
+        ],
+        [
+          "s3",
+          5
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 45,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "asc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 45,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": false,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 15,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "desc",
+      "s": 0,
+      "relabel": true,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 15,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": false,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 44,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "random",
+      "s": 17,
+      "relabel": true,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 44,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": false,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 42,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    },
+    {
+      "name": "star",
+      "R": 3,
+      "mode": "random",
+      "s": 29,
+      "relabel": true,
+      "match": true,
+      "events": 123,
+      "grade": [
+        0,
+        3,
+        12,
+        108
+      ],
+      "vertices": 127,
+      "edges": 249,
+      "maxDegree": 21,
+      "meanDegree": 3.921259842519685,
+      "diameter": 5,
+      "connected": true,
+      "maxEnabled": 42,
+      "sharedOverlap": true,
+      "initialDegrees": [
+        [
+          "s0",
+          3
+        ],
+        [
+          "s1",
+          1
+        ],
+        [
+          "s2",
+          1
+        ],
+        [
+          "s3",
+          1
+        ]
+      ],
+      "seedDegrees": [
+        [
+          "s0",
+          21
+        ],
+        [
+          "s1",
+          21
+        ],
+        [
+          "s2",
+          21
+        ],
+        [
+          "s3",
+          21
+        ]
+      ]
+    }
+  ],
+  "negative": {
+    "central": {
+      "events": 1,
+      "terminal": true,
+      "remaining": [
+        0,
+        3
+      ]
+    },
+    "outer": {
+      "events": 2,
+      "terminal": true,
+      "remaining": []
+    }
+  }
+}
