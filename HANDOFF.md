@@ -1,10 +1,10 @@
 # Handoff — current state
 
-## Current state (2026-11-22, updated after EX-GC30B3)
+## Current state (2026-11-22, updated after EX-GC31A)
 **No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H, EX-GC29A and EX-GC30A/B/B2/B3 PI CLOSED (2026-11-22; 30-series review review/EX-GC30A-B3_claude_review.md). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
-**EX-GC30A/B/B2:** analytic screen, BEC tuning failure under density, Weyl winding conserved but metrics split except symmetry-restricted controls. PI CLOSED.
-**EX-GC30B3 (ChatGPT):** 20 Yukawa, 35 linear gauge, 12 conditional tensor cases. Published one-loop IR common speed is attractive, but weak coupling runs down; ~20% initial speed mismatch remains ~4% after 40 decades, weak/disconnected sector bottleneck. Finite-scale gate fails. No full metric, tensor gravity or energy sourcing. results/EX-GC30B3/EX-GC30B3_note.md. Reviewed, PI CLOSED.
-**Next decision:** recommend GC31A pregeometric operational causal/correlation geometry screen; nonzero interacting fixed-point mechanism reserve. No GC30C on failed reference candidates. No next production authorized. Sakharov curvature stiffness downstream. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
+**EX-GC30:** analytic screen, BEC tuning failure under density, Weyl winding conserved but metrics split except symmetry-restricted controls; weak RG common-speed attraction insufficient at finite scales. PI CLOSED. Nonzero interacting fixed point remains reserve.
+**EX-GC31A (ChatGPT):** analytical test complete; review and PI closure pending. Exact asynchronous deterministic port-rule examples prove schedule-invariant event DAG and shared structural reach do not enforce common operational geometry. A: sector fronts 1 vs 1/2; B: identical extremal microscopic fronts 1 with gapless longwave speeds 0.866 vs 0.5 under exchange symmetry. Positive control imposes common principal symbol rather than deriving it. Parent ModelG MG189 causal completion remains unresolved; no parent changes. See results/EX-GC31A/EX-GC31A_note.md and spec/EX-GC31A_plan.md. Negligible compute, paper only.
+**Next decision:** recommend GC31B bounded native rewrite qualification (actual critical-overlap causal histories, independent clock reconstruction, at least two propagating modes, common longwave principal geometry without tuning). No next production authorized. Energy sourcing and tensor gravity remain separate, Sakharov curvature stiffness downstream. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
