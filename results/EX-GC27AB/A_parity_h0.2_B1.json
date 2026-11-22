@@ -1,0 +1,24 @@
+{
+  "parts": [
+    0.562686469168041,
+    0.6397153023788986,
+    0.0
+  ],
+  "E": 1.2024017715469397,
+  "R": 1.0044843096180687,
+  "gradient": 7.952994245402069e-06,
+  "virial": -0.06406247481801099,
+  "degree": {
+    "degrees": [
+      1,
+      1,
+      1
+    ],
+    "min_hemisphere_dot": 0.9141495372261248,
+    "bad_tetrahedra": 0,
+    "degenerate_tetrahedra": 215675,
+    "total_tetrahedra": 2058000,
+    "min_positive_preimage_coefficient": 0.0629115503959337
+  },
+  "wall_energy_fraction": 0.0014252196067301734
+}
