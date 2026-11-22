@@ -1,12 +1,9 @@
 # Handoff — current state
 
-## Current state (2026-11-22, updated after EX-GC29A)
-**No study is running.** EX-GC26 (26A–F, 26E3) and EX-GC28A–28H plus EX-GC29A are PI CLOSED (2026-11-22). EX-GC27A/B
-is reviewed and PI CLOSED (2026-11-22). **EX-GC29B is
-deferred** (PI, 2026-11-22). The white paper v0.4 (frozen) covers work through EX-GC26 only.
-**Next step (PI decision):** ChatGPT proposes an EX-GC30 sequence (30A: analytic screen of vacuum structures that could
-produce a common effective metric without assuming one, then 30B–E). Not yet approved. PC allowance left: about 21–23 of
-40 core-hours. The dated updates below are the history.
+## Current state (2026-11-22, updated after EX-GC30A)
+**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A are PI CLOSED (2026-11-22). EX-GC29B is deferred. The white paper v0.4 (frozen) covers work through EX-GC26 only.
+**EX-GC30A (ChatGPT):** analytical exploratory screen completed, five arms, exact counterexample to exchange-symmetric common cones; no candidate establishes universal metric gravity. Analogue multicomponent condensate is selected as falsification benchmark; collective kinetic tensor/tetrad is reserve. Sakharov retained for stiffness once common geometry exists. Entanglement and causal geometry remain speculative alternatives. See results/EX-GC30A/EX-GC30A_note.md and spec/EX-GC30A_plan.md. PI closure pending.
+**Next decision:** authorize GC30B (multi-probe cone robustness, not assumed metric); no production authorized yet. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. The dated updates below are history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
