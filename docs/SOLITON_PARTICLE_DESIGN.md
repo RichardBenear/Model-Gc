@@ -1,5 +1,8 @@
 # Exchange sign via a soliton particle (design note, 2026-11-19)
 
+> **Later outcome (2026-11-22):** the soliton route was carried out in 3D as EX-GC26 (Skyrme model with Nordström
+> gravity); see Section 8 of `paper/Model_Gc_white_paper_v0.4.md`. This note is kept unchanged below.
+
 Author: Claude, at the PI's request (decision card, 2026-11-19: "Particle as a field soliton"). Design only. Points
 are marked **established** (standard mathematics or our records), **design** (our choice) or **speculative**. Our
 construction, not LaViolette's.

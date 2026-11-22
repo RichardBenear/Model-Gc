@@ -1,11 +1,12 @@
 # Handoff — current state
 
-## Current state (2026-11-20)
-**No study is running.** The research through EX-GC25 is written up in the frozen white paper
-`paper/Model_Gc_white_paper_v0.3.md` (reviewed twice by ChatGPT, endorsed by the PI). **Next step (PI decision):**
-the seven-step gated sequence in its Section 10, starting with a conservative 3D topological particle (EX-GC26), with
-acceptance criteria fixed in the log entry before running; or the alternative of internal inertia within Model Gc.
-The white paper is not to be revised again until EX-GC26 gives results. The dated updates below are the history.
+## Current state (2026-11-22)
+**No study is running.** The EX-GC26 series (26A–F, Skyrme–Nordström reference model) is complete and PI CLOSED
+(2026-11-22). The research through EX-GC26 is written up in the white paper draft `paper/Model_Gc_white_paper_v0.4.md`
+(Claude, not yet reviewed; v0.3 through EX-GC25 stays frozen). **Next step (PI decision):** a review of v0.4 (e.g. by
+ChatGPT), then one of the directions in its Section 11: tensor gravity, a discrete reversible rule for the knot,
+closing the 26F deficit and orbits, or a quantum version. PC allowance left: about 21–23 of 40 core-hours. The dated
+updates below are the history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
