@@ -1,6 +1,6 @@
 # EX-GC28A: quantum vacuum fluctuation screen
 
-**Exploratory, completed; PI closure and independent review pending.** Scope: one 1+1D kink and the spherically symmetric fluctuation channel of B=1 Skyrme, not a full 3D quantum soliton. Production CPU 7.98 s (<0.003 core-h), including canonical diagnostic. Source `src/exgc28a.py`; run normally and with `canonical` argument. Plans in `spec/EX-GC28A_plan.md` and `spec/EX-GC28A_regulator_check.md`.
+**Exploratory, completed; independent review done (review/EX-GC27AB_28A_claude_review.md); PI CLOSED 2026-11-22 (Richard: "go ahead and close 28 and 29A and we will defer 29B").** Scope: one 1+1D kink and the spherically symmetric fluctuation channel of B=1 Skyrme, not a full 3D quantum soliton. Production CPU 7.98 s (<0.003 core-h), including canonical diagnostic. Source `src/exgc28a.py`; run normally and with `canonical` argument. Plans in `spec/EX-GC28A_plan.md` and `spec/EX-GC28A_regulator_check.md`.
 
 ## Findings
 

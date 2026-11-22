@@ -1,12 +1,12 @@
 # Handoff — current state
 
-## Current state (2026-11-22)
-**No study is running.** The EX-GC26 series (26A–F, Skyrme–Nordström reference model) is complete and PI CLOSED
-(2026-11-22). The research through EX-GC26 is written up in the white paper `paper/Model_Gc_white_paper_v0.4.md`
-(frozen 2026-11-22, PI approved; v0.3 through EX-GC25 kept). **Next step (PI decision):** one of the directions in its
-Section 11: tensor gravity, a discrete reversible rule for the knot,
-closing the 26F deficit and orbits, or a quantum version. PC allowance left: about 21–23 of 40 core-hours. The dated
-updates below are the history.
+## Current state (2026-11-22, updated after EX-GC29A)
+**No study is running.** EX-GC26 (26A–F, 26E3) and EX-GC28A–28H plus EX-GC29A are PI CLOSED (2026-11-22). EX-GC27A/B
+is complete and reviewed (`review/EX-GC27AB_28A_claude_review.md`); its closure has not yet been recorded. **EX-GC29B is
+deferred** (PI, 2026-11-22). The white paper v0.4 (frozen) covers work through EX-GC26 only.
+**Next step (PI decision):** ChatGPT proposes an EX-GC30 sequence (30A: analytic screen of vacuum structures that could
+produce a common effective metric without assuming one, then 30B–E). Not yet approved. PC allowance left: about 21–23 of
+40 core-hours. The dated updates below are the history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
@@ -244,3 +244,22 @@ Done, PI CLOSED 2026-11-22. Plan 4c286fe, stage-2 registration c7e5563. Isospinn
 "no extra inertia" alternative). Momentum ledger: weight = energy-coupling prediction to 0.1%, momentum/energy-centroid
 velocity = total energy to 0.5%; the baryon centroid drifts away from the energy centroid when spinning. Untested
 candidates: charge redistribution in the gradient, radiation from the sudden spin-up. 1.20 core-h cloud.
+
+## EX-GC28A–28H and EX-GC29A (ChatGPT, exploratory; 2026-11-22) — PI CLOSED
+
+Closed by the PI 2026-11-22 ("go ahead and close 28 and 29A and we will defer 29B"). Claude reviews (all runs
+reproduced): `review/EX-GC27AB_28A_claude_review.md`, `review/EX-GC28B-G_claude_review.md`,
+`review/EX-GC28H_29A_claude_review.md`; ChatGPT response `review/EX-GC27AB_28A_response.md`. Scalar-QFT, Skyrme and GR
+reference models, not Model Gc. Lessons:
+- 28A: radial-channel zero-point energy of the B = 1 Skyrmion is regulator-controlled once Born-subtracted; under a
+  non-metric coupling its gravitational weight per unit energy (≈0.84) differs from the classical part (0.92).
+- 28B: connected zero-point (Casimir) interaction of two defects in 3D falls as 1/d³ (force 1/d⁴): not Newtonian.
+- 28C/28H: loop-induced collective scalars can be stiff and gapless only with tuning or a shift symmetry; the
+  symmetric case forbids a monopole source, the dilaton-like case gives species-dependent sources (~3× spread).
+- 28D: Sakharov induced Einstein–Hilbert term recovered with textbook coefficients; its size is set by the cutoff.
+- 28E–G: with minimal metric coupling the whole dressed particle (binding included) gravitates via ADM mass, but a
+  massless secondary scalar is a non-universal fifth force; screening reduces it only ~1/α and leaves species spread.
+- 29A: particle size gives a generic elastic form factor (momentum-transfer roll-off), not a frequency cutoff, since
+  forward scattering is never suppressed.
+Open question carried forward: where a common metric coupling comes from (proposed EX-GC30). 29B deferred.
+

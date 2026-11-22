@@ -1,6 +1,6 @@
 # EX-GC29A — Natural particle response cutoff
 
-Exploratory; 2026-11-22; design/run ChatGPT. PI authorized. **Positive for a size-dependent elastic roll-off; negative for a demonstrated universal frequency cutoff.** No claim of a bulk ZPF regulator or induced Newton constant.
+Exploratory; 2026-11-22; design/run ChatGPT. PI authorized. Reviewed (review/EX-GC28H_29A_claude_review.md); **PI CLOSED 2026-11-22 (Richard: "go ahead and close 28 and 29A and we will defer 29B")**. **Positive for a size-dependent elastic roll-off; negative for a demonstrated universal frequency cutoff.** No claim of a bulk ZPF regulator or induced Newton constant.
 
 ## Method and controls
 

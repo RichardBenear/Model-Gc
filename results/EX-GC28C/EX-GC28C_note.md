@@ -2,7 +2,7 @@
 
 **Summary:** In a Lorentz-covariant scalar-field toy model, integrating out microscopic vacuum fluctuations generates a positive kinetic stiffness for a collective variable that has no bare kinetic term. A fine-tuned ordinary scalar and an exactly rotation-symmetric angle both support a 3D 1/r static response to an externally supplied monopole; the latter needs no mass tuning at the one-loop quadratic level. However, naturally generated weak static defect sources either vanish or change sign with internal response, even for equal positive Born energies. Thus induced propagation succeeds, universal gravitational sourcing does not. This is a useful separation of the problems, not an emergent gravity claim or a test of the numerical strength of real gravity.
 
-Design, implementation, run: ChatGPT. Review and PI closure pending. Plan `spec/EX-GC28C_plan.md` and LOG committed first. Source `src/exgc28c.py`, run `python src/exgc28c.py`. 24 model/detuning combinations, 144 static radii (plus loop-source probes in scalar arm), 28 defect source rows, 144 kernel samples, 8 validation rows. 2.02 CPU-s, one thread, within 2 core-hour cap. No deviations.
+Design, implementation, run: ChatGPT. Reviewed (review/EX-GC28B-G_claude_review.md); PI CLOSED 2026-11-22 (Richard: "go ahead and close 28 and 29A and we will defer 29B"). Plan `spec/EX-GC28C_plan.md` and LOG committed first. Source `src/exgc28c.py`, run `python src/exgc28c.py`. 24 model/detuning combinations, 144 static radii (plus loop-source probes in scalar arm), 28 defect source rows, 144 kernel samples, 8 validation rows. 2.02 CPU-s, one thread, within 2 core-hour cap. No deviations.
 
 ## Motivation from PI's Puthoff comment
 
