@@ -1,0 +1,32 @@
+{
+  "parts": [
+    0.5626864691679676,
+    0.6397153023788299,
+    0.0
+  ],
+  "E": 1.2024017715467976,
+  "R": 1.0044843096180687,
+  "gradient": 7.952994245402133e-06,
+  "virial": -0.06406247481802244,
+  "degree": {
+    "degrees": [
+      -1,
+      -1,
+      -1
+    ],
+    "min_hemisphere_dot": 0.9141470941552993,
+    "bad_tetrahedra": 0,
+    "degenerate_tetrahedra": 215680,
+    "total_tetrahedra": 2058000,
+    "min_positive_preimage_coefficient": 0.05856942679260692
+  },
+  "wall_energy_fraction": 0.0014252196067301734,
+  "h": 0.2,
+  "B": 1,
+  "sha256": "14f48019a61cc5927e31c242a7d72ebc4a070befbf2dcab48a3f08fb1af0c064",
+  "optimization": {
+    "reused": true,
+    "source_sha256": "14f48019a61cc5927e31c242a7d72ebc4a070befbf2dcab48a3f08fb1af0c064"
+  },
+  "cpu_total": 2.296431078
+}
