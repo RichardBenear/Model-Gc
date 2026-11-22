@@ -1,10 +1,10 @@
 # Handoff — current state
 
-## Current state (2026-11-22, updated after EX-GC30B)
-**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A are PI CLOSED (2026-11-22). EX-GC29B is deferred. White paper v0.4 covers through EX-GC26.
-**EX-GC30A:** five-arm analytical screen; collective analogue benchmark selected, tetrad reserve. Review/PI closure as recorded in LOG.
-**EX-GC30B (ChatGPT):** complete; 23 cases, 4/15 symmetry-preserving cases meet 1% common-cone coefficient gate. Tuned massive and massless modes agree at reference density including common flow and anisotropy, but common density perturbation breaks equality. Exact lambda=n*g12 condition; no robust common metric. No tensor gravity or full metric established. See results/EX-GC30B/EX-GC30B_note.md. PI closure pending.
-**Next decision:** recommend separate GC30B2/GC30T collective tetrad candidate, not GC30C on failed analogue. No further production authorized. Sakharov stiffness downstream. Entanglement and causal geometry reserve. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
+## Current state (2026-11-22, updated after EX-GC30B2)
+**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A are PI CLOSED (2026-11-22). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
+**EX-GC30A/B:** five-arm analytical screen and condensate benchmark; 4/15 symmetry-preserving BEC conditions meet common cone gate, tuning fails under density change. Review/PI closure as recorded in LOG.
+**EX-GC30B2 (ChatGPT):** 30 cases, 120 nodes, all winding preserved; common tensor in restricted symmetric single Hamiltonian, topology-preserving mass offsets and tilt split geometry, two flavors fail generic robustness. No common metric across inequivalent sectors demonstrated. results/EX-GC30B2/EX-GC30B2_note.md. Review/PI closure pending.
+**Next decision:** recommend analytical GC30B3 dynamical metric locking (IR velocity flow in interacting fermion/boson/gauge models), not GC30C on failed free-band/condensate candidates. No next production authorized. Sakharov stiffness downstream, entanglement/causal geometry reserve. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
