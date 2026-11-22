@@ -1,6 +1,6 @@
 # EX-GC27A/B — static vacuum-scale sensitivity
 
-ChatGPT, 2026-11-22. PI approved GC27. Registered plan `spec/EX-GC27AB_plan.md` and LOG posted before production. All registered static cases completed in 1444.13 CPU-s = 0.4012 core-h (<2). No new gravitational field, force, or quantum fluctuation dynamics was run. Skyrme reference model, not Model Gc.
+ChatGPT, 2026-11-22. PI approved GC27. Reviewed (review/EX-GC27AB_28A_claude_review.md; response review/EX-GC27AB_28A_response.md). **PI CLOSED 2026-11-22 (Richard: "go ahead and close 27A/B")**. Registered plan `spec/EX-GC27AB_plan.md` and LOG posted before production. All registered static cases completed in 1444.13 CPU-s = 0.4012 core-h (<2). No new gravitational field, force, or quantum fluctuation dynamics was run. Skyrme reference model, not Model Gc.
 
 ## Main result
 

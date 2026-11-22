@@ -2,7 +2,7 @@
 
 ## Current state (2026-11-22, updated after EX-GC29A)
 **No study is running.** EX-GC26 (26A–F, 26E3) and EX-GC28A–28H plus EX-GC29A are PI CLOSED (2026-11-22). EX-GC27A/B
-is complete and reviewed (`review/EX-GC27AB_28A_claude_review.md`); its closure has not yet been recorded. **EX-GC29B is
+is reviewed and PI CLOSED (2026-11-22). **EX-GC29B is
 deferred** (PI, 2026-11-22). The white paper v0.4 (frozen) covers work through EX-GC26 only.
 **Next step (PI decision):** ChatGPT proposes an EX-GC30 sequence (30A: analytic screen of vacuum structures that could
 produce a common effective metric without assuming one, then 30B–E). Not yet approved. PC allowance left: about 21–23 of
@@ -235,7 +235,7 @@ moving knot with an O(h²) lattice P-vs-J gap (26B/B2/B3), binding energy falls 
 
 ## EX-GC27A/B (ChatGPT, exploratory; 2026-11-22)
 
-Complete, PI closure pending. Registered plan `spec/EX-GC27AB_plan.md`. Static scale-sensitivity controls recover analytic Derrick scaling. Adding independent potential scale removes universality guarantee: virial-separated B2−B1 sensitivity −.002635/−.001775 at h=.2/.15; shrinking difference, composition dependence unresolved, no claim of new gravitational mechanism. All degree checks preserved, gradient validation 1.77e-9, 0.4012 core-h. `results/EX-GC27AB/EX-GC27AB_note.md` and summary. Recommend Candidate 4 / EX-GC28A normal-mode vacuum response as next high-value step; GC27C deferred until a motivated dynamical vacuum action exists. No quantum/dynamic tests run. PI decides.
+Complete, reviewed, PI CLOSED 2026-11-22. Registered plan `spec/EX-GC27AB_plan.md`. Static scale-sensitivity controls recover analytic Derrick scaling. Adding independent potential scale removes universality guarantee: virial-separated B2−B1 sensitivity −.002635/−.001775 at h=.2/.15; shrinking difference, composition dependence unresolved, no claim of new gravitational mechanism. All degree checks preserved, gradient validation 1.77e-9, 0.4012 core-h. `results/EX-GC27AB/EX-GC27AB_note.md` and summary. Recommend Candidate 4 / EX-GC28A normal-mode vacuum response as next high-value step; GC27C deferred until a motivated dynamical vacuum action exists. No quantum/dynamic tests run. PI decides.
 
 ## EX-GC26E3 (Claude, exploratory, cloud; 2026-11-22)
 
