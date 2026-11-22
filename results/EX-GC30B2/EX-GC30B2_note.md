@@ -1,5 +1,7 @@
 # EX-GC30B2 — Weyl tetrad universality (EXPLORATORY)
 
+**PI CLOSED 2026-11-22 (Richard: "I think those runs can be closed"; Claude review review/EX-GC30A-B3_claude_review.md).**
+
 Topological Weyl nodes survive all 30 registered backgrounds (120 node instances), but their reconstructed effective metrics do not generally agree. A four-node single-band-pair model has exactly equal spatial metrics on a symmetry-restricted family, including shared shear and axial deformations. Breaking its extra root-reflection symmetry while preserving inversion and all topological windings splits the metrics. Two inequivalent orbital flavors fail even in the natural homogeneous vacuum and only agree after calibration; density-like common mass shifts break that agreement. Topology protects the existence and integer chirality of nodes, not the common geometry. This is a reference lattice result, not a no-go for other dynamical mechanisms of universal metric emergence.
 
 Design/run ChatGPT, 2026-11-22; PI authorized GC30B2. Preregistered spec/EX-GC30B2_plan.md (56da0991) and LOG (11e58b75). One thread, default 2 core-hour cap, corrected production 19.79 CPU seconds. No GC30C or other later stage executed. Preliminary import failed before any calculation because missing j loop in direction list; corrected to the registered axes/face-diagonal list, no physics or criteria change. <1 CPU s additional startup.

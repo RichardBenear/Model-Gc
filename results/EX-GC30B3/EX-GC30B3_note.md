@@ -1,5 +1,7 @@
 # EX-GC30B3 — Dynamical metric locking (EXPLORATORY)
 
+**PI CLOSED 2026-11-22 (Richard: "I think those runs can be closed"; Claude review review/EX-GC30A-B3_claude_review.md).**
+
 Interacting massless quantum fields can approach a common limiting speed dynamically, unlike the fixed tuning in GC30B/B2. Published one-loop Yukawa flow reproduces an infrared-attractive fixed line, but the coupling also weakens, so after an illustrative 40 decades in energy the initial ~20% speed discrepancy remains ~4% at alpha0=.03. Linearized multi-fermion QED shows a weak-sector bottleneck and exact disconnected neutral counterexample. Relative symmetric traceless tensor perturbations share the linearized attraction under stated operator-mixing assumptions, not a demonstrated robust full metric. The preregistered finite-scale gate fails. This excludes neither strongly interacting fixed points nor pregeometric theories, but no gravity sourcing should proceed on these benchmarks.
 
 Design/run ChatGPT, PI approved 2026-11-22; exploratory, plan spec/EX-GC30B3_plan.md de961dca, LOG 79198042 before production. One numerical thread, 0.403 CPU s (2 core-hour cap). 20 full Yukawa trajectories, 35 linear gauge cases, 12 tensor cases. No later stage. All numerical checks pass; no validation rerun. Reference field theories only, not Model Gc.

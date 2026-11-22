@@ -1,5 +1,7 @@
 # EX-GC30B — Common effective geometry robustness (EXPLORATORY)
 
+**PI CLOSED 2026-11-22 (Richard: "I think those runs can be closed"; Claude review review/EX-GC30A-B3_claude_review.md).**
+
 Two coupled condensates support one gapped and one gapless excitation sharing the same effective low-energy dispersion geometry at a tuned reference vacuum. Both respond identically to shared anisotropy and flow at that density. But a common density change alone splits their spatial metric coefficients, without breaking exchange symmetry; only 4 of 15 registered symmetry-preserving test conditions pass the 1% gate. This is a negative universality result for this analogue benchmark, not a no-go for all emergent metrics. Recommend moving to collective tetrad models rather than GC30C energy sourcing on this failed candidate.
 
 Design/run: ChatGPT, PI authorized 2026-11-22; exploratory, preregistered spec/EX-GC30B_plan.md (e13555f4), LOG before production (4838809a). No closure sign-off. Reference BEC, not Model Gc. Two core-hour cap, one thread; ~2.33 CPU s incl. invalid first attempt. No subsequent stage run.

@@ -1,5 +1,7 @@
 # EX-GC30A — Analytical screen of emergent common geometry (EXPLORATORY)
 
+**PI CLOSED 2026-11-22 (Richard: "I think those runs can be closed"; Claude review review/EX-GC30A-B3_claude_review.md).**
+
 The analytical screen identifies multicomponent analogue media as the most tractable next falsification experiment, with collective tetrads as the stronger longer-term tensor candidate. Equal limiting speeds in one vacuum do not establish equivalence: an exactly exchange-symmetric two-component medium can have two distinct light cones. A common metric must be a robust output of microscopic dynamics across probe types and background deformations; none of the five arms yet meets the complete gravity criteria. The Sakharov mechanism remains relevant downstream as a possible origin of metric stiffness, not as a derivation of a universal metric.
 
 Design and analysis: ChatGPT, 2026-11-22. PI authorized GC30A; prospective plan and LOG committed before analysis (f9aeddee, 641f0bd4). Paper-only, no production numerical run; computation negligible against default 2 core-hour cap. No closure sign-off. Sources below are reference theories, not evidence for Model Gc.

@@ -1,9 +1,9 @@
 # Handoff — current state
 
 ## Current state (2026-11-22, updated after EX-GC30B3)
-**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H and EX-GC29A PI CLOSED (2026-11-22). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
-**EX-GC30A/B/B2:** analytic screen, BEC tuning failure under density, Weyl winding conserved but metrics split except symmetry-restricted controls. Review/PI closure as recorded in LOG.
-**EX-GC30B3 (ChatGPT):** 20 Yukawa, 35 linear gauge, 12 conditional tensor cases. Published one-loop IR common speed is attractive, but weak coupling runs down; ~20% initial speed mismatch remains ~4% after 40 decades, weak/disconnected sector bottleneck. Finite-scale gate fails. No full metric, tensor gravity or energy sourcing. results/EX-GC30B3/EX-GC30B3_note.md. Review/PI closure pending.
+**No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H, EX-GC29A and EX-GC30A/B/B2/B3 PI CLOSED (2026-11-22; 30-series review review/EX-GC30A-B3_claude_review.md). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
+**EX-GC30A/B/B2:** analytic screen, BEC tuning failure under density, Weyl winding conserved but metrics split except symmetry-restricted controls. PI CLOSED.
+**EX-GC30B3 (ChatGPT):** 20 Yukawa, 35 linear gauge, 12 conditional tensor cases. Published one-loop IR common speed is attractive, but weak coupling runs down; ~20% initial speed mismatch remains ~4% after 40 decades, weak/disconnected sector bottleneck. Finite-scale gate fails. No full metric, tensor gravity or energy sourcing. results/EX-GC30B3/EX-GC30B3_note.md. Reviewed, PI CLOSED.
 **Next decision:** recommend GC31A pregeometric operational causal/correlation geometry screen; nonzero interacting fixed-point mechanism reserve. No GC30C on failed reference candidates. No next production authorized. Sakharov curvature stiffness downstream. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
 
 ## Set-up state (2026-11-18)
