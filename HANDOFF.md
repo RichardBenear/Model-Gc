@@ -1,10 +1,11 @@
 # Handoff — current state
 
-## Current state (2026-11-22, updated after EX-GC31A)
+## Current state (2026-11-22, updated after EX-GC31B1)
 **No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H, EX-GC29A and EX-GC30A/B/B2/B3 PI CLOSED (2026-11-22; 30-series review review/EX-GC30A-B3_claude_review.md). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
 **EX-GC30:** analytic screen, BEC tuning failure under density, Weyl winding conserved but metrics split except symmetry-restricted controls; weak RG common-speed attraction insufficient at finite scales. PI CLOSED. Nonzero interacting fixed point remains reserve.
 **EX-GC31A (ChatGPT):** analytical test complete; review and PI closure pending. Exact asynchronous deterministic port-rule examples prove schedule-invariant event DAG and shared structural reach do not enforce common operational geometry. A: sector fronts 1 vs 1/2; B: identical extremal microscopic fronts 1 with gapless longwave speeds 0.866 vs 0.5 under exchange symmetry. Positive control imposes common principal symbol rather than deriving it. Parent ModelG MG189 causal completion remains unresolved; no parent changes. See results/EX-GC31A/EX-GC31A_note.md and spec/EX-GC31A_plan.md. Negligible compute, paper only.
-**Next decision:** recommend GC31B bounded native rewrite qualification (actual critical-overlap causal histories, independent clock reconstruction, at least two propagating modes, common longwave principal geometry without tuning). No next production authorized. Energy sourcing and tensor gravity remain separate, Sakharov curvature stiffness downstream. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
+**EX-GC31B1 (ChatGPT):** 80 archived Stage W rules screened on 179 constructed critical overlaps each using documented reconstructed grammar (original engine ZIP local-only). 80/80 disjoint controls pass; 0/14,320 rooted two-event diamonds; no terminal mismatch; coarse dependency-only matches exist in every case. H1 remains unresolved globally. B2/B3 not opened. results/EX-GC31B1/EX-GC31B1_note.md. Review/PI closure pending.
+**Next decision:** retrieve original engine and consider bounded deeper causal completion / reachable contexts for representative rules, or design native conflict-completion rule by construction. No new run authorized. Geometry, energy sourcing and tensor gravity remain separate. Prior PC allowance estimate 21–23 of 40 core-hours, not remeasured. Dated updates below are history.
 
 ## Set-up state (2026-11-18)
 **Owner of the active work at set-up:** Claude.
