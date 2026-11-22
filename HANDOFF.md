@@ -215,3 +215,11 @@ knot with its own Nordström field (26C end state), u = 0.1, 0.3, T = 8, vs no-f
 coupled − control speed change −7e-5 / +5e-6. Energy ≤ 5e-10. The PC co-motion readout at d ≥ 3 was spoiled by the far
 taper (my plan flaw); field-only check with exact far field (review/EX-GC26D_check) gives fore/aft 1.00–1.01 and
 axial/side = 1/γ. PC 1.82 core-h (~27–29 of 40 left), cloud ~0.9 core-h. Next (PI): 26F (two-body) or 26E3.
+
+## EX-GC26F (Claude, exploratory, PI's PC; 2026-11-21)
+
+Done, awaiting PI closure. Plan d51adae; PC records 1b8ad8a. Two B = 1 knots (26C state, same orientation) attract
+through their own Nordström field, d = 6 and 9.2, G_N = 0.01, T = 10, each minus a no-gravity control (direct Skyrme push
+~1.5–2× gravity). Registered readout (baryon centroid) 0.901 and 0.960 of Newtonian prediction: SUPPORTED, narrowly;
+all readouts 4–16% low (candidate: gravity × Skyrme-force cross term, untested). 1/d² favoured (2.20/2.38 vs 2.35;
+1/d 1.53). Energy 2e-10. PC 6.42 core-h (~21–23 of 40 left). Next (PI): white-paper revision for 26A–F, deficit test, or 26E3.
