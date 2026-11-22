@@ -1,0 +1,2 @@
+# EX-GC28B prospective quadrature diagnostic
+Initial 1D fixed Gauss-Legendre 48 vs 96 nodes revealed percent-level disagreement (especially weak scatterer), expected from massless infrared log singularity. Preserve original rows. Repeat all massless 1D baseline and refinement rows with t=u^2 (u in [0,sqrt(48)]), 96 and selected 192 nodes; massless p→1 benchmark at d=128,256,512,1024 for all Q. Massive 1D and 3D integrands smooth at zero, retain original quadrature and checks. Same cap; no revised physics prediction. This is recorded before the additional runs.
