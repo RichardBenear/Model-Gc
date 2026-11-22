@@ -1,0 +1,29 @@
+{
+  "fd": -0.034940069237876514,
+  "analytic": -0.03494006929974951,
+  "error": 1.7708320012053297e-09,
+  "vacuum": {
+    "parts": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "E": 0.0,
+    "R": 0.0,
+    "gradient": 0.0,
+    "virial": 0.0,
+    "degree": {
+      "degrees": [
+        0,
+        0,
+        0
+      ],
+      "min_hemisphere_dot": 1.0,
+      "bad_tetrahedra": 0,
+      "degenerate_tetrahedra": 3072,
+      "total_tetrahedra": 3072,
+      "min_positive_preimage_coefficient": 1.0
+    },
+    "wall_energy_fraction": 0.0
+  }
+}
