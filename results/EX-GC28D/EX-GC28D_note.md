@@ -1,0 +1,18 @@
+# EX-GC28D — Sakharov effective metric action (EXPLORATORY)
+
+**Summary:** Covariant scalar and Dirac vacuum determinants generate an Einstein–Hilbert term with the expected coefficient and sign; some scalar curvature couplings produce zero or negative induced kinetic coefficient. A chosen equal-mass boson/fermion balance cancels the regulated volume term while retaining positive curvature stiffness, but this cancellation fails under a mass splitting. Geometry and diffeomorphism invariance are inputs, not emergent outputs. This is a numerical calibration of induced gravity, not a derivation of physical gravity or its strength.
+
+Design/run ChatGPT; PI closure and independent review pending. Plan `spec/EX-GC28DEF_plan.md`. Source `src/exgc28def.py D`; 32 species/cutoff/mass cases with three radii, 8 mixture controls, 4 heat fits; 0.125 CPU-s, 1 thread. References Visser arXiv:gr-qc/0204062; Camporesi-Higuchi arXiv:gr-qc/9505009. Proper-time regulator applied to Euclidean Laplace-type operators; mass factor exp(-M²t); scalar sign -1/2 and Dirac squared determinant +1/2. Normalization W/V=c0-M_Pl² R/2+..., with c0 and M_Pl² cutoff dependent.
+
+| field | heat a1 per R (fit) | predicted M_Pl², Lambda10 M1 | sphere extrapolation |
+|---|---:|---:|---:|
+| scalar xi=0 | .166666671 | .100231 | .100231 |
+| scalar xi=1/6 | -9.59e-11 | 0 | 5.07e-11 |
+| scalar xi=1/3 | -.166666661 | -.100231 | -.100231 |
+| Dirac | -.333333333 | .200462 | .200462 |
+
+Numerical trace on S4 normalized by (4pi t)^2/V, exact scalar and spinor degeneracies, radius 8/16/32. Subtract flat heat density, integrate log-time and extrapolate curvature to zero. Nonzero coefficient relative error ≤8.77e-7, zero absolute ≤5.07e-11. The zero is the leading EH term, not absence of curvature-squared or nonlocal effects. A negative EH coefficient means wrong-sign TT kinetic term if this is the only contribution. Positive sign is necessary, not sufficient for consistency. With equal masses and common regulator, four minimal scalars plus one Dirac cancel c0 exactly by counting degrees of freedom; M_Pl²=.0131143,.135127,.601386,2.49240 at Lambda=2,5,10,20. At Lambda10 changing Dirac mass 1→2 gives M_Pl²=.581094 and c0=-3.41359. Individual scalar c0=-15.5236, Dirac +62.0943, in this proper-time convention. These are bare scheme-dependent terms; no claim cosmological constant solved, no protected equality established, no SI G prediction or absolute vacuum energy.
+
+Linearized Einstein tensor Fourier algebra: pure-gauge norm 8.83e-16, p contraction norm 1.94e-16, TT Rayleigh .87 (expected .87); explicit nonmetric mass addition produces gauge norm .328261. This checks the inferred EH operator, not independent arbitrary-background determinant Ward identities. Flat-space linearization assumes the volume term canceled/renormalized. For a generally covariant matter action metric perturbations couple to conserved stress tensor, so dressed energy including field and interaction stress contributes with correct integrated weak-field monopole for isolated stationary sources. This is conditional on metric coupling and conservation; it does not show the metric, Lorentz signature, gauge redundancy, or universal source emerging microscopically. Higher derivatives, ghosts beyond low-energy EH truncation, full UV completion and dynamical geometry not tested.
+
+Implication: quantum fluctuations can give existing geometry dynamics. Need symmetry or a dynamical mechanism that produces the effective geometry and matter coupling itself; a cutoff and cancellation chosen by hand are not answers to that requirement.
