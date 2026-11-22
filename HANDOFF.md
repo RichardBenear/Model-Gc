@@ -218,8 +218,16 @@ axial/side = 1/γ. PC 1.82 core-h (~27–29 of 40 left), cloud ~0.9 core-h. Next
 
 ## EX-GC26F (Claude, exploratory, PI's PC; 2026-11-21)
 
-Done, awaiting PI closure. Plan d51adae; PC records 1b8ad8a. Two B = 1 knots (26C state, same orientation) attract
+Done, PI CLOSED 2026-11-22. Plan d51adae; PC records 1b8ad8a. Two B = 1 knots (26C state, same orientation) attract
 through their own Nordström field, d = 6 and 9.2, G_N = 0.01, T = 10, each minus a no-gravity control (direct Skyrme push
 ~1.5–2× gravity). Registered readout (baryon centroid) 0.901 and 0.960 of Newtonian prediction: SUPPORTED, narrowly;
 all readouts 4–16% low (candidate: gravity × Skyrme-force cross term, untested). 1/d² favoured (2.20/2.38 vs 2.35;
 1/d 1.53). Energy 2e-10. PC 6.42 core-h (~21–23 of 40 left). Next (PI): white-paper revision for 26A–F, deficit test, or 26E3.
+
+## EX-GC26 series closed (PI, 2026-11-22: "I sign off: 26F and close the series")
+
+26A–F are all closed. 26E3 (isospinning / breathing knot) was not run and would need a new go-ahead. Summary of the chain
+(massless Skyrme reference model + Nordström scalar, not Model Gc): stable lossless knot (26A/A2), Lorentz-correct
+moving knot with an O(h²) lattice P-vs-J gap (26B/B2/B3), binding energy falls with gravity (26E1/E2), knot sources a
+1/r field with active mass = source (26C), coasts with its own field and no drag (26D), two knots attract ~1/d² at
+0.90–0.96 of the Newtonian prediction (26F). Next (PI): white-paper revision for EX-GC26.
