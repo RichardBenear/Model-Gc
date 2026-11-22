@@ -239,7 +239,7 @@ Complete, PI closure pending. Registered plan `spec/EX-GC27AB_plan.md`. Static s
 
 ## EX-GC26E3 (Claude, exploratory, cloud; 2026-11-22)
 
-Done, awaiting PI closure. Plan 4c286fe, stage-2 registration c7e5563. Isospinning B = 1 knot (ω = 0.5, 0.7; kinetic
+Done, PI CLOSED 2026-11-22. Plan 4c286fe, stage-2 registration c7e5563. Isospinning B = 1 knot (ω = 0.5, 0.7; kinetic
 6–12%) in the 26E1 field. Registered baryon-centroid readout NOT SUPPORTED (falls 8%/13% faster than static, near the
 "no extra inertia" alternative). Momentum ledger: weight = energy-coupling prediction to 0.1%, momentum/energy-centroid
 velocity = total energy to 0.5%; the baryon centroid drifts away from the energy centroid when spinning. Untested

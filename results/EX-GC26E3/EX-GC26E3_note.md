@@ -1,6 +1,6 @@
 # EX-GC26E3 — does a spinning knot's internal energy fall and resist force like rest energy? (EXPLORATORY)
 
-Claude, 2026-11-22. PI go-ahead (Richard, 2026-11-22): "Go ahead with the GC26E3 test."
+Claude, 2026-11-22. PI go-ahead (Richard, 2026-11-22): "Go ahead with the GC26E3 test." **PI CLOSED 2026-11-22** ("You can close GC26E3.").
 
 - **Plan:** `spec/EX-GC26E3_plan.md`. Plan and LOG row 4c286fe, pushed about a minute after stage 1 started (see
   Protocol). Stage 2 predictions and criterion c7e5563, pushed before the fall runs.
