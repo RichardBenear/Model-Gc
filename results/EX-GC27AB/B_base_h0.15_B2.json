@@ -1,0 +1,41 @@
+{
+  "parts": [
+    1.0666596852985735,
+    1.2724224228765917,
+    0.045124537662033816
+  ],
+  "E": 2.384206645837199,
+  "R": 1.1482202321663357,
+  "gradient": 2.426897611693124e-08,
+  "virial": -0.029523080440537933,
+  "degree": {
+    "degrees": [
+      -2,
+      -2,
+      -2
+    ],
+    "min_hemisphere_dot": 0.9610115500689088,
+    "bad_tetrahedra": 0,
+    "degenerate_tetrahedra": 684895,
+    "total_tetrahedra": 4826142,
+    "min_positive_preimage_coefficient": 0.015094071098880371
+  },
+  "wall_energy_fraction": 0.0004753280867174811,
+  "h": 0.15,
+  "B": 2,
+  "C0": 0.17839644285107545,
+  "sha256": "2e0f77ab07a964dfa01097b64366e74275f8c16a12ddb7b3d7cb2ef7d13648d6",
+  "optimization": {
+    "iterations": 348,
+    "evals": 364,
+    "success": true,
+    "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+    "E2": 1.1117842229606072,
+    "E4": 1.2724224228765917,
+    "E": 2.3842066458371987,
+    "ratio": 0.8737540324440162,
+    "projected_gradient_max": 2.426897611693124e-08,
+    "cpu_s": 204.02839469899982
+  },
+  "cpu_total": 1443.1653331
+}
