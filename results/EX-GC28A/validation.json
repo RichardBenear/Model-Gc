@@ -1,0 +1,9 @@
+{
+ "hessian_error": 5.274958247980521e-11,
+ "gradient_error": 5.941785823230158e-17,
+ "generalized_eigenvalue_error": 4.263256414560601e-14,
+ "min_lambda": 0.8045741633339442,
+ "python": "3.12.14",
+ "numpy": "2.3.5",
+ "scipy": "1.17.0"
+}
