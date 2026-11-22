@@ -1,6 +1,6 @@
 # EX-GC26F — two knots attracting through their self-generated field (EXPLORATORY)
 
-Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "go ahead with 26F". **PI CLOSED 2026-11-22** ("Go ahead and close E26"; this closes the EX-GC26 series).
+Claude, 2026-11-21. PI go-ahead (Richard, 2026-11-21): "go ahead with 26F".
 
 - **Plan and code:** plan `spec/EX-GC26F_plan.md`, committed with the LOG row before any PC run (d51adae). Code
   `src/exgc26f.py`, driver `src/exgc26f_run.py`.
