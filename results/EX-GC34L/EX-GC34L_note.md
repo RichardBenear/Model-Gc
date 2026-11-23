@@ -1,5 +1,7 @@
 # EX-GC34L — J1's first-order gravitomagnetism error is not in the source or the readout; it is in the geometry (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "Close 34K and 34L", after ChatGPT's follow-up review `review/EX-GC34J_followup_chatgpt_review.md`).
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "yes, go ahead. write the plan and run it." This followed the
 ChatGPT review of 34K (`review/EX-GC34K_chatgpt_review.md`).
 - The plan `spec/EX-GC34L_plan.md` and the `explore/LOG.md` entry were pushed before any run (c9e8537).

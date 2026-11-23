@@ -1,5 +1,7 @@
 # EX-GC34K — the first-order gravitomagnetism error: where it comes from, and whether another re-slicing gradient removes it (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "Close 34K and 34L", after ChatGPT's follow-up review `review/EX-GC34J_followup_chatgpt_review.md`).
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "You can close them and use any inputs you get from the review
 for the next test decision. I don't have any bias toward the 3 options. Maybe you should do all 3."
 - The plan `spec/EX-GC34K_plan.md` and the `explore/LOG.md` entry were pushed before any run (66f3ab8).
