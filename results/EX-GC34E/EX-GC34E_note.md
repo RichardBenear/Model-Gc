@@ -4,9 +4,52 @@ Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "you can close 34D and go
 `spec/EX-GC34E_plan.md` (ab387ca, pushed before the analysis). Code `src/exgc34e.py` → `analysis.json`;
 `src/exgc34e_check.py` → `check.json`. Post hoc: `src/exgc34e_posthoc_modes.py` → `posthoc_modes.json`,
 `src/exgc34e_posthoc_cutoff.py` → `posthoc_cutoff.json`. Our construction, not LaViolette's Model G.
-**PI CLOSED 2026-11-23** (Richard: "go ahead and close 34A to 34E").
+**PI CLOSED 2026-11-23** (Richard: "go ahead and close 34A to 34E"). **Corrected 2026-11-23** after closure (see
+Correction): the vacuum spectrum has a growing mode.
 
-## Conclusion
+## Correction (2026-11-23, after ChatGPT's review)
+
+**The conclusion below first said the lattice has exactly two wave modes and no extra mode. That was wrong.** The
+vacuum equations also have a pair of modes with imaginary frequency, one of which grows exponentially. They were in
+the committed `analysis.json` (E3 `all_finite`, directions 110 and 111), but my code kept only real roots, and my post
+hoc scan searched real frequencies only. ChatGPT found them with a separate reduction; I confirmed them with
+`src/exgc34e_review_unstable.py` → `review_unstable.json` (post hoc, not a re-scoring; E3 P1 stays FAIL as
+registered):
+
+| kh | 110 | 111 | generic (0.8, 0.5, 0.33) | near axis (1, 0.05, 0) |
+|---:|---:|---:|---:|---:|
+| 0.025 | ±2.122i | ±1.415i | ±1.421i | ±1.573i |
+| 0.05 | ±2.124i | ±1.416i | ±1.422i | ±1.574i |
+| 0.1 | ±2.132i | ±1.420i | ±1.426i | ±1.577i |
+| 0.2 | ±2.163i | ±1.436i | ±1.441i | ±1.590i |
+
+Entries are ω/k (convention e^{−iωt}, so +i grows). Each root satisfies all 11 equations (relative residual ≤ 1e-15
+for 111 and generic, ≤ 5e-7 where the pencil also has an exact null direction), and the gauge-fixed kernel's smallest
+singular value falls to ~1e-18 there from ~1e-11 nearby on the imaginary axis.
+
+- **The growth rate does not shrink as the lattice is refined** (Im ω ≈ 1.4–2.1 k for every kh tested). It is not a
+  small lattice correction.
+- **It is the re-slicing direction.** The mode has lapse and lengthwise shift only, with no edge change in this gauge
+  (|n|/|β∥| = Im ω/k). About 99.98% of its metric perturbation at kh = 0.05 is a continuum coordinate change; the
+  curvature-carrying part is ≈ 0.06 (kh)² of it. Where the re-slicing symmetry is exact this direction is pure gauge;
+  where it is broken (off the lattice axes) the lattice turns it into a growing solution. Because it grows
+  exponentially, its small curvature part would still matter in a time-stepped run.
+- **Along the 100 axis this method cannot decide.** The gauge-fixed pencil has three exact null directions there.
+  Wavevectors in a lattice plane (110, and (1, 0.05, 0)) have one exact null direction; generic directions have none.
+- The two oscillating modes stand: their speeds differ from the 34A light speed (0.999896 at kh = 0.05, the same in
+  all three directions) by at most 1.4e-4. ChatGPT quoted 2.5e-4 for the faster 110 branch; I could not reproduce
+  that number and have not resolved the difference.
+
+**Revised verdict.** The forced moving-source result (E4: gravitomagnetism and the transverse momentum constraint)
+stands. The vacuum spectrum does not match linear GR: besides the two light-speed modes there is an unstable branch
+in the re-slicing direction. So 34E does **not** establish GR's constraint structure at finite spacing, and "linear GR
+on the lattice" is too strong. A stability study (34F, not yet approved) must come before any wave-propagation or
+non-linear work.
+
+The original conclusion is kept below, unchanged, for the record. Its wave and constraint-structure statements are
+superseded by this correction.
+
+## Original conclusion (superseded in part, see above)
 
 **Adding one more link variable, a shift (how fast the lattice vertices move relative to the clock-normal
 observers), turns the 34D structure into linear general relativity on the lattice.** The kinetic energy is the
@@ -64,9 +107,10 @@ about 1 of its static value up to ω = 3k and rising above that.
 
 ## What's established, and what isn't
 
-- **Established (linear, flat background):** the shared structure with lapse, shift and Regge edges has GR's
-  constraint structure. Lapse and shift are multipliers (Hamiltonian and momentum constraints). It has GR's static,
-  stationary and radiative linear solutions, with lattice corrections of O((kh)²).
+- **Established (linear, flat background):** GR's static and stationary (moving-source, O(v)) linear solutions, with
+  lattice corrections of O((kh)²), and two light-speed radiative modes. *(Corrected: the original line also claimed
+  GR's constraint structure and only GR's radiative solutions. The growing re-slicing mode in the Correction section
+  contradicts both.)*
 - **Not established:** non-linear gravity (for example perihelion precession or strong fields), a lattice time step
   (here time is continuous), and whether the weakly broken re-slicing symmetry is harmless once the equations are
   stepped in time and the gauge must be fixed explicitly. Regge-type lattice gravity is known to have this issue at
@@ -79,7 +123,7 @@ about 1 of its static value up to ω = 3k and rising above that.
 About 0.2 core-hour of the 2 cap: registered analysis 5 CPU-s, check seconds, post hoc mode scans about 10 minutes.
 Linux cloud, Python 3.13.18, numpy 2.5.3, scipy 1.18.1, mpmath 1.3.0.
 
-## Suggested next (not approved)
+## Suggested next (not approved; superseded by the Correction: 34F should be a stability study)
 
 One option is to step back and consolidate. Write 34A–34E into a white-paper v0.5 section ("one shared structure:
 universal coupling, light bending, gravitomagnetism, waves"), with ChatGPT doing the recomputation and review the GC34

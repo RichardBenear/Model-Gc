@@ -21,9 +21,12 @@ positive answer: Regge calculus does it. The only lattice effect is in the Newto
 dispersion at kh = 0.05.
 
 **Two registered light-bending criteria failed in the packet test (D4).** The packet bent 2.056 × the lapse-only
-amount and the rays 2.062 ×, against a window of 2 ± 3%. In a post hoc rerun on the same geometry in isotropic
-coordinates, the ratios were 1.989 (field) and 2.000 (rays). So the excess is a coordinate effect of the finite
-early/late readout windows. The solved metric carries a relabelling part, which an asymptotic or straight-ray
+amount, inside the window of 2 ± 3% (up to 2.06), and the rays 2.0615 ×, just outside it. P5 required both, so it
+failed on the rays. *(Corrected 2026-11-23 after ChatGPT's review: this paragraph and the table first said both
+ratios missed.)* In a post hoc rerun on the same geometry in isotropic coordinates, the ratios were 1.989 (field)
+and 2.000 (rays). That points to a coordinate effect of the finite early/late readout windows. It shows the readout
+depends on the metric representation; a detector-frame observable would be needed to establish how much is
+coordinate. The solved metric carries a relabelling part, which an asymptotic or straight-ray
 readout does not see but a direction measured 10–18 units from the source does. Separately, rays bent 3–3.5% more
 than the field in both backgrounds, which is the opposite sign to 34A-r. That gap put the Regge case outside the
 registered field-versus-ray tolerance. I haven't traced its cause.
@@ -46,7 +49,7 @@ structure gains a shift-like link variable. That is the next structural question
 | D2 P2 | k²h³n̂/(κM̂) = −½ within 1% at kh = 0.05 | −0.50010, −0.50005, −0.50004 | PASS |
 | D2 P3 | exactly one O(1) gauge-fixed eigenvalue | one at 120; the other seven ∝ k² | as expected |
 | D3 P4 | straight-ray ratio within 2% of 2 (Gaussian, knot B1, knot B2; b = 6, 8, 12) | 2.000000000000 in all 9 | PASS (see note below) |
-| D4 P5 | packet and ray ratio Regge/lapse-only within 3% of 2 | 2.056 (field), 2.062 (rays) | **FAIL** |
+| D4 P5 | packet and ray ratio Regge/lapse-only within 3% of 2 | 2.056 (field, inside), 2.0615 (rays, outside) | **FAIL** (rays) |
 | D4 P6 | \|α_field − α_ray\| ≤ 5% of \|α_ray(lapse)\| = 8.1e-4 | lapse 4.7e-4; Regge 1.06e-3 | lapse PASS, **Regge FAIL** |
 | D5 P7a | ω ≠ 0: reduced (no-shift) system solvable, momentum constraint automatic, Riemann = GR | all three hold (symbolic) | as expected |
 | D5 P7b | spatial vector part ∝ 1/ω; k ⊥ v breaks it | h_xy = −2κρv_y/(k²v_x); at k ⊥ v the momentum constraint misses by κρv_y | as expected |
