@@ -3,6 +3,7 @@
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "go ahead with 34C". Plan `spec/EX-GC34C_plan.md` (52b0c96,
 pushed before the analysis). Code `src/exgc34c.py` (symbolic) → `analysis.json`; `src/exgc34c_check.py` (numerical)
 → `check.json`. Static, linear, weak field. Our construction, not LaViolette's Model G.
+**PI CLOSED 2026-11-23** (Richard: "go ahead and close 34A-r, 34B, 34C and proceed with 34D").
 
 ## Conclusion
 

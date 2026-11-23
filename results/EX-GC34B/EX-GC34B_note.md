@@ -3,6 +3,7 @@
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "go ahead with 34B". Plan `spec/EX-GC34B_plan.md` (7482f34,
 pushed before the runs). Code `src/exgc34b.py`; record `sources.json`; regenerated knot records in `states_h*/`.
 Our construction, not LaViolette's Model G.
+**PI CLOSED 2026-11-23** (Richard: "go ahead and close 34A-r, 34B, 34C and proceed with 34D").
 
 ## Conclusion
 
