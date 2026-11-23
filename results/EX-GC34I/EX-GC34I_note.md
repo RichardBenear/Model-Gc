@@ -1,5 +1,7 @@
 # EX-GC34I — an exact lattice re-slicing identity gives a stable kinetic term; registered verdict fails on normalisation and first-order E4 (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "you can close 34I").
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "Go ahead with deriving a kinetic term from an exact lattice
 re-slicing identity".
 - The plan `spec/EX-GC34I_plan.md` and the `explore/LOG.md` entry were pushed before any run (a744f26).
