@@ -1,5 +1,7 @@
 # EX-GC34J — the re-slicing-exact kinetic term is stable and gives two clean waves; its first-order gravitomagnetism error is forced by the identity (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "You can close them", re 34I/34J, after ChatGPT's review `review/EX-GC34I-34J_chatgpt_review.md`). The review narrows one claim: that the first-order E4 error is fixed for all exact solutions is strongly suggested, not established (only three kernels and a max over nine cases were compared). 34K tests it.
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "you can close 34I. Go ahead with the suggested next step."
 - The plan `spec/EX-GC34J_plan.md` and the `explore/LOG.md` entry were pushed before any run (b77c1d1).
 - Code: `src/exgc34j.py`.
