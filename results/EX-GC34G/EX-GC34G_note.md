@@ -1,5 +1,7 @@
 # EX-GC34G — no tested kinetic term passes; one candidate is free of growth but has new problems (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "I sign off on 34F and 34G"). Reviewed by ChatGPT 2026-11-23: `review/EX-GC34F-34G_chatgpt_review.md`.
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "Go ahead with 34G". The plan `spec/EX-GC34G_plan.md` and the
 `explore/LOG.md` entry were pushed before any run (705dc8f). Code: `src/exgc34g.py`.
 - Registered outputs: `spec` → `candidates.json`, `evolve` → `evolve.json`, `check` → `check.json`.

@@ -1,5 +1,7 @@
 # EX-GC34F — the 34E growing mode is real, survives the continuum limit, and comes from the per-tetrahedron kinetic term (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "I sign off on 34F and 34G"). Reviewed by ChatGPT 2026-11-23: `review/EX-GC34F-34G_chatgpt_review.md`.
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "run 34F". The plan `spec/EX-GC34F_plan.md` and the
 `explore/LOG.md` entry were pushed before any run (920041e). Code: `src/exgc34f.py`.
 - Registered outputs: `f1` → `spectrum.json`, `f2` → `evolve.json`, `f3` → `mechanism.json`.
