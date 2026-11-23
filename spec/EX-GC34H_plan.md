@@ -1,6 +1,7 @@
 # EX-GC34H — constraint-reduced analysis of the cube-mean kinetic term B (EXPLORATORY)
 
-Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "go ahead with the B run first." This plan and the
+Claude, 2026-11-23. Pre-run edit (before any computation): the zero-root handling in H3 and H4 is now defined by a
+zero cluster, because defective zero roots split numerically. PI go-ahead (Richard, 2026-11-23): "go ahead with the B run first." This plan and the
 `explore/LOG.md` entry are pushed before any 34H computation. Cap: 2 core-hours on the cloud; I expect under 0.1. Our
 construction, not LaViolette's Model G. It follows priority 1 of ChatGPT's review
 (`review/EX-GC34F-34G_chatgpt_review.md`).
@@ -56,14 +57,18 @@ The light-speed reference is `exgc34e.light_speed(q)`.
 - **H3: mode count and no growth.** Eigenvalues of F give ω² = −λ.
   - A reduced solution is physical if it also satisfies the momentum rows: relative residual ≤ 1e-8, using the full
     11-variable M(ω) with the reconstructed x.
+  - The zero cluster is the eigenvalues with |λ| ≤ 1e-6 ‖F‖₂. Defective zero eigenvalues split numerically, so the
+    cluster is analysed only through H4. Its size is reported against the generalised-null-space dimension of L.
   - Pass if, in every case:
-    - no eigenvalue has |Im ω| > 1e-6 |ω| with |ω| > 1e-6 k;
+    - no eigenvalue outside the zero cluster has |Im ω| > 1e-6 |ω|;
     - at kh ≤ 0.05, exactly two physical roots with ω > 0 and 0 < ωh < 0.5, counted with multiplicity;
-    - every other physical root is either zero (|ω| ≤ 1e-6 k) or has ωh ≥ 0.5.
+    - every other physical root outside the zero cluster has ωh ≥ 0.5.
   - Internal check: each physical root satisfies the full 11-variable equation with residual ≤ 1e-10.
 - **H4: the zero-frequency sector is pure gauge.**
-  - Take the generalised null space of the first-order form L = [[0, I], [F, 0]].
-  - Its solutions are polynomial in t. Keep those that satisfy the momentum rows at every order in t.
+  - Take the invariant subspace Z of the first-order form L = [[0, I], [F, 0]] for its eigenvalues with
+    |μ| ≤ (1e-6 ‖F‖₂)^½, from an ordered Schur form. Solutions there are z(t) = Z exp(N t) c with N = Z†LZ.
+  - Keep the solutions that satisfy the momentum rows at t = 0, 1/k and 2/k (singular value ≤ 1e-8 of the stacked
+    map's scale).
   - For each kept solution, form the full spacetime metric (n, β = 0, edges via the 34D map) and its linearised
     Riemann tensor at t = 0 and t = 1/k.
   - The measure is r = max_t |R| / (k² max_t |h|).
