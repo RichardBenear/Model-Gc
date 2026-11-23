@@ -1,0 +1,9 @@
+{
+ "solutions": {
+  "J1": {
+   "exists": true,
+   "I0": true,
+   "note": "34J J1 (forward gradient, range 1, mu = -1, closest to T)"
+  }
+ }
+}

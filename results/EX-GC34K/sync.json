@@ -1,0 +1,62 @@
+{
+ "J1": {
+  "runs": [
+   {
+    "dir": "generic",
+    "wave_w_over_k": 0.9999002123893198,
+    "n_nonzero_seeds": 5,
+    "n_nonzero_total": 5,
+    "zero_cluster_dim": 8,
+    "zero_kept": 4,
+    "dt": {
+     "dt": 0.0006652920543636635,
+     "steps": 1511231,
+     "sample_every": 377,
+     "max_constraint": 8.0982915869974e-13,
+     "wave_tidal_amp_change": 9.267142608848644e-12,
+     "seeds_nonzero_rel": 4.115616673141867e-08,
+     "seeds_zero_rel": 6.839681720894419e-13
+    },
+    "dt2": {
+     "dt": 0.00033264602718183174,
+     "steps": 3022462,
+     "sample_every": 755,
+     "max_constraint": 7.849004221380683e-12,
+     "wave_tidal_amp_change": 3.919975455346503e-11,
+     "seeds_nonzero_rel": 4.122073953731177e-08,
+     "seeds_zero_rel": 5.954453075815675e-13
+    },
+    "G4pp": true
+   },
+   {
+    "dir": "d01+",
+    "wave_w_over_k": 0.9998757630272661,
+    "n_nonzero_seeds": 5,
+    "n_nonzero_total": 5,
+    "zero_cluster_dim": 8,
+    "zero_kept": 4,
+    "dt": {
+     "dt": 0.0006658013189054263,
+     "steps": 1510112,
+     "sample_every": 377,
+     "max_constraint": 6.663437502649793e-13,
+     "wave_tidal_amp_change": 3.615296950698621e-11,
+     "seeds_nonzero_rel": 4.582357018413569e-08,
+     "seeds_zero_rel": 5.766913397633551e-13
+    },
+    "dt2": {
+     "dt": 0.0003329007696765805,
+     "steps": 3020223,
+     "sample_every": 755,
+     "max_constraint": 4.626993754744133e-13,
+     "wave_tidal_amp_change": 1.4180023821808163e-10,
+     "seeds_nonzero_rel": 4.5817039403250153e-08,
+     "seeds_zero_rel": 6.139574472342987e-13
+    },
+    "G4pp": true
+   }
+  ],
+  "G4pp": true
+ },
+ "cpu_s": 4.992525186
+}
