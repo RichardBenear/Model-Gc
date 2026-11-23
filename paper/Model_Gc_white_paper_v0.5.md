@@ -2,8 +2,9 @@
 
 ### From reaction–diffusion particles to relativistic topological field configurations and a shared lattice geometry
 
-**Version 0.5 DRAFT, 2026-11-23: documents the research through EX-GC34E (EX-GC34A–E closed by the PI on
-2026-11-23). Not frozen. ChatGPT recomputation and review are pending.**
+**Version 0.5 DRAFT, revision 2 (2026-11-23): documents the research through EX-GC34E (EX-GC34A–E closed by the PI on
+2026-11-23). Not frozen. Revised after ChatGPT's review of the first draft, which found a growing vacuum mode in
+EX-GC34E (Section 10.5) and several overstatements; the changes are listed in Appendix C.**
 PI: Richard Benear. Drafted by Claude (Anthropic) from the records in this repository. v0.3 (through EX-GC25) was
 revised after two rounds of review by ChatGPT, both endorsed by the PI. v0.4 (through EX-GC26) was frozen on
 2026-11-22. This v0.5 adds Section 9 (the intermediate explorations EX-GC27–33, mostly by ChatGPT) and Section 10
@@ -64,19 +65,23 @@ discrete lattice of tokens.
   reproduced known results or failed in informative ways. The most useful outcome was a condition any
   energy-sources-geometry mechanism must meet: the clock part must be sourced by total energy (GC33A).
 - **One shared lattice structure (EX-GC34).** Every field moves through the same link variables: a lapse (clock rate)
-  per site, a shift, and link weights that carry the spatial metric. *Demonstrated* at linear order on a flat
-  background:
-  - all fields share one light cone, and a prescribed GR-like field bends light twice as much as a clock-only field;
-  - the clock part is sourced by total energy, binding included, for every matter type tested;
-  - GR's light bending (PPN γ = 1) follows once gravity's own energy obeys the same clock rule as matter's and is a
-    single relabelling-invariant functional of the geometry;
+  per site, a shift, and link weights that carry the spatial metric. At linear order on a flat background:
+  - the tested matter fields share one assigned metric, so one light cone, and a prescribed GR-like field bends light
+    twice as much as a clock-only field (*by construction*; verifies code and readout);
+  - the matter Hamiltonian sources the assigned lapse, binding included (*follows from the chosen matter action*);
+  - GR's light bending (PPN γ = 1) follows, in the static weak-field model studied, once gravity's own energy obeys
+    the same clock rule as matter's and is a single relabelling-invariant functional of the geometry (*conditional
+    derivation*);
   - a lattice gravity energy of Regge type (lapse × deficit angles) gives linearised GR's static field exactly, at
-    every lattice wavelength;
-  - adding a shift link with the matching kinetic energy gives GR's gravitomagnetism (to 4e-4) and exactly two wave
-    modes moving at the lattice light speed (to 1.4e-4).
+    every lattice wavelength (*demonstrated*; the strongest result of the series);
+  - adding a shift link with a lattice kinetic energy gives GR's gravitomagnetism for a prescribed moving source (to
+    4e-4) and two wave modes at the lattice light speed (to 1.4e-4), **but also an exponentially growing vacuum mode**
+    off the lattice axes, whose growth rate does not shrink as the lattice is refined. So this kinetic action does not
+    give a stable linear GR.
 
-  *Imposed:* the clock rule for gravity's own energy and the choice of Regge's action. *Not shown:* non-linear
-  gravity, a time-stepped lattice, and any link to Model Gc's consumed carrier.
+  *Imposed:* the clock rule for gravity's own energy, Regge's action and the kinetic action. *Not shown:* a stable
+  dynamical geometry, a knot and geometry evolved together from one action, non-linear gravity, and any link to Model
+  Gc's consumed carrier.
 
 ---
 
@@ -90,7 +95,8 @@ discrete lattice of tokens.
 | Conservative, relativistic field configurations are a promising alternative | 1+1 D external-potential check | EX-GC25 |
 | A topological particle with its own scalar gravity: rest energy = inertial mass, binding energy gravitates, 1/r self-field, drag-free coasting, mutual ~1/d² attraction | Demonstrated in a reference model (Skyrme + Nordström), weak coupling, one or two resolutions | EX-GC26A–F |
 | Vacuum zero-point, induced-gravity and causal-rule routes do not by themselves give a common metric coupling; a universal source must make the clock part respond to total energy | Exploratory screens and exact counterexamples (mostly ChatGPT) | EX-GC27–33 |
-| One shared lattice structure (lapse, shift, Regge edge lengths) that every field moves through reproduces linear GR: common light cone, energy as the clock source, γ = 1 light bending, gravitomagnetism, two light-speed waves | Demonstrated at linear order on a flat background (cone and energy source by construction); the registered criteria that failed were traced to plan, readout or method flaws (Section 10, Appendix B) | EX-GC34A–E |
+| One shared lattice structure (lapse, shift, Regge edge lengths) gives a strong weak-field benchmark: common light cone and energy as the clock source (by construction), γ = 1 from two stated rules, GR's static field exactly from a Regge energy, gravitomagnetism for a prescribed moving source | Demonstrated at linear order on a flat background; registered failures recorded (Section 10, Appendix B) | EX-GC34A–E |
+| The chosen shift kinetic action has an exponentially growing vacuum mode (the re-slicing direction, off the lattice axes), so the linear dynamics is not stable GR | Found by ChatGPT's review, confirmed post hoc; growth rate ≈ 1.4–2.1 k, not shrinking with spacing | EX-GC34E (post hoc) |
 
 ---
 
@@ -461,8 +467,10 @@ coupling.
 
 - **The field forms causally and is 1/r.** It grows as a front moving at c. Behind the front r·Φ is constant to 2%
   from r = 3 to 10.
-- **Its strength equals the knot's own source.** A/G_N is 0.995 of the integrated ρ. As G_N → 0 it tends to 2E₂,
-  the lattice rest energy, to within 0.4%.
+- **Its strength equals the knot's own source.** A/G_N is 0.995 of the integrated ρ. As G_N → 0 it tends to 2E₂ to
+  within 0.4%. 2E₂ is the knot's scalar (Nordström) source; its rest energy is E₂ + E₄. The two agree only when the
+  Derrick balance E₂ = E₄ holds, which the lattice breaks (E₂/E₄ = 0.88 at h = 0.2, Section 8.1). *(Corrected in
+  revision 2: the first draft called 2E₂ the rest energy.)*
 - **Active mass of the bound pair.** B2 ÷ B1 is 1.936. The lattice prediction is 1.947, the energy ratio 1.922, and
   no binding would give 2. So binding energy is a weaker source, as 26E found it is a weaker falling mass.
 - **Stable.** Total energy (knot plus field) is conserved to 3e-12. The knot keeps its degree and does not move.
@@ -566,13 +574,15 @@ summarised briefly here; each has its own note and review.
   invariant) rule can still carry two different signal speeds, so causal invariance is necessary for the programme's
   goal but does not by itself give one light cone (31A). Archived rewriting rules from a related project showed no two-event causal
   diamonds (31B1), and five hand-built causally invariant rules each had a structural defect (31B1B–F). Positive zero-point link energy favours deleting links, not forming lattices (32C). The
-  most useful outcome was 33A: any mechanism in which energy sources the geometry must make the clock part respond to
-  total energy, S = κ(H − E₀). Review: `review/EX-GC31A-33A_claude_review.md`. The proposed GC33B (IKKT matrix model)
+  most useful outcome was 33A: in its coupling framework, a uniform lapse variation shows that the clock part must be
+  sourced by the integrated total energy, S = κ(H − E₀). That is an integrated condition. It leaves open the local
+  energy and momentum identities a dynamical geometry needs. Review: `review/EX-GC31A-33A_claude_review.md`. The proposed GC33B (IKKT matrix model)
   was not pursued (PI decision, 2026-11-22).
 
 *(Interpretation.)* The series did not find a free origin for the coupling, but it sharpened the question. One
 structure must build every field's kinetic term (the matrix-model lesson of GC33A), and its clock part must be sourced
-by total energy. EX-GC34 tests exactly that, inside our own lattice framework.
+by total energy. EX-GC34 builds such a structure inside our own lattice framework, with the couplings chosen rather
+than derived.
 
 ---
 
@@ -586,7 +596,8 @@ coefficient:
 - from 34E, a **shift** β per site: how fast the lattice points move relative to the clock-normal observers.
 
 A field's static energy is multiplied by N and its kinetic energy divided by N. That is the "clock rule". Plan:
-`docs/EX-GC34_outline.md`. Claude designed and ran all five stages; ChatGPT recomputation is pending. Each stage had a
+`docs/EX-GC34_outline.md`. Claude designed and ran all five stages. ChatGPT reviewed them and recomputed parts with
+separate analysis code on the committed kernels (2026-11-23); its findings are folded in below. Each stage had a
 plan and an `explore/LOG.md` entry pushed before its runs.
 
 ### 10.1 One light cone, and textbook bending on prescribed fields (34A, 34A-r)
@@ -600,13 +611,17 @@ plan and an `explore/LOG.md` entry pushed before its runs.
   5% tolerance. The first run (34A) failed its registered readout because packet tails wrapped around too small a
   periodic box. That was a plan flaw, and 34A-r reran the study with a wrap-immune circular centroid.
 - **What it means.** This is by construction: it verifies the code and the readout. It does not show that matter
-  produces such fields.
+  produces such fields. The circular centroid is immune to wrap-around, but a spread or skewed packet can still make
+  it differ from a spectral or detector-based direction, and the separate M2 estimators differed by about 20%, which
+  limits the precision independently established for that readout (ChatGPT review).
 
 ### 10.2 What sources each part (34B)
 
 - **Clock (lapse) part.** For every field built on the structure, the lapse source is the energy density, exactly
-  (≤ 1e-6 in all 7 cases). This includes the B = 2 knot's binding energy and moving packets. *Demonstrated:* the
-  GC33A condition holds by construction.
+  (≤ 1e-6 in all 7 cases). This includes the B = 2 knot's binding energy and moving packets. It follows from the
+  chosen matter action L = K/N − NU: the GC33A condition holds by construction. For the knot at rest the code assigns
+  the source directly; the moving-packet finite differences are a genuine implementation check. A boosted knot, a
+  dynamical free-fall comparison and gravitational self-energy were outside the test.
 - **Spatial part.** Its source is the stress tensor. For a knot at rest the stress integrates to the lattice Derrick
   offset only: 6.4% of E at h = 0.2 and 3.6% at h = 0.15, which is the h² scaling, so it goes to zero in the continuum
   (von Laue). Radiation and moving matter do source it.
@@ -627,9 +642,11 @@ Static, linear, in Fourier space (sympy), with a separate numerical deflection c
 | pure clock + linear gauge invariance | still free |
 | **pure clock + one relabelling-invariant energy (√γR, static Fierz–Pauli = ADM)** | **1** |
 
-*Demonstrated:* both rules are needed, and together they give exactly linearised GR's static equations with a
-Newtonian lapse. The pure-clock rule is the matter rule of 10.2 applied to gravity itself. The covariance rule is the
-open question for a lattice.
+*Demonstrated (conditional derivation):* in the static, weak-field, two-derivative model studied, both rules are
+needed, and together they give exactly linearised GR's static equations with a Newtonian lapse. The pure-clock rule is
+the matter rule of 10.2 applied to gravity itself. The covariance rule is continuum covariance of the chosen functional
+N√γR, which is a different requirement from relabelling the points of a graph; what supplies it on a lattice is open.
+The numerical ray check reuses the solved spectra, so it checks the deflection readout rather than the derivation.
 
 ### 10.4 A lattice-native covariant energy: Regge calculus (34D)
 
@@ -642,40 +659,60 @@ open question for a lattice.
   dispersion at kh = 0.05. Implementation checks pass, including a direct non-linear Regge sum (1e-5).
 - **Light bending.** A straight-ray readout gives a ratio of exactly 2 for Gaussian and knot sources. That is an
   identity for rays along lattice edge directions.
-- **Registered failure.** The packet test failed its registered window (2 ± 3%): the packet bent 2.056 × and the
-  rays 2.062 × the lapse-only amount. On the same geometry written in isotropic coordinates (post hoc), they bent
-  1.989 × and 2.000 ×. So the excess comes from the coordinates. The direction was measured 10–18 units from the mass,
-  which is coordinate-dependent, and the plan should have used an asymptotic readout. Rays bent about 3% more than
-  the packets in both backgrounds, the opposite sign to 34A-r. That cause is not traced.
+- **Registered failure.** The packet test (P5) needed both the packet and the ray ratio within 2 ± 3%. The packet
+  bent 2.056 × the lapse-only amount, inside the window; the rays bent 2.0615 ×, just outside it, so P5 failed.
+  *(Corrected in revision 2: the first draft said both missed.)* On the same geometry written in isotropic
+  coordinates (post hoc), they bent 1.989 × and 2.000 ×. That points to a coordinate effect: the direction was
+  measured 10–18 units from the mass. It shows the readout depends on the metric representation; a detector-frame
+  observable with consistently transformed launch and measurement would establish how much is coordinate. Rays bent
+  about 3% more than the packets in both backgrounds, the opposite sign to 34A-r, so P6 (field versus ray) also failed
+  in the isotropic rerun. That cause is not traced.
+- **Review.** ChatGPT inserted the conformal edge solution directly into the static kernel at six further
+  wavevectors, including zone-boundary points: the edge equations cancelled to round-off and the lapse equation matched
+  the lattice Poisson symbol. This corroborates the finite-spacing identity for this energy-only kernel.
 - **Moving sources (analytic).** Without a shift, a moving mass's gravitomagnetic field has to be stored in the
   spatial metric with amplitude ∝ 1/(k·v), and it is lost for modes with k ⊥ v. So the structure needs a shift.
 
-### 10.5 Adding the shift: linear GR on the lattice (34E)
+### 10.5 Adding the shift: gravitomagnetism, and an unstable vacuum branch (34E)
 
 - **Construction.** The shift β is the velocity of the lattice points relative to the clock-normal observers. Each
   tetrahedron's strain rate comes from its 6 edge-length rates minus what the vertex motion explains. The kinetic
   energy is the lattice DeWitt form (1/2κ) Σ V (K_ijK_ij − K²)/N, so the clock rule applies again. Lapse and shift
-  enter as multipliers, which gives GR's two constraints.
-- **Gravitomagnetism.** *Demonstrated:* the linearised Riemann tensor of a moving source matches linearised GR to
-  4.2e-4 at kh = 0.05, shrinking as k². For motion perpendicular to the wavevector (34D's failing case) the momentum
-  constraint holds to 1e-15.
-- **Gravitational waves.** *Demonstrated (post hoc scan):* there are exactly two modes in every direction, moving
-  within 1.4e-4 of the light speed that matter has on the same lattice at kh = 0.05. No other mode appears from
-  1e-4 k up to the lattice cutoff. Off the lattice axes the two polarisations split by 2e-4 (∝ k²), which is lattice
-  anisotropy (Figure 10b).
-- **Registered failure.** The registered mode-count method failed (it found 0, 1 and 2 modes along 100, 110 and 111).
-  It used a matrix pencil, and that pencil is singular wherever the lattice keeps the time-relabelling (re-slicing)
-  symmetry exactly. That symmetry is exact for waves along the axes and broken at O((kh)²) elsewhere. The breaking
-  produced no extra mode here, but it leaves one weakly fixed direction that a time-stepped or non-linear version
-  must watch.
+  have no time derivatives, as in GR. Whether their equations act as GR's two constraints depends on the lattice
+  keeping GR's re-slicing symmetry, and it does not (below).
+- **Gravitomagnetism.** *Demonstrated:* for a prescribed moving source, the linearised Riemann tensor matches
+  linearised GR to 4.2e-4 at kh = 0.05, shrinking as k². For motion perpendicular to the wavevector (34D's failing
+  case) the momentum constraint holds to 1e-15. A forced solve like this can succeed even when the vacuum has an
+  unstable mode, so it does not test stability.
+- **Gravitational waves.** *Demonstrated (post hoc):* two oscillating modes in every direction, moving within
+  1.4e-4 of the light speed that matter has on the same lattice at kh = 0.05. Off the lattice axes the two
+  polarisations split by 2e-4 (∝ k²), which is lattice anisotropy (Figure 10b). ChatGPT quoted 2.5e-4 for the faster
+  face-diagonal branch; we could not reproduce that figure, and the difference is unresolved (both are inside the
+  registered 1e-3).
+- **A growing vacuum mode.** *Found by ChatGPT's review, confirmed post hoc* (`src/exgc34e_review_unstable.py`): the
+  vacuum equations also have a pair of modes with imaginary frequency, so one grows exponentially. Im ω/k is 1.416
+  (body diagonal), 1.422 (a generic direction), 2.124 (face diagonal) and 1.574 just off the axis, at kh = 0.05, and
+  it does not shrink as the lattice is refined (1.415 → 1.436 for the body diagonal from kh = 0.025 to 0.2; Figure
+  10c). Each root satisfies all eleven linear equations to round-off. The mode contains only lapse and lengthwise
+  shift: it is the re-slicing direction, about 99.98% a coordinate change at kh = 0.05, with a curvature-carrying part
+  of about 0.06 (kh)². Where the re-slicing symmetry is exact this direction is pure gauge; off the axes the lattice
+  breaks the symmetry at O((kh)²) and turns it into a growing solution. Along the axes themselves this method cannot
+  decide, because the pencil is degenerate there. The roots were already in the committed eigenvalue output; my
+  registered code kept only real roots and my post hoc scan searched only real frequencies, so the first draft's claim
+  of "exactly two modes and no other" was wrong. Regge-type lattice gravity is known to break this symmetry (Bahr and
+  Dittrich 2009); here it shows up already at linear order.
+- **Registered failure.** The registered mode-count method failed (it found 0, 1 and 2 modes along 100, 110 and 111),
+  because its matrix pencil is singular where the lattice keeps the re-slicing symmetry exactly and nearly singular
+  elsewhere.
 
 ![Figure 10](figures/wp_gc34_bending_waves.png)
 
 **Figure 10.** (a) Light deflection divided by the lapse-only deflection for a massless packet (blue) and the ray
 prediction (orange) on the shared lattice: prescribed Nordström, lapse-only and GR-like fields (34A-r), and the
 Regge-solved field of a mass as solved (34D, registered) and in isotropic coordinates (34D, post hoc). (b)
-Gravitational-wave speeds on the lattice (34E, post hoc scan) for three directions, against the light speed of a
-massless matter field on the same structure. Generated by `src/whitepaper_figures_v05.py` from committed records. The
+Oscillating gravitational-wave speeds on the lattice (34E, post hoc scan) for three directions, against the light
+speed of a massless matter field on the same structure. (c) Growth rate Im ω/k of the unstable re-slicing branch
+(34E, post hoc review check) against lattice spacing: it does not go to zero as kh → 0. Generated by `src/whitepaper_figures_v05.py` from committed records. The
 34A-r cone figure is `figures/exgc34ar_cone.png`.
 
 ### 10.6 What EX-GC34 does and does not show
@@ -686,18 +723,24 @@ massless matter field on the same structure. Generated by `src/whitepaper_figure
 | Clock part sourced by total energy, binding included | Demonstrated, by construction (34B) |
 | γ = 1 light bending selected by two stated rules | Demonstrated analytically (34C) |
 | Lattice gravity energy giving GR's static field | Demonstrated exactly at linear order (34D, Regge) |
-| Gravitomagnetism and two light-speed wave modes | Demonstrated at linear order (34E) |
-| The clock rule for gravity's own energy, and Regge's action | Imposed (motivated, not derived) |
+| Gravitomagnetism for a prescribed moving source | Demonstrated at linear order (34E) |
+| Two light-speed wave modes | Demonstrated at linear order (34E, post hoc) |
+| Stable vacuum dynamics | **No:** a growing re-slicing mode off the axes, rate ≈ 1.4–2.1 k at every spacing tested (34E, post hoc) |
+| Re-slicing symmetry off the lattice axes | Broken at O((kh)²), and the breaking produces the growing mode |
+| The clock rule for gravity's own energy, Regge's action, the kinetic action | Imposed (motivated, not derived) |
+| A knot and tensor geometry evolved together from one fully varied action | Not done (34D used an energy-only source, 34E a prescribed Fourier source) |
 | Non-linear gravity (perihelion, strong fields), time-stepped lattice | Not tested |
-| Re-slicing symmetry off the lattice axes | Broken at O((kh)²); no extra mode at linear order |
 | Link to Model Gc's consumed carrier or reaction–diffusion particles | None yet |
 | A discrete, causally invariant rule | Not attempted |
 
 *(Interpretation.)* Section 8 gave a particle that inherits relativistic behaviour from its action. Section 10 gives a
-lattice geometry that every field shares, whose own dynamics is that of linear GR once two rules are accepted: the
-same clock rule for gravity as for matter, and a relabelling-invariant gravity energy. The tensor part that Section 8
-lacked is now present, at linear order. It is still a continuous field theory on a fixed lattice, and much of it is
-known physics (ADM, Regge calculus) rediscovered inside our framework rather than new physics.
+lattice geometry that the tested matter fields share. In summary: the matter sectors share an assigned metric; the
+matter Hamiltonian sources an assigned lapse; the chosen curvature action reproduces a strong static GR benchmark;
+and the chosen kinetic action gives promising moving-source results alongside an unstable vacuum branch. No EX-GC34
+stage evolved a knot and tensor geometry together from one fully varied action. It is a continuous field theory on a
+fixed lattice, much of it known physics (ADM, Regge calculus) rediscovered inside our framework. The resemblance
+between the role of G in SQK and the lapse does not yet connect a supplied, consumed, diffusing carrier to a
+Hamiltonian constraint, nor account for the spatial metric and shift.
 
 Records: `results/EX-GC34A`, `EX-GC34Ar`, `EX-GC34B`, `EX-GC34C`, `EX-GC34D`, `EX-GC34E`, each with its note, plan in
 `spec/`, and code `src/exgc34*.py`. Cloud compute for the whole series was about 4.2 core-hours.
@@ -726,15 +769,15 @@ flowchart TD
   O --> P["Where does the coupling come from?<br/>vacuum, emergent and causal-rule screens (EX-GC27–33)"]
   P --> Q["One shared lattice structure: one cone,<br/>energy sources the clock (EX-GC34A–B)"]
   Q --> R["γ = 1 needs clock rule + covariance (34C);<br/>Regge gives GR static field (34D)"]
-  R --> S["Shift link: gravitomagnetism and<br/>two light-speed waves (34E)"]
-  S --> M["Open: non-linear gravity, time-stepped lattice,<br/>a discrete causal rule, quantum spin, link back to Gc"]
+  R --> S["Shift link: gravitomagnetism, two light-speed waves,<br/>and a growing re-slicing mode (34E)"]
+  S --> M["Open: a stable kinetic action, origin of the coupling,<br/>a discrete causal rule, quantum spin, link back to Gc"]
 ```
 
 The gravity, topology and inertia lines developed separately and pointed to the same candidate: a conservative,
 localized, relativistic field configuration with topological stability, rest energy equal to inertial mass, and
 gravitational sourcing at once. EX-GC26 showed that such a configuration works in a reference model, with a scalar
-coupling chosen rather than derived. EX-GC34 then replaced the scalar with a shared lattice geometry whose linear
-dynamics is GR's.
+coupling chosen rather than derived. EX-GC34 then replaced the scalar with a shared lattice geometry that reproduces
+GR's static and moving-source weak fields, but whose chosen kinetic action has an unstable vacuum branch.
 
 ---
 
@@ -759,16 +802,20 @@ dynamics is GR's.
   (two resolutions); a self-generated 1/r field with active mass equal to the energy source; drag-free coasting with a
   co-moving, contracted field; mutual attraction ~1/d² at 0.90–0.96 of Newtonian strength.
 - From one shared lattice structure (EX-GC34, Section 10), at linear order on a flat background: one light cone for
-  every field; the clock part sourced by total energy including binding; γ = 1 light bending selected by the clock
-  rule plus a relabelling-invariant gravity energy; GR's static field exactly from a Regge energy; GR's
-  gravitomagnetism and two light-speed gravitational-wave modes once a shift link is added.
+  the tested fields and the lapse sourced by total energy including binding (both by construction); γ = 1 selected by
+  the clock rule plus a relabelling-invariant gravity energy (conditional derivation); GR's static field exactly from
+  a Regge energy; GR's gravitomagnetism for a prescribed moving source and two light-speed wave modes once a shift
+  link is added.
+- The same shift kinetic action has an exponentially growing vacuum mode off the lattice axes (EX-GC34E, post hoc).
 
 **Not shown:**
 - Inertia or gravity that arises in Model Gc itself without being imposed. In the reference model, inertia follows
   from relativistic field dynamics and gravity from a chosen energy coupling.
-- Non-linear gravity on the shared lattice: perihelion shift, strong fields, and orbits. Light bending is now
-  obtained at linear order (Section 10), but only in the weak field.
-- A time-stepped version of the shared lattice, and the fate of its weakly broken re-slicing symmetry.
+- A stable dynamical lattice geometry. The EX-GC34E kinetic action is linearly unstable; whether another lattice
+  kinetic action, or a gauge-fixing that respects the broken symmetry, removes the growing mode is untested.
+- A knot and geometry evolved together from one fully varied action (EX-GC34 used energy-only or prescribed sources).
+- Non-linear gravity on the shared lattice: perihelion shift, strong fields, and orbits.
+- Where the coupling comes from: EX-GC34 supplies the shared metric and the clock rule rather than deriving them.
 - Any link between the shared lattice geometry and Model Gc's consumed carrier or its reaction–diffusion particles.
 - Quantum spin, a quantum exchange phase, or fermionic statistics.
 - Causal invariance of any rule used here; EX-GC26 is a continuous field on a fixed lattice, not a token rule.
@@ -779,16 +826,25 @@ dynamics is GR's.
 
 ## 13. Research direction (for the PI's decision)
 
-The v0.4 direction listed "tensor gravity" first. EX-GC34 did that at linear order, within a single shared lattice
-structure instead of a separate tensor field (Section 10). Open directions, in the order we would suggest:
+The v0.4 direction listed "tensor gravity" first. EX-GC34 reached it for static and prescribed moving sources, but
+its dynamics is unstable (Section 10.5). Open directions, in the order suggested by ChatGPT's review, which we agree
+with:
 
-1. **Recomputation and review of EX-GC34 (ChatGPT).** Five stages were designed and run by one author. They need the
-   separate recomputation the GC34 outline foresaw, above all 34D (exact Regge solution) and 34E (wave modes).
-2. **34F: a time-stepped lattice.** Step the linear 34E equations in time (leapfrog), check that a gravitational-wave
-   packet travels stably at light speed, and see whether the weakly fixed re-slicing direction grows. This is the
-   first place the inexact symmetry could matter.
-3. **Non-linear gravity on the shared lattice.** Put the knot (Section 8) on the structure with full lapse × Regge +
-   shift dynamics, and test a light ray passing a knot and, later, an orbit.
+1. **34F: resolve the EX-GC34E spectrum before any non-linear work or freezing.** A registered constraint-reduced
+   calculation that keeps complex frequencies, checks eigenvectors against the full equations, and maps multiplicity,
+   polarisation and growth against angle and resolution (including the axis directions this paper's method could not
+   decide). A small time-domain run started on the growing eigenvector, comparing the measured growth with Im ω. Then
+   find which term admits the mode, and whether a different lattice kinetic action, or a constraint-preserving
+   treatment of the broken re-slicing symmetry, removes it.
+2. **The origin of the coupling.** Specify one concrete microscopic rule and derive its long-wavelength response
+   before choosing a target action: matched-density states with different kinetic or binding energy, transverse
+   momentum and stress controls, the same effective metric for independent probe sectors, and source identities
+   checked against a separate energy and momentum ledger. This tests whether a candidate produces the coupling that
+   EX-GC34 supplies.
+3. **One end-to-end benchmark with a stable tensor model.** Vary one common knot-plus-geometry action to get lapse,
+   shift and stress sources, and compare the exterior curvature and a detector-frame deflection for a self-sourcing
+   knot at two spacings and more than one ray orientation. This closes the integration gap with fewer runs than an
+   orbit campaign.
 4. **A discrete, causally invariant rule.** The reference model now specifies what a rule must reproduce: a conserved
    knot degree, one set of shared link variables used by every field, and the clock rule. 31A showed that causal
    invariance alone does not give one cone, so the shared structure has to be built in.
@@ -828,8 +884,8 @@ structure instead of a separate tensor field (Section 10). Open directions, in t
 | [EX-GC34A](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34A), [34A-r](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34Ar) | One cone on shared links; prescribed bending | 68/69 (34A-r); bending ratio 2.004 GR-like, ~0 Nordström; 34A readout NOT MET (wrap) | Claude, PI closed |
 | [EX-GC34B](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34B) | Sources of lapse and spatial metric | Lapse source = energy (incl. binding); static stress → 0 as h²; 5/6 (plan slip) | Claude, PI closed |
 | [EX-GC34C](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34C) | What selects γ | Clock rule + covariance → γ = 1; neither alone | Claude, PI closed |
-| [EX-GC34D](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34D) | Regge × lapse | Exact linear GR static field; packet window FAIL (coordinate readout); shift needed | Claude, PI closed |
-| [EX-GC34E](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34E) | Shift link + DeWitt kinetic | Gravitomagnetism to 4e-4; two light-speed waves; mode-count method FAIL | Claude, PI closed |
+| [EX-GC34D](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34D) | Regge × lapse | Exact linear GR static field; P5 FAIL on the ray ratio (packet inside), likely coordinate readout; shift needed | Claude, PI closed |
+| [EX-GC34E](https://github.com/RichardBenear/Model-Gc/tree/main/results/EX-GC34E) | Shift link + DeWitt kinetic | Gravitomagnetism to 4e-4; two light-speed waves plus a growing re-slicing mode (post hoc); mode-count method FAIL | Claude, PI closed |
 
 Each study's note is in `results/<ID>/` (EX002–EX007 in `docs/lineage/`); plans in `explore/LOG.md` and `spec/`;
 figures in `paper/figures/`.
@@ -846,10 +902,15 @@ EX-GC34 deviations, all recorded in the study notes:
 - 34A: the registered readout failed because packet tails wrapped around too small a periodic box (a plan flaw). It
   was rerun as 34A-r with a different readout.
 - 34B: one criterion failed because of a formula slip in the plan.
-- 34D: the packet light-bending window failed because the plan used a finite-distance, coordinate-dependent readout.
-- 34E: the wave-mode count failed because the planned method breaks on a singular pencil.
+- 34D: the joint packet-and-ray light-bending window (P5) failed on the ray ratio (2.0615 against 2.06), most likely
+  because the plan used a finite-distance, coordinate-dependent readout. The study note first said both ratios
+  missed; corrected 2026-11-23.
+- 34E: the wave-mode count failed because the planned method breaks on a singular pencil. After closure, ChatGPT's
+  review found, and a post hoc check confirmed, a growing vacuum mode that the registered code and my post hoc scan
+  had both filtered out (real roots and real frequencies only). The study note and this paper were corrected; the
+  closure stands as a record, with the correction attached.
 
-The post hoc analyses that explain each failure are labelled as such, and none re-scores a registered result.
+The post hoc analyses are labelled as such, and none re-scores a registered result.
 
 ## Appendix C. Changes from v0.1 (ChatGPT review, endorsed by the PI)
 - New title and subtitle; abstract separates demonstrated, imposed and interpretive statements.
@@ -897,8 +958,23 @@ The post hoc analyses that explain each failure are labelled as such, and none r
   section now lists the EX-GC34 results, and the direction section is rewritten.
 - Appendix A extended with EX-GC27–34; Appendix B lists the EX-GC34 deviations.
 
+**v0.5 draft → v0.5 revision 2 (Claude, 2026-11-23, after ChatGPT's review):**
+- EX-GC34E: the growing vacuum (re-slicing) mode is reported, with a post hoc confirmation
+  (`src/exgc34e_review_unstable.py`); "exactly two modes" and "linear GR on the lattice" withdrawn; Figure 10 gains
+  panel (c).
+- Abstract, principal findings, Sections 10.6, 11, 12 and 13 restated with the review's verdict: assigned shared
+  metric, assigned lapse sourced by the matter Hamiltonian, a strong static benchmark, promising moving-source
+  results, an unstable vacuum branch, and no knot-plus-geometry evolution from one action.
+- Section 8.4: 2E₂ is the knot's scalar source, not its rest energy (E₂ + E₄).
+- Section 9: the GC33A lapse identity narrowed to an integrated condition within its coupling framework.
+- Sections 10.1–10.4: review caveats added (34A-r readout precision, 34B by-construction source, 34C as a conditional
+  derivation, 34D P5 corrected: the packet was inside the window and the rays outside).
+- Section 13 reordered: 34F becomes a stability study; origin of the coupling and an end-to-end stable benchmark next.
+
 ## References
 - Arnowitt, R., Deser, S., Misner, C. W. (1962). The dynamics of general relativity. In L. Witten (ed.), Gravitation: An Introduction to Current Research. Wiley (arXiv:gr-qc/0405109).
+- Bahr, B. and Dittrich, B. (2009). (Broken) gauge symmetries and constraints in Regge calculus. Class. Quantum Grav.
+  26, 225011. arXiv:0905.1670.
 - Derrick, G. H. (1964). Comments on nonlinear wave equations as models for elementary particles. J. Math. Phys. 5, 1252.
 - DeWitt, B. S. (1967). Quantum theory of gravity. I. The canonical theory. Phys. Rev. 160, 1113.
 - Fierz, M., Pauli, W. (1939). On relativistic wave equations for particles of arbitrary spin in an electromagnetic field. Proc. R. Soc. A 173, 211.
