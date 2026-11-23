@@ -1,0 +1,148 @@
+{
+ "label": "POST HOC: constraint-filtered seeds; per-run constraint residuals",
+ "J1": [
+  {
+   "dir": "generic",
+   "wave_constraint_rel": 4.1976963379563806e-14,
+   "n_nonzero_seeds": 5,
+   "n_nonzero_total": 5,
+   "nonzero_violating_wk": [],
+   "zero_cluster_dim": 8,
+   "zero_kept": 4,
+   "dt": {
+    "seeds_nonzero_rel": 4.115616673141867e-08,
+    "seeds_zero_rel": 6.839681720894419e-13,
+    "cons_wave": 8.0982915869974e-13,
+    "cons_b": 7.500361629145277e-13,
+    "cons_c": 7.681789926986939e-13
+   },
+   "dt2": {
+    "seeds_nonzero_rel": 4.122073953731177e-08,
+    "seeds_zero_rel": 5.954453075815675e-13,
+    "cons_wave": 7.849004221380683e-12,
+    "cons_b": 7.811337533335275e-12,
+    "cons_c": 7.807600237973934e-12
+   }
+  },
+  {
+   "dir": "d01+",
+   "wave_constraint_rel": 5.759764655956616e-14,
+   "n_nonzero_seeds": 5,
+   "n_nonzero_total": 5,
+   "nonzero_violating_wk": [],
+   "zero_cluster_dim": 8,
+   "zero_kept": 4,
+   "dt": {
+    "seeds_nonzero_rel": 4.582357018413569e-08,
+    "seeds_zero_rel": 5.766913397633551e-13,
+    "cons_wave": 6.663437502649793e-13,
+    "cons_b": 6.188909651098436e-13,
+    "cons_c": 6.2131266463414e-13
+   },
+   "dt2": {
+    "seeds_nonzero_rel": 4.5817039403250153e-08,
+    "seeds_zero_rel": 6.139574472342987e-13,
+    "cons_wave": 4.19498283567794e-13,
+    "cons_b": 4.235659119810264e-13,
+    "cons_c": 4.626993754744133e-13
+   }
+  }
+ ],
+ "J2": [
+  {
+   "dir": "generic",
+   "wave_constraint_rel": 1.0675918650612173e-13,
+   "n_nonzero_seeds": 5,
+   "n_nonzero_total": 5,
+   "nonzero_violating_wk": [],
+   "zero_cluster_dim": 8,
+   "zero_kept": 4,
+   "dt": {
+    "seeds_nonzero_rel": 3.294301841070246e-08,
+    "seeds_zero_rel": 2.9517034077469913e-13,
+    "cons_wave": 1.186007494124124e-12,
+    "cons_b": 1.1753556335076637e-12,
+    "cons_c": 1.1766245959040013e-12
+   },
+   "dt2": {
+    "seeds_nonzero_rel": 3.2921501318138115e-08,
+    "seeds_zero_rel": 2.777864287454405e-13,
+    "cons_wave": 4.224568908048991e-12,
+    "cons_b": 4.196650580222174e-12,
+    "cons_c": 4.23940518681768e-12
+   }
+  },
+  {
+   "dir": "d01+",
+   "wave_constraint_rel": 1.4792268743622125e-14,
+   "n_nonzero_seeds": 5,
+   "n_nonzero_total": 5,
+   "nonzero_violating_wk": [],
+   "zero_cluster_dim": 8,
+   "zero_kept": 4,
+   "dt": {
+    "seeds_nonzero_rel": 3.5978761494120806e-08,
+    "seeds_zero_rel": 5.736731298883133e-13,
+    "cons_wave": 2.79465243261899e-13,
+    "cons_b": 2.7911551356783954e-13,
+    "cons_c": 2.7969877390393683e-13
+   },
+   "dt2": {
+    "seeds_nonzero_rel": 3.5927511386084515e-08,
+    "seeds_zero_rel": 3.8067506133112137e-13,
+    "cons_wave": 4.2114787001603063e-13,
+    "cons_b": 4.2140032798552883e-13,
+    "cons_c": 4.2142612634504676e-13
+   }
+  }
+ ],
+ "J3": [
+  {
+   "dir": "generic",
+   "wave_constraint_rel": 1.1067724905843754e-13,
+   "n_nonzero_seeds": 5,
+   "n_nonzero_total": 5,
+   "nonzero_violating_wk": [],
+   "zero_cluster_dim": 8,
+   "zero_kept": 4,
+   "dt": {
+    "seeds_nonzero_rel": 3.3812900042623096e-08,
+    "seeds_zero_rel": 6.705243966719074e-13,
+    "cons_wave": 3.3820107248755805e-12,
+    "cons_b": 3.3338155008635663e-12,
+    "cons_c": 3.317389536216876e-12
+   },
+   "dt2": {
+    "seeds_nonzero_rel": 3.3814054966738745e-08,
+    "seeds_zero_rel": 3.6423397188036393e-13,
+    "cons_wave": 6.294932180481356e-12,
+    "cons_b": 6.2215004157917995e-12,
+    "cons_c": 6.261467523058755e-12
+   }
+  },
+  {
+   "dir": "d01+",
+   "wave_constraint_rel": 5.387047950666493e-14,
+   "n_nonzero_seeds": 5,
+   "n_nonzero_total": 5,
+   "nonzero_violating_wk": [],
+   "zero_cluster_dim": 8,
+   "zero_kept": 4,
+   "dt": {
+    "seeds_nonzero_rel": 3.7852568736108414e-08,
+    "seeds_zero_rel": 2.8950255879003103e-13,
+    "cons_wave": 1.5101345096936448e-13,
+    "cons_b": 1.5060487509888902e-13,
+    "cons_c": 1.5661267287213478e-13
+   },
+   "dt2": {
+    "seeds_nonzero_rel": 3.7845319915328345e-08,
+    "seeds_zero_rel": 2.558391377775734e-13,
+    "cons_wave": 4.786145050784793e-13,
+    "cons_b": 4.797980946819918e-13,
+    "cons_c": 4.838916640301444e-13
+   }
+  }
+ ],
+ "cpu_s": 10.940611944
+}
