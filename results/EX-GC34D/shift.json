@@ -1,0 +1,24 @@
+{
+ "full_solvable": true,
+ "reduced_solvable": true,
+ "reduced_free_params": [
+  "h11"
+ ],
+ "riemann_reduced_minus_full_nonzero": {},
+ "reduced_momentum_constraint_residual": [
+  "0",
+  "0",
+  "0"
+ ],
+ "reduced_h_xy": "-2*kappa*rho*v_y/(k**2*v_x)",
+ "reduced_h_xy_times_w": "-2*kappa*rho*v_y/k",
+ "reduced_n": "(h11*k**2*v_x**2 + kappa*rho*v_x**2 - kappa*rho*v_y**2 - kappa*rho)/(2*k**2)",
+ "k_perp_v_reduced_solvable": true,
+ "k_perp_v_momentum_constraint_residual": [
+  "0",
+  "kappa*rho*v_y",
+  "0"
+ ],
+ "static_R0101": "-kappa*rho/2",
+ "cpu_s": 0.434479609
+}
