@@ -1,0 +1,52 @@
+{
+ "h1": {
+  "rows": [
+   {
+    "eps": 0.0001,
+    "fd": -51.729039554402334,
+    "pred": -51.728975452867175,
+    "rel": 1.2391804515327656e-06
+   },
+   {
+    "eps": 1e-05,
+    "fd": -51.728976097820116,
+    "pred": -51.728975452867175,
+    "rel": 1.2467924121541769e-08
+   }
+  ],
+  "parts": {
+   "lapse": 2.6747317133962015e-10,
+   "shift": 8.689578581481449e-11,
+   "edges": 3.957604373005478e-09
+  },
+  "richardson_rel": 5.91936540310808e-11,
+  "M0": true,
+  "note": "first code used plain central differences (O(eps^2) truncation 1.2e-8 at eps 1e-5); Richardson added"
+ },
+ "h0.5": {
+  "rows": [
+   {
+    "eps": 0.0001,
+    "fd": 135.77603087867374,
+    "pred": 135.77599274677044,
+    "rel": 2.808442238128047e-07
+   },
+   {
+    "eps": 1e-05,
+    "fd": 135.7759931295277,
+    "pred": 135.77599274677044,
+    "rel": 2.81903491451255e-09
+   }
+  ],
+  "parts": {
+   "lapse": 4.3102776750024365e-10,
+   "shift": 2.1560378568141264e-10,
+   "edges": 2.9732780549172083e-09
+  },
+  "richardson_rel": 2.7057730064444008e-12,
+  "M0": true,
+  "note": "first code used plain central differences (O(eps^2) truncation 1.2e-8 at eps 1e-5); Richardson added"
+ },
+ "M0": true,
+ "cpu_s": 0.18727605600000002
+}
