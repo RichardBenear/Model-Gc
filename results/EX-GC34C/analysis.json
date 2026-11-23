@@ -1,0 +1,55 @@
+{
+ "A0": {
+  "n": "-rho/(2*K**2)",
+  "A": "0",
+  "B": "0",
+  "gamma": "0"
+ },
+ "A1": {
+  "n": "-rho/(2*K**2)",
+  "A": "-rho/K**2",
+  "gamma": "-1"
+ },
+ "A3_n2_coefficient": "0",
+ "A3_solutions": [
+  {
+   "A": "rho/(4*K**2*s)",
+   "n": "-rho/(8*K**2*s)"
+  }
+ ],
+ "A3": [
+  {
+   "A": "rho/(4*K**2*s)",
+   "n": "-rho/(8*K**2*s)"
+  }
+ ],
+ "A3_gamma": "1",
+ "A3_dL_dB_residual": "0",
+ "A3_n_over_A0_n": "1/(4*s)",
+ "A2_general": [
+  {
+   "A": "-rho*(a*c3 + 2*a*c4 - 2*b*c1 - 2*b*c2 - b*c3)/(2*K**2*(a**2*c1 + 2*a**2*c4 + 2*a*b*c1 - 2*a*b*c3 + 3*b**2*c1 + 2*b**2*c2))",
+   "B": "rho*(2*a*c1 + a*c3 + 6*a*c4 - 2*b*c2 - 3*b*c3)/(2*K**2*(a**2*c1 + 2*a**2*c4 + 2*a*b*c1 - 2*a*b*c3 + 3*b**2*c1 + 2*b**2*c2))",
+   "n": "rho*(2*c1**2 + 2*c1*c2 + 2*c1*c3 + 6*c1*c4 + 4*c2*c4 - c3**2)/(K**2*(a**2*c1 + 2*a**2*c4 + 2*a*b*c1 - 2*a*b*c3 + 3*b**2*c1 + 2*b**2*c2))"
+  }
+ ],
+ "A2_gamma": "(a*c3 + 2*a*c4 - 2*b*c1 - 2*b*c2 - b*c3)/(4*(2*c1**2 + 2*c1*c2 + 2*c1*c3 + 6*c1*c4 + 4*c2*c4 - c3**2))",
+ "A2_gamma_at_FPlike": null,
+ "A3_Lambda_fourier": "-4*A*K**2*s",
+ "A3_Q_fourier": "-A**2*K**2*s",
+ "A2_gauge_constraints": {
+  "c2": "-c1 + c4",
+  "c3": "-2*c4"
+ },
+ "A2_gauge_dL_dB": "0",
+ "A2_gauge_solution": {
+  "A": "rho/(2*K**2*b)",
+  "n": "rho*(c1 + 2*c4)/(K**2*b**2)"
+ },
+ "A2_gauge_gamma": "-b/(4*(c1 + 2*c4))",
+ "cpu_s": 0.2913202509999999,
+ "platform": {
+  "python": "3.13.18",
+  "sympy": "1.14.0"
+ }
+}
