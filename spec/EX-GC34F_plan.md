@@ -1,9 +1,9 @@
-# EX-GC34F (PROPOSED, NOT APPROVED) — why the 34E lattice geometry has a growing mode (EXPLORATORY)
+# EX-GC34F — why the 34E lattice geometry has a growing mode (EXPLORATORY)
 
-Claude, 2026-11-23. **Draft revision 2**, after ChatGPT's review of revision 1
-(`review/EX-GC34F_draft_chatgpt_review.md`, of 46a539b). Nothing here has been run. It needs the PI's go-ahead in words
-and an `explore/LOG.md` entry before any run. Our construction, not LaViolette's Model G. Proposed cap: 2 core-hours on
-the cloud. I expect it to use under 0.5: Fourier-space linear algebra plus small single-mode time integrations.
+Claude, 2026-11-23. **Registered before any run.** PI go-ahead (Richard, 2026-11-23): "run 34F". This is draft
+revision 2, which followed ChatGPT's review (`review/EX-GC34F_draft_chatgpt_review.md`), plus the registration edits
+listed at the end. Those edits were made before any 34F computation and only make methods and thresholds concrete. Our
+construction, not LaViolette's Model G. Cap: 2 core-hours on the cloud. I expect it to use under 0.5.
 
 **Scope change from revision 1 (accepting the review).** 34F is the *diagnostic* study only: F1–F3 below. A candidate
 fix becomes a separate study, 34G. It is registered only once F3 names a specific mechanism. The criteria a fix must
@@ -130,7 +130,8 @@ Growth rate and curvature content of the unstable branch at fixed physical k as 
 
 ## Files (planned)
 
-- `src/exgc34f.py` → `results/EX-GC34F/spectrum.json` (F1), `evolve.json` (F2), `mechanism.json` (F3).
+- `src/exgc34f.py` → `results/EX-GC34F/spectrum.json` (F1), `evolve.json` (F2), `mechanism.json` (F3). Plus a
+  note.
 - A separate recomputation path: F1 roots by singular-value minimisation, independent of the eigen-solver; F2
   growth checked against F1.
 - It reuses `src/exgc34e.py` unchanged.
@@ -145,3 +146,67 @@ Growth rate and curvature content of the unstable branch at fixed physical k as 
 | Mechanism from the unmodified action first; trace coefficient and lapse–Regge changes alter the constraints | Accepted: F3 items 1–2 come first; item 3's changes are labelled diagnostics, not candidates. |
 | F4 criteria: two tensor polarisations, classification, defective zero roots, constraint preservation, static and gravitomagnetic checks, symmetry-derived projections | Accepted, in the 34G criteria above. |
 | Main readout at fixed physical k as h decreases | Accepted. Because ω/k depends only on kh and direction, the kh scan is that readout; stated explicitly. |
+
+## Registration edits (2026-11-23, before any 34F run)
+
+These make the revision-2 text concrete. None was chosen after seeing 34F data.
+
+1. **F1 gauge and root method.** Roots are found in the zero-shift gauge (β = 0). That gauge is reachable at any
+   ω ≠ 0, because the displacement gauge shifts β by −iωu. The unknowns are then n and the 7 edges. The rows are the
+   lapse row and the 7 edge rows. The 3 shift rows (the momentum constraint) are not imposed; they are checked as
+   residuals.
+   - The normal-rank deficit n_k of this 8 × 8 quadratic is measured at four generic real ω.
+   - Exact null directions are removed by a rank-completing random perturbation of the 16 × 16 linearised pencil
+     (Hochstenbach, Mehl and Plestenjak 2019). Its true eigenvalues do not move; spurious ones do.
+   - Two independent random perturbations are applied, and a root is kept only if it appears in both, to 1e-8
+     relative.
+   - Zero roots (|ω| ≤ 1e-8 k) are gauge in this gauge. They are reported as zero modes, separately from the static
+     zero-mode analysis below.
+2. **Validation thresholds (replacing "≤ 1e-12 relative, ≥ 1e-6 at neighbours").** On the 8 × 8 kernel, the kernel's
+   relative singular values span many orders of magnitude at small kh. So the singular-value check is a *contrast*:
+   - σ_r at the root, where r = 8 − n_k is the smallest generically non-zero singular value, must be ≤ 1e-6 times the
+     smallest σ_r at ω* ± δ and ω* ± iδ, with δ = 1e-3|ω*|.
+   - The residual in all 11 equations, ‖M(ω*)x‖ / (‖M(ω*)‖₂ ‖x‖), must be ≤ 1e-10.
+3. **Static zero modes and defective roots.**
+   - The displacement gauge is removed at ω = 0 by the penalty M(0) + G(0)G(0)†. The remaining null space N is the
+     set of static zero modes.
+   - A Jordan chain (secular growth ∝ t) exists if N†BN is singular, i.e. its smallest relative singular value is
+     ≤ 1e-10. The gauge identity makes the chain condition reduce to this.
+   - Where the re-slicing symmetry is exact, one chain per exact direction is expected (gauge). Any excess is
+     reported as an unexplained defective chain.
+4. **Propagating-mode polarisation.** The transverse-traceless part of h_ij is gauge invariant at linear order. Its
+   fraction of the non-gauge part of the metric perturbation is reported. The non-gauge part is the remainder after
+   least-squares projection on the continuum gauge orbit, as in `src/exgc34e_review_unstable.py`.
+5. **F2 formulation.**
+   - Zero-shift gauge (β = 0), a legitimate dynamical gauge. The edge rows read C_ee e + C_en n − A_ee ë = 0, and the
+     lapse row reads C_ne e = 0. The lapse has no other terms (no n² term in Regge × lapse; no n in the kinetic term
+     at linear order).
+   - Index reduction: C_ne ë = 0 gives n(e), so ë = −W e. This is integrated as z = (e, ė) with the implicit midpoint
+     rule.
+   - The lapse constraint is enforced at the acceleration level: C_ne ė is conserved exactly by the scheme, and C_ne e
+     is monitored. The momentum constraint C_βe e + iB_βe ė is not imposed and is monitored.
+   - Initial data are eigenvectors of W, or sums of them, so they satisfy both constraints and their time derivatives.
+   - Time step dt = 0.02/max|ω| over the modes present, and dt/2. Run length 15/Im ω.
+   - Tidal observable: E_ij = ḧ_ij − (q_iq_j/h²) h_00, with h_00 = −2n and h_0i = 0. It is computed from the state
+     directly, not from modes.
+   - Growth rates are linear fits of ln|·| over the run.
+6. **F2(d) replaced.** The original wording mixed normalisations. New (d): run (iii) minus run (ii), at the same dt,
+   isolates the seeded component. Its tidal field must grow at Im ω within 1%. The time t× at which it equals the
+   wave's tidal field must match t×_pred = ln(|E_wave|/|E_seed(0)|)/Im ω within 1%, where E_seed(0) comes from the
+   eigenvectors.
+7. **F3 concrete method.** sympy is not attempted. At each growing root, M is split into five blocks:
+   kinetic ββ, kinetic βe(+eβ), kinetic ee, Regge ne(+en) and Regge ee.
+   - (i) Each block's contribution x†M_X x is reported; the contributions sum to zero at a root. Their scaling with
+     kh is reported, with |n| = 1.
+   - (ii) Each block's sensitivity d ln ω²/d ln(scale of X) is reported.
+   - (iii) The minimal-model test behind the F3 expectation: keep only the blocks with |sensitivity| ≥ 0.05 (the
+     others set to zero), recompute the root, and compare with the full root at 1%.
+   - Constraint bookkeeping: the nullity of the full 11 × 11 M(ω) at generic ω, the normal-rank deficit n_k of the
+     gauge-fixed kernel, and the rank of the lapse and shift rows.
+   - The F3 item-3 diagnostic variants are:
+     - (a) a per-cube least-squares fit of K from the cube's 19 edges, volume h³;
+     - (b) DeWitt trace coefficient λ = 1/2 and 1/3;
+     - (c) the lapse–Regge coupling removed (n rows and columns of the static kernel zeroed).
+   - For each variant, report: the growing roots (111, generic, 110 at kh = 0.05 and 0.1), the re-slicing breaking
+     (34E E2 measure), the constraint counts, whether the 34D static kernel is unchanged, and the E4 gravitomagnetism
+     error at kh = 0.05.

@@ -1,0 +1,143 @@
+{
+ "convention": "e^{-i w t}; implicit midpoint on z = (e, de/dt), zero-shift gauge, index-reduced lapse",
+ "runs": [
+  {
+   "dir": "generic",
+   "kh": 0.05,
+   "gamma": 0.35552745848152084,
+   "gamma_over_k": 1.4221098339260834,
+   "omega_wave_over_k": 1.0000874089253133,
+   "f1_growing": [
+    1.4221098325501371
+   ],
+   "f1_propagating": [
+    0.9999100707322985,
+    1.0000874089257497
+   ],
+   "tidal_sanity_vs_riemann": 2.6776502620073064e-07,
+   "T": 42.19083404715321,
+   "runs": {
+    "dt": {
+     "dt": 0.05625444539620428,
+     "steps": 750,
+     "i_growth_amp": 0.3555393101780115,
+     "i_growth_E": 0.35553931017658214,
+     "i_max_lapse": 1.7633479451564028e-13,
+     "i_max_mom": 4.41095833533554e-13,
+     "ii_amp_change": 2.6068036618198676e-13,
+     "ii_max_lapse": 3.3105769662009802e-12,
+     "ii_max_mom": 6.300846383719751e-13,
+     "iii_max_lapse": 3.3498120288479075e-12,
+     "iii_max_mom": 6.294675909908503e-13,
+     "iii_seed_growth_E": 0.3555248043499754,
+     "t_cross": null,
+     "t_cross_pred": 73.7161085364713,
+     "t_cross_rel_err": null,
+     "E_seed0_over_Ewave": 4.149220141234237e-12
+    },
+    "dt2": {
+     "dt": 0.02812722269810214,
+     "steps": 1500,
+     "i_growth_amp": 0.35553042163364496,
+     "i_growth_E": 0.35553042164159865,
+     "i_max_lapse": 1.3092291345204452e-13,
+     "i_max_mom": 4.1686463939513304e-13,
+     "ii_amp_change": 3.6981528950263964e-13,
+     "ii_max_lapse": 7.036331661450514e-13,
+     "ii_max_mom": 5.370712529193058e-13,
+     "iii_max_lapse": 6.993083179837104e-13,
+     "iii_max_mom": 5.374027423849829e-13,
+     "iii_seed_growth_E": 0.3554906462116665,
+     "t_cross": null,
+     "t_cross_pred": 73.7161085364713,
+     "t_cross_rel_err": null,
+     "E_seed0_over_Ewave": 4.149220141234237e-12
+    }
+   },
+   "posthoc_long": {
+    "label": "POST HOC extended run, 40/Im w",
+    "t_cross": 73.94654558776668,
+    "t_cross_pred": 73.7161085364713,
+    "t_cross_rel_err": 0.0031260067286565034,
+    "E_seed0_over_Ewave": 4.149220141234237e-12,
+    "seed_growth_E": 0.35553642467893826,
+    "max_lapse": 1.2135928882746415e-11,
+    "max_mom": 9.74966916899503e-13,
+    "t_cross_times_k": 18.48663639694167,
+    "t_cross_in_wave_periods": 2.9424967417140917
+   }
+  },
+  {
+   "dir": "d01+",
+   "kh": 0.05,
+   "gamma": 0.5309590097909261,
+   "gamma_over_k": 2.1238360391637046,
+   "omega_wave_over_k": 1.0001443535997687,
+   "f1_growing": [
+    2.1238360424905496
+   ],
+   "f1_propagating": [
+    0.9998437942055256,
+    1.000144353600198
+   ],
+   "tidal_sanity_vs_riemann": 3.286611493760129e-09,
+   "T": 28.250768370813592,
+   "runs": {
+    "dt": {
+     "dt": 0.03766769116108479,
+     "steps": 750,
+     "i_growth_amp": 0.5309767093054899,
+     "i_growth_E": 0.5309767093061799,
+     "i_max_lapse": 1.4981340921237262e-13,
+     "i_max_mom": 2.098076006864577e-13,
+     "ii_amp_change": 3.4661162828797387e-13,
+     "ii_max_lapse": 3.2450592381153645e-12,
+     "ii_max_mom": 1.1762929705597176e-12,
+     "iii_max_lapse": 3.166839942187426e-12,
+     "iii_max_mom": 1.1251066120725248e-12,
+     "iii_seed_growth_E": 0.5309596740659129,
+     "t_cross": null,
+     "t_cross_pred": 46.18340014559856,
+     "t_cross_rel_err": null,
+     "E_seed0_over_Ewave": 2.2410479983205535e-11
+    },
+    "dt2": {
+     "dt": 0.018833845580542394,
+     "steps": 1500,
+     "i_growth_amp": 0.5309634343379294,
+     "i_growth_E": 0.5309634343354203,
+     "i_max_lapse": 2.2496049746185747e-13,
+     "i_max_mom": 2.484128495478909e-13,
+     "ii_amp_change": 5.015987625256457e-13,
+     "ii_max_lapse": 1.2051413025532654e-12,
+     "ii_max_mom": 8.662786561265157e-13,
+     "iii_max_lapse": 1.371167497486098e-12,
+     "iii_max_mom": 8.61530792766244e-13,
+     "iii_seed_growth_E": 0.5310005816344138,
+     "t_cross": null,
+     "t_cross_pred": 46.18340014559856,
+     "t_cross_rel_err": null,
+     "E_seed0_over_Ewave": 2.2410479983205535e-11
+    }
+   },
+   "posthoc_long": {
+    "label": "POST HOC extended run, 40/Im w",
+    "t_cross": 46.1067645916433,
+    "t_cross_pred": 46.18340014559856,
+    "t_cross_rel_err": 0.0016593744443601146,
+    "E_seed0_over_Ewave": 2.2410479983205535e-11,
+    "seed_growth_E": 0.5309744012452401,
+    "max_lapse": 4.8606768709369434e-12,
+    "max_mom": 2.1735858343773716e-12,
+    "t_cross_times_k": 11.526691147910824,
+    "t_cross_in_wave_periods": 1.8347946946747506
+   }
+  }
+ ],
+ "platform": {
+  "python": "3.13.18",
+  "numpy": "2.5.3",
+  "system": "Linux"
+ },
+ "cpu_s": 4.721947957
+}
