@@ -4,6 +4,7 @@ Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "you can close 34D and go
 `spec/EX-GC34E_plan.md` (ab387ca, pushed before the analysis). Code `src/exgc34e.py` → `analysis.json`;
 `src/exgc34e_check.py` → `check.json`. Post hoc: `src/exgc34e_posthoc_modes.py` → `posthoc_modes.json`,
 `src/exgc34e_posthoc_cutoff.py` → `posthoc_cutoff.json`. Our construction, not LaViolette's Model G.
+**PI CLOSED 2026-11-23** (Richard: "go ahead and close 34A to 34E").
 
 ## Conclusion
 

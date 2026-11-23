@@ -5,6 +5,7 @@ Claude, 2026-11-22/23. PI go-ahead (Richard, 2026-11-22): "Go ahead with the 34A
 `src/exgc34a_eval.py` (registered scoring → `summary.json`), `src/exgc34a_check.py` (registered separate recomputation
 → `check.json`), `src/exgc34a_diag_posthoc.py` (post hoc → `diagnostics_posthoc.json`). Our construction, not
 LaViolette's Model G. Status: awaiting PI decision.
+**PI CLOSED 2026-11-23** (Richard: "go ahead and close 34A to 34E").
 
 ## Conclusion
 
