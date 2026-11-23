@@ -64,7 +64,7 @@ def gh_nodes(n):
     return x, wt / wt.sum()
 
 
-def rays(bg, x0, k0, sigma, mu, h, T, dt, nq=5, times=None, eps=1e-6):
+def rays(bg, x0, k0, sigma, mu, h, T, dt, nq=5, times=None, eps=1e-6, box=None):
     """Energy-weighted mean ray position at the requested times."""
     sx = sigma / np.sqrt(2); sk = 1 / (sigma * np.sqrt(2))
     u, wu = gh_nodes(nq)
@@ -86,7 +86,13 @@ def rays(bg, x0, k0, sigma, mu, h, T, dt, nq=5, times=None, eps=1e-6):
     t = 0.0; nstep = int(round(T / dt)); ti = 0
     for it in range(nstep + 1):
         while ti < len(times) and abs(times[ti] - t) < 0.5 * dt:
-            out.append((wt[:, None] * X).sum(0)); ti += 1
+            if box is None:
+                out.append((wt[:, None] * X).sum(0))
+            else:   # 34A-r: periodic (circular) mean, same definition as the solver's readout
+                lo, Lb = np.asarray(box[0], float), np.asarray(box[1], float)
+                z = (wt[:, None] * np.exp(2j * np.pi * (X - lo) / Lb)).sum(0)
+                out.append(lo + Lb / (2 * np.pi) * (np.angle(z) % (2 * np.pi)))
+            ti += 1
         if it == nstep:
             break
         a1, b1 = rhs(X, K); a2, b2 = rhs(X + dt / 2 * a1, K + dt / 2 * b1)

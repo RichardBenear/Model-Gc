@@ -21,8 +21,9 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'results/EX-GC34A'
-RAW = ROOT / 'local_raw/EX-GC34A'
+STUDY = os.environ.get('EXGC34A_STUDY', 'EX-GC34A')   # 'EX-GC34Ar' for the registered rerun
+OUT = ROOT / 'results' / STUDY
+RAW = ROOT / 'local_raw' / STUDY
 
 # link directions in units of h: 3 axes, 6 face diagonals
 DIRS = np.array([(1, 0, 0), (0, 1, 0), (0, 0, 1),
@@ -206,6 +207,17 @@ def centroid(e, G):
     return [float((e * G.X[a]).sum() / s) for a in range(3)], float(s * G.h ** 3)
 
 
+def circ_centroid(e, G):
+    """Periodic (circular) mean per axis: x = lo + (L/2pi) arg sum e exp(2pi i (x-lo)/L). Exact for a distribution
+    symmetric about its mean even when it wraps (34A-r readout)."""
+    s = e.sum(); out = []
+    for a in range(3):
+        L = G.n[a] * G.h
+        z = (e * np.exp(2j * np.pi * (G.X[a] - G.lo[a]) / L)).sum() / s
+        out.append(float(G.lo[a] + L / (2 * np.pi) * (np.angle(z) % (2 * np.pi))))
+    return out, float(abs(z))
+
+
 def run(kind_field, bg, x0, k0, sigma, T, dt, every, amp=1e-3, mu=0.0, two=(0.4, 0.6), w_own=None,
         save_final=None):
     G = bg.G
@@ -220,7 +232,7 @@ def run(kind_field, bg, x0, k0, sigma, T, dt, every, amp=1e-3, mu=0.0, two=(0.4,
         f = z.real.copy(); v = zt.real.copy()
         acc = F.accel
         def meas():
-            return {'c': centroid(F.edens(f, v), G)}
+            e_ = F.edens(f, v); return {'c': centroid(e_, G) + (circ_centroid(e_, G)[0],)}
     elif kind_field == 'two':
         g, eps = two
         F = TwoComp(bg, g, eps)
@@ -232,7 +244,9 @@ def run(kind_field, bg, x0, k0, sigma, T, dt, every, amp=1e-3, mu=0.0, two=(0.4,
         Ss = Scalar(bg, 0.0); Sa = Scalar(bg, mua)
         def meas():
             s, a, vs, va = F.modes(f, v)
-            return {'c_sym': centroid(Ss.edens(s, vs), G), 'c_anti': centroid(Sa.edens(a, va), G)}
+            es, ea = Ss.edens(s, vs), Sa.edens(a, va)
+            return {'c_sym': centroid(es, G) + (circ_centroid(es, G)[0],),
+                    'c_anti': centroid(ea, G) + (circ_centroid(ea, G)[0],)}
     elif kind_field == 'sigma':
         F = Sigma(bg)
         z, zt = forward_packet(G, x0, k0, sigma, 1.0, wloc, Ms0, Vs0, 0.0)
@@ -243,7 +257,7 @@ def run(kind_field, bg, x0, k0, sigma, T, dt, every, amp=1e-3, mu=0.0, two=(0.4,
         f = np.concatenate([p0[None], pi]); v = np.concatenate([(-(pi * pv).sum(0) / p0)[None], pv])
         acc = lambda n: F.accel(n, v)
         def meas():
-            return {'c': centroid(F.edens(f, v), G)}
+            e_ = F.edens(f, v); return {'c': centroid(e_, G) + (circ_centroid(e_, G)[0],)}
     else:
         raise ValueError(kind_field)
 
@@ -254,6 +268,7 @@ def run(kind_field, bg, x0, k0, sigma, T, dt, every, amp=1e-3, mu=0.0, two=(0.4,
             m = meas(); hist['t'].append(it * dt)
             for kname, val in m.items():
                 hist.setdefault(kname, []).append(val[0]); hist.setdefault(kname + '_E', []).append(val[1])
+                hist.setdefault('cc' + kname[1:], []).append(val[2])
         if it == nstep:
             break
         v += 0.5 * dt * a
