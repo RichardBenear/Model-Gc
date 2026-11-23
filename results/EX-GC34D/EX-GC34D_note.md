@@ -5,6 +5,7 @@ Plan `spec/EX-GC34D_plan.md` (f0f9ebf, pushed before the analysis). Code `src/ex
 `src/exgc34d_bend.py` → `bend.json` and `D4_*.json`; `src/exgc34d_shift.py` → `shift.json`. Post hoc:
 `src/exgc34d_posthoc_diag.py` → `posthoc_diag.json`, `src/exgc34d_posthoc_iso.py` → `posthoc_iso.json`. Our
 construction, not LaViolette's Model G.
+**PI CLOSED 2026-11-23** (Richard: "you can close 34D and go on to 34E").
 
 ## Conclusion
 
