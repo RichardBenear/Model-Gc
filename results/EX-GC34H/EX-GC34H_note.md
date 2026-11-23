@@ -1,5 +1,7 @@
 # EX-GC34H — the cube-mean kinetic term B does not hold up under constraint reduction (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "I sign off on 34H").
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "go ahead with the B run first."
 - The plan `spec/EX-GC34H_plan.md` and the `explore/LOG.md` entry were pushed before any run (a07101c). A pre-run
   edit to the zero-cluster definition is bee2875.
