@@ -5,6 +5,7 @@ pushed before the rerun); setup and criteria identical to `spec/EX-GC34A_plan.md
 (periodic/circular energy centroid, applied identically to fields and rays). Scoring `src/exgc34ar_eval.py` →
 `summary.json`; recomputation `src/exgc34ar_check.py` → `check.json`; figure `src/exgc34a_figure.py` →
 `paper/figures/exgc34ar_cone.png`. Our construction, not LaViolette's Model G. EX-GC34A itself stays NOT MET.
+**PI CLOSED 2026-11-23** (Richard: "go ahead and close 34A-r, 34B, 34C and proceed with 34D").
 
 ## Conclusion
 
