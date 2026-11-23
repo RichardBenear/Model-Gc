@@ -1,0 +1,44 @@
+{
+ "iterations": 300,
+ "evals": 312,
+ "success": false,
+ "message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+ "E2": 0.5865386328780626,
+ "E4": 0.6305657817375304,
+ "E": 1.217104414615593,
+ "ratio": 0.9301783412062885,
+ "projected_gradient_max": 7.173771811816139e-06,
+ "cpu_s": 187.8321844,
+ "B": 1,
+ "h": 0.15,
+ "L": 7.0,
+ "actual_L": 6.975,
+ "geometric": {
+  "degrees": [
+   -1,
+   -1,
+   -1
+  ],
+  "min_hemisphere_dot": 0.955929159221626,
+  "bad_tetrahedra": 0,
+  "degenerate_tetrahedra": 538092,
+  "total_tetrahedra": 4826142,
+  "min_positive_preimage_coefficient": 0.011808809457245939
+ },
+ "B_density": -0.963355661974918,
+ "Q": 0.07644534681830305,
+ "wall_energy_fraction": 0.0014920792447655016,
+ "bcentroid": [
+  2.0866328729571912e-08,
+  -2.503244668599236e-06,
+  -2.031178064166183e-06
+ ],
+ "centroid": [
+  2.0427131936178133e-08,
+  -2.4992113444887954e-06,
+  -2.0269137169692384e-06
+ ],
+ "pred_energy_a_over_g": -0.9638263173391142,
+ "sha256": "c08f4fcfbc6f67d5bcfbd4d4719ef2a9eac9e1462e44c47a150edb2c7b5e50f8",
+ "cpu_total": 195.71375613499998
+}
