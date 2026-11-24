@@ -1,0 +1,63 @@
+{
+  "T1": {
+    "pass_gate": true,
+    "first_divergence": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "second_divergence": [
+      "t**3*cos(2*x)/2 + 3*t**3/2 - t**2*sin(2*x)/4 + 3*t**2*cos(2*x)/4 + 9*t**2/4 - t*sin(2*x)/2 + 5*t*cos(2*x)/4 - t/4 - 3*sin(2*x)/4 + cos(2*x)/2 - 1/2",
+      "-t**4*sin(2*x)/4 - t**3*sin(2*x)/2 - 7*t**2*sin(2*x)/4 - 3*t*sin(2*x)/2 - t*cos(2*x)/2 - t/2 - sin(2*x)/2 - cos(2*x)/4 - 1/4",
+      "0",
+      "0"
+    ],
+    "connection_correction": [
+      "-t*(t + 1)*(2*t + 1)*sin(x)**2 - t*(t + 1)*(2*t + 1)*cos(x)**2 - t*(t + 1)*sin(2*x)/4 + (t + 1)*(2*t + 1)*sin(2*x)/4 + (2*t + 1)*(t**2 + t + 2)*sin(x)**2/2 + sin(2*x)/2",
+      "(t*(t + 1)*(t**2 + t + 2)*sin(x) - 4*t*(t + 1)*sin(x) + 2*(2*t + 1)**2*sin(x) + (2*t + 1)*cos(x))*cos(x)/2",
+      "0",
+      "0"
+    ],
+    "completed": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "subtraction_control_after_mean_removal": [
+      "(2*t + 1)*sin(x) + cos(x)/2",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "T2": {
+    "pass_gate": true,
+    "H0_ratio": 2.0,
+    "rows": [
+      {
+        "epsilon": 0.0001,
+        "H0": 0.005773502691896258,
+        "max_friedmann_relative": 4.951372645223273e-12,
+        "static_initial_relative": 1.0,
+        "final_a": 1.011573218160137,
+        "final_density": 0.9800072732450626
+      },
+      {
+        "epsilon": 2.5e-05,
+        "H0": 0.002886751345948129,
+        "max_friedmann_relative": 4.884981308350689e-12,
+        "static_initial_relative": 1.0,
+        "final_a": 1.0057800450827912,
+        "final_density": 0.9899222860510519
+      }
+    ]
+  },
+  "overall": true,
+  "cpu_seconds": 1.0625,
+  "platform": {
+    "python": "3.13.2",
+    "sympy": "1.14.0"
+  }
+}
