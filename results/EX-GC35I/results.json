@@ -1,0 +1,224 @@
+{
+  "rows": [
+    {
+      "h": 0.2,
+      "phase_samples": 401,
+      "proper_step": 0.06,
+      "stepped": true,
+      "events": 300900,
+      "schedules": 6,
+      "matches": 6,
+      "sha256": "70fba7552f28c28b7c1ee620f5511b74056353e77ae0e71e63a30aafb4cc5a91",
+      "witnesses": [
+        [
+          107,
+          12,
+          36,
+          0
+        ],
+        [
+          26,
+          12,
+          152,
+          0
+        ],
+        [
+          55,
+          18,
+          302,
+          0
+        ],
+        [
+          3,
+          15,
+          216,
+          2
+        ],
+        [
+          35,
+          21,
+          108,
+          6
+        ],
+        [
+          172,
+          18,
+          201,
+          4
+        ]
+      ],
+      "slow_versions": 600,
+      "fast_versions": 900,
+      "coordinate_frequencies": [
+        1.656945389896739,
+        1.6585432144640109
+      ],
+      "proper_frequencies": [
+        1.656945389896739,
+        1.1056954763093405
+      ],
+      "frequency_ratio": 0.6673095462598484,
+      "expected_ratio": 0.6666666666666666,
+      "incident_angle": 21.161978681678253,
+      "transmitted_angle": 32.91115643971898,
+      "expected_incident": 21.161259816828277,
+      "expected_transmitted": 32.78520595068396,
+      "snell_from_measured_incident": 32.78640207563493,
+      "longitudinal_wavenumbers": [
+        1.5499422354257908,
+        0.9270629281497508
+      ],
+      "finite": true,
+      "peak_field": 1.0545026938988458
+    },
+    {
+      "h": 0.1,
+      "phase_samples": 801,
+      "proper_step": 0.03,
+      "stepped": true,
+      "events": 1201800,
+      "schedules": 6,
+      "matches": 6,
+      "sha256": "059865eb8bd55e57b8b5a42bba08e48bf32407ef701d373312eadab4bd75692e",
+      "witnesses": [
+        [
+          226,
+          12,
+          36,
+          0
+        ],
+        [
+          110,
+          15,
+          5,
+          0
+        ],
+        [
+          29,
+          15,
+          67,
+          0
+        ],
+        [
+          179,
+          12,
+          116,
+          0
+        ],
+        [
+          203,
+          12,
+          83,
+          0
+        ],
+        [
+          224,
+          12,
+          3,
+          0
+        ]
+      ],
+      "slow_versions": 1200,
+      "fast_versions": 1800,
+      "coordinate_frequencies": [
+        1.6608921185620862,
+        1.6620044748303775
+      ],
+      "proper_frequencies": [
+        1.6608921185620862,
+        1.1080029832202516
+      ],
+      "frequency_ratio": 0.6671131561389446,
+      "expected_ratio": 0.6666666666666666,
+      "incident_angle": 21.161715761276877,
+      "transmitted_angle": 32.85098930644856,
+      "expected_incident": 21.161259816828277,
+      "expected_transmitted": 32.78520595068396,
+      "snell_from_measured_incident": 32.78596459909273,
+      "longitudinal_wavenumbers": [
+        1.5499633620295297,
+        0.9292006602801558
+      ],
+      "finite": true,
+      "peak_field": 1.0546141997725749
+    },
+    {
+      "h": 0.1,
+      "phase_samples": 801,
+      "proper_step": 0.03,
+      "stepped": false,
+      "events": 961200,
+      "schedules": 6,
+      "matches": 6,
+      "sha256": "2b0908c290d1ac2b2dee469565697c5a58dbba7a55c3d52f460c0336844c1a43",
+      "witnesses": [
+        [
+          226,
+          12,
+          36,
+          0
+        ],
+        [
+          110,
+          15,
+          5,
+          0
+        ],
+        [
+          29,
+          15,
+          67,
+          0
+        ],
+        [
+          658,
+          12,
+          116,
+          0
+        ],
+        [
+          499,
+          12,
+          305,
+          0
+        ],
+        [
+          690,
+          12,
+          35,
+          0
+        ]
+      ],
+      "slow_versions": 1200,
+      "fast_versions": 1200,
+      "coordinate_frequencies": [
+        1.6608921185620862,
+        1.6751540281170625
+      ],
+      "proper_frequencies": [
+        1.6608921185620862,
+        1.6751540281170625
+      ],
+      "frequency_ratio": 1.008586897002873,
+      "expected_ratio": 1.0,
+      "incident_angle": 21.161717453453022,
+      "transmitted_angle": 21.158859613221836,
+      "expected_incident": 21.161259816828277,
+      "expected_transmitted": 21.161259816828277,
+      "snell_from_measured_incident": 21.161717453453022,
+      "longitudinal_wavenumbers": [
+        1.549963226055464,
+        1.5501928961189773
+      ],
+      "finite": true,
+      "peak_field": 1.0
+    }
+  ],
+  "gates": {
+    "schedule": true,
+    "finite": true,
+    "frequency": true,
+    "angle": true
+  },
+  "cpu_seconds": 7.484375
+}
