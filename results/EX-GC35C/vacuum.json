@@ -1,0 +1,30 @@
+[
+  {
+    "n": 24,
+    "checked_modes": 4912,
+    "max_polynomial_defect": 3.738059104616246e-15,
+    "max_constraint_subspace_leakage": 1.4386412745878573e-15,
+    "max_restricted_real_dimensionless": 2.016696826520528e-08,
+    "unique_ranks": [
+      [
+        4,
+        3,
+        2
+      ]
+    ]
+  },
+  {
+    "n": 48,
+    "checked_modes": 4912,
+    "max_polynomial_defect": 5.291308745880094e-15,
+    "max_constraint_subspace_leakage": 2.368714624785434e-15,
+    "max_restricted_real_dimensionless": 2.023871837718043e-08,
+    "unique_ranks": [
+      [
+        4,
+        3,
+        2
+      ]
+    ]
+  }
+]
