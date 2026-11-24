@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "B": 1,
+      "h": 0.2,
+      "n": 61,
+      "E": 1.2036731539798695,
+      "E2": 0.561154151790745,
+      "E4": 0.6425190021891246,
+      "degree": -0.9301175734857567,
+      "iterations": 350,
+      "success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "gradient_max": 2.1214452518752845e-06,
+      "full_residual": 0.020905701717379946,
+      "energy_residual": 4.546355099743683e-16,
+      "tidal_error": 0.0005631310002647471,
+      "monopole": 1.2036731539798702,
+      "feedback_source": "energy_only",
+      "feedback": {
+        "norm": 0.1790088167808461,
+        "finite_relative": 5.547880526967384e-10,
+        "metric_strength": 5.455453551114315e-06
+      }
+    },
+    {
+      "B": 2,
+      "h": 0.2,
+      "n": 61,
+      "E": 2.3127542358919646,
+      "E2": 1.0927247417920336,
+      "E4": 1.2200294940999312,
+      "degree": -1.8786358067152493,
+      "iterations": 350,
+      "success": false,
+      "optimizer_message": "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT",
+      "gradient_max": 2.47897771478361e-07,
+      "full_residual": 0.015537801977987284,
+      "energy_residual": 4.353626697583794e-16,
+      "tidal_error": 0.0005349925094173384,
+      "monopole": 2.3127542358919655,
+      "feedback_source": "energy_only",
+      "feedback": {
+        "norm": 0.2897412098570744,
+        "finite_relative": 4.660776018934346e-10,
+        "metric_strength": 7.909687174495292e-06
+      }
+    }
+  ],
+  "gates": {
+    "B0": true,
+    "B1_control": true,
+    "B1_full": false,
+    "B2": true
+  },
+  "fine_ratios": {
+    "energy": 1.921413822552234,
+    "mass": 1.9214138225522335
+  },
+  "cpu_seconds": 160.84375,
+  "python": "3.13.2",
+  "torch": "2.7.1+cpu",
+  "numpy": "2.2.4"
+}
