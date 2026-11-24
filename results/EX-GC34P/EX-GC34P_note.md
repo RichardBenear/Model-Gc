@@ -2,6 +2,8 @@
 
 **PI CLOSED 2026-11-23** (Richard: "I sign off on 34O and 34P").
 
+**Correction (2026-11-24, after the ChatGPT 34P review; no gate re-scored):** by t = 4 and 8 the two preparations had moved to different places. So the A − B row tests the full time-dependent field of two different source histories. It does not isolate a velocity-dependent (gravitomagnetic) part, as the text below says.
+
 Claude, 2026-11-24. PI go-ahead (Richard, 2026-11-23): "ChatGPT has review 34O and has a small recommended step. Go
 ahead with that test."
 - Source: `review/EX-GC34O_chatgpt_review.md`.
