@@ -1,0 +1,229 @@
+{
+  "gates": {
+    "U0": true,
+    "U1": true,
+    "U2": true
+  },
+  "overall": true,
+  "grids": [
+    {
+      "h": 0.125,
+      "rows": [
+        {
+          "t": 1,
+          "raw_flux_relative": 0.004065512201209892,
+          "coupling_flux_relative": 0.006016599842362227,
+          "signal_over_mass": 0.01904992515762257,
+          "strength_relative": 4.670218412009036e-07,
+          "r2_feedback": -0.004353028224592104,
+          "predicted_mass_derivative_relative": 0.0002039193328393883
+        },
+        {
+          "t": 2,
+          "raw_flux_relative": 0.004345390213736442,
+          "coupling_flux_relative": 0.005194069125862436,
+          "signal_over_mass": 0.058756962404245064,
+          "strength_relative": 4.311914610009196e-06,
+          "r2_feedback": 0.02897064376038705,
+          "predicted_mass_derivative_relative": 0.0010693623623987544
+        },
+        {
+          "t": 4,
+          "raw_flux_relative": 0.005139306426012919,
+          "coupling_flux_relative": 0.004342291808684232,
+          "signal_over_mass": 0.04662159201643343,
+          "strength_relative": 2.4914384026557196e-05,
+          "r2_feedback": 0.027193916445110433,
+          "predicted_mass_derivative_relative": 0.0014502764027297182
+        }
+      ],
+      "checks": {
+        "0.0": {
+          "initial_total_mass": 0.0,
+          "normalized_initial_mass": 0.3367316584646199,
+          "mass_drift": 0.00014179138352288234,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.6496740579261536e-22
+        },
+        "0.01": {
+          "initial_total_mass": 0.0033647778365564086,
+          "normalized_initial_mass": 0.33647778365564085,
+          "mass_drift": 0.0001419129242388184,
+          "compactness": 0.0016879241429325002,
+          "boundary_amplitude": 2.633480628070998e-22
+        },
+        "-0.01": {
+          "initial_total_mass": -0.0033698581741770295,
+          "normalized_initial_mass": 0.33698581741770295,
+          "mass_drift": 0.0001416530690221407,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.6659916203227274e-22
+        },
+        "0.005": {
+          "initial_total_mass": 0.001683023427827659,
+          "normalized_initial_mass": 0.3366046855655318,
+          "mass_drift": 0.00014185427154167485,
+          "compactness": 0.0008441387055807341,
+          "boundary_amplitude": 2.641561895190103e-22
+        },
+        "-0.005": {
+          "initial_total_mass": -0.001684293511998628,
+          "normalized_initial_mass": 0.3368587023997256,
+          "mass_drift": 0.00014172430210468434,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.657817253625636e-22
+        }
+      }
+    },
+    {
+      "h": 0.0625,
+      "rows": [
+        {
+          "t": 1,
+          "raw_flux_relative": 0.0010159251189461994,
+          "coupling_flux_relative": 0.0015130500406409953,
+          "signal_over_mass": 0.01896276642074431,
+          "strength_relative": 4.7299111418671033e-07,
+          "r2_feedback": -0.004351140624019034,
+          "predicted_mass_derivative_relative": 5.184589653770565e-05
+        },
+        {
+          "t": 2,
+          "raw_flux_relative": 0.0010858763960724647,
+          "coupling_flux_relative": 0.0012979445448805108,
+          "signal_over_mass": 0.05876446018549211,
+          "strength_relative": 4.312247430404429e-06,
+          "r2_feedback": 0.02901700530923146,
+          "predicted_mass_derivative_relative": 0.0002687802670707911
+        },
+        {
+          "t": 4,
+          "raw_flux_relative": 0.0012859947929404925,
+          "coupling_flux_relative": 0.0010813849850498357,
+          "signal_over_mass": 0.04677921024280053,
+          "strength_relative": 2.483674375191455e-05,
+          "r2_feedback": 0.027272816318199555,
+          "predicted_mass_derivative_relative": 0.00036916921153804514
+        }
+      ],
+      "checks": {
+        "0.0": {
+          "initial_total_mass": 0.0,
+          "normalized_initial_mass": 0.3367575799287809,
+          "mass_drift": 3.54716718211634e-05,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.3645850287477796e-22
+        },
+        "0.01": {
+          "initial_total_mass": 0.0033650363583613363,
+          "normalized_initial_mass": 0.33650363583613363,
+          "mass_drift": 3.550253666939618e-05,
+          "compactness": 0.0016885268120452167,
+          "boundary_amplitude": 2.350237900015743e-22
+        },
+        "-0.01": {
+          "initial_total_mass": -0.003370118083072522,
+          "normalized_initial_mass": 0.3370118083072522,
+          "mass_drift": 3.544337634964201e-05,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.3790415205924084e-22
+        },
+        "0.005": {
+          "initial_total_mass": 0.0016831528618508039,
+          "normalized_initial_mass": 0.33663057237016075,
+          "mass_drift": 3.5487632659592094e-05,
+          "compactness": 0.0008444337149215484,
+          "boundary_amplitude": 2.357397854283078e-22
+        },
+        "-0.005": {
+          "initial_total_mass": -0.0016844232927942441,
+          "normalized_initial_mass": 0.3368846585588488,
+          "mass_drift": 3.5457624070422966e-05,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.3717995438405052e-22
+        }
+      }
+    },
+    {
+      "h": 0.03125,
+      "rows": [
+        {
+          "t": 1,
+          "raw_flux_relative": 0.0002539093646118261,
+          "coupling_flux_relative": 0.0003787496109660498,
+          "signal_over_mass": 0.018920942689516523,
+          "strength_relative": 4.746694330326182e-07,
+          "r2_feedback": -0.0043506769419277,
+          "predicted_mass_derivative_relative": 1.3369672869644958e-05
+        },
+        {
+          "t": 2,
+          "raw_flux_relative": 0.0002714060347171092,
+          "coupling_flux_relative": 0.00032442551820019693,
+          "signal_over_mass": 0.058750495820098725,
+          "strength_relative": 4.31335066144379e-06,
+          "r2_feedback": 0.02902867116525709,
+          "predicted_mass_derivative_relative": 6.789441138780122e-05
+        },
+        {
+          "t": 4,
+          "raw_flux_relative": 0.0003215699909014721,
+          "coupling_flux_relative": 0.00027004202229210643,
+          "signal_over_mass": 0.04681251126062326,
+          "strength_relative": 2.4821120538812945e-05,
+          "r2_feedback": 0.02729253830672379,
+          "predicted_mass_derivative_relative": 9.58057798001092e-05
+        }
+      ],
+      "checks": {
+        "0.0": {
+          "initial_total_mass": 0.0,
+          "normalized_initial_mass": 0.3367640682081598,
+          "mass_drift": 8.869794023702582e-06,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.387172116089644e-22
+        },
+        "0.01": {
+          "initial_total_mass": 0.0033651010668912474,
+          "normalized_initial_mass": 0.33651010668912473,
+          "mass_drift": 8.877114823446774e-06,
+          "compactness": 0.0016885254499296918,
+          "boundary_amplitude": 2.3727152136029827e-22
+        },
+        "-0.01": {
+          "initial_total_mass": -0.0033701831404859117,
+          "normalized_initial_mass": 0.33701831404859117,
+          "mass_drift": 8.862319470503977e-06,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.40173905653428e-22
+        },
+        "0.005": {
+          "initial_total_mass": 0.001683185259659515,
+          "normalized_initial_mass": 0.336637051931903,
+          "mass_drift": 8.873375659357308e-06,
+          "compactness": 0.0008444373424239711,
+          "boundary_amplitude": 2.3799299706882374e-22
+        },
+        "-0.005": {
+          "initial_total_mass": -0.0016844557778237874,
+          "normalized_initial_mass": 0.33689115556475746,
+          "mass_drift": 8.866003753826845e-06,
+          "compactness": 0.0,
+          "boundary_amplitude": 2.394441770829852e-22
+        }
+      }
+    }
+  ],
+  "boundary_relative": [
+    5.68744269733343e-16,
+    1.3749478357847565e-14,
+    1.0582114047295665e-13
+  ],
+  "fine_signal_grid_relative": 0.0010483866793228494,
+  "cpu_seconds": 4.0625,
+  "platform": {
+    "python": "3.13.2",
+    "numpy": "2.2.4",
+    "system": "Windows"
+  }
+}
