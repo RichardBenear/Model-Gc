@@ -1,6 +1,6 @@
 # EX-GC34Z — joint cubic action and coordinate-transformation solve (EXPLORATORY)
 
-2026-11-24 | ChatGPT | PI go-ahead: “try the next idea.” [Plan](../../spec/EX-GC34Z_plan.md) and log registered before execution (2fe720b and 499c2d4). PI closure pending.
+2026-11-24 | ChatGPT | PI go-ahead: “try the next idea.” [Plan](../../spec/EX-GC34Z_plan.md) and log registered before execution (2fe720b and 499c2d4). PI CLOSED 2026-11-24 (Richard: “I sign off on all of the open items”).
 
 **Registered verdict: Z0 PASS, Z1 PASS, Z2 FAIL.** The joint fit satisfies the training identities to roundoff. It fails on held-out triads, including at the training spacing. A separate expanded-sample solve gives a numerical lower bound that rules out satisfying those same-spacing equations within this 120-parameter family. No scalar coupling or time evolution was attempted.
 
