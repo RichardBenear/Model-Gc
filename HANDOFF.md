@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC34U closure
+
+PI CLOSED 2026-11-24 (Richard: “Close GC34U.”). The isolated spherical continuum reciprocal benchmark passed U0–U2 on the corrected implementation. [Results](results/EX-GC34U/EX-GC34U_note.md)
+
 ## EX-GC34R closure
 
 PI CLOSED 2026-11-24 (Richard: “Go ahead and close 34R.”). All three registered gates passed for the scalar packet’s leading response to its own weak field. The gravity source was held at zeroth order. [Results](results/EX-GC34R/EX-GC34R_note.md)
