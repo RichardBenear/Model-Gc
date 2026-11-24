@@ -1,8 +1,8 @@
 # The GC34 lattice equations
 
-Working reference through EX-GC34M | 2026-11-23
+Working reference through EX-GC34V | 2026-11-24
 
-This document collects the equations used in the GC34 studies and connects them to their implementations. It covers the static Regge benchmark, the J1 linear vacuum model, the prescribed moving-source benchmark, and the scalar matter-source test. GC34 is a reference model developed within the Model Gc project. Its equations are separate from the original reaction–diffusion equations for the consumed carrier \(G\).
+This document collects the equations used in the GC34 studies and connects them to their implementations. Sections 1–5 cover the historical Regge and J1 constructions. Sections 6–8 give the current Y1 equations, the isolated reciprocal continuum benchmark, and the next-order lattice compatibility test. GC34 is a reference model developed within the Model Gc project. Its equations are separate from the original reaction–diffusion equations for the consumed carrier \(G\).
 
 ## 1. Grid and variables
 
@@ -188,3 +188,105 @@ The two local balances tested by GC34M are
 The first balance, associated with re-slicing, held to roundoff. The second, associated with spatial displacement, had a first-order local residual even though total momentum was conserved in the periodic box. GC34M evolved the scalar on a flat background and tested its candidate sources. A self-consistent scalar-plus-gravity evolution remains a separate experiment.
 
 [GC34M scalar action and source code](../src/exgc34m.py) · [Registered plan](../spec/EX-GC34M_plan.md) · [GC34M results](../results/EX-GC34M/EX-GC34M_note.md)
+
+## 6. Current lattice geometry and linear gravity — Y1 (GC34N)
+
+Y1 uses six spatial metric components in place of J1's seven edge lengths. The lapse \(n\), scalar \(\phi\), and diagonal metric perturbations \(H_{aa}\) live at sites. The shift \(\beta_a\) lives at the centers of axis links, and the shears \(H_{ab}\) live at the centers of plaquettes. The spacetime perturbation has \(H_{00}=-2n\) and \(H_{0a}=\beta_a\). In Fourier amplitudes referred to their own grid positions, each staggered spatial derivative has symbol \(iK_a\), where
+\[
+K_a(q)=\frac{2\sin(q_a/2)}{h}.
+\]
+
+Let \(P\) map the ten independent lattice amplitudes \(x\) into the full symmetric spacetime tensor \(H\). Let \(p_\mu=(-\omega,\mathbf K)\) and raise indices with \(\eta=\operatorname{diag}(-1,1,1,1)\). The actual Y1 linearized Einstein tensor is
+\[
+G^{(1)}_{\mu\nu}[H;p]=\frac12\left(
+p^2H_{\mu\nu}-p_\mu H_{\nu\alpha}p^\alpha-p_\nu H_{\mu\alpha}p^\alpha
++p_\mu p_\nu H^\alpha{}_\alpha
++\eta_{\mu\nu}p^\alpha H_{\alpha\beta}p^\beta
+-\eta_{\mu\nu}p^2 H^\alpha{}_\alpha
+\right).
+\]
+
+The code assembles \(Mx=P^\mathsf T G^{(1)\,\mathrm{up}}[Px;p]\), with source \(P^\mathsf T\kappa T^{\mathrm{up}}\). When using the GC34O action derivatives, this source is \(2\kappa \hat s/h^3\), with the Fourier phase of each component referred to its own lattice location. This sign and normalization follow the GC34N kernel convention. The earlier J1 Hessian convention is given in Section 5. The linear Y1 gauge transformations are
+\[
+\delta n=\dot\xi,\quad
+\delta\beta_a=-D_a\xi+\dot u_a,\quad
+\delta H_{aa}=2D_a u_a,\quad
+\delta H_{ab}=D_a u_b+D_b u_a,
+\]
+with \(D_a\) a staggered one-cell difference. The linear kernel annihilates all four gauge directions. Its two vacuum tensor modes obey \(\omega=|\mathbf K|\), the same dispersion as its flat massless scalar.
+
+[GC34N lattice kernel and field placements](../src/exgc34n.py) · [GC34P source assembly](../src/exgc34p.py)
+
+## 7. Current scalar action and exact flat balances — GC34O
+
+Let \(G_a(v)=[\phi(v+\hat a)-\phi(v)]/h\) and \(H_{\rm tr}=\sum_a H_{aa}\). The terms below are written per site, link or plaquette, with the common cell volume \(h^3\) in the sum. On links, bars on site fields denote endpoint averages. On an \(ab\) plaquette, \(\bar G_a\) and \(\bar G_b\) average the corresponding two bordering links. The matter Lagrangian through first order in \(H\), \(n\) and \(\beta\) uses
+\[
+\begin{aligned}
+L_{\rm site}/h^3
+&=\tfrac12(1-n+\tfrac12 H_{\rm tr})\dot\phi^2
+-\tfrac12(1+n+\tfrac12 H_{\rm tr})m^2\phi^2
++\tfrac14\sum_a H_{aa}(v) G_a(v)G_a(v-\hat a),\\
+L_{{\rm link},a}/h^3
+&=-\tfrac12\left(1+\bar n+\tfrac12\sum_{b\ne a}\bar H_{bb}\right)G_a^2
+-\overline{\dot\phi}\,\beta_a G_a,\\
+L_{{\rm plaquette},ab}/h^3
+&=H_{ab}\bar G_a\bar G_b\qquad(a<b).
+\end{aligned}
+\]
+
+The scalar obeys \(\ddot\phi=\Delta_h\phi-m^2\phi\) on the flat grid. Varying the action in the ten metric directions gives \(s\). In particular the parallel normal stress uses the product of the two adjacent gradients, while the transverse terms and plaquette shear use the placements shown above. With that product, the four local balance identities hold for the flat scalar evolution. GC34P and GC34Q solve the sourced linear Y1 equation using these balances, with no feedback on the scalar. Their periodic solves omit the homogeneous gravity mode.
+
+[GC34O derivation](../spec/EX-GC34O_plan.md) · [Action and sources](../src/exgc34o.py) · [GC34Q kinetic-energy comparison](../results/EX-GC34Q/EX-GC34Q_note.md)
+
+## 8. Leading feedback, next-order conservation, and the isolated benchmark
+
+### Leading scalar feedback on Y1 — GC34R and GC34S
+
+In synchronous gauge \(n=\beta=0\), write \(\phi=\phi_0+\lambda\psi+\cdots\), \(H=\lambda H_1+\cdots\), and \(A=\tfrac12\operatorname{tr}H_1\). Define \(\mathcal B_h(\phi_0,H_1)\) as the spatial Euler–Lagrange force from the spatial gradient terms in Section 7, linear in \(H_1\), with the cell volume divided out. The implemented tangent equation is
+\[
+(\partial_t^2-\Delta_h+m^2)\psi
+=\mathcal B_h(\phi_0,H_1)-A\Delta_h\phi_0-\dot A\dot\phi_0 .
+\]
+Here \(H_1\) is driven by \(\phi_0\). GC34R verified the scalar tangent on that field. GC34S fed the scalar change back through the flat source alone and found a constraint violation that survived refinement.
+
+[GC34R tangent and action check](../src/exgc34r.py) · [GC34S reciprocal-source audit](../results/EX-GC34S/EX-GC34S_note.md)
+
+### The continuum next-order equation — GC34T
+
+For \(g=\eta+\lambda H_1+\lambda^2 H_2+\cdots\) and \(G=\lambda\kappa T\), use mixed-index coefficients:
+\[
+G^{(1)}[H_1]=\kappa T_0,\qquad
+G^{(1)}[H_2]=\kappa T_1-G^{(2)}[H_1,H_1],
+\]
+where \(T_1\) includes both the scalar response and the metric dependence of the matter tensor. With \(\mathcal C_{\Gamma}(X)_\nu=\Gamma^\mu{}_{\mu\sigma} X^\sigma{}_\nu-\Gamma^\sigma{}_{\mu\nu}X^\mu{}_\sigma\), expanded covariant conservation gives
+\[
+\partial_\mu(\kappa T_1-G^{(2)})^\mu{}_\nu
+=-\mathcal C_{\Gamma_1}(\kappa T_0-G^{(1)}[H_1])_\nu=0
+\]
+on the leading solution. A static flat periodic background cannot carry positive mean density in the linear Hamiltonian constraint. An expanding periodic background or an isolated boundary changes that setup.
+
+[GC34T derivation and homogeneous-mode test](../results/EX-GC34T/EX-GC34T_note.md)
+
+### Isolated reciprocal continuum equations — GC34U
+
+For the spherical reference solve, \(ds^2=-\alpha^2dt^2+a^2dr^2+r^2d\Omega^2\), \(\Phi=\partial_r\phi\), \(\Pi=(a/\alpha)\dot\phi\), and \(a^{-2}=1-2\lambda M/r\). With \(\kappa=m_{\rm scalar}=1\), the evolved and constrained equations are
+\[
+\begin{aligned}
+M'&=\tfrac14 r^2[(1-2\lambda M/r)(\Pi^2+\Phi^2)+\phi^2],\\
+(\log\alpha)'&=a^2\lambda(M/r^2+r p_r/2),
+& p_r&=\tfrac12[(\Pi^2+\Phi^2)/a^2-\phi^2],\\
+\dot\phi&=\alpha\Pi/a,
+& \dot\Pi&=r^{-2}\partial_r(r^2\alpha\Phi/a)-\alpha a\phi .
+\end{aligned}
+\]
+At every step gravity is sourced by the current scalar, and the scalar evolves on the resulting metric. The independent check is \(\dot M=r^2\alpha\Pi\Phi/(2a^3)\). At the outer boundary the lapse matches the Schwarzschild exterior, retaining the total positive geometric mass \(\lambda M\).
+
+[GC34U continuum benchmark](../results/EX-GC34U/EX-GC34U_note.md) · [Runner](../src/exgc34u.py)
+
+### Tested quadratic Y1 candidate — GC34V
+
+GC34V tested \(\kappa T_1-G^{(2)}\) in a nonzero harmonic interaction, using the continuum expressions for the quadratic geometry and metric-dependent stress with \(k\) replaced by \(K\) at each derivative. The scalar variation uses the GC34O stress and GC34R force. This candidate has a finite-spacing divergence and antisymmetric part after index lowering, even though the continuum control passes. The geometry alone violates the quadratic Bianchi check. One reason the continuum derivation does not directly transfer is \(K_a(2q)=2K_a(q)\cos(q_a/2)\), so the derivative of a product is not given by a sum of derivatives of the input harmonics without placement factors. On one link the exact rule instead uses endpoint averages, \(D(fg)=\bar f\,Dg+\bar g\,Df\).
+
+**The working Y1 vacuum equations are linear.** The symbolic continuum completion and the isolated spherical reciprocal solve are reference equations. GC34V's discrete candidate was rejected at the source check, before evolving a second-order metric. A compatible nonlinear Y1 action and a real-packet boundary prescription remain open.
+
+[GC34V compatibility result](../results/EX-GC34V/EX-GC34V_note.md) · [Candidate implementation](../src/exgc34v.py)
