@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC34S, X, Y and Z closure
+
+PI CLOSED 2026-11-24 (Richard: “I sign off on all of the open items”). GC34S ruled out direct reciprocal sourcing with the linear kernel. GC34X–Z ruled out the tested cubic interaction families at the registered tolerance. [GC34S](results/EX-GC34S/EX-GC34S_note.md) · [GC34X](results/EX-GC34X/EX-GC34X_note.md) · [GC34Y](results/EX-GC34Y/EX-GC34Y_note.md) · [GC34Z](results/EX-GC34Z/EX-GC34Z_note.md)
+
 ## EX-GC34V and EX-GC34W closure
 
 PI CLOSED 2026-11-24 (Richard: “go ahead and close V and W”). GC34V's tested quadratic Y1 source failed finite-spacing symmetry and conservation. GC34W's variational cubic action gave a symmetric source but failed the vacuum conservation gate. Neither candidate went to reciprocal evolution. [GC34V results](results/EX-GC34V/EX-GC34V_note.md) · [GC34W results](results/EX-GC34W/EX-GC34W_note.md)
