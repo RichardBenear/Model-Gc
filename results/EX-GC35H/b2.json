@@ -1,0 +1,91 @@
+{
+  "degree": 2,
+  "legacy": {
+    "energy": 2.312754235775663,
+    "E2": 1.0927265261129364,
+    "E4": 1.2200277096627263,
+    "degree": -1.8786362139153445,
+    "integrated_stress": [
+      [
+        0.04128112664983644,
+        4.3812820720981674e-11,
+        3.87700476078184e-11
+      ],
+      [
+        4.3812820720981674e-11,
+        0.04128112708305725,
+        -3.3223773273622835e-12
+      ],
+      [
+        3.87700476078184e-11,
+        -3.3223773273622835e-12,
+        0.04473892981689666
+      ]
+    ],
+    "virial": 0.05504310902584747,
+    "full_residual": 0.013096065330043394,
+    "energy_residual": 4.22048369129703e-16,
+    "stress_divergence": 0.03300433544754499,
+    "source_modes": 250
+  },
+  "relaxation": {
+    "history": [
+      {
+        "iteration": 0,
+        "energy": 2.527457699810655,
+        "force": 0.08896150849201998,
+        "cpu": 0.0
+      },
+      {
+        "iteration": 100,
+        "energy": 2.312855774208383,
+        "force": 0.014310138410207571,
+        "cpu": 18.09375
+      },
+      {
+        "iteration": 200,
+        "energy": 2.3127614869211275,
+        "force": 0.005991349983510274,
+        "cpu": 34.84375
+      },
+      {
+        "iteration": 300,
+        "energy": 2.312754255301646,
+        "force": 0.00011321820516594887,
+        "cpu": 52.640625
+      },
+      {
+        "iteration": 353,
+        "energy": 2.31275423576503,
+        "force": 9.312633589785272e-06,
+        "cpu": 61.140625
+      }
+    ],
+    "iterations": 353,
+    "evaluations": 366,
+    "force": 9.312633589785272e-06,
+    "stop": "force tolerance",
+    "cpu_seconds": 61.28125
+  },
+  "audit": {
+    "finite_relative": [
+      6.691678692967385e-11,
+      4.969757504118176e-09
+    ],
+    "sigma_unconstrained_ward": 5.399090985119895e-16,
+    "rank_one_force": 0.0,
+    "rank_one_quartic": 0.0,
+    "rank_one_ward": 4.221715985097407,
+    "rank_one_identity_difference": 0.0
+  },
+  "energy": 2.3127542357756625,
+  "flat_energy_relative": 2.220446049250313e-16,
+  "native_residual": 0.006786078007300852,
+  "sigma_only_stress_residual": 0.10273870218363,
+  "quartic_only_stress_residual": 0.10843181288096218,
+  "density_only_residual": 4.1562549388266785e-16,
+  "divergence_sigma": 1.8398943298958,
+  "divergence_quartic": 2.180383169231885,
+  "divergence_total": 0.4686589439546907,
+  "cpu_seconds": 63.34375
+}
