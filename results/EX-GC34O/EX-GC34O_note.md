@@ -1,5 +1,7 @@
 # EX-GC34O — on Y1, a scalar's own sources now conserve energy and momentum exactly (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "I sign off on 34O and 34P").
+
 Claude, 2026-11-24. PI go-ahead (Richard, 2026-11-23): "Yes, go ahead with 34O".
 - Source: `review/EX-GC34N_chatgpt_review.md`.
 - The plan `spec/EX-GC34O_plan.md` and the `explore/LOG.md` entry were pushed before any run (ffdbdb6).
