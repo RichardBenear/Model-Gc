@@ -1,0 +1,123 @@
+{
+  "V0": true,
+  "V1": false,
+  "continuum": [
+    {
+      "h": null,
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "first_resid": 0.0,
+      "divergence": 3.778667183775734e-17,
+      "symmetry": 0.0,
+      "geometric_bianchi": 6.5151951616208115e-18,
+      "matter_balance": 5.25271826734546e-17,
+      "product_defect": 0.0
+    },
+    {
+      "h": null,
+      "direction": [
+        1,
+        1,
+        1
+      ],
+      "first_resid": 7.22638703956079e-17,
+      "divergence": 3.3668995067536696e-17,
+      "symmetry": 4.621903948978974e-17,
+      "geometric_bianchi": 2.260983308056202e-17,
+      "matter_balance": 2.627440976673719e-17,
+      "product_defect": 0.0
+    }
+  ],
+  "lattice": [
+    {
+      "h": 0.5,
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "first_resid": 3.392987039588591e-16,
+      "divergence": 0.003567569801925091,
+      "symmetry": 0.02200734427089703,
+      "geometric_bianchi": 0.0036382636894225417,
+      "matter_balance": 0.0071854724085952835,
+      "product_defect": 0.019214719596769427
+    },
+    {
+      "h": 0.25,
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "first_resid": 4.869261936669346e-16,
+      "divergence": 0.0008603386788940316,
+      "symmetry": 0.00537224015993946,
+      "geometric_bianchi": 0.0008460978635947082,
+      "matter_balance": 0.0016991061202075303,
+      "product_defect": 0.004815273327803231
+    },
+    {
+      "h": 0.125,
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "first_resid": 4.099814771603036e-16,
+      "divergence": 0.00021296589946157168,
+      "symmetry": 0.0013333405823335916,
+      "geometric_bianchi": 0.00020730019233025946,
+      "matter_balance": 0.00041827169831338195,
+      "product_defect": 0.0012045437948276045
+    },
+    {
+      "h": 0.5,
+      "direction": [
+        1,
+        1,
+        1
+      ],
+      "first_resid": 5.504289431909877e-16,
+      "divergence": 0.0021866350141956275,
+      "symmetry": 0.02252305396458969,
+      "geometric_bianchi": 0.0031414809467442063,
+      "matter_balance": 0.005247775545788132,
+      "product_defect": 0.019214719596769424
+    },
+    {
+      "h": 0.25,
+      "direction": [
+        1,
+        1,
+        1
+      ],
+      "first_resid": 8.4028515851149015e-16,
+      "divergence": 0.0004670260885806242,
+      "symmetry": 0.005321840187011581,
+      "geometric_bianchi": 0.0006975154624118122,
+      "matter_balance": 0.00114048480204876,
+      "product_defect": 0.004815273327803232
+    },
+    {
+      "h": 0.125,
+      "direction": [
+        1,
+        1,
+        1
+      ],
+      "first_resid": 5.581278980321299e-16,
+      "divergence": 0.00011176787724218055,
+      "symmetry": 0.0013082576298292885,
+      "geometric_bianchi": 0.00016895044809555216,
+      "matter_balance": 0.0002744893010752228,
+      "product_defect": 0.0012045437948276045
+    }
+  ],
+  "cpu_seconds": 1.296875,
+  "python": "3.13.2",
+  "numpy": "2.2.4"
+}
