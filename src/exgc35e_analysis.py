@@ -30,12 +30,15 @@ def projector(n,lattice):
 def summarize(folder):
     refs={}
     arrays={}
+    quadratics={}
     tags=("coarse","fine","continuum","half")
     for tag in tags:
         with (folder/f"{tag}.json").open() as file:
             refs[tag]=json.load(file)
         with np.load(folder/f"{tag}.npz") as data:
             arrays[tag]={k:data[k] for k in data if not k.endswith("_tt")}
+        with np.load(folder/f"{tag}_quadratic.npz") as data:
+            quadratics[tag]={k:data[k] for k in data}
     transforms={}
     audits={}
     for tag,meta in refs.items():
@@ -58,7 +61,11 @@ def summarize(folder):
             nominal=x[f"{t}_nominal"]
             weight=np.sqrt(E.P.WT)
             tt=transforms[tag]
+            q=quadratics[tag][str(t)]
+            qc=quadratics["continuum"][str(t)]
             rows.append(dict(t=t,tag=tag,reconstructed=rel(d,ti,weight),
+                             coordinate_tidal=rel(d+q,ti+qc,weight),
+                             coordinate_tidal_tt=rel(tt(d+q),ctt(ti+qc)),
                              nominal=rel(nominal,continuum[f"{t}_nominal"],weight),
                              reconstructed_tt=rel(tt(d),ctt(ti)),
                              nominal_tt=rel(tt(nominal),ctt(continuum[f"{t}_nominal"])),
@@ -67,7 +74,21 @@ def summarize(folder):
                              reconstructed_to_nominal=rel(d,nominal,weight),
                              impulse_ratio=float(np.linalg.norm(x[f"{t}_impulse"]*weight)/np.linalg.norm(ti*weight)),
                              continuum_projection_effect=rel(ti,continuum[f"{t}_reconstructed_free"],weight)))
-    return dict(tidal=rows,tt_projector_max_relative=audits)
+    def peak(tag,key):
+        return max(row[key] for row in refs[tag]["history"])
+    coarse=refs["coarse"]["history"]
+    half=refs["half"]["history"]
+    t4_coarse=next(row for row in coarse if abs(row["t"]-4)<1e-10)
+    t4_half=half[-1]
+    fine_rows=[row for row in rows if row["tag"]=="fine"]
+    gates=dict(post=max(peak(k,"after") for k in tags)<=1e-10,
+               pre=peak("fine","before")<=1e-3 and peak("coarse","before")/peak("fine","before")>=2,
+               tidal=all(row["reconstructed"]<=.02 for row in fine_rows))
+    dt4=dict(coarse_before=t4_coarse["before"],half_before=t4_half["before"],
+             reconstructed_relative=rel(arrays["half"]["4_reconstructed"],arrays["coarse"]["4_reconstructed"],np.sqrt(E.P.WT)),
+             nominal_relative=rel(arrays["half"]["4_nominal"],arrays["coarse"]["4_nominal"],np.sqrt(E.P.WT)))
+    return dict(tidal=rows,tt_projector_max_relative=audits,gates=gates,dt4=dt4,
+                quadratic_cpu_seconds=float((folder/"quadratic_cpu.txt").read_text()))
 
 
 if __name__=="__main__":
