@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC34Q closure
+
+PI CLOSED 2026-11-23 (Richard: “we can close GC34Q”). GC34Q passed Q0–Q3. The differential tidal curvature from added scalar kinetic energy matched linearized GR within 0.771% on the finer grid, with second-order convergence. This was a one-way weak-field test with the scalar evolving on the flat grid. [Results](results/EX-GC34Q/EX-GC34Q_note.md).
+
 ## Current state (2026-11-22, updated after PI closure of EX-GC31A–33A)
 **No study is running.** EX-GC26 (26A–F, 26E3), EX-GC27A/B, EX-GC28A–H, EX-GC29A and EX-GC30A/B/B2/B3 PI CLOSED (2026-11-22; 30-series review review/EX-GC30A-B3_claude_review.md). EX-GC29B deferred; white paper v0.4 covers through EX-GC26.
 **EX-GC30:** analytic screen, BEC tuning failure under density, Weyl winding conserved but metrics split except symmetry-restricted controls; weak RG common-speed attraction insufficient at finite scales. PI CLOSED. Nonzero interacting fixed point remains reserve.
