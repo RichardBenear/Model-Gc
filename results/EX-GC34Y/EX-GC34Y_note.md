@@ -1,6 +1,6 @@
 # EX-GC34Y — majority-parity cubic contractions (EXPLORATORY)
 
-2026-11-24 | ChatGPT | PI go-ahead: “go ahead and try the next idea.” [Plan](../../spec/EX-GC34Y_plan.md) and log registered before execution (5da145f and 50bdcc8). PI closure pending.
+2026-11-24 | ChatGPT | PI go-ahead: “go ahead and try the next idea.” [Plan](../../spec/EX-GC34Y_plan.md) and log registered before execution (5da145f and 50bdcc8). PI CLOSED 2026-11-24 (Richard: “I sign off on all of the open items”).
 
 **Y0 PASS, Y1 FAIL, Y2 FAIL.** Moving products to staggered contraction sites improves the vacuum gauge residuals, but neither the on-shell nor the full cubic condition becomes exact. No matter coupling or reciprocal evolution was attempted.
 
