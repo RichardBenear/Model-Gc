@@ -1,6 +1,6 @@
 # EX-GC34T — next-order conservation and the periodic mean (EXPLORATORY)
 
-2026-11-24 | ChatGPT | [Plan](../../spec/EX-GC34T_plan.md) and log registered before execution (cf15388 and 0309851). PI closure pending.
+2026-11-24 | ChatGPT | [Plan](../../spec/EX-GC34T_plan.md) and log registered before execution (cf15388 and 0309851). PI CLOSED 2026-11-24 (Richard: “go ahead and close 34T.”).
 
 **T1 PASS and T2 PASS.** This verifies the continuum identities and a homogeneous expanding benchmark. It does not supply a second-order lattice action or validate an inhomogeneous reciprocal solution on Y1.
 
