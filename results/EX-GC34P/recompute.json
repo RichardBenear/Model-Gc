@@ -1,0 +1,39 @@
+{
+ "modes": [
+  [
+   0,
+   -1,
+   0
+  ],
+  [
+   0,
+   0,
+   1
+  ],
+  [
+   0,
+   1,
+   0
+  ],
+  [
+   -24,
+   -22,
+   22
+  ]
+ ],
+ "mode_size_rel_to_largest": [
+  1.0,
+  1.0,
+  1.0,
+  2.955534524331787e-16
+ ],
+ "rel_diff_vs_main": [
+  4.202751288919012e-11,
+  4.2028667083050053e-11,
+  4.202751288919012e-11,
+  1.0467922632487499
+ ],
+ "nfev": 470,
+ "note": "first attempt used 3 arbitrary probe modes stored by curv (edge modes of negligible size); replaced by the 3 largest modes and a median one from a fresh main-path run",
+ "cpu_s": 161.816451408
+}
