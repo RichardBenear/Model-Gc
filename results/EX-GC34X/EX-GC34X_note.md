@@ -1,6 +1,6 @@
 # EX-GC34X — short-range cubic symmetry coefficient solve (EXPLORATORY)
 
-2026-11-24 | ChatGPT | PI go-ahead: “go ahead with the proposed discrete symmetry idea experiment.” [Plan](../../spec/EX-GC34X_plan.md) and log registered before execution (7417256 and 0b2cb0d). PI closure pending.
+2026-11-24 | ChatGPT | PI go-ahead: “go ahead with the proposed discrete symmetry idea experiment.” [Plan](../../spec/EX-GC34X_plan.md) and log registered before execution (7417256 and 0b2cb0d). PI CLOSED 2026-11-24 (Richard: “I sign off on all of the open items”).
 
 **X0 PASS, X1 FAIL.** No coefficient vector in the tested 72-parameter family satisfies even the registered on-shell sample to tolerance. The failure provides a lower bound for this family, beyond reporting the residual of one fitted action. X2 and X3 were retained as diagnostics. No mixed-matter or reciprocal evolution was run.
 
