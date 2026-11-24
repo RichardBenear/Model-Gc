@@ -1,5 +1,12 @@
 # Handoff — current state
 
+## GC35E/F completed
+
+- **GC35E** used a tensor-weighted projection after each step of the GC35C reciprocal run. Post-projection residuals were at roundoff through t=20. The fine pre-projection peak of 1.86e-3 and reconstructed tidal error of 8.94% at t=20 failed the accuracy gates. The TT evolution was unchanged by the projection to numerical precision. [Results](results/EX-GC35E/EX-GC35E_note.md)
+- **GC35F** reproduced the one-way linear Y1 scalar-metric stencil on a fixed versioned local dependency graph without a timestep barrier. All 48 legal schedules agreed bit for bit and the stale-read negative control was schedule dependent. Common-slice constraint errors fell by 4.01× on halving the timestep. This establishes order independence within the prescribed graph. [Results](results/EX-GC35F/EX-GC35F_note.md)
+
+These were items 1 and 3 of the [GC35C/D review](review/EX-GC35CD_claude_review.md). Both studies are exploratory and pending PI closure.
+
 ## GC35C/D completed
 
 - **GC35C** extended the compensated scalar benchmark to t=20. The fine residual exceeded 10⁻³ at t=5.75 and reached 0.368 at t=20. Neither the timestep change nor removing the compensator corrections accounted for the growth. The linear Y1 vacuum generator had no matching exponential mode. This limits the current reciprocal scalar construction to its qualified short window. [Results](results/EX-GC35C/EX-GC35C_note.md)
