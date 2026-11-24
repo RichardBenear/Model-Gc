@@ -1,6 +1,6 @@
 # EX-GC34U — an isolated continuum benchmark for reciprocal scalar gravity (EXPLORATORY)
 
-2026-11-24 | ChatGPT | PI go-ahead: “the next reciprocal test you mentioned in 34T can be ran”. The [plan](../../spec/EX-GC34U_plan.md) and log were committed before execution (e51dc2e and 6956218). PI closure pending.
+2026-11-24 | ChatGPT | PI go-ahead: “the next reciprocal test you mentioned in 34T can be ran”. The [plan](../../spec/EX-GC34U_plan.md) and log were committed before execution (e51dc2e and 6956218). PI CLOSED 2026-11-24 (Richard: “Close GC34U.”).
 
 **U0, U1 and U2 PASS on the corrected numerical implementation.** With isolated boundaries a spherical massive scalar sources the metric and evolves on that same metric. The resulting change in the scalar also changes the enclosed gravitational mass. The independently evaluated mass-flux equation converges, including the first coupling derivative that probes the next gravitational order.
 
