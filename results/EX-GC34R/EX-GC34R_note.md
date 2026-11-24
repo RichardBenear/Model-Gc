@@ -1,6 +1,6 @@
 # EX-GC34R — leading gravitational feedback on a scalar packet (EXPLORATORY)
 
-2026-11-23 (America/Denver) | ChatGPT | PI go-ahead: “go ahead with GC34R”. [Plan](../../spec/EX-GC34R_plan.md) and registration entry pushed before computation (67d4a89 and cb38836). PI closure pending.
+2026-11-23 (America/Denver) | ChatGPT | PI go-ahead: “go ahead with GC34R”. [Plan](../../spec/EX-GC34R_plan.md) and registration entry pushed before computation (67d4a89 and cb38836). PI CLOSED 2026-11-24 (Richard: “Go ahead and close 34R.”).
 
 ## Registered result
 
