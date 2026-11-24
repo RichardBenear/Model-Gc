@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC34T closure
+
+PI CLOSED 2026-11-24 (Richard: “go ahead and close 34T.”). Both registered checks passed. GC34T verified the continuum next-order conservation identity and the expanding homogeneous benchmark. The discrete Y1 identity and reciprocal packet evolution remain open. [Results](results/EX-GC34T/EX-GC34T_note.md)
+
 ## EX-GC34Q closure
 
 PI CLOSED 2026-11-23 (Richard: “we can close GC34Q”). GC34Q passed Q0–Q3. The differential tidal curvature from added scalar kinetic energy matched linearized GR within 0.771% on the finer grid, with second-order convergence. This was a one-way weak-field test with the scalar evolving on the flat grid. [Results](results/EX-GC34Q/EX-GC34Q_note.md).
