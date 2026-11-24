@@ -1,5 +1,12 @@
 # Handoff — current state
 
+## GC35C/D completed
+
+- **GC35C** extended the compensated scalar benchmark to t=20. The fine residual exceeded 10⁻³ at t=5.75 and reached 0.368 at t=20. Neither the timestep change nor removing the compensator corrections accounted for the growth. The linear Y1 vacuum generator had no matching exponential mode. This limits the current reciprocal scalar construction to its qualified short window. [Results](results/EX-GC35C/EX-GC35C_note.md)
+- **GC35D** met the tighter rest-force tolerance in all eight cases. Matched relaxation and box controls hardly changed the residual at h=.2. At h=.15 the full-stress residuals were 0.867% and 0.698%, above the 0.1% gate. [Results](results/EX-GC35D/EX-GC35D_note.md)
+
+The moving-knot study was conditional on both gates and was not started. GC35C and GC35D are exploratory and pending PI closure.
+
 ## GC35A/B and white paper v0.5 revision 3
 
 The PI accepted the approximate staggered Y1 model as the current reference and paused exact nonlinear correction searches. [Symmetry and formulation note](docs/EX-GC34_symmetry_and_direction.md) · [White paper draft through GC34Z](paper/Model_Gc_white_paper_v0.5.md)
