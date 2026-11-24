@@ -1,5 +1,7 @@
 # EX-GC34N — a staggered lattice (Y1) makes both gauge symmetries exact and gravitomagnetism second order (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "I sign off on 34N").
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "close 34M and then redesign the shift couplings and vacuum
 action".
 - The plan `spec/EX-GC34N_plan.md` and the `explore/LOG.md` entry were pushed before any run (ef80f66).
