@@ -1,0 +1,17 @@
+# EX-GC34R — leading gravitational feedback on a scalar packet (EXPLORATORY)
+
+PI go-ahead: “go ahead with GC34R”. ChatGPT leads. Cap 2 core-hours. Follow GC34Q with a perturbative response, keeping the gravity source at zeroth order. No PI closure is implied.
+
+## Setup
+
+Use the same standing preparation as the high-kinetic-energy case of GC34Q (initial time derivative = initial field, m=1), but a smaller periodic box L=16, Gaussian width 2 and generic central wavevector of magnitude 0.6. Use GC34P's physical Fourier normalization and keep coefficients with integer components at most 4 in magnitude before taking the real part. Fix those coefficients across lattice spacings h=0.5 and 0.25 and the spectral continuum reference (N=40). This is a bounded adaptation of the GC34Q packet. Retain all nonzero gravity modes through component index 8, omit only the homogeneous mode. Use GC34P's constraint initialization, synchronous gauge, and RK4 for the sourced linear metric.
+
+Derive the first scalar response by varying the O action in synchronous gauge, retaining its normal-stress product and plaquette shear terms. In the continuum use the corresponding linearized minimally coupled Klein–Gordon action evaluated spectrally. Solve the flat packet analytically. Evolve the metric from that packet and the scalar tangent from the resulting metric, with zero initial scalar correction, jointly by RK4 to t=2 at dt=.025. Compare at t=1 and 2. Maintain the same initial coordinate profile and matched constraint initializer; synchronous time is proper time along the chosen normal congruence. The primary readout is the derivative of the proper-volume integral of phi squared, including the trace contribution to the volume. This is a slice-dependent observable with the slicing fixed by the prescribed initialization. Also record its scalar-response and volume parts separately. Do not update the gravity source with the corrected scalar.
+
+## Gates
+
+- R0: flat initial profiles agree across grids in sampled common sites (relative max <=1e-12), full sourced gravity constraint residual <=1e-6. The spatial variation in the lattice tangent forcing must match a direct finite difference of the GC34O action on a small random periodic grid to <=1e-7 relative, including the kinetic trace term.
+- R1: in the fine lattice the error in the primary response relative to the continuum is <=5% at both scored times and falls by at least 3x from coarse to fine. The scalar-response part must be nonzero. Report its separate convergence.
+- R2: repeat the coarse-grid tangent with dt halved. The change in the response at each time must be <=10% of the coarse-to-continuum discrepancy. Compare the tangent to centered finite differences of scalar evolutions on the fixed, externally supplied metric with strength factors ±epsilon and ±epsilon/2, epsilon=0.0001. At both times, the fine-epsilon derivative must agree to <=1% with the tangent. Keep the gravity solver and flat source unchanged in these checks. Report metric amplitude times epsilon to document the weak-field regime.
+
+Overall PASS requires R0–R2. The centered finite-difference check shares the same fixed gravity history, but evolves the full scalar on that external metric using the linear-in-metric action, rather than the tangent equation. It is a method check, not fully coupled nonlinear gravity. Record any deviations and keep registered verdicts.
