@@ -1,0 +1,64 @@
+{
+  "rows": [
+    {
+      "B": 1,
+      "h": 0.3,
+      "n": 41,
+      "E": 8.490947098047817e-09,
+      "E2": 8.490947091501008e-09,
+      "E4": 6.546807633720441e-18,
+      "degree": 7.349828007745601e-16,
+      "iterations": 139,
+      "success": true,
+      "optimizer_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "gradient_max": 2.963848649895159e-07,
+      "full_residual": 0.36570300875225636,
+      "energy_residual": 4.586173441567798e-16,
+      "tidal_error": 0.00097136635538685,
+      "monopole": 8.490947098047822e-09,
+      "feedback_source": "energy_only",
+      "feedback": {
+        "norm": 5.495091584039155e-13,
+        "finite_relative": 0.02278085711846937,
+        "metric_strength": 1.1754262136498314e-14
+      }
+    },
+    {
+      "B": 2,
+      "h": 0.3,
+      "n": 41,
+      "E": 2.234081254743373,
+      "E2": 0.9422320555364733,
+      "E4": 1.2918491992069,
+      "degree": -1.6599633131811213,
+      "iterations": 178,
+      "success": true,
+      "optimizer_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "gradient_max": 6.901184238784421e-07,
+      "full_residual": 0.044523811864700405,
+      "energy_residual": 4.629560870579265e-16,
+      "tidal_error": 0.0012222989924617642,
+      "monopole": 2.234081254743374,
+      "feedback_source": "energy_only",
+      "feedback": {
+        "norm": 0.33227564163814405,
+        "finite_relative": 3.064099931240346e-10,
+        "metric_strength": 8.867139331361576e-06
+      }
+    }
+  ],
+  "gates": {
+    "B0": false,
+    "B1_control": true,
+    "B1_full": false,
+    "B2": false
+  },
+  "fine_ratios": {
+    "energy": 263113316.91808775,
+    "mass": 263113316.91808778
+  },
+  "cpu_seconds": 138.578125,
+  "python": "3.13.2",
+  "torch": "2.7.1+cpu",
+  "numpy": "2.2.4"
+}
