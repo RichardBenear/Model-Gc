@@ -2,7 +2,7 @@
 
 ### From reaction–diffusion particles to relativistic topological field configurations and a shared lattice geometry
 
-**Version 0.5 DRAFT, revision 3 (2026-11-24). Research record through EX-GC34Z.**
+**Version 0.5 DRAFT, revision 4 (2026-11-24). Research record through EX-GC35G.**
 PI: Richard Benear. Drafted by Claude (Anthropic) from the records in this repository. v0.3 (through EX-GC25) was
 revised after two rounds of review by ChatGPT, both endorsed by the PI. v0.4 (through EX-GC26) was frozen on
 2026-11-22. This v0.5 adds Section 9 (the intermediate explorations EX-GC27–33, mostly by ChatGPT) and Section 10
@@ -79,6 +79,8 @@ discrete lattice of tokens.
 
   - the staggered Y1 successor gives an exact linear lattice identity and passes the tested wave and weak-source checks. Coupled scalar diagnostics support its use as a weak-field approximation. The tested nonlinear completions fail the exact identity or independent physical response checks.
 
+  Projected reciprocal scalar runs reduce the tidal error under spacing refinement. The full static Skyrme source remains above its compatibility gate. The linear scalar–metric stencil also supports a fixed local event schedule without a barrier (EX-GC35).
+
   *Imposed:* the shared geometry, the clock rule, and the gravitational action and stencils. A fully varied, reciprocal knot–geometry system and a microscopic origin for the coupling remain open.
 
 ---
@@ -95,6 +97,8 @@ discrete lattice of tokens.
 | Vacuum zero-point, induced-gravity and causal-rule routes do not by themselves give a common metric coupling; a universal source must make the clock part respond to total energy | Exploratory screens and exact counterexamples (mostly ChatGPT) | EX-GC27–33 |
 | One shared lattice structure (lapse, shift, Regge edge lengths) gives a strong weak-field benchmark: common light cone and energy as the clock source (by construction), γ = 1 from two stated rules, GR's static field exactly from a Regge energy, gravitomagnetism for a prescribed moving source | Demonstrated at linear order on a flat background; registered failures recorded (Section 10, Appendix B) | EX-GC34A–E |
 | Staggered Y1 geometry provides a usable weak-field benchmark, with exact linear identities and approximate nonlinear conservation | Tested in vacuum and with weak scalar sources. The exact nonlinear candidates failed | EX-GC34I–Z |
+| Weighted projection restores the reciprocal scalar constraints at accepted steps and reduces tidal error under refinement | Compensated periodic scalar benchmark with measured corrections and unresolved exact source conservation | EX-GC35A, C, E, G |
+| A local fixed-dependency scheduler reproduces the one-way linear Y1 stencil | Bitwise agreement across tested legal schedules and a schedule-dependent stale-read control | EX-GC35F |
 | The original shift kinetic action has an exponentially growing vacuum mode (the re-slicing direction, off the lattice axes), so the linear dynamics is not stable GR | Found by ChatGPT's review, confirmed post hoc; growth rate ≈ 1.4–2.1 k, not shrinking with spacing | EX-GC34E (post hoc) |
 
 ---
@@ -730,6 +734,13 @@ The PI accepted staggered Y1 as the current approximate reference and ended the 
 
 See [the GC34 equation record](EX-GC34_equations.md), [the independent Q–Z synthesis](../review/EX-GC34Q-Z_claude_review.md), and [the symmetry and formulation note](../docs/EX-GC34_symmetry_and_direction.md).
 
+### 10.8 Reciprocal scalar, knot sources and event scheduling (35A–G)
+
+- **35A and 35C, reciprocal scalar.** The first perturbation to the scalar feeds the second-order metric, closing one perturbative feedback loop. On the compensated periodic packet, the short run passed its registered checks. The subsequent fine run crossed the constraint limit at t=5.75 and reached 0.368 at t=20. Refinement reduced the error at fixed time, and the linear vacuum analysis found no matching exponentially growing mode. The sourced defect still limits the free evolution. The periodic compensator is specific to the benchmark and the homogeneous metric is omitted.
+- **35B and 35D, static Skyrme sources.** A finer follow-up recovered both knot profiles. The energy-only source included the degree-two binding deficit in a monopole normalization check and gave leading feedback at rest. The full stress source remained incompatible with static Y1. Tight relaxation and larger boxes made little difference at h=.2. At h=.15 the full residuals fell to 0.867% and 0.698% for B1 and B2, above the 0.1% gate.
+- **35E and 35G, projected evolution.** A tensor-weighted affine projection brings the next-order sourced constraints to roundoff at each accepted time and preserves the transverse-traceless components. It applies finite corrections to an imperfect source. At h=.25 the full reconstructed metric contribution to the tidal tensor was 8.94% from its continuum comparator at t=20. At h=.125, the t=20 error was 2.25% and the sampled peak was 2.29%, above the original 2% gate. The [benchmark recipe](../docs/EX-GC35_projected_Y1_recipe.md) records correction norms, the unprojected comparison, and the curvature convention.
+- **35F, local schedules.** A one-way linear Y1 scalar-and-metric stencil was implemented as a versioned local dependency graph. All 48 tested legal schedules produced bitwise-identical fields with no barrier between depths. A stale-read control was schedule-dependent. The common-slice constraint error decreased at second order in the two timestep tests. The graph has prescribed dependencies, immutable inputs and a single writer per version. The result applies to that scheduling construction.
+
 ## 11. How the investigation evolved
 
 ```mermaid
@@ -795,12 +806,12 @@ GR's static and moving-source weak fields, but whose chosen kinetic action has a
 - Inertia or gravity that arises in Model Gc itself without being imposed. In the reference model, inertia follows
   from relativistic field dynamics and gravity from a chosen energy coupling.
 - Stable nonlinear lattice dynamics with exact finite-spacing constraint propagation. Staggered Y1 passed the tested linear vacuum benchmarks. Its nonlinear use is approximate.
-- A knot and geometry evolved together from one fully varied action (EX-GC34 used energy-only or prescribed sources).
+- A knot and geometry evolved together from one fully varied action. GC35B/D tested static sources and leading feedback at rest. The full stress remained above the compatibility threshold.
 - Non-linear gravity on the shared lattice: perihelion shift, strong fields, and orbits.
 - Where the coupling comes from: EX-GC34 supplies the shared metric and the clock rule rather than deriving them.
 - Any link between the shared lattice geometry and Model Gc's consumed carrier or its reaction–diffusion particles.
 - Quantum spin, a quantum exchange phase, or fermionic statistics.
-- Causal invariance of any rule used here; EX-GC26 is a continuous field on a fixed lattice, not a token rule.
+- Causal invariance of competing rewrite matches. GC35F shows order independence for a fixed versioned dependency graph.
 - Lattice convergence of Model Gc's consumption S (it differs by about 10% between h = 0.5 and 0.4), and of the 26F
   attraction (one resolution).
 
@@ -808,7 +819,7 @@ GR's static and moving-source weak fields, but whose chosen kinetic action has a
 
 ## 13. Research direction
 
-The approximate staggered Y1 model is the reference for the next two benchmarks. [GC35A](../spec/EX-GC35A_plan.md) tests reciprocal weak scalar coupling with measured constraint residuals, refinement and continuum controls. [GC35B](../spec/EX-GC35B_plan.md) tests whether the GC26 single and bound Skyrmions can source that geometry and receive leading feedback. The measured regimes and controls determine what can be claimed.
+Projected Y1 is the reciprocal scalar reference within the measured regime. The next independent checks are a native staggered static Skyrme source and an event graph in which prescribed lapse changes the number of events per site. Moving knots require a compatible full source.
 
 Causal invariance concerns update-order equivalence. Coordinate symmetry concerns redundant descriptions of one geometry and the identities relating its equations. A first-order tetrad and connection formulation would change the variables and action, with additional connection, gluing and constraint work. It remains a paper-level option. [Formulation note](../docs/EX-GC34_symmetry_and_direction.md)
 
@@ -853,6 +864,9 @@ The origin of the universal energy coupling, its relationship to the reaction–
 | P–R ([34P](../results/EX-GC34P), [34Q](../results/EX-GC34Q), [34R](../results/EX-GC34R)) | Shared lattice geometry | Weak scalar curvature, kinetic and leading feedback tests | PI closed |
 | S–U ([34S](../results/EX-GC34S), [34T](../results/EX-GC34T), [34U](../results/EX-GC34U)) | Shared lattice geometry | Next-order compatibility, homogeneous mode and isolated benchmark | PI closed |
 | V–Z ([34V](../results/EX-GC34V), [34W](../results/EX-GC34W), [34X](../results/EX-GC34X), [34Y](../results/EX-GC34Y), [34Z](../results/EX-GC34Z)) | Shared lattice geometry | Nonlinear symmetry candidates and their limits | PI closed |
+| [35A](../results/EX-GC35A), [35C](../results/EX-GC35C), [35E](../results/EX-GC35E), [35G](../results/EX-GC35G) | Reciprocal scalar | Short-window checks, long-time drift, projected refinement | Exploratory, PI closure pending |
+| [35B](../results/EX-GC35B), [35D](../results/EX-GC35D) | Static Skyrme source | Energy-only control and full-stress compatibility gap | Exploratory, PI closure pending |
+| [35F](../results/EX-GC35F) | Local fixed event graph | Schedule equality and a stale-read control | Exploratory, PI closure pending |
 
 Each study's note is in `results/<ID>/` (EX002–EX007 in `docs/lineage/`); plans in `explore/LOG.md` and `spec/`;
 figures in `paper/figures/`.
@@ -880,6 +894,8 @@ EX-GC34 deviations, all recorded in the study notes:
 The post hoc analyses are labelled as such, and none re-scores a registered result.
 
 ## Appendix C. Revision record
+
+Revision 4 adds the exploratory GC35A–G record and the projected Y1 recipe. It separates free evolution from projected evolution and fixed-graph scheduling from competing rewrite matches.
 
 Revision 3 incorporates EX-GC34F–Z, preserves the original 34E instability result, and records the PI's decision to use staggered Y1 as an approximate reference. Earlier changes from v0.1 follow.
 - New title and subtitle; abstract separates demonstrated, imposed and interpretive statements.
