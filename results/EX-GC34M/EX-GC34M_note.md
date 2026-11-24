@@ -1,5 +1,7 @@
 # EX-GC34M — a scalar packet's own sources conserve energy exactly on J1's lattice, but not momentum locally (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "close 34M and then redesign the shift couplings and vacuum action").
+
 Claude, 2026-11-23. PI go-ahead (Richard, 2026-11-23): "I suggest that the next step is to do number 1) Start with a
 scalar wave packet before returning to the knot. Derive its energy, momentum, and stress sources by varying one
 discrete matter action with respect to J1's lapse, shift, and spatial variables. The first gate is whether those
