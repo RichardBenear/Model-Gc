@@ -1,0 +1,130 @@
+{
+  "gates": {
+    "R0": true,
+    "R1": true,
+    "R2": true
+  },
+  "overall": true,
+  "action_check_rel": 8.293433264946971e-11,
+  "initial_profile_rel": 1.370163880558296e-16,
+  "coarse": {
+    "n": 32,
+    "dt": 0.025,
+    "lattice": true,
+    "max_constraint": 1.2442704597643799e-08,
+    "rows": [
+      {
+        "t": 1.0,
+        "scalar": 12.405247095461014,
+        "volume": 17.05893147235345,
+        "response": 29.464178567814464,
+        "flat_integral": 31.169172645198827,
+        "fd_0": 29.46417877572216,
+        "fd_1": 29.464178784408546
+      },
+      {
+        "t": 2.0,
+        "scalar": -1.9227986231560974,
+        "volume": 1.463771228303478,
+        "response": -0.45902739485261934,
+        "flat_integral": 7.966410010815235,
+        "fd_0": -0.4590274531324212,
+        "fd_1": -0.4590274546156792
+      }
+    ],
+    "max_metric_times_epsilon": 9.306407448564384e-05
+  },
+  "fine": {
+    "n": 64,
+    "dt": 0.025,
+    "lattice": true,
+    "max_constraint": 1.3402965424955653e-08,
+    "rows": [
+      {
+        "t": 1.0,
+        "scalar": 12.484769847919674,
+        "volume": 16.88409133842132,
+        "response": 29.368861186340993,
+        "flat_integral": 31.053710400935202
+      },
+      {
+        "t": 2.0,
+        "scalar": -1.865346761210257,
+        "volume": 1.4210147331191434,
+        "response": -0.4443320280911136,
+        "flat_integral": 8.079074038744345
+      }
+    ],
+    "max_metric_times_epsilon": 0.0
+  },
+  "continuum": {
+    "n": 40,
+    "dt": 0.025,
+    "lattice": false,
+    "max_constraint": 1.3740218636850067e-08,
+    "rows": [
+      {
+        "t": 1.0,
+        "scalar": 12.51146295733675,
+        "volume": 16.82607909939152,
+        "response": 29.33754205672827,
+        "flat_integral": 31.01535212137217
+      },
+      {
+        "t": 2.0,
+        "scalar": -1.8450022320760298,
+        "volume": 1.4062310310474277,
+        "response": -0.438771201028602,
+        "flat_integral": 8.116240251738697
+      }
+    ],
+    "max_metric_times_epsilon": 0.0
+  },
+  "half": {
+    "n": 32,
+    "dt": 0.0125,
+    "lattice": true,
+    "max_constraint": 7.775548327493543e-10,
+    "rows": [
+      {
+        "t": 1.0,
+        "scalar": 12.405247250705775,
+        "volume": 17.05893144403552,
+        "response": 29.464178694741292,
+        "flat_integral": 31.169172645198827
+      },
+      {
+        "t": 2.0,
+        "scalar": -1.9227984357868562,
+        "volume": 1.46377121537168,
+        "response": -0.4590272204151762,
+        "flat_integral": 7.966410010815235
+      }
+    ],
+    "max_metric_times_epsilon": 0.0
+  },
+  "comparisons": [
+    {
+      "t": 1.0,
+      "fine_rel": 0.0010675444300058355,
+      "ratio": 4.043423704685333,
+      "scalar_fine_rel": 0.0021334922629030473,
+      "temporal_fraction": 1.0022925226719691e-06,
+      "finite_rel": 7.351098618713081e-09
+    },
+    {
+      "t": 2.0,
+      "fine_rel": 0.01267363730681382,
+      "ratio": 3.642658474415574,
+      "scalar_fine_rel": 0.011026831718970342,
+      "temporal_fraction": 8.611560724200742e-06,
+      "finite_rel": 1.301949741350228e-07
+    }
+  ],
+  "platform": {
+    "python": "3.13.2",
+    "numpy": "2.2.4",
+    "system": "Windows"
+  },
+  "cpu_seconds": 114.5
+}
