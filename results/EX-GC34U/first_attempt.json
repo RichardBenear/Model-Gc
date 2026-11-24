@@ -1,0 +1,229 @@
+{
+  "gates": {
+    "U0": false,
+    "U1": false,
+    "U2": false
+  },
+  "overall": false,
+  "grids": [
+    {
+      "h": 0.125,
+      "rows": [
+        {
+          "t": 1,
+          "raw_flux_relative": 0.0025661141465677206,
+          "coupling_flux_relative": 0.0030910069534319275,
+          "signal_over_mass": 0.0190122914884272,
+          "strength_relative": 4.677409325588154e-07,
+          "r2_feedback": -0.0043690815475616596,
+          "predicted_mass_derivative_relative": 0.00021607746793225787
+        },
+        {
+          "t": 2,
+          "raw_flux_relative": 0.016185809808176226,
+          "coupling_flux_relative": 0.014048150700284642,
+          "signal_over_mass": 0.05908424687874813,
+          "strength_relative": 4.310114610562842e-06,
+          "r2_feedback": 0.02901618761597391,
+          "predicted_mass_derivative_relative": 0.001150352011953836
+        },
+        {
+          "t": 4,
+          "raw_flux_relative": 0.029514014034569696,
+          "coupling_flux_relative": 0.021309737517037478,
+          "signal_over_mass": 0.04691710152108001,
+          "strength_relative": 2.3669103221725035e-05,
+          "r2_feedback": 0.027346825697956156,
+          "predicted_mass_derivative_relative": 0.002913235906514031
+        }
+      ],
+      "checks": {
+        "0.0": {
+          "initial_total_mass": 0.0,
+          "normalized_initial_mass": 0.3367316584646199,
+          "mass_drift": 0.001331401566309398,
+          "compactness": 0.0,
+          "boundary_amplitude": 4.126368163631547e-22
+        },
+        "0.01": {
+          "initial_total_mass": 0.0033647778365564086,
+          "normalized_initial_mass": 0.33647778365564085,
+          "mass_drift": 0.001317896874121871,
+          "compactness": 0.0016879359830096173,
+          "boundary_amplitude": 4.100480164198652e-22
+        },
+        "-0.01": {
+          "initial_total_mass": -0.0033698581741770295,
+          "normalized_initial_mass": 0.33698581741770295,
+          "mass_drift": 0.0013450694407282082,
+          "compactness": 0.0,
+          "boundary_amplitude": 4.152458453020417e-22
+        },
+        "0.005": {
+          "initial_total_mass": 0.001683023427827659,
+          "normalized_initial_mass": 0.3366046855655318,
+          "mass_drift": 0.0013246278245518939,
+          "compactness": 0.0008441441123382369,
+          "boundary_amplitude": 4.113398991367149e-22
+        },
+        "-0.005": {
+          "initial_total_mass": -0.001684293511998628,
+          "normalized_initial_mass": 0.3368587023997256,
+          "mass_drift": 0.0013382161373391988,
+          "compactness": 0.0,
+          "boundary_amplitude": 4.1393879080979567e-22
+        }
+      }
+    },
+    {
+      "h": 0.0625,
+      "rows": [
+        {
+          "t": 1,
+          "raw_flux_relative": 0.0006381562805538906,
+          "coupling_flux_relative": 0.0007781382121063374,
+          "signal_over_mass": 0.01895336962061295,
+          "strength_relative": 4.730926977274534e-07,
+          "r2_feedback": -0.004355173696997394,
+          "predicted_mass_derivative_relative": 5.470325119703314e-05
+        },
+        {
+          "t": 2,
+          "raw_flux_relative": 0.004038609143773624,
+          "coupling_flux_relative": 0.003557358679047582,
+          "signal_over_mass": 0.05884654929770664,
+          "strength_relative": 4.3040118394114565e-06,
+          "r2_feedback": 0.029028781008058613,
+          "predicted_mass_derivative_relative": 0.0002861731834769425
+        },
+        {
+          "t": 4,
+          "raw_flux_relative": 24.421285963777706,
+          "coupling_flux_relative": 6.474630095054395,
+          "signal_over_mass": 0.48051235903955847,
+          "strength_relative": 0.030879965727415592,
+          "r2_feedback": 0.21462833115021562,
+          "predicted_mass_derivative_relative": 3.7106736090401506
+        }
+      ],
+      "checks": {
+        "0.0": {
+          "initial_total_mass": 0.0,
+          "normalized_initial_mass": 0.3367575799287809,
+          "mass_drift": 0.22041560639500557,
+          "compactness": 0.0,
+          "boundary_amplitude": 1.7118842796074157e-22
+        },
+        "0.01": {
+          "initial_total_mass": 0.0033650363583613363,
+          "normalized_initial_mass": 0.33650363583613363,
+          "mass_drift": 0.2203652035308139,
+          "compactness": 0.003985438531856449,
+          "boundary_amplitude": 1.701350014852791e-22
+        },
+        "-0.01": {
+          "initial_total_mass": -0.003370118083072522,
+          "normalized_initial_mass": 0.3370118083072522,
+          "mass_drift": 0.2196707643741409,
+          "compactness": 8.691742648408571e-05,
+          "boundary_amplitude": 1.722507165262206e-22
+        },
+        "0.005": {
+          "initial_total_mass": 0.0016831528618508039,
+          "normalized_initial_mass": 0.33663057237016075,
+          "mass_drift": 0.22076216721044983,
+          "compactness": 0.001994463362189496,
+          "boundary_amplitude": 1.7066061031622457e-22
+        },
+        "-0.005": {
+          "initial_total_mass": -0.0016844232927942441,
+          "normalized_initial_mass": 0.3368846585588488,
+          "mass_drift": 0.2193907860217692,
+          "compactness": 4.507484772801821e-05,
+          "boundary_amplitude": 1.71718461216672e-22
+        }
+      }
+    },
+    {
+      "h": 0.03125,
+      "rows": [
+        {
+          "t": 1,
+          "raw_flux_relative": 0.00015925080152160166,
+          "coupling_flux_relative": 0.00019695579203688233,
+          "signal_over_mass": 0.0189185902093407,
+          "strength_relative": 4.747137297473924e-07,
+          "r2_feedback": -0.004351683299165521,
+          "predicted_mass_derivative_relative": 1.4140030177117102e-05
+        },
+        {
+          "t": 2,
+          "raw_flux_relative": 0.17062991006842668,
+          "coupling_flux_relative": 0.8935044834720273,
+          "signal_over_mass": 0.05948449641892306,
+          "strength_relative": 0.00047459329612831364,
+          "r2_feedback": 0.029307936391509415,
+          "predicted_mass_derivative_relative": 0.05685604550782999
+        },
+        {
+          "t": 4,
+          "raw_flux_relative": 31.38385319110197,
+          "coupling_flux_relative": null,
+          "signal_over_mass": null,
+          "strength_relative": null,
+          "r2_feedback": null,
+          "predicted_mass_derivative_relative": null
+        }
+      ],
+      "checks": {
+        "0.0": {
+          "initial_total_mass": 0.0,
+          "normalized_initial_mass": 0.3367640682081598,
+          "mass_drift": 5524501194.333296,
+          "compactness": 0.0,
+          "boundary_amplitude": 1.3536990273656276e-22
+        },
+        "0.01": {
+          "initial_total_mass": 0.0033651010668912474,
+          "normalized_initial_mass": 0.33651010668912473,
+          "mass_drift": 68.86255743070832,
+          "compactness": 0.7106045458107697,
+          "boundary_amplitude": 1.2466008209888166e-22
+        },
+        "-0.01": {
+          "initial_total_mass": -0.0033701831404859117,
+          "normalized_initial_mass": 0.33701831404859117,
+          "mass_drift": 47.8963930771092,
+          "compactness": 0.019686490919482737,
+          "boundary_amplitude": 2.6664413121873787e-25
+        },
+        "0.005": {
+          "initial_total_mass": 0.001683185259659515,
+          "normalized_initial_mass": 0.336637051931903,
+          "mass_drift": 134.2916378530636,
+          "compactness": 0.7833738307947828,
+          "boundary_amplitude": 1.2551167074167148e-22
+        },
+        "-0.005": {
+          "initial_total_mass": -0.0016844557778237874,
+          "normalized_initial_mass": 0.33689115556475746,
+          "mass_drift": 111.71215955878036,
+          "compactness": 0.023250359266101542,
+          "boundary_amplitude": 3.522807688218807e-25
+        }
+      }
+    }
+  ],
+  "boundary_relative": [
+    1.1833026476597023e-11,
+    7.579598966834851e-11,
+    6.138887863564878e-11
+  ],
+  "fine_signal_grid_relative": null,
+  "cpu_seconds": 3.484375,
+  "platform": {
+    "python": "3.13.2",
+    "numpy": "2.2.4",
+    "system": "Windows"
+  }
+}
