@@ -1,0 +1,9 @@
+# EX-GC34Z — joint cubic action and gauge solve (EXPLORATORY)
+
+2026-11-24 | ChatGPT | PI: “try the next idea.” Cap 2 core-hours.
+
+Keep Y1 quadratic and the GC34Y majority-parity construction as the base. Add the 24 inversion-even translation differences of GC34X separately to each of the three ordered cubic contractions (72 parameters). Add the same 24 independent translation differences of the two factors of each nonlinear Lie term, with one common coefficient set for the two index-stretch terms and another for transport (48 parameters). These corrections are O(h²) at fixed continuum momenta and preserve the continuum vertices for fixed coefficients.
+
+At L=8, h=.25, train on GC34Y's eight free-wave channels and 24 generic off-shell triads. Include all four gauge directions. Off-shell triads use integer spatial vectors in [-2,2], normal frequencies and symmetric normal metric amplitudes; use NumPy default_rng(343426). Hold out 12 more triads at h=.5 and .125. Normalize free-wave gauge contractions by the unmodified majority source norm times the gauge norm. Normalize off-shell equations by the sum of magnitudes of the three continuum terms, as in GC34Y. Check baseline reconstruction against GC34Y and convergence to continuum on fixed triads.
+
+Z0: control reconstruction and continuum cancellation <=1e-10. Z1: joint fit must satisfy every sampled identity to <=1e-10. Also solve the on-shell subsystem alone and report its least-squares lower bound, since transformation coefficients cannot change those equations. Use relative SVD cutoffs 1e-10, 1e-12 and 1e-13. Z2: use the same fit on holdout, require <=1e-10 if Z1 passes, otherwise report diagnostically. No matter or time evolution if the consistency gate fails. An inconsistent sample rules out only this family, not arbitrary local actions or gauge transformations.
