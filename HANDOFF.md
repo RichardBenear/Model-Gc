@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## GC35A/B and white paper v0.5 revision 3
+
+The PI accepted the approximate staggered Y1 model as the current reference and paused exact nonlinear correction searches. [Symmetry and formulation note](docs/EX-GC34_symmetry_and_direction.md) · [White paper draft through GC34Z](paper/Model_Gc_white_paper_v0.5.md)
+
+- **GC35A** completed. A0–A2 passed in the finite compensated periodic scalar run. Halving spacing reduced the final next-order constraint defect by 3.31×, with negligible change from timestep halving. Fine-grid tidal errors were 1.35% and 5.27% at the two readouts. The defect grows within the tested window and its long-time behavior is open. [Results](results/EX-GC35A/EX-GC35A_note.md)
+- **GC35B** completed. The registered knot comparison failed. At post hoc h=.2 both knots survived and gave controlled energy-only field and initial feedback results. The full energy-plus-stress source missed the compatibility gate for both. [Results](results/EX-GC35B/EX-GC35B_note.md)
+
+Both GC35 studies are exploratory and pending PI closure.
+
 ## EX-GC34S, X, Y and Z closure
 
 PI CLOSED 2026-11-24 (Richard: “I sign off on all of the open items”). GC34S ruled out direct reciprocal sourcing with the linear kernel. GC34X–Z ruled out the tested cubic interaction families at the registered tolerance. [GC34S](results/EX-GC34S/EX-GC34S_note.md) · [GC34X](results/EX-GC34X/EX-GC34X_note.md) · [GC34Y](results/EX-GC34Y/EX-GC34Y_note.md) · [GC34Z](results/EX-GC34Z/EX-GC34Z_note.md)
