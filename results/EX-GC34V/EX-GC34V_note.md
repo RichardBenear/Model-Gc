@@ -1,6 +1,6 @@
 # EX-GC34V — next-order Y1 source compatibility (EXPLORATORY)
 
-2026-11-24 | ChatGPT | PI authorization in the GC34U closure request. [Plan](../../spec/EX-GC34V_plan.md) and log registered before execution (1a12627 and 05bb856). PI closure pending.
+2026-11-24 | ChatGPT | PI authorization in the GC34U closure request. [Plan](../../spec/EX-GC34V_plan.md) and log registered before execution (1a12627 and 05bb856). PI CLOSED 2026-11-24 (Richard: “go ahead and close V and W”).
 
 **V0 PASS, V1 FAIL.** Linear Y1 remains consistent. The tested quadratic completion fails the exact source gate in both harmonic directions. No second-order metric was evolved.
 
