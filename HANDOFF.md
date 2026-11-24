@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## GC35G–I completed
+
+Items 1–3 of the [GC35E/F review](review/EX-GC35EF_claude_review.md) were run in the PI's requested sequence. All three are exploratory and pending PI closure.
+
+- **GC35G** confirmed near-fourfold refinement of the reconstructed projected tide at h=.125. The late error was 2.25% at t=20, above the 2% gate. Both constraint gates passed. The [recipe](docs/EX-GC35_projected_Y1_recipe.md) and [v0.5 draft revision 4](paper/Model_Gc_white_paper_v0.5.md) were committed before H and I began. [Results](results/EX-GC35G/EX-GC35G_note.md)
+- **GC35H** reduced the static h=.2 full stress residuals to 0.962% and 0.679%. The exact Ward gate failed. A stationary rank-one configuration isolates a constraint reaction term in the native sigma source. The moving-knot run remains gated on compatibility. [Results](results/EX-GC35H/EX-GC35H_note.md)
+- **GC35I** passed the fixed-version schedule and continuum comparisons in the prescribed lapse step. All 18 randomized schedules agreed with the coordinate-ordered control, with fast/slow event density 1.5. At h=.1 the proper-frequency ratio was 0.667113 and the outgoing angle 32.851°. [Results](results/EX-GC35I/EX-GC35I_note.md)
+
 ## GC35E/F completed
 
 - **GC35E** used a tensor-weighted projection after each step of the GC35C reciprocal run. Post-projection residuals were at roundoff through t=20. The fine pre-projection peak of 1.86e-3 and reconstructed tidal error of 8.94% at t=20 failed the accuracy gates. The TT evolution was unchanged by the projection to numerical precision. [Results](results/EX-GC35E/EX-GC35E_note.md)
