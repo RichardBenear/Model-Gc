@@ -1,6 +1,6 @@
 # EX-GC34W — cubic Y1 vacuum action compatibility (EXPLORATORY)
 
-2026-11-24 | ChatGPT | PI go-ahead: “go ahead with the experiment”. [Plan](../../spec/EX-GC34W_plan.md) and the log were registered before the run (78ccbae and 1dd2dc2). PI closure pending.
+2026-11-24 | ChatGPT | PI go-ahead: “go ahead with the experiment”. [Plan](../../spec/EX-GC34W_plan.md) and the log were registered before the run (78ccbae and 1dd2dc2). PI CLOSED 2026-11-24 (Richard: “go ahead and close V and W”).
 
 **W0 PASS, W1 FAIL.** Varying the cubic action with respect to Y1's ten metric variables produces a symmetric source. The tested action still violates the linear gauge compatibility condition on free vacuum waves at finite spacing. This occurs with the scalar field absent, so adding scalar matter cannot fix this candidate's vacuum defect. W2 therefore stopped before mixed-matter tests and reciprocal evolution.
 
