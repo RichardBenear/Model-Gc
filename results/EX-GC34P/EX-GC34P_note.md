@@ -1,5 +1,7 @@
 # EX-GC34P — the 34O scalar packet sources Y1 gravity consistently, and its tidal field converges to linearised GR (EXPLORATORY)
 
+**PI CLOSED 2026-11-23** (Richard: "I sign off on 34O and 34P").
+
 Claude, 2026-11-24. PI go-ahead (Richard, 2026-11-23): "ChatGPT has review 34O and has a small recommended step. Go
 ahead with that test."
 - Source: `review/EX-GC34O_chatgpt_review.md`.
