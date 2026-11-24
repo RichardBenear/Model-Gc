@@ -18,3 +18,7 @@ For amplitudes epsilon=1e-4 and 5e-5 evaluate the complete flat-source formula o
 - If direct resourcing is ruled out, do not project away the defect and report that as physical feedback. Record the missing second-order gravity and metric-dependent source terms and the periodic homogeneous-mode issue.
 
 The completed test is a diagnostic of an actual resourcing prescription. It does not establish reciprocal nonlinear evolution if the consistency gate fails.
+
+## Additional diagnostic, specified before the run
+
+Evolve the metric correction from the directional derivative of the scalar source on both grids, using the same constraint initialization and integrator. Record its full constraint residual and the residual when it is added to the zeroth-order metric at strength epsilon=1e-4. These are diagnostics of the direct resourcing attempt and do not replace S0–S2. The product-law cross-check also covers momentum through the average acceleration residual at each link's two ends.
