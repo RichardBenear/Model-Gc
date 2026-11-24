@@ -1,6 +1,6 @@
 # EX-GC34Q — the tidal response to added scalar kinetic energy on Y1 (EXPLORATORY)
 
-ChatGPT | 2026-11-23 (America/Denver) | PI authorization in the handoff request. The [plan](../../spec/EX-GC34Q_plan.md) and [log entry](../../explore/LOG.md) were committed before the run (59a8e60 and ca98657). Verdict below is the registered exploratory result. PI closure pending.
+ChatGPT | 2026-11-23 (America/Denver) | PI authorization in the handoff request. The [plan](../../spec/EX-GC34Q_plan.md) and [log entry](../../explore/LOG.md) were committed before the run (59a8e60 and ca98657). Verdict below is the registered exploratory result. PI CLOSED 2026-11-23 (Richard: “we can close GC34Q”).
 
 ## Result
 
