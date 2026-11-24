@@ -718,7 +718,7 @@ speed of a massless matter field on the same structure. (c) Growth rate Im ω/k 
 
 - **34F–H.** The follow-up spectrum and evolution checks confirmed the off-axis instability for the original kinetic construction. Tested fixes and fits did not provide an acceptable replacement. The failure in §10.5 remains part of the record for that action.
 - **34I–L.** The exact linear lattice re-slicing identity gave a stricter diagnostic than agreement of eigenfrequencies alone. Moving-source checks exposed an error linear in spacing in the tested unstaggered formulation.
-- **34M–O.** Matching the locations and derivative operators of the staggered fields led to Y1. The vacuum calculation and the scalar energy and momentum identities test complementary sides of the linear equation: the geometry requires a conserved source, and the scalar action supplies the matching current. These are finite-spacing results for the tested linear operators and matter sector.
+- **34M–O.** On J1 the flat scalar action conserved energy exactly and failed local momentum conservation. Matching the locations and derivative operators of the staggered fields led to Y1. The vacuum calculation and the scalar energy and momentum identities test complementary sides of the linear equation: the geometry requires a conserved source, and the scalar action supplies the matching current. These are finite-spacing results for the tested linear operators and matter sector.
 
 ### 10.7 Sourcing, reciprocity and the nonlinear symmetry limit (34P–Z)
 
