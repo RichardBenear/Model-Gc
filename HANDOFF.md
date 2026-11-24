@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC34R closure
+
+PI CLOSED 2026-11-24 (Richard: “Go ahead and close 34R.”). All three registered gates passed for the scalar packet’s leading response to its own weak field. The gravity source was held at zeroth order. [Results](results/EX-GC34R/EX-GC34R_note.md)
+
 ## EX-GC34T closure
 
 PI CLOSED 2026-11-24 (Richard: “go ahead and close 34T.”). Both registered checks passed. GC34T verified the continuum next-order conservation identity and the expanding homogeneous benchmark. The discrete Y1 identity and reciprocal packet evolution remain open. [Results](results/EX-GC34T/EX-GC34T_note.md)
