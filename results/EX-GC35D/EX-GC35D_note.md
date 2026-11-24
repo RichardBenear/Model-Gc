@@ -2,7 +2,7 @@
 
 2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35D_plan.md) · [Claude review](../../review/EX-GC35AB_claude_review.md). PI closure pending.
 
-**Full-source compatibility failed.** 8 of eight cases reached the tighter projected force tolerance. Refinement substantially reduced the mismatch, while tighter optimization and larger walls changed little at h=.2. The finest measured residuals were 0.867% and 0.698%, above the 0.1% gate for moving-knot runs.
+**Full-source compatibility failed.** All eight cases reached the tighter projected force tolerance. Refinement substantially reduced the mismatch, while tighter optimization and larger walls changed little at h=.2. The finest measured residuals were 0.867% and 0.698%, above the 0.1% gate for moving-knot runs.
 
 | B | h | Box half width | Sites | Degree integral | Max. projected force density | Full residual | Stress divergence / energy-source norm | Tr ∫T / E |
 |---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -15,7 +15,7 @@
 | 1 | 0.2 | 7.60 | 77³ | -0.93094 | 8.52e-6 | 1.64% | 0.04403 | 6.25% |
 | 2 | 0.2 | 7.60 | 77³ | -1.8800 | 8.93e-6 | 1.30% | 0.03269 | 5.04% |
 
-The normalized force divides the gradient of the energy in Skyrme units by h³ and removes the component normal to the local unit sphere. The stopping tolerance was 10⁻⁵, with a per-case compute limit of 650 CPU seconds. Models use fixed-vacuum walls. The Fourier solve uses the nonzero modes with |k|≤2.05, matching the integer mode set for the width-6 runs and the physical cutoff across widths. The periodic FFT length includes the final grid point, so the actual periods across spacings differ slightly. The energy-only residual was below 4.88e-16 in every case. The direct stress-divergence check uses the phase-aligned Y1 lattice derivative. The full integrated stress tensors and separate quadratic and quartic energies are archived with each case.
+The normalized force divides the gradient of the energy in Skyrme units by h³ and removes the component normal to the local unit sphere. The stopping tolerance was 10⁻⁵, with a per-case compute limit of 650 CPU seconds. Models use fixed-vacuum walls. The Fourier solve uses the nonzero modes with |k|≤2.05, matching the integer mode set for the width-6 runs and the physical cutoff across widths. The periodic FFT length includes the final grid point, so the actual periods across spacings differ slightly. The energy-only residual was below 4.9e-16 in every case. The direct stress-divergence check uses the phase-aligned Y1 lattice derivative. The full integrated stress tensors and separate quadratic and quartic energies are archived with each case.
 
 At h=.2 the raw GC35B stopping gradients divided by h³ were 2.65e-4 and 3.10e-5. Remeasuring those 350-iteration states on the same mode set here gave 1.6539% and 1.3096%. Tightening the force tolerance changed the mismatch by only 0.00330% and 0.00249% relative. Increasing the half width from 6 to 7.6 changed it by 1.01% and 1.08% relative. The endpoint orders under spatial refinement were 2.41 and 2.28. With three spacings and nonzero boundary errors, these are observed trends rather than verified continuum orders.
 
