@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC34V and EX-GC34W closure
+
+PI CLOSED 2026-11-24 (Richard: “go ahead and close V and W”). GC34V's tested quadratic Y1 source failed finite-spacing symmetry and conservation. GC34W's variational cubic action gave a symmetric source but failed the vacuum conservation gate. Neither candidate went to reciprocal evolution. [GC34V results](results/EX-GC34V/EX-GC34V_note.md) · [GC34W results](results/EX-GC34W/EX-GC34W_note.md)
+
 ## EX-GC34U closure
 
 PI CLOSED 2026-11-24 (Richard: “Close GC34U.”). The isolated spherical continuum reciprocal benchmark passed U0–U2 on the corrected implementation. [Results](results/EX-GC34U/EX-GC34U_note.md)
