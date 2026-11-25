@@ -1,6 +1,6 @@
 # EX-GC35R — systematic bordered search on short strings
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35R_plan.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35R_plan.md). **PI CLOSED 2026-11-25.**
 
 **Four competing rule sets pass the output-border and length-seven plain-graph screens. None pass the anchored input/output border.** This distinguishes an output-only comparison from a local certificate that can be glued into a fixed surrounding history.
 
