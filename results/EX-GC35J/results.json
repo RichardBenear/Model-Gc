@@ -1,0 +1,116 @@
+{
+  "rows": [
+    {
+      "h": 0.4,
+      "quadratic": {
+        "mu": 4,
+        "soft": false,
+        "energy_chain_fd": 1.6847197373422855e-11,
+        "momentum_max": 4.796163466380676e-14,
+        "momentum_rel": 1.4818103016957615e-15,
+        "predicted_difference": 4.796163466380676e-14
+      },
+      "soft": [
+        {
+          "mu": 1.0,
+          "soft": true,
+          "energy_chain_fd": 1.1035873965453359e-10,
+          "momentum_max": 19.14822464693794,
+          "momentum_rel": 0.7130806507364388,
+          "predicted_difference": 6.039613253960852e-14
+        },
+        {
+          "mu": 4.0,
+          "soft": true,
+          "energy_chain_fd": 1.1035873965453359e-10,
+          "momentum_max": 76.59289858775176,
+          "momentum_rel": 0.7130806507364389,
+          "predicted_difference": 8.526512829121202e-14
+        },
+        {
+          "mu": 16.0,
+          "soft": true,
+          "energy_chain_fd": 1.1035873965453359e-10,
+          "momentum_max": 306.37159435100693,
+          "momentum_rel": 0.7130806507364389,
+          "predicted_difference": 1.1368683772161603e-13
+        }
+      ],
+      "rank_one": {
+        "mu": 4,
+        "soft": true,
+        "energy_chain_fd": 0.0,
+        "momentum_max": 0.0,
+        "momentum_rel": 0.0,
+        "predicted_difference": 0.0
+      },
+      "quartic": {
+        "absolute": 386.03283168736624,
+        "relative": 1.0027127831242895,
+        "measured": 101.73880814122988
+      },
+      "rank_one_quartic": {
+        "absolute": 0.0,
+        "relative": 0.0,
+        "measured": 0.0
+      }
+    },
+    {
+      "h": 0.2,
+      "quadratic": {
+        "mu": 4,
+        "soft": false,
+        "energy_chain_fd": 1.6847197373422855e-11,
+        "momentum_max": 3.197442310920451e-13,
+        "momentum_rel": 5.5020617077913115e-15,
+        "predicted_difference": 3.2152058793144533e-13
+      },
+      "soft": [
+        {
+          "mu": 1.0,
+          "soft": true,
+          "energy_chain_fd": 1.1035873965453359e-10,
+          "momentum_max": 38.296449293875995,
+          "momentum_rel": 0.7130806507364399,
+          "predicted_difference": 3.907985046680551e-13
+        },
+        {
+          "mu": 4.0,
+          "soft": true,
+          "energy_chain_fd": 1.1035873965453359e-10,
+          "momentum_max": 153.18579717550352,
+          "momentum_rel": 0.7130806507364388,
+          "predicted_difference": 4.831690603168681e-13
+        },
+        {
+          "mu": 16.0,
+          "soft": true,
+          "energy_chain_fd": 1.1035873965453359e-10,
+          "momentum_max": 612.7431887020141,
+          "momentum_rel": 0.7130806507364389,
+          "predicted_difference": 6.821210263296962e-13
+        }
+      ],
+      "rank_one": {
+        "mu": 4,
+        "soft": true,
+        "energy_chain_fd": 0.0,
+        "momentum_max": 0.0,
+        "momentum_rel": 0.0,
+        "predicted_difference": 0.0
+      },
+      "quartic": {
+        "absolute": 12353.05061399572,
+        "relative": 1.0027127831242895,
+        "measured": 3255.641860519356
+      },
+      "rank_one_quartic": {
+        "absolute": 0.0,
+        "relative": 0.0,
+        "measured": 0.0
+      }
+    }
+  ],
+  "gate": false,
+  "cpu_seconds": 0.03125
+}
