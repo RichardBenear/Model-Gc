@@ -1,5 +1,16 @@
 # Handoff — current state
 
+## GC35U–X completed
+
+Ran items 1–4 of the [GC35R–T review](review/EX-GC35RST_claude_review.md) in the requested order. These studies are exploratory and pending PI closure.
+
+- **GC35U:** restricting the initial anchors to producible symbols recovered the two ternary string passes. Adding left or right transport broke their plain causal graphs. The string line is complete. [Results](results/EX-GC35U/EX-GC35U_note.md)
+- **GC35V:** 236 of 297 typed rules had shared-edge forks, and none found an anchored join within the registered bound. Sixteen first witnesses had terminal arms. No typed rule reached the conditional extension. [Results](results/EX-GC35V/EX-GC35V_note.md)
+- **GC35W:** changing P's position can make an eligible absorption disappear. That produces different aggregate ledgers and causal graphs with both recoil thresholds. [Results](results/EX-GC35W/EX-GC35W_note.md)
+- **GC35X:** gating the probe on a local background event enforced one site per gated tick by construction. Doubling fixed-site rate changed the probe's speed by only about 4%. [Results](results/EX-GC35X/EX-GC35X_note.md)
+
+The inflow, attraction and continuum knot lines remain paused.
+
 ## GC35R–T completed
 
 - **GC35R** screened 734 nonexpanding singleton or two-rule systems. Four passed the output-border and plain graph screen through length seven. Zero passed with both input and output ports anchored. [Results](results/EX-GC35R/EX-GC35R_note.md)
