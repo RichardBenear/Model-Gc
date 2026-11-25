@@ -1,6 +1,6 @@
 # EX-GC35J — soft-constraint Skyrme compatibility gate
 
-2026-11-24 | EXPLORATORY | Design and runs ChatGPT | [Plan](../../spec/EX-GC35J_plan.md) · [Claude review](../../review/EX-GC35GHI_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | Design and runs ChatGPT | [Plan](../../spec/EX-GC35J_plan.md) · [Claude review](../../review/EX-GC35GHI_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **The direct soft-constraint momentum identity failed.** Relaxation and moving knots did not proceed. The potential can be differentiated locally in time, but the spatial Ward identity also requires an exact discrete chain rule across each link.
 
