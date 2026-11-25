@@ -1,0 +1,7415 @@
+{
+ "platform": {
+  "python": "3.13.18",
+  "networkx": "3.7",
+  "machine": "x86_64",
+  "where": "cloud container"
+ },
+ "step1": [
+  {
+   "rule": 6843,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 12,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       23
+      ],
+      [
+       2,
+       37
+      ],
+      [
+       3,
+       51
+      ],
+      [
+       4,
+       5
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 7260,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 7285,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       26
+      ],
+      [
+       2,
+       36
+      ],
+      [
+       3,
+       26
+      ],
+      [
+       4,
+       16
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 8468,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       10
+      ],
+      [
+       1,
+       50
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       10
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 8479,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       10
+      ],
+      [
+       1,
+       50
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       10
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       23
+      ],
+      [
+       2,
+       33
+      ],
+      [
+       3,
+       33
+      ],
+      [
+       4,
+       23
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 10632,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       16
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       4,
+       18
+      ],
+      [
+       5,
+       16
+      ],
+      [
+       6,
+       14
+      ],
+      [
+       7,
+       12
+      ]
+     ],
+     "C_moves": 7,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 27399,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       30
+      ],
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       30
+      ],
+      [
+       3,
+       30
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 6,
+     "L_successor_set_sizes": [
+      [
+       1,
+       50
+      ],
+      [
+       2,
+       10
+      ],
+      [
+       3,
+       50
+      ],
+      [
+       4,
+       10
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       30
+      ],
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       30
+      ],
+      [
+       3,
+       30
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 3,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 6,
+     "L_successor_set_sizes": [
+      [
+       1,
+       50
+      ],
+      [
+       2,
+       10
+      ],
+      [
+       3,
+       50
+      ],
+      [
+       4,
+       10
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 40705,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       40
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 41026,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 41050,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       26
+      ],
+      [
+       2,
+       36
+      ],
+      [
+       3,
+       26
+      ],
+      [
+       4,
+       16
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 45761,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ],
+      [
+       6,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 46177,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 46236,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       25
+      ],
+      [
+       1,
+       35
+      ],
+      [
+       2,
+       35
+      ],
+      [
+       3,
+       25
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 47332,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 18,
+     "L_successor_set_sizes": [
+      [
+       1,
+       16
+      ],
+      [
+       2,
+       17
+      ],
+      [
+       3,
+       33
+      ],
+      [
+       4,
+       29
+      ],
+      [
+       5,
+       25
+      ]
+     ],
+     "C_moves": 7,
+     "C_in_class": 4,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 47891,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 6,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       4,
+       30
+      ],
+      [
+       5,
+       30
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       40
+      ],
+      [
+       5,
+       20
+      ],
+      [
+       6,
+       20
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 3,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       40
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 4,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 5,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 12,
+     "L_successor_set_sizes": [
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       50
+      ],
+      [
+       4,
+       30
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 3,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52060,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52067,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ],
+      [
+       6,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 24,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       12
+      ],
+      [
+       2,
+       26
+      ],
+      [
+       3,
+       36
+      ],
+      [
+       4,
+       26
+      ],
+      [
+       5,
+       12
+      ],
+      [
+       6,
+       4
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 3,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 4,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52122,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52172,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       17
+      ],
+      [
+       2,
+       18
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       4,
+       18
+      ],
+      [
+       5,
+       17
+      ],
+      [
+       6,
+       16
+      ]
+     ],
+     "C_moves": 7,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52207,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       4,
+       6
+      ],
+      [
+       5,
+       17
+      ],
+      [
+       6,
+       28
+      ],
+      [
+       7,
+       9
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52226,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       40
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52239,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ],
+      [
+       6,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52251,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       40
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52270,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       17
+      ],
+      [
+       2,
+       18
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       4,
+       18
+      ],
+      [
+       5,
+       17
+      ],
+      [
+       6,
+       16
+      ]
+     ],
+     "C_moves": 7,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52282,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       23
+      ],
+      [
+       2,
+       33
+      ],
+      [
+       3,
+       33
+      ],
+      [
+       4,
+       23
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52291,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52300,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52335,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       23
+      ],
+      [
+       2,
+       33
+      ],
+      [
+       3,
+       33
+      ],
+      [
+       4,
+       23
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 52336,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54301,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54397,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       37
+      ],
+      [
+       2,
+       38
+      ],
+      [
+       3,
+       29
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54557,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54567,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54578,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 12,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       20
+      ],
+      [
+       6,
+       40
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       40
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54581,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       40
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       16
+      ],
+      [
+       2,
+       32
+      ],
+      [
+       3,
+       48
+      ],
+      [
+       4,
+       24
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       80
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54632,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       6
+      ],
+      [
+       1,
+       42
+      ],
+      [
+       2,
+       58
+      ],
+      [
+       3,
+       14
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54636,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54639,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       70
+      ],
+      [
+       2,
+       35
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54644,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54649,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       4,
+       6
+      ],
+      [
+       5,
+       17
+      ],
+      [
+       6,
+       28
+      ],
+      [
+       7,
+       9
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54655,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       1,
+       25
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       15
+      ],
+      [
+       5,
+       15
+      ],
+      [
+       6,
+       20
+      ],
+      [
+       7,
+       25
+      ]
+     ],
+     "C_moves": 8,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54698,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       25
+      ],
+      [
+       1,
+       35
+      ],
+      [
+       2,
+       35
+      ],
+      [
+       3,
+       25
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54776,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       25
+      ],
+      [
+       1,
+       35
+      ],
+      [
+       2,
+       35
+      ],
+      [
+       3,
+       25
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54839,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 14,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       15
+      ],
+      [
+       2,
+       25
+      ],
+      [
+       3,
+       25
+      ],
+      [
+       4,
+       15
+      ],
+      [
+       5,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54844,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       25
+      ],
+      [
+       1,
+       35
+      ],
+      [
+       2,
+       35
+      ],
+      [
+       3,
+       25
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 54866,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       25
+      ],
+      [
+       1,
+       35
+      ],
+      [
+       2,
+       35
+      ],
+      [
+       3,
+       25
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 55096,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 55332,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 55370,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       23
+      ],
+      [
+       2,
+       33
+      ],
+      [
+       3,
+       33
+      ],
+      [
+       4,
+       23
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 55584,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       40
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       40
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 12,
+     "L_successor_set_sizes": [
+      [
+       1,
+       16
+      ],
+      [
+       2,
+       28
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       22
+      ],
+      [
+       5,
+       34
+      ]
+     ],
+     "C_moves": 7,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 55585,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 6,
+     "L_successor_set_sizes": [
+      [
+       1,
+       50
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 3,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 55744,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       40
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       40
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       1,
+       60
+      ],
+      [
+       2,
+       60
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 55746,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 2,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 57614,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       30
+      ],
+      [
+       3,
+       30
+      ],
+      [
+       4,
+       30
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 57985,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       60
+      ],
+      [
+       3,
+       30
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 58846,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 59436,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 59476,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       15
+      ],
+      [
+       1,
+       45
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       15
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 60663,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61035,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61157,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 24,
+     "L_successor_set_sizes": [
+      [
+       0,
+       8
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       22
+      ],
+      [
+       3,
+       32
+      ],
+      [
+       4,
+       22
+      ],
+      [
+       5,
+       14
+      ],
+      [
+       6,
+       8
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       17
+      ],
+      [
+       2,
+       27
+      ],
+      [
+       3,
+       27
+      ],
+      [
+       4,
+       17
+      ],
+      [
+       5,
+       16
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61171,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61206,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       11
+      ],
+      [
+       2,
+       28
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       4,
+       28
+      ],
+      [
+       5,
+       11
+      ],
+      [
+       6,
+       12
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61218,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 6,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       4,
+       30
+      ],
+      [
+       5,
+       30
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 12,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       17
+      ],
+      [
+       2,
+       33
+      ],
+      [
+       3,
+       29
+      ],
+      [
+       4,
+       25
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61228,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 6,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       30
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 6,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       50
+      ],
+      [
+       3,
+       30
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 3,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       21
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       19
+      ],
+      [
+       4,
+       23
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61238,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61258,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       4,
+       20
+      ],
+      [
+       5,
+       20
+      ],
+      [
+       6,
+       20
+      ]
+     ],
+     "C_moves": 6,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       16
+      ],
+      [
+       3,
+       18
+      ],
+      [
+       4,
+       18
+      ],
+      [
+       5,
+       16
+      ],
+      [
+       6,
+       14
+      ],
+      [
+       7,
+       12
+      ]
+     ],
+     "C_moves": 7,
+     "C_in_class": 3,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 61259,
+   "period": 3,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 2,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 62157,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       23
+      ],
+      [
+       2,
+       33
+      ],
+      [
+       3,
+       33
+      ],
+      [
+       4,
+       23
+      ],
+      [
+       5,
+       4
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       16
+      ],
+      [
+       1,
+       17
+      ],
+      [
+       2,
+       27
+      ],
+      [
+       3,
+       27
+      ],
+      [
+       4,
+       17
+      ],
+      [
+       5,
+       16
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 63216,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       20
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       40
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       25
+      ],
+      [
+       1,
+       35
+      ],
+      [
+       2,
+       35
+      ],
+      [
+       3,
+       25
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 63843,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       30
+      ],
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       30
+      ],
+      [
+       3,
+       30
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 64744,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 64765,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       14
+      ],
+      [
+       2,
+       34
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       14
+      ],
+      [
+       5,
+       12
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 66338,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       30
+      ],
+      [
+       1,
+       30
+      ],
+      [
+       2,
+       30
+      ],
+      [
+       3,
+       30
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 66427,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       40
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ]
+     ],
+     "C_moves": 2,
+     "C_in_class": 2,
+     "C_closed": true
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 4,
+     "L_successor_set_sizes": [
+      [
+       0,
+       30
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       50
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 3,
+     "C_closed": true
+    }
+   ],
+   "passes": true,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 68942,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       32
+      ],
+      [
+       2,
+       32
+      ],
+      [
+       3,
+       32
+      ],
+      [
+       4,
+       12
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 68960,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       32
+      ],
+      [
+       2,
+       32
+      ],
+      [
+       3,
+       32
+      ],
+      [
+       4,
+       12
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 69026,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       21
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       19
+      ],
+      [
+       4,
+       23
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 69069,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       20
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ],
+      [
+       4,
+       20
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 2,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       12
+      ],
+      [
+       1,
+       21
+      ],
+      [
+       2,
+       45
+      ],
+      [
+       3,
+       19
+      ],
+      [
+       4,
+       23
+      ]
+     ],
+     "C_moves": 5,
+     "C_in_class": 3,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  },
+  {
+   "rule": 76073,
+   "period": 2,
+   "phases": [
+    {
+     "phase": 0,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 8,
+     "L_successor_set_sizes": [
+      [
+       0,
+       20
+      ],
+      [
+       1,
+       40
+      ],
+      [
+       2,
+       40
+      ],
+      [
+       3,
+       20
+      ]
+     ],
+     "C_moves": 3,
+     "C_in_class": 1,
+     "C_closed": false
+    },
+    {
+     "phase": 1,
+     "L_moves": 1,
+     "L_closed": true,
+     "L_distinct_successor_sets": 16,
+     "L_successor_set_sizes": [
+      [
+       0,
+       4
+      ],
+      [
+       1,
+       34
+      ],
+      [
+       2,
+       44
+      ],
+      [
+       3,
+       34
+      ],
+      [
+       4,
+       4
+      ]
+     ],
+     "C_moves": 4,
+     "C_in_class": 1,
+     "C_closed": false
+    }
+   ],
+   "passes": false,
+   "order_free_L": false,
+   "L_closed_published": true
+  }
+ ],
+ "cpu_step1": 11.268527784,
+ "step2": [
+  {
+   "depth": 3,
+   "e1": {
+    "consumed": [
+     [
+      1,
+      2,
+      6
+     ],
+     [
+      6,
+      1,
+      2
+     ],
+     [
+      1,
+      3,
+      4
+     ]
+    ],
+    "read": [
+     [
+      4,
+      2,
+      6
+     ]
+    ],
+    "outputs": [
+     [
+      2,
+      3,
+      6
+     ],
+     [
+      2,
+      4,
+      8
+     ],
+     [
+      3,
+      2,
+      8
+     ],
+     [
+      3,
+      4,
+      6
+     ],
+     [
+      3,
+      4,
+      8
+     ],
+     [
+      4,
+      2,
+      8
+     ],
+     [
+      6,
+      4,
+      8
+     ],
+     [
+      8,
+      2,
+      3
+     ]
+    ]
+   },
+   "e2": {
+    "consumed": [
+     [
+      3,
+      5,
+      7
+     ],
+     [
+      5,
+      1,
+      4
+     ],
+     [
+      5,
+      3,
+      7
+     ]
+    ],
+    "read": [
+     [
+      4,
+      3,
+      7
+     ]
+    ],
+    "outputs": [
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      4,
+      8
+     ],
+     [
+      1,
+      7,
+      8
+     ],
+     [
+      3,
+      4,
+      8
+     ],
+     [
+      4,
+      7,
+      8
+     ],
+     [
+      7,
+      1,
+      3
+     ],
+     [
+      7,
+      4,
+      8
+     ],
+     [
+      8,
+      1,
+      7
+     ]
+    ]
+   },
+   "second_legal": {
+    "b_after_a": true,
+    "a_after_b": true
+   },
+   "outputs_already_present": {
+    "e1": [],
+    "e2": [
+     [
+      1,
+      3,
+      4
+     ]
+    ]
+   },
+   "same_live_set_after_both_orders": false,
+   "live_counts": [
+    28,
+    27
+   ],
+   "class": "ii"
+  },
+  {
+   "depth": 4,
+   "e1": {
+    "consumed": [
+     [
+      3,
+      5,
+      6
+     ],
+     [
+      5,
+      1,
+      4
+     ],
+     [
+      5,
+      3,
+      6
+     ]
+    ],
+    "read": [
+     [
+      4,
+      3,
+      6
+     ]
+    ],
+    "outputs": [
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      4,
+      9
+     ],
+     [
+      1,
+      6,
+      9
+     ],
+     [
+      3,
+      4,
+      9
+     ],
+     [
+      4,
+      6,
+      9
+     ],
+     [
+      6,
+      1,
+      3
+     ],
+     [
+      6,
+      4,
+      9
+     ],
+     [
+      9,
+      1,
+      6
+     ]
+    ]
+   },
+   "e2": {
+    "consumed": [
+     [
+      2,
+      1,
+      5
+     ],
+     [
+      2,
+      4,
+      7
+     ],
+     [
+      1,
+      2,
+      5
+     ]
+    ],
+    "read": [
+     [
+      7,
+      1,
+      5
+     ]
+    ],
+    "outputs": [
+     [
+      1,
+      7,
+      9
+     ],
+     [
+      4,
+      1,
+      7
+     ],
+     [
+      4,
+      5,
+      9
+     ],
+     [
+      4,
+      7,
+      9
+     ],
+     [
+      5,
+      1,
+      4
+     ],
+     [
+      5,
+      7,
+      9
+     ],
+     [
+      7,
+      5,
+      9
+     ],
+     [
+      9,
+      4,
+      5
+     ]
+    ]
+   },
+   "second_legal": {
+    "b_after_a": true,
+    "a_after_b": true
+   },
+   "outputs_already_present": {
+    "e1": [],
+    "e2": [
+     [
+      5,
+      1,
+      4
+     ]
+    ]
+   },
+   "same_live_set_after_both_orders": false,
+   "live_counts": [
+    33,
+    32
+   ],
+   "class": "ii"
+  },
+  {
+   "depth": 4,
+   "e1": {
+    "consumed": [
+     [
+      1,
+      5,
+      6
+     ],
+     [
+      6,
+      1,
+      5
+     ],
+     [
+      1,
+      2,
+      3
+     ]
+    ],
+    "read": [
+     [
+      3,
+      5,
+      6
+     ]
+    ],
+    "outputs": [
+     [
+      2,
+      3,
+      6
+     ],
+     [
+      2,
+      3,
+      9
+     ],
+     [
+      2,
+      5,
+      9
+     ],
+     [
+      3,
+      5,
+      9
+     ],
+     [
+      5,
+      2,
+      6
+     ],
+     [
+      5,
+      3,
+      9
+     ],
+     [
+      6,
+      3,
+      9
+     ],
+     [
+      9,
+      2,
+      5
+     ]
+    ]
+   },
+   "e2": {
+    "consumed": [
+     [
+      2,
+      7,
+      8
+     ],
+     [
+      7,
+      1,
+      3
+     ],
+     [
+      7,
+      2,
+      8
+     ]
+    ],
+    "read": [
+     [
+      3,
+      2,
+      8
+     ]
+    ],
+    "outputs": [
+     [
+      1,
+      2,
+      3
+     ],
+     [
+      1,
+      3,
+      9
+     ],
+     [
+      1,
+      8,
+      9
+     ],
+     [
+      2,
+      3,
+      9
+     ],
+     [
+      3,
+      8,
+      9
+     ],
+     [
+      8,
+      1,
+      2
+     ],
+     [
+      8,
+      3,
+      9
+     ],
+     [
+      9,
+      1,
+      8
+     ]
+    ]
+   },
+   "second_legal": {
+    "b_after_a": true,
+    "a_after_b": true
+   },
+   "outputs_already_present": {
+    "e1": [],
+    "e2": [
+     [
+      1,
+      2,
+      3
+     ]
+    ]
+   },
+   "same_live_set_after_both_orders": false,
+   "live_counts": [
+    33,
+    32
+   ],
+   "class": "ii"
+  },
+  {
+   "depth": 4,
+   "e1": {
+    "consumed": [
+     [
+      1,
+      2,
+      6
+     ],
+     [
+      6,
+      1,
+      2
+     ],
+     [
+      1,
+      3,
+      4
+     ]
+    ],
+    "read": [
+     [
+      4,
+      2,
+      6
+     ]
+    ],
+    "outputs": [
+     [
+      2,
+      3,
+      6
+     ],
+     [
+      2,
+      4,
+      9
+     ],
+     [
+      3,
+      2,
+      9
+     ],
+     [
+      3,
+      4,
+      6
+     ],
+     [
+      3,
+      4,
+      9
+     ],
+     [
+      4,
+      2,
+      9
+     ],
+     [
+      6,
+      4,
+      9
+     ],
+     [
+      9,
+      2,
+      3
+     ]
+    ]
+   },
+   "e2": {
+    "consumed": [
+     [
+      4,
+      7,
+      8
+     ],
+     [
+      7,
+      1,
+      3
+     ],
+     [
+      7,
+      4,
+      8
+     ]
+    ],
+    "read": [
+     [
+      3,
+      4,
+      8
+     ]
+    ],
+    "outputs": [
+     [
+      1,
+      3,
+      4
+     ],
+     [
+      1,
+      3,
+      9
+     ],
+     [
+      1,
+      8,
+      9
+     ],
+     [
+      3,
+      8,
+      9
+     ],
+     [
+      4,
+      3,
+      9
+     ],
+     [
+      8,
+      1,
+      4
+     ],
+     [
+      8,
+      3,
+      9
+     ],
+     [
+      9,
+      1,
+      8
+     ]
+    ]
+   },
+   "second_legal": {
+    "b_after_a": true,
+    "a_after_b": true
+   },
+   "outputs_already_present": {
+    "e1": [],
+    "e2": [
+     [
+      1,
+      3,
+      4
+     ]
+    ]
+   },
+   "same_live_set_after_both_orders": false,
+   "live_counts": [
+    32,
+    31
+   ],
+   "class": "ii"
+  }
+ ],
+ "cpu_step2": 1.6356940290000002,
+ "step3": {
+  "witnesses": [
+   {
+    "m": 1,
+    "n": 1,
+    "negative": false,
+    "F": [
+     "join",
+     1,
+     1
+    ],
+    "history_equal_length": [
+     "join",
+     1
+    ]
+   },
+   {
+    "m": 2,
+    "n": 2,
+    "negative": false,
+    "F": [
+     "join",
+     2,
+     2
+    ],
+    "history_equal_length": [
+     "join",
+     2
+    ]
+   },
+   {
+    "m": 3,
+    "n": 3,
+    "negative": false,
+    "F": [
+     "join",
+     3,
+     3
+    ],
+    "history_equal_length": [
+     "join",
+     3
+    ]
+   },
+   {
+    "m": 4,
+    "n": 4,
+    "negative": false,
+    "F": [
+     "join",
+     4,
+     4
+    ],
+    "history_equal_length": [
+     "join",
+     4
+    ]
+   },
+   {
+    "m": 5,
+    "n": 5,
+    "negative": false,
+    "F": [
+     "join",
+     5,
+     5
+    ],
+    "history_equal_length": [
+     "join",
+     5
+    ]
+   },
+   {
+    "m": 6,
+    "n": 6,
+    "negative": false,
+    "F": [
+     "join",
+     6,
+     6
+    ],
+    "history_equal_length": [
+     "join",
+     6
+    ]
+   },
+   {
+    "m": 2,
+    "n": 4,
+    "negative": false,
+    "F": [
+     "join",
+     2,
+     4
+    ],
+    "history_equal_length": [
+     "terminal-distinct",
+     2
+    ]
+   },
+   {
+    "m": 3,
+    "n": 5,
+    "negative": false,
+    "F": [
+     "join",
+     3,
+     5
+    ],
+    "history_equal_length": [
+     "terminal-distinct",
+     3
+    ]
+   },
+   {
+    "m": 3,
+    "n": 3,
+    "negative": true,
+    "F": [
+     "terminal-distinct",
+     4,
+     4
+    ],
+    "history_equal_length": [
+     "terminal-distinct",
+     3
+    ]
+   }
+  ],
+  "A1": [
+   [
+    "join",
+    0,
+    0
+   ],
+   [
+    "join",
+    1,
+    1
+   ],
+   [
+    "join",
+    1,
+    1
+   ]
+  ],
+  "A2": {
+   "matches": 2,
+   "F": [
+    "unresolved",
+    6,
+    6
+   ]
+  },
+  "A3": [
+   {
+    "depth": 1,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 16.4
+   },
+   {
+    "depth": 2,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 31.5
+   },
+   {
+    "depth": 2,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 26.0
+   },
+   {
+    "depth": 2,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 17.5
+   },
+   {
+    "depth": 3,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 75.0
+   },
+   {
+    "depth": 3,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 44.8
+   },
+   {
+    "depth": 3,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 23.6
+   },
+   {
+    "depth": 3,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 38.1
+   },
+   {
+    "depth": 3,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 54.5
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 127.2
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 80.1
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 141.1
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 135.8
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 130.0
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 51.0
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 56.0
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 51.9
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 53.3
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 62.7
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 42.8
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 45.6
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 43.8
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 63.2
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 130.5
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 70.8
+   },
+   {
+    "depth": 4,
+    "F": [
+     "join",
+     6,
+     6
+    ],
+    "cpu": 110.5
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 139.8
+   },
+   {
+    "depth": 4,
+    "F": [
+     "unresolved",
+     6,
+     6
+    ],
+    "cpu": 63.9
+   }
+  ]
+ },
+ "cpu_step3": 1933.954622712,
+ "step4": [
+  {
+   "rule": 66427,
+   "phase": 0,
+   "moves": 2,
+   "shared": true,
+   "F": [
+    "cap",
+    6,
+    6
+   ],
+   "cpu": 110.2
+  },
+  {
+   "rule": 66427,
+   "phase": 1,
+   "moves": 3,
+   "shared": true,
+   "F": [
+    "cap",
+    6,
+    5
+   ],
+   "cpu": 117.7
+  },
+  {
+   "rule": 66427,
+   "phase": 1,
+   "moves": 3,
+   "shared": true,
+   "F": [
+    "cap",
+    6,
+    6
+   ],
+   "cpu": 169.7
+  },
+  {
+   "rule": 66427,
+   "phase": 1,
+   "moves": 3,
+   "shared": false,
+   "F": [
+    "join",
+    1,
+    1
+   ],
+   "cpu": 121.6
+  }
+ ],
+ "cpu_step4": 519.2
+}
