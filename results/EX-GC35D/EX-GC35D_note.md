@@ -1,6 +1,6 @@
 # EX-GC35D — Skyrmion relaxation and static Y1 stress compatibility
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35D_plan.md) · [Claude review](../../review/EX-GC35AB_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35D_plan.md) · [Claude review](../../review/EX-GC35AB_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **Full-source compatibility failed.** All eight cases reached the tighter projected force tolerance. Refinement substantially reduced the mismatch, while tighter optimization and larger walls changed little at h=.2. The finest measured residuals were 0.867% and 0.698%, above the 0.1% gate for moving-knot runs.
 
