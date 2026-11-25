@@ -2,7 +2,7 @@
 
 ### From reaction–diffusion particles to relativistic topological field configurations and a shared lattice geometry
 
-**Version 0.5 DRAFT, revision 6 (2026-11-24). Research record through EX-GC35K.**
+**Version 0.5, frozen revision 7 (2026-11-24). Research record through EX-GC35O.**
 PI: Richard Benear. Drafted by Claude (Anthropic) from the records in this repository. v0.3 (through EX-GC25) was
 revised after two rounds of review by ChatGPT, both endorsed by the PI. v0.4 (through EX-GC26) was frozen on
 2026-11-22. This v0.5 adds Section 9 (the intermediate explorations EX-GC27–33, mostly by ChatGPT) and Section 10
@@ -734,7 +734,7 @@ The PI accepted staggered Y1 as the current approximate reference and ended the 
 
 See [the GC34 equation record](EX-GC34_equations.md), [the independent Q–Z synthesis](../review/EX-GC34Q-Z_claude_review.md), and [the symmetry and formulation note](../docs/EX-GC34_symmetry_and_direction.md).
 
-### 10.8 Reciprocal scalar, knot sources and event scheduling (35A–K)
+### 10.8 Reciprocal scalar, knot sources and event scheduling (35A–O)
 
 - **35A and 35C, reciprocal scalar.** The first perturbation to the scalar feeds the second-order metric, closing one perturbative feedback loop. On the compensated periodic packet, the short run passed its registered checks. The subsequent fine run crossed the constraint limit at t=5.75 and reached 0.368 at t=20. Refinement reduced the error at fixed time, and the linear vacuum analysis found no matching exponentially growing mode. The sourced defect still limits the free evolution. The periodic compensator is specific to the benchmark and the homogeneous metric is omitted.
 - **35B and 35D, static Skyrme sources.** A finer follow-up recovered both knot profiles. The energy-only source included the degree-two binding deficit in a monopole normalization check and gave leading feedback at rest. The full stress source remained incompatible with static Y1. Tight relaxation and larger boxes made little difference at h=.2. At h=.15 the full residuals fell to 0.867% and 0.698% for B1 and B2, above the 0.1% gate.
@@ -744,6 +744,11 @@ See [the GC34 equation record](EX-GC34_equations.md), [the independent Q–Z syn
 - **35I, prescribed local clock rates.** A lapse step generated a 1.5 ratio in event counts over equal coordinate intervals. At h=.1 the proper-frequency ratio was 0.6671 and the transmitted wave-normal angle was 32.85°, against continuum predictions of 0.6667 and 32.79°. All 18 tested schedules matched their fixed-version reference. The lapse was prescribed and the test used one transverse wave sector.
 - **35J, soft constraint.** Replacing the hard unit-vector constraint by a quartic radial site potential removed the multiplier and introduced a different link chain-rule defect. The quadratic control passed at roundoff. The proposed direct soft coupling failed before knot relaxation.
 - **35K, static mass-sourced clocks.** A static Gaussian density supplied a Y1 lapse and spatial metric for an equatorial wave packet. With quadratic time reconstruction across unlike clocks, the finest group-direction bends were 3.135° for the full metric and 1.560° for lapse alone. The matched finite-path prediction was 2.834° for the full metric. The ratio near two and the remaining absolute-angle error describe different aspects of the test.
+
+- **35L, competing carrier events.** Final ledgers and firing counts agreed in all 494 configurations. The labelled token-producer and FIFO site-history graph comparisons both had counterexamples. A separate review reproduced the counts and found failures after removing site labels. Agreement of terminal counts is weaker than agreement of causal histories.
+- **35M, local constraint damping.** A trace correction and momentum-adjoint correction reduced the h=.25 scalar residual from 0.368 to 0.0449 at t=20, above the accuracy gate. The fixed full-stress knots generated residuals of 0.184 and 0.149. Energy-only controls stayed at roundoff. This qualifies the diagnosis for the tested source and damping, with other formulations open.
+- **35N, lens refinement.** The full-to-lapse bending ratio was 2.007 at h=.08, against 2.009 at h=.12. The full-angle discrepancy after leading dispersion correction stayed about 4.4%. The comparison uses a finite wave beam and a straight-ray comparator. The source of the remaining gap is unresolved.
+- **35O, reciprocal event clocks.** Packet and carrier counts sourced a retarded lapse in a one-dimensional reduction using Y1's static lapse symbol. The lapse set future event intervals. All 16 tested field schedules gave identical histories under fixed version dependencies. Competing token branches ended with identical fields and carrier counts and inequivalent dependency graphs. Full dynamical tensor Y1 and causal invariance under contested inputs remain open.
 
 ## 11. How the investigation evolved
 
@@ -823,7 +828,7 @@ GR's static and moving-source weak fields, but whose chosen kinetic action has a
 
 ## 13. Research direction
 
-Projected Y1 is the reciprocal scalar reference within the measured regime. The native staggered Skyrme source and prescribed-lapse event graph results appear in Section 10.8. Moving knots require a compatible full source. The non-local projector is a solver for the reciprocal reference problem. A [competing-event design note](../docs/EX-GC35_competing_event_causal_invariance.md) specifies a graph equivalence test beyond fixed-version scheduling.
+Projected Y1 is the reciprocal scalar reference within the measured regime. Section 10.8 records the native and soft Skyrme tests, the static and reciprocal clock results, and the competing-event counterexamples. The continuum knot and static lens campaigns pause at this boundary. Carrier graph equivalence is the next open programme question. Moving knots require a compatible full source. The non-local projector is a solver for the reciprocal reference problem. A [competing-event design note](../docs/EX-GC35_competing_event_causal_invariance.md) specifies a graph equivalence test beyond fixed-version scheduling.
 
 Causal invariance concerns update-order equivalence. Coordinate symmetry concerns redundant descriptions of one geometry and the identities relating its equations. A first-order tetrad and connection formulation would change the variables and action, with additional connection, gluing and constraint work. It remains a paper-level option. [Formulation note](../docs/EX-GC34_symmetry_and_direction.md)
 
@@ -875,6 +880,9 @@ The origin of the universal energy coupling, its relationship to the reaction–
 | [35I](../results/EX-GC35I) | Prescribed local clocks | Event counts, redshift, and wave-normal rotation across a lapse step | PI closed |
 | [35J](../results/EX-GC35J) | Soft Skyrme constraint | Link chain-rule counterexample | PI closed |
 | [35K](../results/EX-GC35K) | Matter-sourced event clocks | Near-doubling of bend with remaining absolute error | PI closed |
+| [35L](../results/EX-GC35L), [35O](../results/EX-GC35O) | Carrier histories and reciprocal clocks | Ledger agreement with inequivalent competing-event graphs | Exploratory, PI closure pending |
+| [35M](../results/EX-GC35M) | Local constraint damping | Residual reduction with failed accuracy gates | Exploratory, PI closure pending |
+| [35N](../results/EX-GC35N) | Lens refinement | Stable bend ratio and a remaining absolute difference | Exploratory, PI closure pending |
 
 Each study's note is in `results/<ID>/` (EX002–EX007 in `docs/lineage/`); plans in `explore/LOG.md` and `spec/`;
 figures in `paper/figures/`.
@@ -902,6 +910,8 @@ EX-GC34 deviations, all recorded in the study notes:
 The post hoc analyses are labelled as such, and none re-scores a registered result.
 
 ## Appendix C. Revision record
+
+Frozen revision 7 completes the v0.5 record through GC35O. It preserves the exploratory verdicts and their separate PI closure status.
 
 Revision 6 adds GC35J/K and records the PI closure of GC35A–K. Scientific gate outcomes are retained.
 
