@@ -1,6 +1,6 @@
 # EX-GC35N — absolute lens deflection at h=.08
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35N_plan.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35N_plan.md). **PI CLOSED 2026-11-24.**
 
 **The full-to-lapse bend ratio remains 2.007. The excess after the leading dispersion correction did not decrease materially.** The same static mass, beam, clock reconstruction and finite-path comparator as GC35K were used at packet spacing .08 and proper step .013333. The full-metric bend was 3.039°, against 2.903° in the leading asymptotic weak-field expression. The dedicated .08 runs were a lapse/full pair. Raw group angles are used below, with the prior flat direction within 10⁻⁶ degrees of zero.
 
