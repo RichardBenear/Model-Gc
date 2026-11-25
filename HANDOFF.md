@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## GC35R–T completed
+
+- **GC35R** screened 734 nonexpanding singleton or two-rule systems. Four passed the output-border and plain graph screen through length seven. Zero passed with both input and output ports anchored. [Results](results/EX-GC35R/EX-GC35R_note.md)
+- **GC35S** supersedes the earlier exclusion clock stop under the amended scope. Blocking is an interaction without shared consumed sites. All common depth cuts agreed across schedules. Forward density calibration fit within 1.5%, while the step showed forward/reverse rate differences and the independent probe clocks differed by 42% in inferred speed. [Results](results/EX-GC35S/EX-GC35S_note.md)
+- **GC35T** preserved parallel absorption by keeping P as a persistent vertex and consuming independent carrier relations. All 124 configurations passed. A shared consumed mass counter failed the anchored and routed graph comparisons. [Results](results/EX-GC35T/EX-GC35T_note.md)
+
+No configuration combines qualified anchored competing histories with an absorber transport rule ready for the gated clock, inflow or attraction tests. GC35R–T are exploratory and pending PI closure.
+
 ## Emergent clocks — Step 2 held at the entry gate
 
 The [Step 2 design](docs/EX-GC35_emergent_clocks_design.md) requires an interacting rule that passes the Step 1 graph screen and directs the run to stop when none qualifies. GC35Q passed only the one-species exclusion control, which has no competing matches. Pass-through and both absorber variants have plain causal-graph counterexamples. No clock run was started and no density–rate or probe-speed result was generated. [GC35Q results](results/EX-GC35Q/EX-GC35Q_note.md)
