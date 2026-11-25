@@ -1,6 +1,6 @@
 # EX-GC35B — GC26 Skyrmions as weak sources on Y1 (EXPLORATORY)
 
-2026-11-24 | ChatGPT | [Registered plan](../../spec/EX-GC35B_plan.md) · [Direction review](../../review/EX-GC34Q-Z_claude_review.md). PI closure pending.
+2026-11-24 | ChatGPT | [Registered plan](../../spec/EX-GC35B_plan.md) · [Direction review](../../review/EX-GC34Q-Z_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **Registered topology, full-stress and feedback gates failed.** A finer-grid post hoc run recovered both knots and measured their leading response in the energy-only control. The full energy-plus-stress source remained incompatible with the static Y1 equations at the registered tolerance.
 
