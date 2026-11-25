@@ -1,6 +1,6 @@
 # EX-GC35K — bending by a matter-sourced Y1 lapse and spatial metric
 
-2026-11-24 | EXPLORATORY | Design and runs ChatGPT | [Plan](../../spec/EX-GC35K_plan.md) · [Claude review](../../review/EX-GC35GHI_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | Design and runs ChatGPT | [Plan](../../spec/EX-GC35K_plan.md) · [Claude review](../../review/EX-GC35GHI_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **The full-metric bending was 2.009 times the lapse-only bend on the finest packet grid.** The finest group-angle result was **3.135°** toward the mass. The matched continuum finite-path prediction was 2.834° and the leading asymptotic 4GM/b prediction was 2.903°. The factor near two is reproducible in the test. A precision match to the absolute continuum angle is still open.
 
