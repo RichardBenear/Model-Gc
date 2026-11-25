@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## Emergent clocks — Step 2 held at the entry gate
+
+The [Step 2 design](docs/EX-GC35_emergent_clocks_design.md) requires an interacting rule that passes the Step 1 graph screen and directs the run to stop when none qualifies. GC35Q passed only the one-species exclusion control, which has no competing matches. Pass-through and both absorber variants have plain causal-graph counterexamples. No clock run was started and no density–rate or probe-speed result was generated. [GC35Q results](results/EX-GC35Q/EX-GC35Q_note.md)
+
 ## GC35Q completed
 
 GC35Q ran Step 1 of the [GC35P review](review/EX-GC35P_claude_review.md). The pass-through overlap R0L has equivalent plain graphs, while the four-site context 0R0L has unequal causal depths despite identical terminal words. Both absorber variants have larger-context counterexamples. Only the non-overlapping exclusion control passed. GC35Q is exploratory and pending PI closure. [Results](results/EX-GC35Q/EX-GC35Q_note.md)
