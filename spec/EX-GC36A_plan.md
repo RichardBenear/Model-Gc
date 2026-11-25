@@ -56,3 +56,8 @@ Stage 0 (reproducing the W37 anchor; PC), Stage 4 (the Gc reading) and any claim
 ## Outputs
 
 `results/EX-GC36A/` (note plus `results.json`). Platform recorded. Figures, if any, in `paper/figures/`.
+
+## Deviations (recorded before Stage 2b was run)
+
+- **D1.** The first all-stage run reached the 50-minute command limit during Stage 2a version C, after about 0.83 core-h, and wrote no file. Stages are now run separately, with the same code and parameters. Stages 1, 3 and 2a-L were rerun this way.
+- **D2.** In a grown vacuum, hub vertices (2-section degree up to about 600 at 2,000 events) make some radius-1 extracts very large. Stage 2b keeps the registered pairs and k = 3, but skips any pair whose extract has more than 400 relations. Skipped pairs are counted and listed. I chose the threshold before seeing any 2b result.
