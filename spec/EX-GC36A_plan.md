@@ -28,7 +28,7 @@ These are CRR files in `external/crr/`, unchanged, with SHA-256s recorded in the
   - `xy→xy,yz` on the two-loop seed.
   - `xy,zy→xw,yw,zw` on two asymmetric seeds: a three-in star with one extra edge on one leaf, and a four-in star.
   - Noninjective matching as in the Wolfram models.
-- *Negative control:* `xy,xz→xy` (keep one of two out-edges) on a two-out star. The two branches end in non-isomorphic states, so the pair must fail.
+- *Negative control:* `xy,xz→xy` (keep one of two out-edges) on a two-out star with one extra edge on a leaf, (0,1),(0,2),(2,3). The two branches end in non-isomorphic states, two disjoint edges against a path, so the pair must fail. *Amended before any run:* the symmetric two-out star first written here gives isomorphic end states under U and so cannot serve as a negative control.
 - **P1 (gate):**
   - Under U, `xy,zy→xw,yw,zw` joins every fork on both asymmetric seeds within k = 3.
   - The negative control fails under both conventions.
