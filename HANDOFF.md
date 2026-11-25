@@ -17,7 +17,7 @@ The inflow, attraction and continuum knot lines remain paused.
 - **GC35S** supersedes the earlier exclusion clock stop under the amended scope. Blocking is an interaction without shared consumed sites. All common depth cuts agreed across schedules. Forward density calibration fit within 1.5%, while the step showed forward/reverse rate differences and the independent probe clocks differed by 42% in inferred speed. [Results](results/EX-GC35S/EX-GC35S_note.md)
 - **GC35T** preserved parallel absorption by keeping P as a persistent vertex and consuming independent carrier relations. All 124 configurations passed. A shared consumed mass counter failed the anchored and routed graph comparisons. [Results](results/EX-GC35T/EX-GC35T_note.md)
 
-No configuration combines qualified anchored competing histories with an absorber transport rule ready for the gated clock, inflow or attraction tests. GC35R–T are exploratory and pending PI closure.
+No configuration combines qualified anchored competing histories with an absorber transport rule ready for the gated clock, inflow or attraction tests. GC35R–T are exploratory. **PI CLOSED 2026-11-25.**
 
 ## Emergent clocks — Step 2 held at the entry gate
 

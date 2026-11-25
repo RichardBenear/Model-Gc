@@ -1,6 +1,6 @@
 # EX-GC35T — persistent-vertex absorption on a hypergraph
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Design and test plan](../../spec/EX-GC35T_plan.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Design and test plan](../../spec/EX-GC35T_plan.md). **PI CLOSED 2026-11-25.**
 
 **Persistent-vertex absorption passes the anchored graph test when each carrier owns its consumed relation.** Adding a shared mass-counter relation restores destructive overlaps and graph failures.
 

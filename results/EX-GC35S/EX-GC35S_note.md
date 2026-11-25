@@ -1,6 +1,6 @@
 # EX-GC35S — exclusion as an emergent clock
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Amended scope](../../spec/EX-GC35S_plan.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Amended scope](../../spec/EX-GC35S_plan.md). **PI CLOSED 2026-11-25.**
 
 **The ring rule gives a reproducible density–rate relation, but the density step does not support a lapse interpretation under the two proposed checks.** Exclusion is an interaction through blocking, even though legal (10→01) matches do not share a consumed site. This run amends the earlier Step 2 stop to test that rule.
 
