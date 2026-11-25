@@ -1,6 +1,6 @@
 # EX-GC35H — native staggered Skyrme stress
 
-2026-11-24 | EXPLORATORY | Design, implementation and runs ChatGPT. [Plan](../../spec/EX-GC35H_plan.md) · [Claude review](../../review/EX-GC35EF_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | Design, implementation and runs ChatGPT. [Plan](../../spec/EX-GC35H_plan.md) · [Claude review](../../review/EX-GC35EF_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **Full static Ward gate failed.** The new coupling reduces the full-source incompatibility on both tightly relaxed h=.2 knots. It leaves a finite residual and gives an explicit obstruction to extending the free-scalar identity by simply adding components constrained to a unit vector.
 
