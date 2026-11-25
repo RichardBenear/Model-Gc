@@ -1,5 +1,12 @@
 # Handoff — current state
 
+## Follow-up to the GC35G–I review
+
+- **GC35G** is recorded as the working projected scalar benchmark for the tested window. The refinement campaign is complete. The recipe marks the Fourier projection as non-local and the h=.0625 value as an extrapolation. Formal PI closure is pending. [Recipe](docs/EX-GC35_projected_Y1_recipe.md)
+- **GC35J** failed the direct soft-potential Ward gate. The quartic radial potential does not obey the endpoint-averaged link chain rule. The gated relaxation and moving-knot runs were not started. [Results](results/EX-GC35J/EX-GC35J_note.md)
+- **GC35K** used a static matter-sourced Y1 metric with local proper-time events. Replacing the linear predictor with causal quadratic version reconstruction recovered the uniform-clock angle control. Fine group bends were 3.135° full and 1.560° lapse-only, versus 2.834° for the matched finite-path full prediction. [Results](results/EX-GC35K/EX-GC35K_note.md)
+- The [competing-event design](docs/EX-GC35_competing_event_causal_invariance.md) defines an exact graph-equivalence comparison and a weaker ledger comparison for a future run. [White paper v0.5 revision 5](paper/Model_Gc_white_paper_v0.5.md) covers the research record through GC35I.
+
 ## GC35G–I completed
 
 Items 1–3 of the [GC35E/F review](review/EX-GC35EF_claude_review.md) were run in the PI's requested sequence. All three are exploratory and pending PI closure.
