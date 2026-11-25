@@ -1,0 +1,218 @@
+{
+  "quadratic_lapse": {
+    "mode": "lapse",
+    "h": 0.16,
+    "predictor": 2,
+    "uniform_clock": false,
+    "proper_step": 0.04,
+    "nx": 451,
+    "ny": 289,
+    "events": 162222708,
+    "site_event_range": [
+      1182,
+      1249
+    ],
+    "maximum_predictor_offset": 0.042265625,
+    "lapse_rounding": 0.00024368532451890523,
+    "phase_angle": -1.511395291848522,
+    "group_angle": -1.617234941333567,
+    "initial_centroid": [
+      -23.585902865517145,
+      7.49999950175227
+    ],
+    "final_centroid": [
+      23.43696878831305,
+      6.853703842398582
+    ],
+    "eikonal_angle": -1.4345307516814079,
+    "finite": true,
+    "peak": 0.6087968263738535,
+    "norm_ratio": 0.9747454811060906,
+    "tie_order_match": null,
+    "static_kernel_relative": 1.0733756031306695e-16,
+    "GM": 0.095,
+    "impact": 7.5,
+    "ideal_full_deg": 2.902986161996171,
+    "cpu_seconds": 46.6875
+  },
+  "quadratic_full": {
+    "mode": "full",
+    "h": 0.16,
+    "predictor": 2,
+    "uniform_clock": false,
+    "proper_step": 0.04,
+    "nx": 451,
+    "ny": 289,
+    "events": 162222708,
+    "site_event_range": [
+      1182,
+      1249
+    ],
+    "maximum_predictor_offset": 0.042265625,
+    "lapse_rounding": 0.00024368532451890523,
+    "phase_angle": -3.0502894432399827,
+    "group_angle": -3.262588690622208,
+    "initial_centroid": [
+      -23.585902865517145,
+      7.49999950175227
+    ],
+    "final_centroid": [
+      23.115283265602972,
+      6.205181493169099
+    ],
+    "eikonal_angle": -2.8283462045101997,
+    "finite": true,
+    "peak": 0.6075676858881061,
+    "norm_ratio": 0.9744782390434082,
+    "tie_order_match": true,
+    "static_kernel_relative": 1.0733756031306695e-16,
+    "GM": 0.095,
+    "impact": 7.5,
+    "ideal_full_deg": 2.902986161996171,
+    "cpu_seconds": 76
+  },
+  "uniform_lapse": {
+    "mode": "lapse",
+    "h": 0.16,
+    "predictor": 2,
+    "uniform_clock": true,
+    "proper_step": 0.04,
+    "nx": 451,
+    "ny": 289,
+    "events": 162923750,
+    "site_event_range": [
+      1250,
+      1250
+    ],
+    "maximum_predictor_offset": 0,
+    "lapse_rounding": 0,
+    "phase_angle": -1.5271426944097615,
+    "group_angle": -1.634170337873985,
+    "initial_centroid": [
+      -23.585902865517145,
+      7.49999950175227
+    ],
+    "final_centroid": [
+      23.42820138622703,
+      6.834803316646383
+    ],
+    "eikonal_angle": -1.4345307516814079,
+    "finite": true,
+    "peak": 0.6254591736947257,
+    "norm_ratio": 1.001547221952696,
+    "tie_order_match": null,
+    "static_kernel_relative": 1.0733756031306695e-16,
+    "GM": 0.095,
+    "impact": 7.5,
+    "ideal_full_deg": 2.902986161996171,
+    "cpu_seconds": 41.671875
+  },
+  "uniform_full": {
+    "mode": "full",
+    "h": 0.16,
+    "predictor": 2,
+    "uniform_clock": true,
+    "proper_step": 0.04,
+    "nx": 451,
+    "ny": 289,
+    "events": 162923750,
+    "site_event_range": [
+      1250,
+      1250
+    ],
+    "maximum_predictor_offset": 0,
+    "lapse_rounding": 0,
+    "phase_angle": -3.0691929652165566,
+    "group_angle": -3.282978452574226,
+    "initial_centroid": [
+      -23.585902865517145,
+      7.49999950175227
+    ],
+    "final_centroid": [
+      23.105693386411165,
+      6.1849817095723765
+    ],
+    "eikonal_angle": -2.8283462045101997,
+    "finite": true,
+    "peak": 0.6244147194498133,
+    "norm_ratio": 1.0013704522745766,
+    "tie_order_match": null,
+    "static_kernel_relative": 1.0733756031306695e-16,
+    "GM": 0.095,
+    "impact": 7.5,
+    "ideal_full_deg": 2.902986161996171,
+    "cpu_seconds": 41.453125
+  },
+  "small_lapse": {
+    "mode": "lapse",
+    "h": 0.16,
+    "predictor": 2,
+    "uniform_clock": false,
+    "proper_step": 0.02,
+    "nx": 451,
+    "ny": 289,
+    "events": 324525436,
+    "site_event_range": [
+      2364,
+      2498
+    ],
+    "maximum_predictor_offset": 0.0211328125,
+    "lapse_rounding": 0.00024368532451890523,
+    "phase_angle": -1.5246737776987298,
+    "group_angle": -1.6315177319852272,
+    "initial_centroid": [
+      -23.585902865517145,
+      7.49999950175227
+    ],
+    "final_centroid": [
+      23.31791227409598,
+      6.8405187047591856
+    ],
+    "eikonal_angle": -1.4340916385095406,
+    "finite": true,
+    "peak": 0.6235469683504617,
+    "norm_ratio": 0.9969472914292814,
+    "tie_order_match": null,
+    "static_kernel_relative": 1.0733756031306695e-16,
+    "GM": 0.095,
+    "impact": 7.5,
+    "ideal_full_deg": 2.902986161996171,
+    "cpu_seconds": 76.796875
+  },
+  "small_full": {
+    "mode": "full",
+    "h": 0.16,
+    "predictor": 2,
+    "uniform_clock": false,
+    "proper_step": 0.02,
+    "nx": 451,
+    "ny": 289,
+    "events": 324525436,
+    "site_event_range": [
+      2364,
+      2498
+    ],
+    "maximum_predictor_offset": 0.0211328125,
+    "lapse_rounding": 0.00024368532451890523,
+    "phase_angle": -3.0658920596473633,
+    "group_angle": -3.2794368270406897,
+    "initial_centroid": [
+      -23.585902865517145,
+      7.49999950175227
+    ],
+    "final_centroid": [
+      22.996365557725518,
+      6.194024727452106
+    ],
+    "eikonal_angle": -2.8274370849226544,
+    "finite": true,
+    "peak": 0.6224816663495926,
+    "norm_ratio": 0.996777878378174,
+    "tie_order_match": null,
+    "static_kernel_relative": 1.0733756031306695e-16,
+    "GM": 0.095,
+    "impact": 7.5,
+    "ideal_full_deg": 2.902986161996171,
+    "cpu_seconds": 77.71875
+  }
+}
