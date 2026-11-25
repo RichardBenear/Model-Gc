@@ -1,6 +1,6 @@
 # EX-GC35C — longer reciprocal scalar evolution and constraint growth on Y1
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35C_plan.md) · [Claude review](../../review/EX-GC35AB_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35C_plan.md) · [Claude review](../../review/EX-GC35AB_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **The perturbative scalar benchmark failed the long-time constraint gate.** In the t≤20 window the fine residual first exceeded 10⁻³ at the recorded t=5.75 sample. It reached a maximum of 3.68e-1. The vacuum spectrum rules out a GC34E-like exponential mode in the tested synchronous linear generator. The measured error grows in the sourced problem. This test does not isolate an individual nonlinear term as its cause.
 
