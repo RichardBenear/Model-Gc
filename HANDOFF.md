@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC36A completed (Claude, exploratory, PI closure pending)
+
+Causal-invariance audit of CRR Rule 55744 ([design](docs/EX-GC36_rule55744_causal_invariance_design.md), [results](results/EX-GC36A/EX-GC36A_note.md)). The calibration gate was not met: the published overlapping rule joins only 1 of 3 forks on an asymmetric seed within 3 steps. No overlapping 55744 fork joined, in the vacuum (0/28) or at the particle's B fork. CRR's particle closure depends on the u < v birth-order tie-break. Version C of Stage 2a and Stage 2b were not completed.
+
 ## GC35U–X completed
 
 Ran items 1–4 of the [GC35R–T review](review/EX-GC35RST_claude_review.md) in the requested order. These studies are exploratory and pending PI closure.

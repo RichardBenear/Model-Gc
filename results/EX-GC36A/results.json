@@ -1,0 +1,1399 @@
+{
+ "platform": {
+  "python": "3.13.18",
+  "networkx": "3.7",
+  "machine": "x86_64",
+  "where": "cloud container"
+ },
+ "K": 3,
+ "CAP": 20000,
+ "stage1": [
+  {
+   "rule": "xy->xy,yz",
+   "seed": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     0
+    ]
+   ],
+   "label": "two loops",
+   "matches": 2,
+   "forks": [
+    {
+     "shared": false,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "join",
+      1
+     ]
+    }
+   ]
+  },
+  {
+   "rule": "xy,zy->xw,yw,zw",
+   "seed": [
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     3
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     4,
+     0
+    ]
+   ],
+   "label": "3-in star + leaf edge",
+   "matches": 3,
+   "forks": [
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "rule": "xy,zy->xw,yw,zw",
+   "seed": [
+    [
+     0,
+     4
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     4
+    ],
+    [
+     3,
+     4
+    ]
+   ],
+   "label": "4-in star",
+   "matches": 6,
+   "forks": [
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": false,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "join",
+      1
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": false,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "join",
+      1
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": false,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "join",
+      1
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "join",
+      0
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "rule": "xy,xz->xy",
+   "seed": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     2
+    ],
+    [
+     2,
+     3
+    ]
+   ],
+   "label": "2-out star + leaf edge",
+   "matches": 2,
+   "forks": [
+    {
+     "shared": true,
+     "U": [
+      "terminal-distinct",
+      0
+     ],
+     "A": [
+      "terminal-distinct",
+      0
+     ]
+    }
+   ]
+  }
+ ],
+ "stage3": [
+  {
+   "version": "L",
+   "matches": 2,
+   "closure": [
+    {
+     "match": [
+      [
+       [
+        0,
+        1,
+        2
+       ],
+       [
+        0,
+        3,
+        4
+       ],
+       [
+        4,
+        0,
+        3
+       ]
+      ],
+      [
+       2,
+       3,
+       4
+      ]
+     ],
+     "successor_phases": [
+      [
+       [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       2
+      ]
+     ]
+    },
+    {
+     "match": [
+      [
+       [
+        2,
+        3,
+        4
+       ],
+       [
+        3,
+        0,
+        1
+       ],
+       [
+        3,
+        2,
+        4
+       ]
+      ],
+      [
+       1,
+       2,
+       4
+      ]
+     ],
+     "successor_phases": [
+      [
+       [
+        0,
+        1,
+        2,
+        4,
+        5
+       ],
+       0
+      ]
+     ]
+    }
+   ],
+   "forks": [
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "version": "C",
+   "matches": 4,
+   "closure": [
+    {
+     "match": [
+      [
+       [
+        0,
+        1,
+        3
+       ],
+       [
+        0,
+        2,
+        4
+       ],
+       [
+        3,
+        0,
+        1
+       ]
+      ],
+      [
+       2,
+       1,
+       3
+      ]
+     ],
+     "successor_phases": []
+    },
+    {
+     "match": [
+      [
+       [
+        0,
+        1,
+        2
+       ],
+       [
+        0,
+        3,
+        4
+       ],
+       [
+        4,
+        0,
+        3
+       ]
+      ],
+      [
+       2,
+       3,
+       4
+      ]
+     ],
+     "successor_phases": [
+      [
+       [
+        1,
+        2,
+        3,
+        4,
+        5
+       ],
+       2
+      ]
+     ]
+    },
+    {
+     "match": [
+      [
+       [
+        2,
+        3,
+        4
+       ],
+       [
+        3,
+        0,
+        1
+       ],
+       [
+        3,
+        2,
+        4
+       ]
+      ],
+      [
+       1,
+       2,
+       4
+      ]
+     ],
+     "successor_phases": [
+      [
+       [
+        0,
+        1,
+        2,
+        4,
+        5
+       ],
+       0
+      ]
+     ]
+    },
+    {
+     "match": [
+      [
+       [
+        2,
+        3,
+        4
+       ],
+       [
+        3,
+        0,
+        1
+       ],
+       [
+        3,
+        2,
+        4
+       ]
+      ],
+      [
+       0,
+       2,
+       4
+      ]
+     ],
+     "successor_phases": []
+    }
+   ],
+   "forks": [
+    {
+     "shared": false,
+     "U": [
+      "join",
+      1
+     ],
+     "A": [
+      "join",
+      1
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    },
+    {
+     "shared": true,
+     "U": [
+      "unresolved",
+      3
+     ],
+     "A": [
+      "unresolved",
+      3
+     ]
+    }
+   ]
+  }
+ ],
+ "stage2a": {
+  "L": [
+   {
+    "depth": 1,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 2,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 2,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 2,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 2,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": false,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 3,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": true,
+    "U": [
+     "unresolved",
+     3
+    ],
+    "A": [
+     "unresolved",
+     3
+    ]
+   },
+   {
+    "depth": 4,
+    "shared": false,
+    "U": [
+     "join",
+     1
+    ],
+    "A": [
+     "join",
+     1
+    ]
+   }
+  ]
+ },
+ "not_completed": {
+  "stage2a_C": "stopped at 25-min command limit (~0.42 core-h), no output",
+  "stage2b_L": "stopped by Claude at ~0.17 core-h to stay under 2 core-h cap",
+  "stage2b_C": "not started"
+ },
+ "cpu_seconds_this_assembly": 55.320867343
+}

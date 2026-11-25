@@ -1,0 +1,48 @@
+{
+ "calibration_35v_engine": [
+  [
+   "join",
+   1
+  ],
+  [
+   "unresolved",
+   3
+  ],
+  [
+   "unresolved",
+   3
+  ]
+ ],
+ "particle_state_confluence_L": [
+  {
+   "level": 0,
+   "left": 1,
+   "right": 1,
+   "any_isomorphic_state": false
+  },
+  {
+   "level": 1,
+   "left": 3,
+   "right": 1,
+   "any_isomorphic_state": false
+  },
+  {
+   "level": 2,
+   "left": 7,
+   "right": 2,
+   "any_isomorphic_state": false
+  },
+  {
+   "level": 3,
+   "left": 20,
+   "right": 4,
+   "any_isomorphic_state": false
+  },
+  {
+   "level": 4,
+   "left": 65,
+   "right": 9,
+   "any_isomorphic_state": false
+  }
+ ]
+}
