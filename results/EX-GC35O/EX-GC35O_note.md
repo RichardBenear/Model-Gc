@@ -1,6 +1,6 @@
 # EX-GC35O — reciprocal local clocks with wave and carrier sources
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35O_plan.md). Started after GC35L and GC35M reported. PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35O_plan.md). Started after GC35L and GC35M reported. **PI CLOSED 2026-11-24.**
 
 **Two-way feedback worked in the reduced event host. The competing token histories remained inequivalent.** This is a scalar static-response reduction of Y1 on a periodic line. GC35M did not qualify a full local tensor evolution, so the toy imports Y1's static lapse symbol and the isotropic spatial relation, with a separate assumed retarded lapse equation.
 
