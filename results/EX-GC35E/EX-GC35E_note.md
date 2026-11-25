@@ -1,6 +1,6 @@
 # EX-GC35E — constraint projection of the reciprocal Y1 scalar run
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35E_plan.md) · [Claude review](../../review/EX-GC35CD_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35E_plan.md) · [Claude review](../../review/EX-GC35CD_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **Post-projection PASS. Pre-projection FAIL. Tidal accuracy FAIL.** Projection enforces the sourced constraints at the accepted time samples. This is a separate result from the size of the corrections and the accuracy of the projected trajectory.
 
