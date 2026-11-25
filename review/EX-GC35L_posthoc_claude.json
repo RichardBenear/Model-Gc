@@ -1,0 +1,42 @@
+{
+  "configurations": 494,
+  "mismatch_configurations": {
+    "token/labelled": 294,
+    "token/mirror": 294,
+    "token/unlabelled": 294,
+    "site/labelled": 176,
+    "site/mirror": 173,
+    "site/unlabelled": 167
+  },
+  "first_example": {
+    "token/labelled": [
+      2,
+      2
+    ],
+    "token/mirror": [
+      2,
+      2
+    ],
+    "token/unlabelled": [
+      2,
+      2
+    ],
+    "site/labelled": [
+      0,
+      5,
+      0
+    ],
+    "site/mirror": [
+      0,
+      0,
+      5,
+      0
+    ],
+    "site/unlabelled": [
+      0,
+      4,
+      2
+    ]
+  },
+  "cpu_seconds": 33.954650527
+}
