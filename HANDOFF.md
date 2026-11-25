@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC36B completed (Claude, exploratory, PI closure pending)
+
+Follows [ChatGPT's 36A review](review/EX-GC36A_chatgpt_review.md) ([results](results/EX-GC36B/EX-GC36B_note.md)). Only CRR rule 66427 of 80 keeps a closed particle without the vertex-order tie-break. The odd 36A forks come from duplicate-output suppression. A state-frontier test, calibrated on known delayed joins, confirms the published Wolfram rule but finds no rejoining for the 55744 or 66427 particle forks, nor for 27 of 28 vacuum forks, within 5–6 events per side.
+
 ## EX-GC36A completed (Claude, exploratory, PI closure pending)
 
 Causal-invariance audit of CRR Rule 55744 ([design](docs/EX-GC36_rule55744_causal_invariance_design.md), [results](results/EX-GC36A/EX-GC36A_note.md)). The calibration gate was not met: the published overlapping rule joins only 1 of 3 forks on an asymmetric seed within 3 steps. No overlapping 55744 fork joined, in the vacuum (0/28) or at the particle's B fork. CRR's particle closure depends on the u < v birth-order tie-break. Version C of Stage 2a and Stage 2b were not completed.
