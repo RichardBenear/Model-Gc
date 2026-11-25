@@ -1,0 +1,11 @@
+# EX-GC35V — bounded typed hypergraph search
+
+2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35V_plan.md). PI closure pending.
+
+**Zero typed candidates qualified for the second-stage screen.** The 297 directed rules preserve one C relation per event. The explicit slice uses one carrier, optionally a helper on the same two variables, and up to two output helpers. Output vertices in the catalogue come from the match. Distinct consumed relations are matched as separate instances, with noninjective vertex assignments allowed. We enumerated seeds on two vertices representing minimal shared-relation forks, preserving initial vertices and input ports whose relation type can be produced. Each fork got up to two equal-length additional rewrites after the first choice.
+
+Of 297 rules, 61 had no shared-relation fork in this slice. The other 236 had at least one fork with no join within the search bound. For 16 of these rules, the first recorded fork already has two terminal arms, a definitive failure of this anchored comparison. For instance, two identical carrier loops share one helper loop. The rewrite consumes one carrier and the helper and emits one carrier. Either choice leaves the same live multiset, with different anchored provenance. For other recorded forks the bound leaves later joins open. No history cap was hit. The conditional four-edge multiway stage had zero qualifying candidates.
+
+The published single-relation growth control `xy→xy,yz` joined its two disjoint events on a two-loop seed, at two steps with input anchors. The published overlapping growth rule `xy,zy→xw,yw,zw` was tested on a three-incoming-edge star with fresh w. Its three forks did not find a join by three steps, with or without initial relation anchors. Boundary vertices remained labelled in both checks. This is a bounded result on the chosen seed and border convention. It does not refute the reported causal invariance or exclude other hypergraph rules. [Causal invariance source](https://www.wolframphysics.org/technical-introduction/the-updating-process-in-our-models/causal-invariance/) · [Published overlapping rule](https://www.wolframphysics.org/technical-introduction/the-updating-process-in-our-models/causal-graphs-for-causal-invariant-rules/)
+
+[Code](../../src/exgc35v.py) · [Rule inventory and witnesses](results.json)
