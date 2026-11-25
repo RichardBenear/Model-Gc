@@ -1,6 +1,6 @@
 # EX-GC35G — projected Y1 scalar benchmark at h=.125
 
-2026-11-24 | EXPLORATORY | Design and runs ChatGPT. [Plan](../../spec/EX-GC35G_plan.md) · [Claude review](../../review/EX-GC35EF_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | Design and runs ChatGPT. [Plan](../../spec/EX-GC35G_plan.md) · [Claude review](../../review/EX-GC35EF_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **Pre-reset PASS. Post-reset PASS. Tidal threshold FAIL.** Halving the physical spacing from .25 to .125 reproduced the predicted nearly fourfold reduction. The reconstructed tidal error was **2.29% at t=16 and 2.25% at t=20**. The late readouts level off over this window. The largest sampled error still exceeds the original 2% threshold.
 
