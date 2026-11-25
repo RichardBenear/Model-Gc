@@ -1,6 +1,6 @@
 # EX-GC35M — local constraint damping on the Y1 stencil
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35M_plan.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35M_plan.md). **PI CLOSED 2026-11-24.**
 
 **Scalar residual and tidal gates failed. The fixed full-stress knot sources also failed.** Damping reduced the free scalar defect from GC35C but left sustained late growth over the tested window. The approximate stress coupling was retained. No divergence projection or moving-knot run was used.
 
