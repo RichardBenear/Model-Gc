@@ -2,7 +2,7 @@
 
 ### From reaction–diffusion particles to relativistic topological field configurations and a shared lattice geometry
 
-**Version 0.5 DRAFT, revision 4 (2026-11-24). Research record through EX-GC35G.**
+**Version 0.5 DRAFT, revision 5 (2026-11-24). Research record through EX-GC35I.**
 PI: Richard Benear. Drafted by Claude (Anthropic) from the records in this repository. v0.3 (through EX-GC25) was
 revised after two rounds of review by ChatGPT, both endorsed by the PI. v0.4 (through EX-GC26) was frozen on
 2026-11-22. This v0.5 adds Section 9 (the intermediate explorations EX-GC27–33, mostly by ChatGPT) and Section 10
@@ -734,12 +734,14 @@ The PI accepted staggered Y1 as the current approximate reference and ended the 
 
 See [the GC34 equation record](EX-GC34_equations.md), [the independent Q–Z synthesis](../review/EX-GC34Q-Z_claude_review.md), and [the symmetry and formulation note](../docs/EX-GC34_symmetry_and_direction.md).
 
-### 10.8 Reciprocal scalar, knot sources and event scheduling (35A–G)
+### 10.8 Reciprocal scalar, knot sources and event scheduling (35A–I)
 
 - **35A and 35C, reciprocal scalar.** The first perturbation to the scalar feeds the second-order metric, closing one perturbative feedback loop. On the compensated periodic packet, the short run passed its registered checks. The subsequent fine run crossed the constraint limit at t=5.75 and reached 0.368 at t=20. Refinement reduced the error at fixed time, and the linear vacuum analysis found no matching exponentially growing mode. The sourced defect still limits the free evolution. The periodic compensator is specific to the benchmark and the homogeneous metric is omitted.
 - **35B and 35D, static Skyrme sources.** A finer follow-up recovered both knot profiles. The energy-only source included the degree-two binding deficit in a monopole normalization check and gave leading feedback at rest. The full stress source remained incompatible with static Y1. Tight relaxation and larger boxes made little difference at h=.2. At h=.15 the full residuals fell to 0.867% and 0.698% for B1 and B2, above the 0.1% gate.
 - **35E and 35G, projected evolution.** A tensor-weighted affine projection brings the next-order sourced constraints to roundoff at each accepted time and preserves the transverse-traceless components. It applies finite corrections to an imperfect source. At h=.25 the full reconstructed metric contribution to the tidal tensor was 8.94% from its continuum comparator at t=20. At h=.125, the t=20 error was 2.25% and the sampled peak was 2.29%, above the original 2% gate. The [benchmark recipe](../docs/EX-GC35_projected_Y1_recipe.md) records correction norms, the unprojected comparison, and the curvature convention.
 - **35F, local schedules.** A one-way linear Y1 scalar-and-metric stencil was implemented as a versioned local dependency graph. All 48 tested legal schedules produced bitwise-identical fields with no barrier between depths. A stale-read control was schedule-dependent. The common-slice constraint error decreased at second order in the two timestep tests. The graph has prescribed dependencies, immutable inputs and a single writer per version. The result applies to that scheduling construction.
+- **35H, native Skyrme stress.** Staggered placement reduced the h=.2 full-source residual to 0.962% and 0.679%. The free-scalar Ward identity leaves a reaction term when applied to a hard unit-vector constraint. A periodic rank-one static counterexample isolates that term. The knot test did not meet the exact compatibility gate.
+- **35I, prescribed local clock rates.** A lapse step generated a 1.5 ratio in event counts over equal coordinate intervals. At h=.1 the proper-frequency ratio was 0.6671 and the transmitted wave-normal angle was 32.85°, against continuum predictions of 0.6667 and 32.79°. All 18 tested schedules matched their fixed-version reference. The lapse was prescribed and the test used one transverse wave sector.
 
 ## 11. How the investigation evolved
 
@@ -819,7 +821,7 @@ GR's static and moving-source weak fields, but whose chosen kinetic action has a
 
 ## 13. Research direction
 
-Projected Y1 is the reciprocal scalar reference within the measured regime. The next independent checks are a native staggered static Skyrme source and an event graph in which prescribed lapse changes the number of events per site. Moving knots require a compatible full source.
+Projected Y1 is the reciprocal scalar reference within the measured regime. The native staggered Skyrme source and prescribed-lapse event graph results appear in Section 10.8. Moving knots require a compatible full source. The non-local projector is a solver for the reciprocal reference problem. A [competing-event design note](../docs/EX-GC35_competing_event_causal_invariance.md) specifies a graph equivalence test beyond fixed-version scheduling.
 
 Causal invariance concerns update-order equivalence. Coordinate symmetry concerns redundant descriptions of one geometry and the identities relating its equations. A first-order tetrad and connection formulation would change the variables and action, with additional connection, gluing and constraint work. It remains a paper-level option. [Formulation note](../docs/EX-GC34_symmetry_and_direction.md)
 
@@ -867,6 +869,8 @@ The origin of the universal energy coupling, its relationship to the reaction–
 | [35A](../results/EX-GC35A), [35C](../results/EX-GC35C), [35E](../results/EX-GC35E), [35G](../results/EX-GC35G) | Reciprocal scalar | Short-window checks, long-time drift, projected refinement | Exploratory, PI closure pending |
 | [35B](../results/EX-GC35B), [35D](../results/EX-GC35D) | Static Skyrme source | Energy-only control and full-stress compatibility gap | Exploratory, PI closure pending |
 | [35F](../results/EX-GC35F) | Local fixed event graph | Schedule equality and a stale-read control | Exploratory, PI closure pending |
+| [35H](../results/EX-GC35H) | Native Skyrme stress | Smaller residual and a unit-vector reaction counterexample | Exploratory, PI closure pending |
+| [35I](../results/EX-GC35I) | Prescribed local clocks | Event counts, redshift, and wave-normal rotation across a lapse step | Exploratory, PI closure pending |
 
 Each study's note is in `results/<ID>/` (EX002–EX007 in `docs/lineage/`); plans in `explore/LOG.md` and `spec/`;
 figures in `paper/figures/`.
@@ -894,6 +898,8 @@ EX-GC34 deviations, all recorded in the study notes:
 The post hoc analyses are labelled as such, and none re-scores a registered result.
 
 ## Appendix C. Revision record
+
+Revision 5 adds GC35H/I, retains the GC35G gate outcome, and distinguishes local event rates from the non-local projected benchmark.
 
 Revision 4 adds the exploratory GC35A–G record and the projected Y1 recipe. It separates free evolution from projected evolution and fixed-graph scheduling from competing rewrite matches.
 
