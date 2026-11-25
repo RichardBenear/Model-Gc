@@ -1,0 +1,201 @@
+{
+  "cases": [
+    [
+      {
+        "mode": "flat",
+        "h": 0.24,
+        "proper_step": 0.06,
+        "nx": 301,
+        "ny": 193,
+        "events": 48391469,
+        "site_event_range": [
+          833,
+          833
+        ],
+        "maximum_predictor_offset": 0.0,
+        "lapse_rounding": 0.0,
+        "phase_angle": -9.851741439174436e-07,
+        "group_angle": -1.072722688875971e-06,
+        "initial_centroid": [
+          -22.027135498493433,
+          7.49999953724861
+        ],
+        "final_centroid": [
+          22.324910153815466,
+          7.499997650346838
+        ],
+        "eikonal_angle": 0.0,
+        "finite": true,
+        "peak": 0.6222408484989017,
+        "norm_ratio": 1.0154308201846662,
+        "tie_order_match": null,
+        "deflection_phase_deg": 0.0,
+        "deflection_group_deg": 0.0
+      },
+      {
+        "mode": "lapse",
+        "h": 0.24,
+        "proper_step": 0.06,
+        "nx": 301,
+        "ny": 193,
+        "events": 48196792,
+        "site_event_range": [
+          788,
+          832
+        ],
+        "maximum_predictor_offset": 0.0633984375,
+        "lapse_rounding": 0.00024355011316035124,
+        "phase_angle": -5.689416533183567,
+        "group_angle": -6.5664841063603445,
+        "initial_centroid": [
+          -22.027135498493433,
+          7.49999953724861
+        ],
+        "final_centroid": [
+          19.82811338875281,
+          5.441656266246456
+        ],
+        "eikonal_angle": -1.4172403128469713,
+        "finite": true,
+        "peak": 0.35925599760105026,
+        "norm_ratio": 0.6054644474648827,
+        "tie_order_match": null,
+        "deflection_phase_deg": -5.689415548009423,
+        "deflection_group_deg": -6.566483033637656
+      },
+      {
+        "mode": "full",
+        "h": 0.24,
+        "proper_step": 0.06,
+        "nx": 301,
+        "ny": 193,
+        "events": 48196792,
+        "site_event_range": [
+          788,
+          832
+        ],
+        "maximum_predictor_offset": 0.0633984375,
+        "lapse_rounding": 0.00024355011316035124,
+        "phase_angle": -7.20181364620305,
+        "group_angle": -8.298520360817086,
+        "initial_centroid": [
+          -22.027135498493433,
+          7.49999953724861
+        ],
+        "final_centroid": [
+          19.491641516031564,
+          4.857792943332813
+        ],
+        "eikonal_angle": -2.793537347217323,
+        "finite": true,
+        "peak": 0.3721886977008308,
+        "norm_ratio": 0.6047961379912727,
+        "tie_order_match": true,
+        "deflection_phase_deg": -7.201812661028906,
+        "deflection_group_deg": -8.298519288094397
+      }
+    ],
+    [
+      {
+        "mode": "flat",
+        "h": 0.16,
+        "proper_step": 0.04,
+        "nx": 451,
+        "ny": 289,
+        "events": 162923750,
+        "site_event_range": [
+          1250,
+          1250
+        ],
+        "maximum_predictor_offset": 0.0,
+        "lapse_rounding": 0.0,
+        "phase_angle": -6.998488964820179e-07,
+        "group_angle": -7.161317607105424e-07,
+        "initial_centroid": [
+          -23.585902865517145,
+          7.49999950175227
+        ],
+        "final_centroid": [
+          23.734516616087525,
+          7.499999553424596
+        ],
+        "eikonal_angle": 0.0,
+        "finite": true,
+        "peak": 0.6259900136520464,
+        "norm_ratio": 1.0015794930042254,
+        "tie_order_match": null,
+        "deflection_phase_deg": 0.0,
+        "deflection_group_deg": 0.0
+      },
+      {
+        "mode": "lapse",
+        "h": 0.16,
+        "proper_step": 0.04,
+        "nx": 451,
+        "ny": 289,
+        "events": 162222708,
+        "site_event_range": [
+          1182,
+          1249
+        ],
+        "maximum_predictor_offset": 0.042265625,
+        "lapse_rounding": 0.00024368532451890523,
+        "phase_angle": -7.561785917624868,
+        "group_angle": -6.8984270209465945,
+        "initial_centroid": [
+          -23.585902865517145,
+          7.49999950175227
+        ],
+        "final_centroid": [
+          -0.5253998316962104,
+          2.8827690773603774
+        ],
+        "eikonal_angle": -0.6494184865338378,
+        "finite": true,
+        "peak": 7.656961170065541,
+        "norm_ratio": 2.929500011356517,
+        "tie_order_match": null,
+        "deflection_phase_deg": -7.561785217775972,
+        "deflection_group_deg": -6.8984263048148335
+      },
+      {
+        "mode": "full",
+        "h": 0.16,
+        "proper_step": 0.04,
+        "nx": 451,
+        "ny": 289,
+        "events": 162222708,
+        "site_event_range": [
+          1182,
+          1249
+        ],
+        "maximum_predictor_offset": 0.042265625,
+        "lapse_rounding": 0.00024368532451890523,
+        "phase_angle": -3.7569659898847116,
+        "group_angle": -6.395064223439811,
+        "initial_centroid": [
+          -23.585902865517145,
+          7.49999950175227
+        ],
+        "final_centroid": [
+          21.571326049266204,
+          4.926424930208847
+        ],
+        "eikonal_angle": -2.8184109133089814,
+        "finite": true,
+        "peak": 0.47051680365611886,
+        "norm_ratio": 0.7737868860484862,
+        "tie_order_match": null,
+        "deflection_phase_deg": -3.756965290035815,
+        "deflection_group_deg": -6.39506350730805
+      }
+    ]
+  ],
+  "static_kernel_relative": 1.0733756031306695e-16,
+  "GM": 0.095,
+  "impact": 7.5,
+  "ideal_full_deg": 2.902986161996171,
+  "ideal_lapse_deg": 1.4514930809980855,
+  "full_lapse_ratio": 0.9270322280379432,
+  "cpu_seconds": 111.4375
+}
