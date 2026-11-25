@@ -1,0 +1,191 @@
+{
+ "66427C_phase0": [
+  {
+   "seed": 0,
+   "scanner_first_empty": 4,
+   "tracker_lifetime": 4
+  },
+  {
+   "seed": 1,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  },
+  {
+   "seed": 2,
+   "scanner_first_empty": 8,
+   "tracker_lifetime": 8
+  },
+  {
+   "seed": 3,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  },
+  {
+   "seed": 4,
+   "scanner_first_empty": 3,
+   "tracker_lifetime": 3
+  }
+ ],
+ "66427C_phase1": [
+  {
+   "seed": 0,
+   "scanner_first_empty": 3,
+   "tracker_lifetime": 3
+  },
+  {
+   "seed": 1,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  },
+  {
+   "seed": 2,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  },
+  {
+   "seed": 3,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  },
+  {
+   "seed": 4,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  }
+ ],
+ "55744L_phase0": [
+  {
+   "seed": 0,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  },
+  {
+   "seed": 1,
+   "scanner_first_empty": 10,
+   "tracker_lifetime": 10
+  },
+  {
+   "seed": 2,
+   "scanner_first_empty": 6,
+   "tracker_lifetime": 6
+  },
+  {
+   "seed": 3,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  },
+  {
+   "seed": 4,
+   "scanner_first_empty": 5,
+   "tracker_lifetime": 5
+  }
+ ],
+ "55744L_phase1": [
+  {
+   "seed": 0,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  },
+  {
+   "seed": 1,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  },
+  {
+   "seed": 2,
+   "scanner_first_empty": 4,
+   "tracker_lifetime": 4
+  },
+  {
+   "seed": 3,
+   "scanner_first_empty": 16,
+   "tracker_lifetime": 16
+  },
+  {
+   "seed": 4,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  }
+ ],
+ "55744L_phase2": [
+  {
+   "seed": 0,
+   "scanner_first_empty": 5,
+   "tracker_lifetime": 5
+  },
+  {
+   "seed": 1,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  },
+  {
+   "seed": 2,
+   "scanner_first_empty": 3,
+   "tracker_lifetime": 3
+  },
+  {
+   "seed": 3,
+   "scanner_first_empty": 14,
+   "tracker_lifetime": 14
+  },
+  {
+   "seed": 4,
+   "scanner_first_empty": 5,
+   "tracker_lifetime": 5
+  }
+ ],
+ "66427L_phase0": [
+  {
+   "seed": 0,
+   "scanner_first_empty": 3,
+   "tracker_lifetime": 3
+  },
+  {
+   "seed": 1,
+   "scanner_first_empty": null,
+   "tracker_lifetime": null
+  },
+  {
+   "seed": 2,
+   "scanner_first_empty": 3,
+   "tracker_lifetime": 3
+  },
+  {
+   "seed": 3,
+   "scanner_first_empty": 4,
+   "tracker_lifetime": 4
+  },
+  {
+   "seed": 4,
+   "scanner_first_empty": 3,
+   "tracker_lifetime": 3
+  }
+ ],
+ "66427L_phase1": [
+  {
+   "seed": 0,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  },
+  {
+   "seed": 1,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  },
+  {
+   "seed": 2,
+   "scanner_first_empty": 4,
+   "tracker_lifetime": 4
+  },
+  {
+   "seed": 3,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  },
+  {
+   "seed": 4,
+   "scanner_first_empty": 2,
+   "tracker_lifetime": 2
+  }
+ ]
+}
