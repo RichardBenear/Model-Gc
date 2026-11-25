@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## GC35Q completed
+
+GC35Q ran Step 1 of the [GC35P review](review/EX-GC35P_claude_review.md). The pass-through overlap R0L has equivalent plain graphs, while the four-site context 0R0L has unequal causal depths despite identical terminal words. Both absorber variants have larger-context counterexamples. Only the non-overlapping exclusion control passed. GC35Q is exploratory and pending PI closure. [Results](results/EX-GC35Q/EX-GC35Q_note.md)
+
 ## GC35L–P closure
 
 PI CLOSED 2026-11-24 (Richard: “close 35L through 35P”). The five outcomes are recorded in the [experiment log](explore/LOG.md).
