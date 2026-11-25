@@ -1,6 +1,6 @@
 # EX-GC35A — finite-time reciprocal scalar feedback on approximate Y1 (EXPLORATORY)
 
-2026-11-24 | ChatGPT | [Registered plan](../../spec/EX-GC35A_plan.md) · [Direction review](../../review/EX-GC34Q-Z_claude_review.md). PI closure pending.
+2026-11-24 | ChatGPT | [Registered plan](../../spec/EX-GC35A_plan.md) · [Direction review](../../review/EX-GC34Q-Z_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **A0 PASS, A1 PASS, A2 PASS.** The scalar packet and Y1 geometry were evolved through the first order at which the perturbed scalar feeds back into the geometry. The finite-time test used a standing massive scalar packet in a periodic box, synchronous gauge and perturbative strength 10⁻³. It used the inherited flat scalar sources and Y1 kernel, the scalar response operator from 34R, and a symmetrized position-referred, densitized quadratic effective source. The scalar's leading field was propagated analytically on the flat background. RK4 evolved its correction, both metric orders and the compensator corrections. All residuals use the norm of the original constraint source at the sampled time. The next-order columns include the strength factor 10⁻³.
 
