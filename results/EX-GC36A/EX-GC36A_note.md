@@ -1,6 +1,6 @@
 # EX-GC36A — causal-invariance audit of CRR Rule 55744
 
-2026-11-25 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC36A_plan.md) · [Design](../../docs/EX-GC36_rule55744_causal_invariance_design.md). PI closure pending. Cloud container, Python 3.13, networkx 3.7. About 1.6 core-h of the 2 core-h cap.
+2026-11-25 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC36A_plan.md) · [Design](../../docs/EX-GC36_rule55744_causal_invariance_design.md). **PI CLOSED 2026-11-25** (Richard: "Close 36A/B/C"). Cloud container, Python 3.13, networkx 3.7. About 1.6 core-h of the 2 core-h cap.
 
 **No competing pair of events in Rule 55744 rejoined within three further steps, in the vacuum or in the particle. But the calibration gate was not met, so this is a bounded, descriptive result, not a finding that 55744 is non-invariant.** The particle's two branches stay particles, as CRR found. Their histories do not meet, though: no isomorphic states appear for up to four further steps on each side. CRR's particle closure also depends on the rule's birth-order tie-break. Remove that tie-break and two new events appear in phase B, and both leave the particle class.
 

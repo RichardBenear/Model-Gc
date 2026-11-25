@@ -1,14 +1,14 @@
 # Handoff — current state
 
-## EX-GC36C completed (Claude, exploratory, PI closure pending)
+## EX-GC36C completed (Claude, exploratory, PI CLOSED 2026-11-25)
 
 [Results](results/EX-GC36C/EX-GC36C_note.md). Rule 66427's order-free particle does not persist in its own debris. The median lifetime is 3 events, and only 5–16% of schedules are alive at 500, every one of them as a proliferating swarm of particle-shaped supports. The 55744 control lives longer and shows the same pattern. Combined with 36A/36B, the CRR 80-rule catalogue has no order-free persistent particle and no particle whose forks rejoin. The 36B vacuum join count is a lower bound for version L (ChatGPT review).
 
-## EX-GC36B completed (Claude, exploratory, PI closure pending)
+## EX-GC36B completed (Claude, exploratory, PI CLOSED 2026-11-25)
 
 Follows [ChatGPT's 36A review](review/EX-GC36A_chatgpt_review.md) ([results](results/EX-GC36B/EX-GC36B_note.md)). Only CRR rule 66427 of 80 keeps a closed particle without the vertex-order tie-break. The odd 36A forks come from duplicate-output suppression. A state-frontier test, calibrated on known delayed joins, confirms the published Wolfram rule but finds no rejoining for the 55744 or 66427 particle forks, nor for 27 of 28 vacuum forks, within 5–6 events per side.
 
-## EX-GC36A completed (Claude, exploratory, PI closure pending)
+## EX-GC36A completed (Claude, exploratory, PI CLOSED 2026-11-25)
 
 Causal-invariance audit of CRR Rule 55744 ([design](docs/EX-GC36_rule55744_causal_invariance_design.md), [results](results/EX-GC36A/EX-GC36A_note.md)). The calibration gate was not met: the published overlapping rule joins only 1 of 3 forks on an asymmetric seed within 3 steps. No overlapping 55744 fork joined, in the vacuum (0/28) or at the particle's B fork. CRR's particle closure depends on the u < v birth-order tie-break. Version C of Stage 2a and Stage 2b were not completed.
 

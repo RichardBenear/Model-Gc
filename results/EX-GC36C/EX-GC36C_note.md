@@ -1,6 +1,6 @@
 # EX-GC36C — does rule 66427's order-free particle persist in its own debris?
 
-2026-11-25 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC36C_plan.md), with D1 (T cut to 600 after a smoke run). PI closure pending. Cloud container, Python 3.13. About 0.9 core-h, including the stopped first run and the smoke run.
+2026-11-25 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC36C_plan.md), with D1 (T cut to 600 after a smoke run). **PI CLOSED 2026-11-25** (Richard: "Close 36A/B/C"). Cloud container, Python 3.13. About 0.9 core-h, including the stopped first run and the smoke run.
 
 **No. 66427's order-free particle is not persistent (Q1 fails).** Most runs die within a few events: the median lifetime is 3 from either phase. Only 5.5% (phase 0) and 15.5% (phase 1) of schedules are alive at 500 events. Every one of those survivors is no longer a single particle. Particle-shaped supports multiply into a swarm of 53–74 at once, and about 72% of events happen outside any live support. The ordered 55744 control lives longer (Q2 holds) and shows the same split between quick death and a proliferating swarm.
 
