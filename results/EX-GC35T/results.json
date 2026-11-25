@@ -1,0 +1,9129 @@
+{
+  "cases": {
+    "persistent": {
+      "direct": [
+        {
+          "lengths": [
+            0
+          ],
+          "reachable": 2,
+          "transitions": 1,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            0,
+            0
+          ],
+          "reachable": 4,
+          "transitions": 4,
+          "represented_histories": 2,
+          "independent_pairs": 1,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            0,
+            0,
+            0
+          ],
+          "reachable": 8,
+          "transitions": 12,
+          "represented_histories": 6,
+          "independent_pairs": 6,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "reachable": 16,
+          "transitions": 32,
+          "represented_histories": 24,
+          "independent_pairs": 24,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        }
+      ],
+      "routed": [
+        {
+          "lengths": [
+            1
+          ],
+          "reachable": 3,
+          "transitions": 2,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            2
+          ],
+          "reachable": 4,
+          "transitions": 3,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            3
+          ],
+          "reachable": 5,
+          "transitions": 4,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            1,
+            1
+          ],
+          "reachable": 9,
+          "transitions": 12,
+          "represented_histories": 6,
+          "independent_pairs": 4,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            1,
+            2
+          ],
+          "reachable": 12,
+          "transitions": 17,
+          "represented_histories": 10,
+          "independent_pairs": 6,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            1,
+            3
+          ],
+          "reachable": 15,
+          "transitions": 22,
+          "represented_histories": 15,
+          "independent_pairs": 8,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            2,
+            1
+          ],
+          "reachable": 12,
+          "transitions": 17,
+          "represented_histories": 10,
+          "independent_pairs": 6,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            2,
+            2
+          ],
+          "reachable": 16,
+          "transitions": 24,
+          "represented_histories": 20,
+          "independent_pairs": 9,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            2,
+            3
+          ],
+          "reachable": 20,
+          "transitions": 31,
+          "represented_histories": 35,
+          "independent_pairs": 12,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            3,
+            1
+          ],
+          "reachable": 15,
+          "transitions": 22,
+          "represented_histories": 15,
+          "independent_pairs": 8,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            3,
+            2
+          ],
+          "reachable": 20,
+          "transitions": 31,
+          "represented_histories": 35,
+          "independent_pairs": 12,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            3,
+            3
+          ],
+          "reachable": 25,
+          "transitions": 40,
+          "represented_histories": 70,
+          "independent_pairs": 16,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1
+          ],
+          "reachable": 27,
+          "transitions": 54,
+          "represented_histories": 90,
+          "independent_pairs": 36,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2
+          ],
+          "reachable": 36,
+          "transitions": 75,
+          "represented_histories": 210,
+          "independent_pairs": 52,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3
+          ],
+          "reachable": 45,
+          "transitions": 96,
+          "represented_histories": 420,
+          "independent_pairs": 68,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1
+          ],
+          "reachable": 36,
+          "transitions": 75,
+          "represented_histories": 210,
+          "independent_pairs": 52,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2
+          ],
+          "reachable": 48,
+          "transitions": 104,
+          "represented_histories": 560,
+          "independent_pairs": 75,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3
+          ],
+          "reachable": 60,
+          "transitions": 133,
+          "represented_histories": 1260,
+          "independent_pairs": 98,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1
+          ],
+          "reachable": 45,
+          "transitions": 96,
+          "represented_histories": 420,
+          "independent_pairs": 68,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2
+          ],
+          "reachable": 60,
+          "transitions": 133,
+          "represented_histories": 1260,
+          "independent_pairs": 98,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3
+          ],
+          "reachable": 75,
+          "transitions": 170,
+          "represented_histories": 3150,
+          "independent_pairs": 128,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1
+          ],
+          "reachable": 36,
+          "transitions": 75,
+          "represented_histories": 210,
+          "independent_pairs": 52,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2
+          ],
+          "reachable": 48,
+          "transitions": 104,
+          "represented_histories": 560,
+          "independent_pairs": 75,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3
+          ],
+          "reachable": 60,
+          "transitions": 133,
+          "represented_histories": 1260,
+          "independent_pairs": 98,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1
+          ],
+          "reachable": 48,
+          "transitions": 104,
+          "represented_histories": 560,
+          "independent_pairs": 75,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2
+          ],
+          "reachable": 64,
+          "transitions": 144,
+          "represented_histories": 1680,
+          "independent_pairs": 108,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3
+          ],
+          "reachable": 80,
+          "transitions": 184,
+          "represented_histories": 4200,
+          "independent_pairs": 141,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1
+          ],
+          "reachable": 60,
+          "transitions": 133,
+          "represented_histories": 1260,
+          "independent_pairs": 98,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2
+          ],
+          "reachable": 80,
+          "transitions": 184,
+          "represented_histories": 4200,
+          "independent_pairs": 141,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3
+          ],
+          "reachable": 100,
+          "transitions": 235,
+          "represented_histories": 11550,
+          "independent_pairs": 184,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1
+          ],
+          "reachable": 45,
+          "transitions": 96,
+          "represented_histories": 420,
+          "independent_pairs": 68,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2
+          ],
+          "reachable": 60,
+          "transitions": 133,
+          "represented_histories": 1260,
+          "independent_pairs": 98,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3
+          ],
+          "reachable": 75,
+          "transitions": 170,
+          "represented_histories": 3150,
+          "independent_pairs": 128,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1
+          ],
+          "reachable": 60,
+          "transitions": 133,
+          "represented_histories": 1260,
+          "independent_pairs": 98,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2
+          ],
+          "reachable": 80,
+          "transitions": 184,
+          "represented_histories": 4200,
+          "independent_pairs": 141,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3
+          ],
+          "reachable": 100,
+          "transitions": 235,
+          "represented_histories": 11550,
+          "independent_pairs": 184,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1
+          ],
+          "reachable": 75,
+          "transitions": 170,
+          "represented_histories": 3150,
+          "independent_pairs": 128,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2
+          ],
+          "reachable": 100,
+          "transitions": 235,
+          "represented_histories": 11550,
+          "independent_pairs": 184,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3
+          ],
+          "reachable": 125,
+          "transitions": 300,
+          "represented_histories": 34650,
+          "independent_pairs": 240,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reachable": 81,
+          "transitions": 216,
+          "represented_histories": 2520,
+          "independent_pairs": 216,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "reachable": 108,
+          "transitions": 297,
+          "represented_histories": 7560,
+          "independent_pairs": 306,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "reachable": 135,
+          "transitions": 378,
+          "represented_histories": 18900,
+          "independent_pairs": 396,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "reachable": 108,
+          "transitions": 297,
+          "represented_histories": 7560,
+          "independent_pairs": 306,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "reachable": 144,
+          "transitions": 408,
+          "represented_histories": 25200,
+          "independent_pairs": 433,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "reachable": 135,
+          "transitions": 378,
+          "represented_histories": 18900,
+          "independent_pairs": 396,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "reachable": 225,
+          "transitions": 660,
+          "represented_histories": 207900,
+          "independent_pairs": 724,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "reachable": 108,
+          "transitions": 297,
+          "represented_histories": 7560,
+          "independent_pairs": 306,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "reachable": 144,
+          "transitions": 408,
+          "represented_histories": 25200,
+          "independent_pairs": 433,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "reachable": 144,
+          "transitions": 408,
+          "represented_histories": 25200,
+          "independent_pairs": 433,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "reachable": 192,
+          "transitions": 560,
+          "represented_histories": 92400,
+          "independent_pairs": 612,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "reachable": 135,
+          "transitions": 378,
+          "represented_histories": 18900,
+          "independent_pairs": 396,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1,
+            3
+          ],
+          "reachable": 225,
+          "transitions": 660,
+          "represented_histories": 207900,
+          "independent_pairs": 724,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2,
+            2
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2,
+            3
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3,
+            1
+          ],
+          "reachable": 225,
+          "transitions": 660,
+          "represented_histories": 207900,
+          "independent_pairs": 724,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3,
+            2
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3,
+            3
+          ],
+          "reachable": 375,
+          "transitions": 1150,
+          "represented_histories": 3153150,
+          "independent_pairs": 1320,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "reachable": 108,
+          "transitions": 297,
+          "represented_histories": 7560,
+          "independent_pairs": 306,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "reachable": 144,
+          "transitions": 408,
+          "represented_histories": 25200,
+          "independent_pairs": 433,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "reachable": 144,
+          "transitions": 408,
+          "represented_histories": 25200,
+          "independent_pairs": 433,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "reachable": 192,
+          "transitions": 560,
+          "represented_histories": 92400,
+          "independent_pairs": 612,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2,
+            3
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3,
+            2
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3,
+            3
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "reachable": 144,
+          "transitions": 408,
+          "represented_histories": 25200,
+          "independent_pairs": 433,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "reachable": 192,
+          "transitions": 560,
+          "represented_histories": 92400,
+          "independent_pairs": 612,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1,
+            3
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "reachable": 192,
+          "transitions": 560,
+          "represented_histories": 92400,
+          "independent_pairs": 612,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reachable": 256,
+          "transitions": 768,
+          "represented_histories": 369600,
+          "independent_pairs": 864,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "reachable": 320,
+          "transitions": 976,
+          "represented_histories": 1201200,
+          "independent_pairs": 1116,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3,
+            1
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reachable": 320,
+          "transitions": 976,
+          "represented_histories": 1201200,
+          "independent_pairs": 1116,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "reachable": 400,
+          "transitions": 1240,
+          "represented_histories": 4204200,
+          "independent_pairs": 1441,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1,
+            2
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1,
+            3
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2,
+            1
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reachable": 320,
+          "transitions": 976,
+          "represented_histories": 1201200,
+          "independent_pairs": 1116,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "reachable": 400,
+          "transitions": 1240,
+          "represented_histories": 4204200,
+          "independent_pairs": 1441,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3,
+            1
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reachable": 400,
+          "transitions": 1240,
+          "represented_histories": 4204200,
+          "independent_pairs": 1441,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "reachable": 500,
+          "transitions": 1575,
+          "represented_histories": 15765750,
+          "independent_pairs": 1860,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "reachable": 135,
+          "transitions": 378,
+          "represented_histories": 18900,
+          "independent_pairs": 396,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1,
+            3
+          ],
+          "reachable": 225,
+          "transitions": 660,
+          "represented_histories": 207900,
+          "independent_pairs": 724,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2,
+            2
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2,
+            3
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3,
+            1
+          ],
+          "reachable": 225,
+          "transitions": 660,
+          "represented_histories": 207900,
+          "independent_pairs": 724,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3,
+            2
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3,
+            3
+          ],
+          "reachable": 375,
+          "transitions": 1150,
+          "represented_histories": 3153150,
+          "independent_pairs": 1320,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "reachable": 180,
+          "transitions": 519,
+          "represented_histories": 69300,
+          "independent_pairs": 560,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1,
+            2
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1,
+            3
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2,
+            1
+          ],
+          "reachable": 240,
+          "transitions": 712,
+          "represented_histories": 277200,
+          "independent_pairs": 791,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "reachable": 320,
+          "transitions": 976,
+          "represented_histories": 1201200,
+          "independent_pairs": 1116,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "reachable": 400,
+          "transitions": 1240,
+          "represented_histories": 4204200,
+          "independent_pairs": 1441,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3,
+            1
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "reachable": 400,
+          "transitions": 1240,
+          "represented_histories": 4204200,
+          "independent_pairs": 1441,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "reachable": 500,
+          "transitions": 1575,
+          "represented_histories": 15765750,
+          "independent_pairs": 1860,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1,
+            1
+          ],
+          "reachable": 225,
+          "transitions": 660,
+          "represented_histories": 207900,
+          "independent_pairs": 724,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1,
+            2
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1,
+            3
+          ],
+          "reachable": 375,
+          "transitions": 1150,
+          "represented_histories": 3153150,
+          "independent_pairs": 1320,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2,
+            1
+          ],
+          "reachable": 300,
+          "transitions": 905,
+          "represented_histories": 900900,
+          "independent_pairs": 1022,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "reachable": 400,
+          "transitions": 1240,
+          "represented_histories": 4204200,
+          "independent_pairs": 1441,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "reachable": 500,
+          "transitions": 1575,
+          "represented_histories": 15765750,
+          "independent_pairs": 1860,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "reachable": 375,
+          "transitions": 1150,
+          "represented_histories": 3153150,
+          "independent_pairs": 1320,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "reachable": 500,
+          "transitions": 1575,
+          "represented_histories": 15765750,
+          "independent_pairs": 1860,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "reachable": 625,
+          "transitions": 2000,
+          "represented_histories": 63063000,
+          "independent_pairs": 2400,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 4
+        }
+      ]
+    },
+    "counter": {
+      "direct": [
+        {
+          "lengths": [
+            0
+          ],
+          "reachable": 2,
+          "transitions": 1,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            0,
+            0
+          ],
+          "reachable": 5,
+          "transitions": 4,
+          "represented_histories": 2,
+          "independent_pairs": 0,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            0,
+            0,
+            0
+          ],
+          "reachable": 16,
+          "transitions": 15,
+          "represented_histories": 6,
+          "independent_pairs": 0,
+          "destructive_pairs": 6,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "reachable": 65,
+          "transitions": 64,
+          "represented_histories": 24,
+          "independent_pairs": 0,
+          "destructive_pairs": 30,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        }
+      ],
+      "routed": [
+        {
+          "lengths": [
+            1
+          ],
+          "reachable": 3,
+          "transitions": 2,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            2
+          ],
+          "reachable": 4,
+          "transitions": 3,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            3
+          ],
+          "reachable": 5,
+          "transitions": 4,
+          "represented_histories": 1,
+          "independent_pairs": 0,
+          "destructive_pairs": 0,
+          "witness": {},
+          "terminal_orders": 1,
+          "failures": {},
+          "conserved_total": 1
+        },
+        {
+          "lengths": [
+            1,
+            1
+          ],
+          "reachable": 10,
+          "transitions": 12,
+          "represented_histories": 6,
+          "independent_pairs": 3,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            1,
+            2
+          ],
+          "reachable": 13,
+          "transitions": 17,
+          "represented_histories": 10,
+          "independent_pairs": 5,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            1,
+            3
+          ],
+          "reachable": 16,
+          "transitions": 22,
+          "represented_histories": 15,
+          "independent_pairs": 7,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  3
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            2,
+            1
+          ],
+          "reachable": 13,
+          "transitions": 17,
+          "represented_histories": 10,
+          "independent_pairs": 5,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            2,
+            2
+          ],
+          "reachable": 17,
+          "transitions": 24,
+          "represented_histories": 20,
+          "independent_pairs": 8,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            2,
+            3
+          ],
+          "reachable": 21,
+          "transitions": 31,
+          "represented_histories": 35,
+          "independent_pairs": 11,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  3
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            3,
+            1
+          ],
+          "reachable": 16,
+          "transitions": 22,
+          "represented_histories": 15,
+          "independent_pairs": 7,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            3,
+            2
+          ],
+          "reachable": 21,
+          "transitions": 31,
+          "represented_histories": 35,
+          "independent_pairs": 11,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            3,
+            3
+          ],
+          "reachable": 26,
+          "transitions": 40,
+          "represented_histories": 70,
+          "independent_pairs": 15,
+          "destructive_pairs": 1,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  3
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 2,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                0
+              ]
+            ]
+          },
+          "conserved_total": 2
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1
+          ],
+          "reachable": 38,
+          "transitions": 60,
+          "represented_histories": 90,
+          "independent_pairs": 27,
+          "destructive_pairs": 9,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2
+          ],
+          "reachable": 48,
+          "transitions": 82,
+          "represented_histories": 210,
+          "independent_pairs": 42,
+          "destructive_pairs": 10,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3
+          ],
+          "reachable": 58,
+          "transitions": 104,
+          "represented_histories": 420,
+          "independent_pairs": 57,
+          "destructive_pairs": 11,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1
+          ],
+          "reachable": 48,
+          "transitions": 82,
+          "represented_histories": 210,
+          "independent_pairs": 42,
+          "destructive_pairs": 10,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2
+          ],
+          "reachable": 61,
+          "transitions": 112,
+          "represented_histories": 560,
+          "independent_pairs": 64,
+          "destructive_pairs": 11,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3
+          ],
+          "reachable": 74,
+          "transitions": 142,
+          "represented_histories": 1260,
+          "independent_pairs": 86,
+          "destructive_pairs": 12,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1
+          ],
+          "reachable": 58,
+          "transitions": 104,
+          "represented_histories": 420,
+          "independent_pairs": 57,
+          "destructive_pairs": 11,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2
+          ],
+          "reachable": 74,
+          "transitions": 142,
+          "represented_histories": 1260,
+          "independent_pairs": 86,
+          "destructive_pairs": 12,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3
+          ],
+          "reachable": 90,
+          "transitions": 180,
+          "represented_histories": 3150,
+          "independent_pairs": 115,
+          "destructive_pairs": 13,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  3,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1
+          ],
+          "reachable": 48,
+          "transitions": 82,
+          "represented_histories": 210,
+          "independent_pairs": 42,
+          "destructive_pairs": 10,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2
+          ],
+          "reachable": 61,
+          "transitions": 112,
+          "represented_histories": 560,
+          "independent_pairs": 64,
+          "destructive_pairs": 11,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3
+          ],
+          "reachable": 74,
+          "transitions": 142,
+          "represented_histories": 1260,
+          "independent_pairs": 86,
+          "destructive_pairs": 12,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1
+          ],
+          "reachable": 61,
+          "transitions": 112,
+          "represented_histories": 560,
+          "independent_pairs": 64,
+          "destructive_pairs": 11,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2
+          ],
+          "reachable": 78,
+          "transitions": 153,
+          "represented_histories": 1680,
+          "independent_pairs": 96,
+          "destructive_pairs": 12,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3
+          ],
+          "reachable": 95,
+          "transitions": 194,
+          "represented_histories": 4200,
+          "independent_pairs": 128,
+          "destructive_pairs": 13,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1
+          ],
+          "reachable": 74,
+          "transitions": 142,
+          "represented_histories": 1260,
+          "independent_pairs": 86,
+          "destructive_pairs": 12,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2
+          ],
+          "reachable": 95,
+          "transitions": 194,
+          "represented_histories": 4200,
+          "independent_pairs": 128,
+          "destructive_pairs": 13,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3
+          ],
+          "reachable": 116,
+          "transitions": 246,
+          "represented_histories": 11550,
+          "independent_pairs": 170,
+          "destructive_pairs": 14,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  3,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1
+          ],
+          "reachable": 58,
+          "transitions": 104,
+          "represented_histories": 420,
+          "independent_pairs": 57,
+          "destructive_pairs": 11,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2
+          ],
+          "reachable": 74,
+          "transitions": 142,
+          "represented_histories": 1260,
+          "independent_pairs": 86,
+          "destructive_pairs": 12,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3
+          ],
+          "reachable": 90,
+          "transitions": 180,
+          "represented_histories": 3150,
+          "independent_pairs": 115,
+          "destructive_pairs": 13,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1
+          ],
+          "reachable": 74,
+          "transitions": 142,
+          "represented_histories": 1260,
+          "independent_pairs": 86,
+          "destructive_pairs": 12,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2
+          ],
+          "reachable": 95,
+          "transitions": 194,
+          "represented_histories": 4200,
+          "independent_pairs": 128,
+          "destructive_pairs": 13,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                1,
+                0,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3
+          ],
+          "reachable": 116,
+          "transitions": 246,
+          "represented_histories": 11550,
+          "independent_pairs": 170,
+          "destructive_pairs": 14,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1
+          ],
+          "reachable": 90,
+          "transitions": 180,
+          "represented_histories": 3150,
+          "independent_pairs": 115,
+          "destructive_pairs": 13,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2
+          ],
+          "reachable": 116,
+          "transitions": 246,
+          "represented_histories": 11550,
+          "independent_pairs": 170,
+          "destructive_pairs": 14,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3
+          ],
+          "reachable": 142,
+          "transitions": 312,
+          "represented_histories": 34650,
+          "independent_pairs": 225,
+          "destructive_pairs": 15,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  3,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 6,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2
+              ],
+              [
+                0,
+                2,
+                1
+              ]
+            ]
+          },
+          "conserved_total": 3
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "reachable": 168,
+          "transitions": 304,
+          "represented_histories": 2520,
+          "independent_pairs": 180,
+          "destructive_pairs": 60,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1,
+            2
+          ],
+          "reachable": 206,
+          "transitions": 402,
+          "represented_histories": 7560,
+          "independent_pairs": 267,
+          "destructive_pairs": 69,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            1,
+            3
+          ],
+          "reachable": 244,
+          "transitions": 500,
+          "represented_histories": 18900,
+          "independent_pairs": 354,
+          "destructive_pairs": 78,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2,
+            1
+          ],
+          "reachable": 206,
+          "transitions": 402,
+          "represented_histories": 7560,
+          "independent_pairs": 267,
+          "destructive_pairs": 69,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "reachable": 254,
+          "transitions": 532,
+          "represented_histories": 25200,
+          "independent_pairs": 391,
+          "destructive_pairs": 79,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            2,
+            3
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3,
+            1
+          ],
+          "reachable": 244,
+          "transitions": 500,
+          "represented_histories": 18900,
+          "independent_pairs": 354,
+          "destructive_pairs": 78,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3,
+            2
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            1,
+            3,
+            3
+          ],
+          "reachable": 360,
+          "transitions": 824,
+          "represented_histories": 207900,
+          "independent_pairs": 676,
+          "destructive_pairs": 100,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "reachable": 206,
+          "transitions": 402,
+          "represented_histories": 7560,
+          "independent_pairs": 267,
+          "destructive_pairs": 69,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "reachable": 254,
+          "transitions": 532,
+          "represented_histories": 25200,
+          "independent_pairs": 391,
+          "destructive_pairs": 79,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            1,
+            3
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2,
+            1
+          ],
+          "reachable": 254,
+          "transitions": 532,
+          "represented_histories": 25200,
+          "independent_pairs": 391,
+          "destructive_pairs": 79,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2,
+            2
+          ],
+          "reachable": 315,
+          "transitions": 705,
+          "represented_histories": 92400,
+          "independent_pairs": 567,
+          "destructive_pairs": 90,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                0,
+                2,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            2,
+            3
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3,
+            2
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            2,
+            3,
+            3
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1,
+            1
+          ],
+          "reachable": 244,
+          "transitions": 500,
+          "represented_histories": 18900,
+          "independent_pairs": 354,
+          "destructive_pairs": 78,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1,
+            2
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            1,
+            3
+          ],
+          "reachable": 360,
+          "transitions": 824,
+          "represented_histories": 207900,
+          "independent_pairs": 676,
+          "destructive_pairs": 100,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2,
+            1
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2,
+            2
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            2,
+            3
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3,
+            1
+          ],
+          "reachable": 360,
+          "transitions": 824,
+          "represented_histories": 207900,
+          "independent_pairs": 676,
+          "destructive_pairs": 100,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3,
+            2
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  0,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            1,
+            3,
+            3,
+            3
+          ],
+          "reachable": 540,
+          "transitions": 1364,
+          "represented_histories": 3153150,
+          "independent_pairs": 1266,
+          "destructive_pairs": 126,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  1,
+                  3,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                0,
+                2,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "reachable": 206,
+          "transitions": 402,
+          "represented_histories": 7560,
+          "independent_pairs": 267,
+          "destructive_pairs": 69,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                0,
+                2,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1,
+            2
+          ],
+          "reachable": 254,
+          "transitions": 532,
+          "represented_histories": 25200,
+          "independent_pairs": 391,
+          "destructive_pairs": 79,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            1,
+            3
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2,
+            1
+          ],
+          "reachable": 254,
+          "transitions": 532,
+          "represented_histories": 25200,
+          "independent_pairs": 391,
+          "destructive_pairs": 79,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2,
+            2
+          ],
+          "reachable": 315,
+          "transitions": 705,
+          "represented_histories": 92400,
+          "independent_pairs": 567,
+          "destructive_pairs": 90,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            2,
+            3
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3,
+            1
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3,
+            2
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            1,
+            3,
+            3
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1,
+            1
+          ],
+          "reachable": 254,
+          "transitions": 532,
+          "represented_histories": 25200,
+          "independent_pairs": 391,
+          "destructive_pairs": 79,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                2,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1,
+            2
+          ],
+          "reachable": 315,
+          "transitions": 705,
+          "represented_histories": 92400,
+          "independent_pairs": 567,
+          "destructive_pairs": 90,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            1,
+            3
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2,
+            1
+          ],
+          "reachable": 315,
+          "transitions": 705,
+          "represented_histories": 92400,
+          "independent_pairs": 567,
+          "destructive_pairs": 90,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2,
+            2
+          ],
+          "reachable": 393,
+          "transitions": 936,
+          "represented_histories": 369600,
+          "independent_pairs": 816,
+          "destructive_pairs": 102,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            2,
+            3
+          ],
+          "reachable": 471,
+          "transitions": 1167,
+          "represented_histories": 1201200,
+          "independent_pairs": 1065,
+          "destructive_pairs": 114,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3,
+            1
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3,
+            2
+          ],
+          "reachable": 471,
+          "transitions": 1167,
+          "represented_histories": 1201200,
+          "independent_pairs": 1065,
+          "destructive_pairs": 114,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            2,
+            3,
+            3
+          ],
+          "reachable": 566,
+          "transitions": 1456,
+          "represented_histories": 4204200,
+          "independent_pairs": 1387,
+          "destructive_pairs": 127,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1,
+            1
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                2,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1,
+            2
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            1,
+            3
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2,
+            1
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2,
+            2
+          ],
+          "reachable": 471,
+          "transitions": 1167,
+          "represented_histories": 1201200,
+          "independent_pairs": 1065,
+          "destructive_pairs": 114,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            2,
+            3
+          ],
+          "reachable": 566,
+          "transitions": 1456,
+          "represented_histories": 4204200,
+          "independent_pairs": 1387,
+          "destructive_pairs": 127,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3,
+            1
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3,
+            2
+          ],
+          "reachable": 566,
+          "transitions": 1456,
+          "represented_histories": 4204200,
+          "independent_pairs": 1387,
+          "destructive_pairs": 127,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  0,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            2,
+            3,
+            3,
+            3
+          ],
+          "reachable": 682,
+          "transitions": 1818,
+          "represented_histories": 15765750,
+          "independent_pairs": 1803,
+          "destructive_pairs": 141,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  2,
+                  3,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                0,
+                2,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "reachable": 244,
+          "transitions": 500,
+          "represented_histories": 18900,
+          "independent_pairs": 354,
+          "destructive_pairs": 78,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                0,
+                2,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1,
+            2
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            1,
+            3
+          ],
+          "reachable": 360,
+          "transitions": 824,
+          "represented_histories": 207900,
+          "independent_pairs": 676,
+          "destructive_pairs": 100,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2,
+            1
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2,
+            2
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            2,
+            3
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3,
+            1
+          ],
+          "reachable": 360,
+          "transitions": 824,
+          "represented_histories": 207900,
+          "independent_pairs": 676,
+          "destructive_pairs": 100,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3,
+            2
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  1,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            1,
+            3,
+            3
+          ],
+          "reachable": 540,
+          "transitions": 1364,
+          "represented_histories": 3153150,
+          "independent_pairs": 1266,
+          "destructive_pairs": 126,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  1,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "reachable": 302,
+          "transitions": 662,
+          "represented_histories": 69300,
+          "independent_pairs": 515,
+          "destructive_pairs": 89,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                2,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1,
+            2
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            1,
+            3
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2,
+            1
+          ],
+          "reachable": 376,
+          "transitions": 878,
+          "represented_histories": 277200,
+          "independent_pairs": 743,
+          "destructive_pairs": 101,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2,
+            2
+          ],
+          "reachable": 471,
+          "transitions": 1167,
+          "represented_histories": 1201200,
+          "independent_pairs": 1065,
+          "destructive_pairs": 114,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                1,
+                0,
+                2,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            2,
+            3
+          ],
+          "reachable": 566,
+          "transitions": 1456,
+          "represented_histories": 4204200,
+          "independent_pairs": 1387,
+          "destructive_pairs": 127,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3,
+            1
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3,
+            2
+          ],
+          "reachable": 566,
+          "transitions": 1456,
+          "represented_histories": 4204200,
+          "independent_pairs": 1387,
+          "destructive_pairs": 127,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  2,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                1,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            2,
+            3,
+            3
+          ],
+          "reachable": 682,
+          "transitions": 1818,
+          "represented_histories": 15765750,
+          "independent_pairs": 1803,
+          "destructive_pairs": 141,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  2,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1,
+            1
+          ],
+          "reachable": 360,
+          "transitions": 824,
+          "represented_histories": 207900,
+          "independent_pairs": 676,
+          "destructive_pairs": 100,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  1,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                2,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1,
+            2
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  1,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                2,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            1,
+            3
+          ],
+          "reachable": 540,
+          "transitions": 1364,
+          "represented_histories": 3153150,
+          "independent_pairs": 1266,
+          "destructive_pairs": 126,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  0,
+                  1,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2,
+            1
+          ],
+          "reachable": 450,
+          "transitions": 1094,
+          "represented_histories": 900900,
+          "independent_pairs": 971,
+          "destructive_pairs": 113,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  2,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                2,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2,
+            2
+          ],
+          "reachable": 566,
+          "transitions": 1456,
+          "represented_histories": 4204200,
+          "independent_pairs": 1387,
+          "destructive_pairs": 127,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  0,
+                  0,
+                  2,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                2,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                2,
+                1,
+                3
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            2,
+            3
+          ],
+          "reachable": 682,
+          "transitions": 1818,
+          "represented_histories": 15765750,
+          "independent_pairs": 1803,
+          "destructive_pairs": 141,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  0,
+                  2,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                2
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3,
+            1
+          ],
+          "reachable": 540,
+          "transitions": 1364,
+          "represented_histories": 3153150,
+          "independent_pairs": 1266,
+          "destructive_pairs": 126,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  0,
+                  0,
+                  1
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3,
+            2
+          ],
+          "reachable": 682,
+          "transitions": 1818,
+          "represented_histories": 15765750,
+          "independent_pairs": 1803,
+          "destructive_pairs": 141,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  0,
+                  0,
+                  2
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                3
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "plain": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ],
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        },
+        {
+          "lengths": [
+            3,
+            3,
+            3,
+            3
+          ],
+          "reachable": 824,
+          "transitions": 2272,
+          "represented_histories": 63063000,
+          "independent_pairs": 2340,
+          "destructive_pairs": 156,
+          "witness": {
+            "minimal": {
+              "state": [
+                [
+                  3,
+                  3,
+                  0,
+                  0
+                ],
+                []
+              ],
+              "competing": [
+                0,
+                1
+              ]
+            }
+          },
+          "terminal_orders": 24,
+          "failures": {
+            "bordered": [
+              [
+                0,
+                1,
+                2,
+                3
+              ],
+              [
+                0,
+                1,
+                3,
+                2
+              ]
+            ]
+          },
+          "conserved_total": 4
+        }
+      ]
+    }
+  },
+  "cpu_seconds": 0.546875
+}
