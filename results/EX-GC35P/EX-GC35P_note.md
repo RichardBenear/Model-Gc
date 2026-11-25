@@ -1,6 +1,6 @@
 # EX-GC35P — carrier catalogue and reciprocal clocks
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered definitions and predictions](../../spec/EX-GC35P_plan.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered definitions and predictions](../../spec/EX-GC35P_plan.md). **PI CLOSED 2026-11-24.**
 
 **Only the independent-hop control passed both graph comparisons.** All five rules conserve total carrier number including labelled sinks. The three new rules with shared-input or batch choices each have graph counterexamples even after removing site labels.
 
