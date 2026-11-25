@@ -20,13 +20,15 @@ Let W be diagonal with weights (1,1,1,2,2,2) in the six-component tensor basis, 
 
 Record the normalized residual immediately before and after projection, the metric and velocity correction norms at each step, and their accumulated sums. Normalize the residual by the original constraint-source norm at that time and multiply by ε. Keep the free run with the same RK stage sources as a control. A smaller timestep shortens the interval in which a defect can build up between resets. The pre-reset value therefore depends on timestep even for an unchanged finite-spacing source.
 
+The per-mode Fourier pseudoinverse is a non-local reference tool. A local event rule needs its own constraint propagation or damping.
+
 ## Read out the curvature
 
 At t=4, 8, 12, 16 and 20, compare all six components and the transverse-traceless (TT) part against the matched continuum tensor. Reconstruct −∂²ₜh₂/2 from the accepted positions to include the projection resets. Use centered second differences at interior samples and a second-order backward difference at the endpoint. Record the nominal RHS acceleration separately. For the synchronous coordinate curvature R₀ᵢ₀ⱼ at second order, add (∂ₜh₁)²/4 as a matrix product. Also report the velocity reset divided by twice the timestep, in units of the continuum tidal norm.
 
 Report the results as a finite-time, compensated, perturbative benchmark. A roundoff residual after projection follows from enforcing the constraint surface. Source conservation, curvature accuracy, and the precision of the unprojected equations are separate checks. The measured window and source do not establish an isolated mass, arbitrary-packet stability, or exact nonlinear lattice symmetry.
 
-At h=.125 the pre-reset peak was 4.83e−4 and the post-reset peak was at roundoff. The reconstructed tidal error was 2.29% at t=16 and 2.25% at t=20. It missed the original 2% accuracy gate. The result supports the projected benchmark at a stated few-percent scale for this profile and window.
+At h=.125 the pre-reset peak was 4.83e−4 and the post-reset peak was at roundoff. The reconstructed tidal error was 2.29% at t=16 and 2.25% at t=20. It missed the original 2% accuracy gate. The result supports the projected benchmark at a stated few-percent scale for this profile and window. At t=20 the measured coefficient in error ≈ C h² is C≈1.44 at h=.125. This gives about 0.56% at h=.0625 by extrapolation. The benchmark refinement campaign ends at h=.125.
 
 ## Reproduce
 
