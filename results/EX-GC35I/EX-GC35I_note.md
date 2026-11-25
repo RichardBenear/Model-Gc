@@ -1,6 +1,6 @@
 # EX-GC35I — local event rates set by a prescribed lapse
 
-2026-11-24 | EXPLORATORY | Design, implementation and runs ChatGPT. [Plan](../../spec/EX-GC35I_plan.md) · [Claude review](../../review/EX-GC35EF_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | Design, implementation and runs ChatGPT. [Plan](../../spec/EX-GC35I_plan.md) · [Claude review](../../review/EX-GC35EF_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **Schedule, finite-field, frequency and angle checks passed.** For the stepped lapse one side generates 1.5× as many events over the fixed coordinate-time interval. The two static observers measure the expected redshift, and the transmitted mode turns by the expected angle. The lapse and the permitted versions are prescribed inputs.
 
