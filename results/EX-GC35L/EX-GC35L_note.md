@@ -1,6 +1,6 @@
 # EX-GC35L — competing consumptions on short marked lines
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered predictions](../../spec/EX-GC35L_plan.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered predictions](../../spec/EX-GC35L_plan.md). **PI CLOSED 2026-11-24.**
 
 **Ledger and firing counts agreed in all 494 initial configurations. Both causal graph definitions failed.** Enumeration traversed 470,058 terminal schedules and token-producer choices on one to four interior sites with zero to seven initial tokens. Equal producer copies at one site were treated as indistinguishable. Exact labelled multigraph isomorphism distinguishes carrier dependency edges from predecessor-at-site edges and preserves labelled sites and sinks.
 
