@@ -1,15 +1,26 @@
 # Handoff — current state
 
+## GC35A–K closure and GC35L–O follow-ups
+
+PI CLOSED 2026-11-24 (Richard: “close 35A through 35K”). All eleven note statuses and log entries were updated with their original outcomes preserved. The [white paper v0.5 revision 6](paper/Model_Gc_white_paper_v0.5.md) includes GC35J/K.
+
+- **GC35L** found equal ledgers and firing counts in 494 configurations, with inequivalent token and FIFO site-history graphs. [Results](results/EX-GC35L/EX-GC35L_note.md)
+- **GC35M** lowered the fine scalar residual to 0.0449 at t=20, above its gate. The reconstructed tidal error was 27.6%. The fixed full-stress knot sources remained incompatible while the energy-only controls stayed at roundoff. [Results](results/EX-GC35M/EX-GC35M_note.md)
+- **GC35N** extended the lens to h=.08. The full/lapse bend ratio was 2.007 and the dispersion-corrected full-angle gap remained about 4.4%. [Results](results/EX-GC35N/EX-GC35N_note.md)
+- **GC35O** demonstrated two-way packet and token lapse feedback in a one-dimensional static-response reduction of Y1. Field schedules agreed under fixed version semantics, while contested token branches gave different causal graphs despite identical counts and fields. [Results](results/EX-GC35O/EX-GC35O_note.md)
+
+The exact-Ward knot search is paused. The [literature note](docs/EX-GC35_local_matter_conservation.md) records why the known nonlinear Klein–Gordon result has a narrower scope than a general barrier. GC35L–O are exploratory and pending PI closure.
+
 ## Follow-up to the GC35G–I review
 
-- **GC35G** is recorded as the working projected scalar benchmark for the tested window. The refinement campaign is complete. The recipe marks the Fourier projection as non-local and the h=.0625 value as an extrapolation. Formal PI closure is pending. [Recipe](docs/EX-GC35_projected_Y1_recipe.md)
+- **GC35G** is recorded as the working projected scalar benchmark for the tested window. The refinement campaign is complete. The recipe marks the Fourier projection as non-local and the h=.0625 value as an extrapolation. PI closed 2026-11-24. [Recipe](docs/EX-GC35_projected_Y1_recipe.md)
 - **GC35J** failed the direct soft-potential Ward gate. The quartic radial potential does not obey the endpoint-averaged link chain rule. The gated relaxation and moving-knot runs were not started. [Results](results/EX-GC35J/EX-GC35J_note.md)
 - **GC35K** used a static matter-sourced Y1 metric with local proper-time events. Replacing the linear predictor with causal quadratic version reconstruction recovered the uniform-clock angle control. Fine group bends were 3.135° full and 1.560° lapse-only, versus 2.834° for the matched finite-path full prediction. [Results](results/EX-GC35K/EX-GC35K_note.md)
-- The [competing-event design](docs/EX-GC35_competing_event_causal_invariance.md) defines an exact graph-equivalence comparison and a weaker ledger comparison for a future run. [White paper v0.5 revision 5](paper/Model_Gc_white_paper_v0.5.md) covers the research record through GC35I.
+- The [competing-event design](docs/EX-GC35_competing_event_causal_invariance.md) defines an exact graph-equivalence comparison and a weaker ledger comparison for a future run. [White paper v0.5](paper/Model_Gc_white_paper_v0.5.md) now covers the research record through GC35K.
 
 ## GC35G–I completed
 
-Items 1–3 of the [GC35E/F review](review/EX-GC35EF_claude_review.md) were run in the PI's requested sequence. All three are exploratory and pending PI closure.
+Items 1–3 of the [GC35E/F review](review/EX-GC35EF_claude_review.md) were run in the PI's requested sequence. All three are exploratory and PI closed 2026-11-24.
 
 - **GC35G** confirmed near-fourfold refinement of the reconstructed projected tide at h=.125. The late error was 2.25% at t=20, above the 2% gate. Both constraint gates passed. The [recipe](docs/EX-GC35_projected_Y1_recipe.md) and [v0.5 draft revision 4](paper/Model_Gc_white_paper_v0.5.md) were committed before H and I began. [Results](results/EX-GC35G/EX-GC35G_note.md)
 - **GC35H** reduced the static h=.2 full stress residuals to 0.962% and 0.679%. The exact Ward gate failed. A stationary rank-one configuration isolates a constraint reaction term in the native sigma source. The moving-knot run remains gated on compatibility. [Results](results/EX-GC35H/EX-GC35H_note.md)
@@ -20,14 +31,14 @@ Items 1–3 of the [GC35E/F review](review/EX-GC35EF_claude_review.md) were run 
 - **GC35E** used a tensor-weighted projection after each step of the GC35C reciprocal run. Post-projection residuals were at roundoff through t=20. The fine pre-projection peak of 1.86e-3 and reconstructed tidal error of 8.94% at t=20 failed the accuracy gates. The TT evolution was unchanged by the projection to numerical precision. [Results](results/EX-GC35E/EX-GC35E_note.md)
 - **GC35F** reproduced the one-way linear Y1 scalar-metric stencil on a fixed versioned local dependency graph without a timestep barrier. All 48 legal schedules agreed bit for bit and the stale-read negative control was schedule dependent. Common-slice constraint errors fell by 4.01× on halving the timestep. This establishes order independence within the prescribed graph. [Results](results/EX-GC35F/EX-GC35F_note.md)
 
-These were items 1 and 3 of the [GC35C/D review](review/EX-GC35CD_claude_review.md). Both studies are exploratory and pending PI closure.
+These were items 1 and 3 of the [GC35C/D review](review/EX-GC35CD_claude_review.md). Both studies are exploratory and PI closed 2026-11-24.
 
 ## GC35C/D completed
 
 - **GC35C** extended the compensated scalar benchmark to t=20. The fine residual exceeded 10⁻³ at t=5.75 and reached 0.368 at t=20. Neither the timestep change nor removing the compensator corrections accounted for the growth. The linear Y1 vacuum generator had no matching exponential mode. This limits the current reciprocal scalar construction to its qualified short window. [Results](results/EX-GC35C/EX-GC35C_note.md)
 - **GC35D** met the tighter rest-force tolerance in all eight cases. Matched relaxation and box controls hardly changed the residual at h=.2. At h=.15 the full-stress residuals were 0.867% and 0.698%, above the 0.1% gate. [Results](results/EX-GC35D/EX-GC35D_note.md)
 
-The moving-knot study was conditional on both gates and was not started. GC35C and GC35D are exploratory and pending PI closure.
+The moving-knot study was conditional on both gates and was not started. GC35C and GC35D are exploratory and PI closed 2026-11-24.
 
 ## GC35A/B and white paper v0.5 revision 3
 
@@ -36,7 +47,7 @@ The PI accepted the approximate staggered Y1 model as the current reference and 
 - **GC35A** completed. A0–A2 passed in the finite compensated periodic scalar run. Halving spacing reduced the final next-order constraint defect by 3.31×, with negligible change from timestep halving. Fine-grid tidal errors were 1.35% and 5.27% at the two readouts. The defect grows within the tested window and its long-time behavior is open. [Results](results/EX-GC35A/EX-GC35A_note.md)
 - **GC35B** completed. The registered knot comparison failed. At post hoc h=.2 both knots survived and gave controlled energy-only field and initial feedback results. The full energy-plus-stress source missed the compatibility gate for both. [Results](results/EX-GC35B/EX-GC35B_note.md)
 
-Both GC35 studies are exploratory and pending PI closure.
+Both GC35 studies are exploratory and PI closed 2026-11-24.
 
 ## EX-GC34S, X, Y and Z closure
 
