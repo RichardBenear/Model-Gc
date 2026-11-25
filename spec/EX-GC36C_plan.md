@@ -41,3 +41,5 @@ Nothing here tests causal invariance. Forks are not compared in this study.
 ## Outputs
 
 `src/exgc36c.py`, `results/EX-GC36C/` (note plus `results.json`). Separate recomputation: replay 5 schedules per start with an independent tracker that scans every 5-subset of the most recent 12 vertices for phase supports, using 36B's canonical form. Its lifetimes must agree with the incremental tracker's.
+
+**Amendment before any run.** A schedule stops when the particle dies, which is when the live set empties, instead of continuing to T. Lifetime is unaffected. The final legal-move count and the halted flag are then reported at the stop. This keeps cost inside the cap, because a vacuum-like debris state can carry hundreds of legal moves.
