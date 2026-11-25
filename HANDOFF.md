@@ -1,11 +1,15 @@
 # Handoff — current state
 
+## GC35L–P closure
+
+PI CLOSED 2026-11-24 (Richard: “close 35L through 35P”). The five outcomes are recorded in the [experiment log](explore/LOG.md).
+
 ## GC35L–O review follow-up
 
 - **GC35P** screened five carrier rules. Independent directed hops conserve carriers and preserve both tested graphs. In the reduced reciprocal clock loop all 16 randomized schedules matched, including fields, event times and labelled dependencies. Each rule with contested inputs or queue batching had a graph counterexample. Finding an interacting rule that passes is the open carrier problem. [Results](results/EX-GC35P/EX-GC35P_note.md)
 - **Knot-on-Y1 continuum work paused.** Energy-only sourcing is compatible to roundoff. The full-stress residual falls roughly as h² over the measured spacings and remains nonzero. The local damping test did not restore compatibility with an unconserved source. The exact identity failed for the tested hard and soft couplings. Revisit this line if a carrier result calls for a continuum check. [Damping](results/EX-GC35M/EX-GC35M_note.md) · [Conservation note](docs/EX-GC35_local_matter_conservation.md)
 - **Lens campaign complete.** The full-to-lapse factor remained 2.007–2.009. The dispersion-corrected absolute gap stayed around 4.4% at the last two spacings. The finite-beam versus straight-ray comparator is a plausible explanation. The existing runs do not isolate it. [Finest lens test](results/EX-GC35N/EX-GC35N_note.md)
-- **White paper v0.5 frozen through GC35O** in revision 7. GC35L–P remain exploratory and pending formal PI closure. [White paper](paper/Model_Gc_white_paper_v0.5.md)
+- **White paper v0.5 frozen through GC35O** in revision 7. GC35L–P are exploratory and PI closed. [White paper](paper/Model_Gc_white_paper_v0.5.md)
 
 ## GC35A–K closure and GC35L–O follow-ups
 
