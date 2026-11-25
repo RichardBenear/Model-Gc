@@ -1,4 +1,5 @@
 """GC35K: static Y1 mass solve with a proper-time event packet."""
+import argparse
 import json
 from pathlib import Path
 import time
@@ -48,21 +49,34 @@ def metric():
 
 
 @njit
-def read(history,period,done,j,tick):
+def read(history,period,done,j,tick,deadline,order):
     v=tick//period[j]
     if v>done[j] or done[j]-v>=3:
         raise ValueError("required earlier versions unavailable")
-    u=history[j,v%4]
-    frac=(tick%period[j])/period[j]
-    return u+frac*(u-history[j,(v-1)%4])
+    u=history[j,v%5]
+    x=(tick%period[j])/period[j]
+    if x==0:
+        return u
+    before=history[j,(v-1)%5]
+    if order==1:
+        return u+x*(u-before)
+    if (v+1)*period[j]<deadline:
+        if done[j]<v+1:
+            raise ValueError("missing bracketing version")
+        upper=history[j,(v+1)%5]
+        return u+.5*x*(upper-before)+.5*x*x*(upper-2*u+before)
+    if v==0:
+        return u+x*(u-before)
+    past=history[j,(v-2)%5]
+    return u+x*(u-before)+.5*x*(x+1)*(u-2*before+past)
 
 
 @njit
-def events(u,old,period,lapse,A,nx,ny,step,h,ticks,reverse=False):
+def events(u,old,period,lapse,A,nx,ny,step,h,ticks,order=2,reverse=False):
     n=nx*ny
-    history=np.zeros((n,4),np.complex128)
+    history=np.zeros((n,5),np.complex128)
     history[:,0]=u
-    history[:,3]=old
+    history[:,4]=old
     size=np.max(period)+1
     head=np.full(size,-1,np.int64)
     links=np.empty(n,np.int64)
@@ -87,18 +101,18 @@ def events(u,old,period,lapse,A,nx,ny,step,h,ticks,reverse=False):
             if when!=(v+1)*pi:
                 raise ValueError("event queued at the wrong time")
             a,b=i//ny,i%ny
-            z=history[i,v%4]
+            z=history[i,v%5]
             new=0j
             if 0<a<nx-1 and 0<b<ny-1:
                 flux=0j
                 for j in (i-ny,i+ny,i-1,i+1):
-                    neighbor=read(history,period,done,j,earlier)
+                    neighbor=read(history,period,done,j,earlier,when,order)
                     face=2*lapse[i]*lapse[j]/(lapse[i]+lapse[j])
                     flux+=face*(neighbor-z)
                     gap=earlier-(earlier//period[j])*period[j]
                     max_gap=max(max_gap,gap)
-                new=2*z-history[i,(v-1)%4]+step*step*flux/(lapse[i]*A[i]*A[i]*h*h)
-            history[i,(v+1)%4]=new
+                new=2*z-history[i,(v-1)%5]+step[i]*step[i]*flux/(lapse[i]*A[i]*A[i]*h*h)
+            history[i,(v+1)%5]=new
             done[i]+=1
             count+=1
             if when+pi<=ticks:
@@ -108,7 +122,7 @@ def events(u,old,period,lapse,A,nx,ny,step,h,ticks,reverse=False):
             i=next_i
     output=np.empty(n,np.complex128)
     for i in range(n):
-        output[i]=read(history,period,done,i,ticks)
+        output[i]=read(history,period,done,i,ticks,ticks+1,order)
     return output,count,int(np.min(done)),int(np.max(done)),max_gap
 
 
@@ -155,7 +169,7 @@ def ray_prediction(grid,n,A,edge):
     return float(np.degrees(np.sum(weight*profile)/np.sum(weight)))
 
 
-def run(pot,hg,h,step,mode,duplicate=False):
+def run(pot,hg,h,step,mode,duplicate=False,order=2,uniform=False):
     grid,kx,ky,u,v,a=phase_data(h)
     nx,ny=u.shape
     units=step/CLOCK_TICKS
@@ -163,13 +177,17 @@ def run(pot,hg,h,step,mode,duplicate=False):
     p=map_coordinates(pot,[z/hg+pot.shape[0]//2 for z in grid],order=3,mode="wrap")
     target=1+p if mode!="flat" else np.ones_like(p)
     period=np.rint(CLOCK_TICKS/target).astype(np.int64)
-    lapse=CLOCK_TICKS/period
+    if uniform:
+        period=np.full(period.shape,CLOCK_TICKS,dtype=np.int64)
+        lapse=target
+    else:
+        lapse=CLOCK_TICKS/period
     A=np.sqrt(1-2*p) if mode=="full" else np.ones_like(p)
     dt=units*period
     velocity=v*lapse/A
     accel=a*(lapse/A)**2
     old=u-dt*velocity+.5*dt**2*accel
-    args=(u.ravel(),old.ravel(),period.ravel(),lapse.ravel(),A.ravel(),nx,ny,step,h,ticks)
+    args=(u.ravel(),old.ravel(),period.ravel(),lapse.ravel(),A.ravel(),nx,ny,(dt*lapse).ravel(),h,ticks,order)
     out,count,low,high,gap=events(*args)
     same=None
     if duplicate:
@@ -179,7 +197,7 @@ def run(pot,hg,h,step,mode,duplicate=False):
     angles=directions(h,kx,ky,out)
     start,end=center(grid,u),center(grid,out)
     prediction=ray_prediction(grid,target,A,[start[0],end[0]])
-    return dict(mode=mode,h=h,proper_step=step,nx=nx,ny=ny,events=count,site_event_range=[low,high],
+    return dict(mode=mode,h=h,predictor=order,uniform_clock=uniform,proper_step=step,nx=nx,ny=ny,events=count,site_event_range=[low,high],
                 maximum_predictor_offset=float(gap*units),lapse_rounding=float(np.max(abs(lapse-target))),
                 phase_angle=angles[0],group_angle=angles[1],initial_centroid=start,final_centroid=end,
                 eikonal_angle=prediction,finite=bool(np.isfinite(out).all()),peak=float(np.max(abs(out))),
@@ -187,30 +205,24 @@ def run(pot,hg,h,step,mode,duplicate=False):
 
 
 def main():
+    parser=argparse.ArgumentParser()
+    parser.add_argument("tag")
+    parser.add_argument("--h",type=float,default=.16)
+    parser.add_argument("--step",type=float,default=.04)
+    parser.add_argument("--mode",choices=("flat","lapse","full"),default="full")
+    parser.add_argument("--order",type=int,choices=(1,2),default=2)
+    parser.add_argument("--uniform",action="store_true")
+    parser.add_argument("--duplicate",action="store_true")
+    args=parser.parse_args()
     start=time.process_time()
     pot,hg,audit=metric()
-    cases=[]
-    for h,step in ((.24,.06),(.16,.040)):
-        rows=[]
-        for mode in ("flat","lapse","full"):
-            row=run(pot,hg,h,step,mode,duplicate=(h==.24 and mode=="full"))
-            rows.append(row)
-            print(row,flush=True)
-        flat=rows[0]
-        for row in rows:
-            row["deflection_phase_deg"]=row["phase_angle"]-flat["phase_angle"]
-            row["deflection_group_deg"]=row["group_angle"]-flat["group_angle"]
-        cases.append(rows)
-    fine=cases[-1]
-    full,lapse=fine[-1],fine[-2]
-    ideal=float(np.degrees(4*GM/IMPACT))
-    result=dict(cases=cases,static_kernel_relative=audit,GM=GM,impact=IMPACT,
-                ideal_full_deg=ideal,ideal_lapse_deg=ideal/2,full_lapse_ratio=full["deflection_group_deg"]/lapse["deflection_group_deg"],
-                cpu_seconds=time.process_time()-start)
+    row=run(pot,hg,args.h,args.step,args.mode,args.duplicate,args.order,args.uniform)
+    row.update(static_kernel_relative=audit,GM=GM,impact=IMPACT,
+                ideal_full_deg=float(np.degrees(4*GM/IMPACT)),cpu_seconds=time.process_time()-start)
     out=Path(__file__).resolve().parents[1]/"results"/"EX-GC35K"
     out.mkdir(parents=True,exist_ok=True)
-    (out/"results.json").write_text(json.dumps(result,indent=2)+"\n")
-    print("fine ratio",result["full_lapse_ratio"],"CPU",result["cpu_seconds"],flush=True)
+    (out/f"{args.tag}.json").write_text(json.dumps(row,indent=2)+"\n")
+    print(row,flush=True)
 
 
 if __name__=="__main__":
