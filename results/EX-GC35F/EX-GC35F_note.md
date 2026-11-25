@@ -1,6 +1,6 @@
 # EX-GC35F — asynchronous local-event order in a linear Y1 host
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35F_plan.md) · [Claude review](../../review/EX-GC35CD_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35F_plan.md) · [Claude review](../../review/EX-GC35CD_claude_review.md). **PI CLOSED 2026-11-24.**
 
 **Schedule test passed on the 5³ periodic toy.** All 24 seeded legal schedules at each of two timesteps produced bitwise-identical scalar and metric fields at every recorded depth. A stale-read control gave different results under different schedules. Common-slice constraints started at roundoff and developed a finite timestep defect.
 
