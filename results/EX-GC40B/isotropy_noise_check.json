@@ -1,0 +1,14 @@
+{
+ "spread_A": 0.014229019188664786,
+ "spread_B": 0.015004746705008863,
+ "pattern_correlation": 0.42188278136071644,
+ "sector_se_rel": 0.005142739436483931,
+ "expected_spread_from_noise_approx": 0.017999588027693757,
+ "skipped_seeds": [
+  38
+ ],
+ "n_graphs": [
+  20,
+  19
+ ]
+}

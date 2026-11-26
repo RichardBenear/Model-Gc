@@ -1,5 +1,19 @@
 # Handoff — current state
 
+## EX-GC40A and 40B completed (Claude, exploratory, PI closure pending); 40C outlined, not approved
+
+Richard shared the Chain Theory compendium (2026-11-26). Its gravity is unfinished: its own field equation fails at all 60 cells it tests, and inertia is not treated. We took only its axiom, a vacuum made of maximally entangled pairs. Plan: [spec/EX-GC40_plan.md](spec/EX-GC40_plan.md).
+- [40A](results/EX-GC40A/EX-GC40A_note.md):
+  - Pure pairs do not respond to matter at first order.
+  - Once pairs share entanglement with their neighbours (λ > 0), area as "cut links" works: rewiring changes S by s_link per link, within 3%.
+  - The matter response is attractive but grows like ℓ^2.4–2.9, so G_eq is not constant (it falls 2.3–3× over ℓ = 3–6).
+  - Entanglement equilibrium has now failed to give a constant G on three substrates.
+- [40B](results/EX-GC40B/EX-GC40B_note.md):
+  - 37B's counting rule works on a random network with no lengths: v ∝ N^1.996, and the Shapiro ratio is 2.004.
+  - The bending readout was too noisy, and its target was not 2 for fixed endpoints.
+  - The isotropy gate was below the noise floor.
+- 40C (localised shared-entanglement "hub" as a mass) is outlined in the plan. It needs its own predictions and a go-ahead.
+
 ## EX-GC39A, 39B and 39C completed (Claude, exploratory, PI closure pending)
 
 Richard's question (2026-11-26): does matter set the lapse, or does the lapse set how matter emerges? Design: [spec/EX-GC39_design.md](spec/EX-GC39_design.md).

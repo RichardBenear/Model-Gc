@@ -1,0 +1,18 @@
+{
+ "result": {
+  "0.0": {
+   "max_dev": 1.1102230246251565e-16,
+   "gap_dense": 2.0,
+   "gap_bloch": 2.0,
+   "eig_half_count": 54,
+   "cut_links": 54
+  },
+  "0.3": {
+   "max_dev": 6.106226635438361e-16,
+   "gap_dense": 0.19999999999999768,
+   "gap_bloch": 0.19999999999999907
+  }
+ },
+ "cpu_seconds": 50.062654102,
+ "platform": "python 3.13.18, numpy 2.5.3"
+}
