@@ -4,7 +4,7 @@
 
 Both test a *mechanism* for gravity rather than putting GR's equation in by hand (Richard's restated goal, 2026-11-25).
 - [37B](results/EX-GC37B/EX-GC37B_note.md): sites fire at a local rate N. Clocks are one-site events (rate N). Propagation needs two sites to fire together (speed N²). That gives the weak-field metric with γ = 1: token delay ratio 2.00–2.08, wave bending ratio 2.04, no spatial metric put in. A consumed, diffusing carrier sets N = 1 − GM/r. Open: why propagation is a coincidence, second order, and the moving-source / preferred-frame test (B3).
-- [37A](results/EX-GC37A/EX-GC37A_note.md): Sakharov induced gravity on Y1, spin-2 sector. The right sign, but gravitons at 0.70–0.78 c, the two polarisations 2.7× apart, and a huge mass term. The Lorentz-invariant continuum control gives c_g = 1. So an induced-stiffness substrate needs a locally Lorentz-symmetric cutoff. S2 (γ, modes) not run.
+- [37A](results/EX-GC37A/EX-GC37A_note.md): Sakharov induced gravity on Y1, spin-2 sector. The right sign, but gravitons at 0.78–0.85 c, the two polarisations 2.1× apart (corrected after ChatGPT review), and a huge mass term. The Lorentz-invariant continuum control gives c_g = 1. So an induced-stiffness substrate needs a locally Lorentz-symmetric cutoff. S2 (γ, modes) not run.
 
 ## EX-GC36C completed (Claude, exploratory, PI CLOSED 2026-11-25)
 

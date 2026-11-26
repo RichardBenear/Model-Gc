@@ -3,11 +3,25 @@
 2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37A_plan.md). PI closure pending. Cloud container, Python 3.13. Under 0.05 core-h. This is our construction, not LaViolette's Model G.
 
 **Partly.** One lattice scalar on Y1 does make spacetime stiff, with the right sign: induced spin-2 gravitons have positive energy. But the stiffness is not GR's:
-- the induced gravitons travel at only **0.70–0.78 c** (c_g² = 0.51–0.61 for a light scalar);
-- the two polarisations get stiffnesses **2.7× apart**;
+- the induced gravitons travel at only **0.78–0.85 c** (c_g² = 0.61–0.72 for a light scalar; corrected 2026-11-26, first run said 0.70–0.78 c);
+- the two polarisations get stiffnesses **2.1× apart** (corrected; first run said 2.7×);
 - the vacuum produces a graviton mass term about 300–1,800 times larger than the stiffness per unit Q², so it has to be tuned away by hand.
 
 The continuum control, regulated in a Lorentz-invariant way, gives c_g = 1 exactly, as it must. So the cause is Y1's cutoff: a spatial lattice with continuous time. Only stage S1 (the spin-2 sector) was run. Stage S2 (lapse, shift, γ, mode count) was not.
+
+> **Correction 2026-11-26 (after [ChatGPT's review](../../review/EX-GC37AB_chatgpt_review.md)).** The plus-polarisation vertex in the first run was the plain G_a² form, not the 34O action the plan specified. 34O's normal-stress coupling is half plain square and half forward–backward product, which gives K_a² cos²(k_a/2). Rerun with the 34O vertex and a matched contact term (G3 exact diagonalisation agrees to 6e-8):
+>
+> | Mass | plus (34O vertex): A | c_g² | G_ind | cross (unchanged): c_g² |
+> |---:|---:|---:|---:|---:|
+> | 0.1 | 4.48e-4 | **0.716** | 44.4 | 0.607 |
+> | 0.5 | 2.78e-4 | 0.621 | 71.6 | 0.531 |
+> | 1.0 | 1.34e-4 | 0.488 | 148 | 0.429 |
+>
+> - This reproduces ChatGPT's 0.716.
+> - P1 still passes, and P2 still fails: induced gravitons move at 0.78–0.85 c for a light scalar.
+> - The polarisation split is now 2.1×, in the reverse order (cross is the stiffer one). The 2.7× in the summary and the "plus" rows below belong to the superseded vertex and are kept for the record.
+> - "Mass term" below means the zero-momentum TT response. Calling it a physical graviton mass would need the full constraint and gauge sector (S2), as the review notes.
+> - Rows: `s1b.json`; G3 rows `plus34o` in `g3.json`.
 
 ## Method (as planned, S1)
 
