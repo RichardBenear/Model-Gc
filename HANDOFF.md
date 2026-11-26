@@ -1,6 +1,8 @@
 # Handoff — current state
 
-## EX-GC42 completed (Claude, exploratory, PI closure pending)
+**2026-11-26 closures.** Richard: "go ahead and close anything that is open" (11:05 America/Denver). Every Model Gc exploration still open is now PI CLOSED: EX-GC01–26B3 (rows with no closure recorded), 35Q, 35U–X, 37A-S2, 37C, 37D, 38A, 38B, 39A–C, 40A–C, 41A/B and 42. No result was changed. Nothing is open now; the next study needs a new plan and go-ahead.
+
+## EX-GC42 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 PI go-ahead 2026-11-26 17:27 UTC. [Plan](spec/EX-GC42_plan.md) · [Note](results/EX-GC42/EX-GC42_note.md). The 40A pair network is coupled to a lapse N by 37B weights (links N_vN_w, sites N_v), and N is fixed by lattice Poisson sourced by energy density.
 - **With the local vacuum energy subtracted (variant A), a hub sources a universal 1/r.** It holds for 1 or 7 sites and every Δλ, λ₀ and G: the coefficient is the same to 3e-5, the mass equals ΔE₀, and G_eff = G/(1 + 4πG c₂) with c₂ ≈ 0.49 (mostly the half-link energy bookkeeping).
@@ -9,7 +11,7 @@ PI go-ahead 2026-11-26 17:27 UTC. [Plan](spec/EX-GC42_plan.md) · [Note](results
 - **The EP fails under 37B weights** (ΔE₀/N changes 11–17% over N = 0.9–1.1).
 - Suggested next questions (not approved): a natural reason for the vacuum subtraction; whether a positive-energy excitation sources the same G_eff; an N-independent hub.
 
-## EX-GC41 and EX-GC40C completed (Claude, exploratory, PI closure pending)
+## EX-GC41 and EX-GC40C completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 These follow the Codex review of 40A/B. Plans: [EX-GC41](spec/EX-GC41_plan.md), [EX-GC40C](spec/EX-GC40C_plan.md).
 - **[41](results/EX-GC41/EX-GC41_note.md): delay works, bending does not.**
@@ -21,7 +23,7 @@ These follow the Codex review of 40A/B. Plans: [EX-GC41](spec/EX-GC41_plan.md), 
   - So free pair networks cannot make long-range gravity.
   - Suggested next step (not approved): couple a pair network to a lapse field sourced by its energy density, and ask whether a hub sources a universal 1/r lapse.
 
-## EX-GC40A and 40B completed (Claude, exploratory, PI closure pending); 40C outlined, not approved
+## EX-GC40A and 40B completed (Claude, exploratory, PI CLOSED 2026-11-26); 40C outlined, not approved
 
 Richard shared the Chain Theory compendium (2026-11-26). Its gravity is unfinished: its own field equation fails at all 60 cells it tests, and inertia is not treated. We took only its axiom, a vacuum made of maximally entangled pairs. Plan: [spec/EX-GC40_plan.md](spec/EX-GC40_plan.md).
 - [40A](results/EX-GC40A/EX-GC40A_note.md):
@@ -35,7 +37,7 @@ Richard shared the Chain Theory compendium (2026-11-26). Its gravity is unfinish
   - The isotropy gate was below the noise floor.
 - 40C (localised shared-entanglement "hub" as a mass) is outlined in the plan. It needs its own predictions and a go-ahead.
 
-## EX-GC39A, 39B and 39C completed (Claude, exploratory, PI closure pending)
+## EX-GC39A, 39B and 39C completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 Richard's question (2026-11-26): does matter set the lapse, or does the lapse set how matter emerges? Design: [spec/EX-GC39_design.md](spec/EX-GC39_design.md).
 - [39B](results/EX-GC39B/EX-GC39B_note.md): the lapse can shape matter invisibly (same proper size and clock; geodesic fall at 0.997) only if matter is wave-built from the same events as light. A Skyrmion needs its quartic term at weight N⁶. Model Gc's reaction–diffusion particles fail (proper size ∝ N^-1/2). A self-sourced lapse well holds its own field (the Schrödinger–Newton family), up to GμM ≈ 0.55, with no mass selected.
@@ -43,14 +45,14 @@ Richard's question (2026-11-26): does matter set the lapse, or does the lapse se
 - [39A](results/EX-GC39A/EX-GC39A_note.md): entanglement equilibrium on a fixed lattice gives a G, but its size and even its sign depend on how "fixed volume" is defined. The responses are boundary effects. For geometry to come from entanglement, the counts of sites and links must themselves be the geometry.
 - Next idea (not approved): a graph or causal-set substrate where area = number of cut links, with the 39A test repeated there.
 
-## EX-GC38A and 38B completed (Claude, exploratory, PI closure pending)
+## EX-GC38A and 38B completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 Richard's question (2026-11-26): is what makes matter gravitate the mechanism of entanglement?
 - [38A](results/EX-GC38A/EX-GC38A_note.md): vacuum entanglement per unit area vs 37A's induced 1/(4G), same lattice scalar. The universal m² ln m terms agree exactly (1/24π, for both cut orientations and both graviton polarisations). The cutoff-dominated parts do not: the ratio is 2.0–4.8. The plan's continuum value had a factor-2 slip, recorded as a failed clause.
 - [38B](results/EX-GC38B/EX-GC38B_note.md): the half-chain entanglement Hamiltonian is the boost generator, to 0.02–0.8% (lattice Bisognano–Wichmann). With a lapse bump, the local entanglement temperature moves the Tolman way but only about 60% as much as the optical-length prediction. That is a P2 FAIL, and it is not caused by the mass. Open.
 - Next idea (not approved): a Jacobson design note, i.e. use δS = δ⟨K⟩ on small cuts to derive the equation for the lapse N.
 
-## EX-GC37C, 37D and 37A-S2 completed (Claude, exploratory, PI closure pending)
+## EX-GC37C, 37D and 37A-S2 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 - [37C](results/EX-GC37C/EX-GC37C_note.md): moving source. A diffusing, consumed carrier gives a wake and self-drag, i.e. a preferred frame. A wave field with speed 1, sourced by the same consumption, is fore/aft symmetric, Lorentz-contracted (γ within 1.3% to v = 0.4) and drag-free. The 37B mechanism needs N to be a relativistic wave field.
 - [37D](results/EX-GC37D/EX-GC37D_note.md): realising coincidences randomly, event by event, on a wave pumps energy and destroys coherence. A coherent wave has to be a coarse-grained mode of many coincidences.
@@ -395,7 +397,7 @@ Independent qualification complete, Claude review pending. See `results/EX-GC26A
 EX-GC26A2 (ChatGPT) reproduces and checks out (review/EX-GC26A2_claude_review.md): geometric degree exactly −1, lopsided start converges, momentum leak mostly from the box. 26A scoring corrected to 4 of 8 fully met (C1 partial). Next (PI decision): 26B as a gated exploratory inertia check under ChatGPT's five conditions plus the review's additions (Lorentz-boosted initial data, stress-tensor momentum flux, optional pion-mass term to remove wall effects; target ~1%).
 ## EX-GC26B (ChatGPT, exploratory; 2026-11-20)
 
-Complete, review/PI closure pending. Plan published before production d4c98a1. 15 dynamics cases, all endpoint geometric degrees −1, energy drift ≤3.66e-11. Fine h=.15,L=7 low-speed axial/diagonal mass errors +.734%/+.019%; axial .3/.5 misses 1% (+1.08%/+2.43%), transverse and high-speed flux residual gates fail. Larger box and half dt do not materially change .3 axial mass; spatial refinement halves errors. Centered static tensor max error .48%, matched stress caveat. Full precision gate not met; recommend low-speed exploratory continuation or targeted 26B2 stencil qualification before 26E. See `results/EX-GC26B/EX-GC26B_note.md`. 0.56 core-h production within cap.
+Complete; PI CLOSED 2026-11-26. Plan published before production d4c98a1. 15 dynamics cases, all endpoint geometric degrees −1, energy drift ≤3.66e-11. Fine h=.15,L=7 low-speed axial/diagonal mass errors +.734%/+.019%; axial .3/.5 misses 1% (+1.08%/+2.43%), transverse and high-speed flux residual gates fail. Larger box and half dt do not materially change .3 axial mass; spatial refinement halves errors. Centered static tensor max error .48%, matched stress caveat. Full precision gate not met; recommend low-speed exploratory continuation or targeted 26B2 stencil qualification before 26E. See `results/EX-GC26B/EX-GC26B_note.md`. 0.56 core-h production within cap.
 
 ## EX-GC26B review (Claude, 2026-11-21)
 
@@ -404,10 +406,10 @@ Complete, review/PI closure pending. Plan published before production d4c98a1. 1
 excess is a low centroid speed: energy moves slower than P/H along the axes (0.971–0.993) but not diagonally (≥0.995),
 consistent with the two-orientation stencil lacking single-axis mirror symmetry. Momentum loss at speed is lattice
 non-conservation, not box flux. Recommend 26B2: eight-orientation stencil, speed/(P/H) and transverse-P gates, longer
-coast, force-response test. PI closure pending.
+coast, force-response test. PI CLOSED 2026-11-26.
 ## EX-GC26B2 (ChatGPT, exploratory; 2026-11-20)
 
-Complete, Claude review and PI closure pending. Plan published prospectively 897db1c. Eight-orientation mirror-symmetric solver eliminates transverse momentum (~2 million-fold improvement at .2/.3 axis), but primary v/(P/H) still fails .5%; exact semidiscrete bond energy-current expression explains old/new ratios to 1.7e-4. T5 speed loss .63% passes, global momentum drift 1.98e-3 fails. Linear weak-force pair M/E=.783, squared-deficit core control 1.056; both fail 1% force and impulse gates, strong tail/centroid coupling sensitivity. All ten dynamics endpoints degree −1, total energy drift ≤4.40e-11. .856 core-h. Precision 26E remains blocked; recommend current-consistent higher-order operator and force-response convergence tests. See `results/EX-GC26B2/EX-GC26B2_note.md`.
+Complete; PI CLOSED 2026-11-26. Plan published prospectively 897db1c. Eight-orientation mirror-symmetric solver eliminates transverse momentum (~2 million-fold improvement at .2/.3 axis), but primary v/(P/H) still fails .5%; exact semidiscrete bond energy-current expression explains old/new ratios to 1.7e-4. T5 speed loss .63% passes, global momentum drift 1.98e-3 fails. Linear weak-force pair M/E=.783, squared-deficit core control 1.056; both fail 1% force and impulse gates, strong tail/centroid coupling sensitivity. All ten dynamics endpoints degree −1, total energy drift ≤4.40e-11. .856 core-h. Precision 26E remains blocked; recommend current-consistent higher-order operator and force-response convergence tests. See `results/EX-GC26B2/EX-GC26B2_note.md`.
 
 ## EX-GC26B2 review (Claude, 2026-11-21)
 
@@ -416,7 +418,7 @@ right (fixed transverse P, not the axial speed gap). ChatGPT's exact bond-curren
 old stencil with the 26A code (`review/EX-GC26B2_check/`): J/P 0.9815 axis, 0.9988 diagonal vs fitted 0.9817/0.9988.
 Post hoc: core-force P/v = 1.008 E0; the force miss is mainly dP/dt ≈ 0.96 fQ. Recommendation: stop stencil
 qualification, record error budget (~1.5% h=.2, ~0.7% h=.15, ~h²), design 26E as a comparative test at matched w/h,
-one short ramped core-force step first. PI decision and closure pending.
+one short ramped core-force step first. PI CLOSED 2026-11-26.
 
 ## EX-GC26E1 (Claude, exploratory; 2026-11-21)
 

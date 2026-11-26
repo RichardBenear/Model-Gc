@@ -880,9 +880,9 @@ The origin of the universal energy coupling, its relationship to the reaction–
 | [35I](../results/EX-GC35I) | Prescribed local clocks | Event counts, redshift, and wave-normal rotation across a lapse step | PI closed |
 | [35J](../results/EX-GC35J) | Soft Skyrme constraint | Link chain-rule counterexample | PI closed |
 | [35K](../results/EX-GC35K) | Matter-sourced event clocks | Near-doubling of bend with remaining absolute error | PI closed |
-| [35L](../results/EX-GC35L), [35O](../results/EX-GC35O) | Carrier histories and reciprocal clocks | Ledger agreement with inequivalent competing-event graphs | Exploratory, PI closure pending |
-| [35M](../results/EX-GC35M) | Local constraint damping | Residual reduction with failed accuracy gates | Exploratory, PI closure pending |
-| [35N](../results/EX-GC35N) | Lens refinement | Stable bend ratio and a remaining absolute difference | Exploratory, PI closure pending |
+| [35L](../results/EX-GC35L), [35O](../results/EX-GC35O) | Carrier histories and reciprocal clocks | Ledger agreement with inequivalent competing-event graphs | Exploratory, PI CLOSED 2026-11-24 |
+| [35M](../results/EX-GC35M) | Local constraint damping | Residual reduction with failed accuracy gates | Exploratory, PI CLOSED 2026-11-24 |
+| [35N](../results/EX-GC35N) | Lens refinement | Stable bend ratio and a remaining absolute difference | Exploratory, PI CLOSED 2026-11-24 |
 
 Each study's note is in `results/<ID>/` (EX002–EX007 in `docs/lineage/`); plans in `explore/LOG.md` and `spec/`;
 figures in `paper/figures/`.

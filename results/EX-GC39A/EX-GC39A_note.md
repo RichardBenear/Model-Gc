@@ -1,6 +1,6 @@
 # EX-GC39A — entanglement equilibrium on the lattice (does matter set the geometry?)
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC39A_plan.md) · [design note](../../spec/EX-GC39_design.md). PI closure pending. Cloud container, Python 3.13, numpy, python-flint. About 0.1 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC39A_plan.md) · [design note](../../spec/EX-GC39_design.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numpy, python-flint. About 0.1 core-h. This is our construction, not LaViolette's Model G.
 
 **Not as Jacobson's argument needs.** On our lattice, the entanglement of a block does respond both to curvature and to matter, and the first law holds exactly. Imposing "entanglement equilibrium" does give a Newton-like G that is roughly the same for every block size. But:
 - **Both responses grow like the block's surface (ℓ²), not like Jacobson's ℓ⁴.** They are cutoff effects at the block's boundary, not the bulk curvature and energy balance his derivation uses.

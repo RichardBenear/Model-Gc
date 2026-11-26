@@ -1,6 +1,6 @@
 # EX-GC42 — a pair network coupled to an energy-sourced lapse: does a hub source a universal 1/r?
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC42_plan.md), committed before any run. PI closure pending. Cloud container (1 core), Python 3.13, numpy 2.5. About 0.45 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC42_plan.md), committed before any run. PI CLOSED 2026-11-26. Cloud container (1 core), Python 3.13, numpy 2.5. About 0.45 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
 
 **Yes, but only after the vacuum's own energy is subtracted by hand, and the "mass" comes out negative.**
 - **Variant A (local vacuum energy subtracted): universal 1/r. PASS.**

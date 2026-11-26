@@ -1,6 +1,6 @@
 # EX-GC35U — producible input borders on strings
 
-2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35U_plan.md). PI closure pending.
+2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35U_plan.md). PI CLOSED 2026-11-26.
 
 **Both registered predictions held.** Rechecking the same 734 nonexpanding singleton and two-rule systems left zero binary and two ternary passes on the revised local border. The four earlier plain-graph survivors through length seven were unchanged. The pass for the ternary pair (01→1,12→1) and its mirror arises because only symbol 1 can be produced. The fixed 0 and 2 input ports that distinguished the strict-border histories can never be outputs of this rule set. The binary pair (01→1,001→01) produces both symbols and fails the revised border as before.
 

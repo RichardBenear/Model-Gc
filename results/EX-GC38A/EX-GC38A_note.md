@@ -1,6 +1,6 @@
 # EX-GC38A — is gravity's stiffness the vacuum's entanglement? (area law vs induced 1/4G on the Y1 lattice)
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC38A_plan.md). PI closure pending. Cloud container, Python 3.13, numpy, scipy. About 0.15 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC38A_plan.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numpy, scipy. About 0.15 core-h. This is our construction, not LaViolette's Model G.
 
 **Half yes.** For one lattice scalar on Y1:
 - **The universal part matches exactly.** The m² ln m term of the vacuum entanglement entropy per unit area equals the m² ln m term of the induced 1/(4G), to 0.5% (4-term fit) or 0.03% (5-term fit), for both cut orientations and both graviton polarisations. All four equal the continuum 1/(24π).

@@ -1,6 +1,6 @@
 # EX-GC35Q — whole-element carrier rules and critical pairs
 
-2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35Q_plan.md) · [Claude review](../../review/EX-GC35P_claude_review.md). PI closure pending.
+2026-11-24 | EXPLORATORY | ChatGPT | [Registered plan](../../spec/EX-GC35Q_plan.md) · [Claude review](../../review/EX-GC35P_claude_review.md). PI CLOSED 2026-11-26.
 
 **Only one-species exclusion passed the full finite screen.** The pass-through and nonrecoiling absorber examples in the review pass as plain causal graphs on their highlighted overlaps. Both fail in larger contexts.
 

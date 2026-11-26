@@ -1,6 +1,6 @@
 # EX-GC40B — event counting on an irregular pair network
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC40_plan.md). PI closure pending. Cloud container, Python 3.13, numpy 2.5, scipy, numba. About 0.1 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC40_plan.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numpy 2.5, scipy, numba. About 0.1 core-h. This is our construction, not LaViolette's Model G.
 
 **37B's counting rule works on a random network, with no lattice and no lengths.**
 - Every link costs the same in flat space, whatever its length, so the geometry is pure counting.

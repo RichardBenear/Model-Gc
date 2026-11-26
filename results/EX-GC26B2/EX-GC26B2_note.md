@@ -2,7 +2,7 @@
 
 **Summary.** The eight-orientation reflection-symmetric stencil almost eliminates unwanted transverse momentum, but does not fix the longitudinal energy-flow/momentum mismatch. A new exact semidiscrete energy-current calculation explains this mismatch in both the old and new stencil: adjacent-site velocity enters energy flux, whereas the canonical momentum estimator uses same-site velocity. Fine-grid errors still exceed the .5% ratio target. A longer coast passes the speed-loss criterion but fails the global momentum criterion. A known weak external force produces direction-symmetric but biased acceleration; reducing coupling to the tail improves the inferred mass from .783 to 1.056 E0 without passing the gate. Thus precision inertia/gravity calibration is not ready, even though all ten cases conserve energy and retain geometric degree. No new physical inertia claim. Recommend targeted current-consistent higher-order discretization and a localized weak-force response convergence test rather than progressing to precision 26E.
 
-PI Richard Benear; design, implementation and runs ChatGPT; review Claude pending. Plan prospectively published to main 897db1c5c307cc9d2f75397b045daed324b70c59, base f0b4e8b. Plain massless Skyrme theory, numerical construction ours, no G or chemistry. See `spec/EX-GC26B2_plan.md`, `review/EX-GC26B_response.md`.
+PI Richard Benear; design, implementation and runs ChatGPT; review Claude pending. PI CLOSED 2026-11-26. Plan prospectively published to main 897db1c5c307cc9d2f75397b045daed324b70c59, base f0b4e8b. Plain massless Skyrme theory, numerical construction ours, no G or chemistry. See `spec/EX-GC26B2_plan.md`, `review/EX-GC26B_response.md`.
 
 ## Review and method
 

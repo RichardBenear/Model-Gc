@@ -1,6 +1,6 @@
 # EX-GC35V — bounded typed hypergraph search
 
-2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35V_plan.md). PI closure pending.
+2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35V_plan.md). PI CLOSED 2026-11-26.
 
 **Zero typed candidates qualified for the second-stage screen.** The 297 directed rules preserve one C relation per event. The explicit slice uses one carrier, optionally a helper on the same two variables, and up to two output helpers. Output vertices in the catalogue come from the match. Distinct consumed relations are matched as separate instances, with noninjective vertex assignments allowed. We enumerated seeds on two vertices representing minimal shared-relation forks, preserving initial vertices and input ports whose relation type can be produced. Each fork got up to two equal-length additional rewrites after the first choice.
 

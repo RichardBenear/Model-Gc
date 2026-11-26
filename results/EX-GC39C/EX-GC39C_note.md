@@ -1,6 +1,6 @@
 # EX-GC39C — does a free lapse field radiate? (scalar radiation from an orbiting pair)
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC39C_plan.md) · [design note](../../spec/EX-GC39_design.md). PI closure pending. Cloud container, Python 3.13, numpy/scipy. About 0.15 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC39C_plan.md) · [design note](../../spec/EX-GC39_design.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numpy/scipy. About 0.15 core-h. This is our construction, not LaViolette's Model G.
 
 **Yes. A freely propagating lapse field radiates 1/6 as much power as GR's gravitational waves, so N cannot be a free field with full gravitational coupling.**
 - An orbiting pair on the lattice radiates 0.1606 × the GR quadrupole power. The analytic prediction is 1/6, and with the sources' finite size 0.1625.

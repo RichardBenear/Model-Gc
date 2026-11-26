@@ -1,6 +1,6 @@
 # EX-GC39B — does the lapse shape matter? (equivalence-principle scaling; self-held lapse wells)
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC39B_plan.md) · [design note](../../spec/EX-GC39_design.md). PI closure pending. Cloud container, Python 3.13. About 0.2 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC39B_plan.md) · [design note](../../spec/EX-GC39_design.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13. About 0.2 core-h. This is our construction, not LaViolette's Model G.
 
 **The lapse can shape matter consistently, and can even hold matter together on its own. But only matter built like light does it right, and the lapse does not pick out particle masses.**
 - **B1: what kind of matter passes.** Under 37B's event weights, particles made of waves keep their proper size and clock in any lapse and fall at GR's rate. A φ⁴ kink falls at 0.997 of the GR rate, and two different kinks agree to 0.03%. Reaction–diffusion particles (Model Gc) do not: their proper size scales as N^{-1/2}, so local physics changes from place to place. The Skyrmion passes only if its four-derivative term is carried by events of weight N⁶.

@@ -1,6 +1,6 @@
 # EX-GC38B — is the entanglement temperature the clock? (lattice Bisognano–Wichmann and Tolman)
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC38B_plan.md) (implementation spec A1 committed before any run). PI closure pending. Cloud container, Python 3.13, python-flint (arbitrary precision). About 0.4 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC38B_plan.md) (implementation spec A1 committed before any run). PI CLOSED 2026-11-26. Cloud container, Python 3.13, python-flint (arbitrary precision). About 0.4 core-h. This is our construction, not LaViolette's Model G.
 
 **Bisognano–Wichmann holds on the lattice almost exactly. The Tolman response to a lapse has the right sign and shape but only about 60% of the predicted size.**
 - **Flat lattice, half-chain cut.** The vacuum looks thermal with respect to the boost: the entanglement Hamiltonian is K ≈ 2π Σ x·(local energy density). The local inverse temperature is β(x)/(2πx) = 0.9998 at the cut, and still 0.992 twenty sites out.

@@ -1,6 +1,6 @@
 # EX-GC35X — background-gated probe in exclusion
 
-2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35X_plan.md). PI closure pending.
+2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35X_plan.md). PI CLOSED 2026-11-26.
 
 **Equal speed in the probe's own gated ticks is built into the rule. The probe does not slow in proportion to the fixed-site background rate.** The independent probe is a read-only passenger on a 32- or 64-site exclusion ring. During each causal layer it may move one site right exactly when there is a background event at its current site. Eligibility is assessed at the start of each layer, so coincident events cannot drive two successive hops. Average over all initial probe sites on the common measurement window. Compare to a marked ordinary carrier, and repeat with the reverse-depth foliation.
 

@@ -1,6 +1,6 @@
 # EX-GC35W — recoil with a persistent particle vertex
 
-2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35W_plan.md). PI closure pending.
+2026-11-25 | EXPLORATORY | ChatGPT | [Plan](../../spec/EX-GC35W_plan.md). PI CLOSED 2026-11-26.
 
 **Recoil reintroduces order dependence even when the particle vertex persists.** A carrier on either adjacent site can be consumed and leave a signed deposit on P. The position relation is read for absorption. A recoil with enough net signed deposits consumes the current position and a threshold-sized group of same-sign deposits and moves one site toward that sign. Delayed initial carriers have one optional arrival event. The line has five sites and P starts at site 2. Each rule conserves the carrier accounting when deposits and spent deposits are included.
 
