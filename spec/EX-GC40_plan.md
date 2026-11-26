@@ -127,6 +127,17 @@
 - **G6:** the mean stochastic link time against the rate-sum formula, including 37B's known 0.84% start-up offset.
 - **G7:** two graph seeds give P8 and P9 values that agree within their stated tolerances.
 
+## 40C — follow-on, after 40A: is a shared-entanglement "hub" a mass? (outline only)
+
+The compendium builds mass from reads that pass through hubs, systems shared by more than one link (its Part X, Theorems 185.6–185.9). 40A's uniform λ spreads sharing everywhere, which makes it a vacuum property. 40C puts the sharing in one place.
+- **Body:** λ ≠ 0 only on a small cluster of sites (radius 1–2) in an otherwise pure pair network, or on a dressed background at λ₀ with λ₀ + Δλ on the cluster.
+- **Readouts:**
+  - the energy the hub carries;
+  - whether it is a localised, gapped excitation (a mass);
+  - the profile of δS_B and of the equilibrium rewiring around it with distance;
+  - whether that profile falls off as 1/r (Newton) or stops at the cluster edge.
+- 40C gets its own predictions, written after 40A's results and before any 40C run.
+
 ## What a result would mean
 
 **40A, if P3 holds and P4 passes at λ > 0.**
