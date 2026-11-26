@@ -1,0 +1,27 @@
+# Independent review of EX-GC42
+
+2026-11-26 | Codex
+
+**GC42 identifies what spoils Newtonian behavior in the proposed pair-network model.** The model recovers a common 1/r response after subtracting the vacuum’s local response to the lapse. With that response retained, the field is dominated by box-sensitive modes. The most valuable next step is to derive the lapse source and vacuum subtraction from one consistent model, then test it with a positive-energy excitation of the unchanged Hamiltonian. [GC42 plan](../spec/EX-GC42_plan.md) · [GC42 results](../results/EX-GC42/EX-GC42_note.md)
+
+## What GC42 establishes
+
+**Variant A passes its registered far-field test.** At fixed background and input G, the fitted coefficient per unit defect energy agrees across hub sizes and strengths to about 3.2 × 10⁻⁵. The effective coupling is about 0.5% below the input coupling at the weaker setting and 2.3–2.4% below it at the stronger setting. The dense self-consistency check agrees with the linear calculation to better than 0.1% for the one small-box case tested. The leading universality follows from the model’s structure. After subtraction, every localized source is passed through the same Poisson-like kernel, and the leading far field depends on its total energy. The independent refit uses the same field profiles and checks sensitivity to the fit. [GC42 results](../results/EX-GC42/EX-GC42_note.md) · [Dense check](../results/EX-GC42/c2.json) · [Refit source](../src/exgc42_recompute.py)
+
+**Variant B’s clearest result is the large negative vacuum response, K(0) ≈ −6.** It creates a finite-wavenumber pole in the linearized static response. The periodic calculation removes the mean source and fixes the mean lapse, so it tests the nonzero modes around a chosen background. The poor 1/r fit is clear, and the registered prediction for the oscillation wavenumber failed. The dense check on an 8³ box leaves the near-resonance behavior of the 128³ box untested. This is a boundary-sensitive static response for the chosen coupling. A dynamical instability would require a time-evolution law and a separate stability calculation. [GC42 source](../src/exgc42.py) · [GC42 results](../results/EX-GC42/EX-GC42_note.md)
+
+**The negative source and redshift results need precise labels.** The hub lowers the ground-state energy when the local Hamiltonian is changed. Given the chosen source law, that makes it a negative active gravitational source relative to the reference vacuum. Establishing a mobile negative-mass particle would require a separate test. The 11–17% variation of ΔE₀/N is a clear failure of the tested uniform-lapse redshift criterion. Free fall and the relation between inertial and gravitational mass remain unmeasured. [GC42 results](../results/EX-GC42/EX-GC42_note.md)
+
+## The main gap
+
+GC42 assembles the feedback in two steps. The lapse weights the matter Hamiltonian, then the code feeds a partition of that Hamiltonian’s energy back into the lapse constraint. **The quantity conjugate to the lapse generally differs from that assigned energy density.** Under a uniform lapse, write the Hamiltonian as `H(N) = N² H_link + N H_site`. Its derivative is `2 N H_link + H_site`. Even at N = 1, the link contribution carries a factor of two in the derivative. If the constraint comes from varying a common energy functional with respect to N, that difference has to be accounted for. It can change the defect’s source charge, the vacuum response, and the interpretation of the small screening correction, which the results note attributes largely to how link energy is assigned to sites. [GC42 plan](../spec/EX-GC42_plan.md) · [GC42 source](../src/exgc42.py)
+
+## What I would do next
+
+1. **Compare the assigned-energy source with the lapse-conjugate source.** Use the same defects and compute both integrated charges and both small-q vacuum kernels. For the conjugate source, derive the constraint and any vacuum subtraction from one functional. Test whether K(0) vanishes for a reason within the model or needs to be canceled by an explicit counterterm.
+2. **Use two positive-energy preparations of the unchanged Hamiltonian.** Prepare localized excitations with equal excess energy but different spatial profiles or different mixes of link and on-site energy. Specify whether the comparison is static or over a fixed time window. Test the sign and far-field coefficient with one G and one vacuum prescription. Equal-energy sources with different measured charges would directly challenge the proposed energy universality.
+3. **Separate the raw-vacuum result from the periodic resonance.** Track the response as box size moves the allowed modes through the predicted pole, and repeat with the lapse fixed at an outer boundary. Use the full measured kernel to locate the pole. Before automating reruns, fix the data handoff. The current kernel generator applies the corrected q = π normalization, while the far-field driver still halves that entry to accommodate the old saved file. Running both stages fresh would apply the correction twice. [GC42 source](../src/exgc42.py)
+
+GC42 supplies the source-to-lapse link that GC40C lacked, conditional on a prescribed constraint and vacuum subtraction. The next milestone is a single source prescription that predicts what a positive-energy excitation does to the lapse and can then be used unchanged in the GC41 propagation benchmark.
+
+Review scope includes the plan, implementation, results note, dense-check output, and refit code. The simulations were not rerun for this review.
