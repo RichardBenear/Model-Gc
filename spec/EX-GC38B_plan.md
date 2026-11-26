@@ -33,3 +33,14 @@ That would tie entanglement, thermodynamics, time and gravity together in one qu
 ## Outputs
 
 `src/exgc38b.py`, `results/EX-GC38B/`. A design note for the Jacobson step (entanglement equilibrium giving the linearised Einstein equation) follows only after 38B.
+
+**Implementation specification A1 (2026-11-26, written before any 38B run).**
+- **Geometry.** An open chain of 2L sites with Dirichlet walls (φ = 0 beyond both ends); the region is the right half, sites j = 1..L, so there is one entangling cut, between sites 0 and 1. Distance from the cut: j − ½ for a site, j for the link (j, j+1). L = 100 (5ξ at m = 0.05).
+- **Hamiltonian with lapse.** H = Σ_j N_j(½π_j² + ½m²φ_j²) + Σ_j N_{j+½}·½(φ_{j+1} − φ_j)², N on links = mean of the two sites. Flat case N ≡ 1.
+- **Entanglement Hamiltonian.** K = ½πᵀ𝒩π + ½φᵀℳφ with A = X^{1/2}PX^{1/2} = U diag(ν²) U⁻¹: 𝒩 = X^{1/2}U diag(ε/ν) U⁻¹X^{1/2}, ℳ = X^{-1/2}U diag(εν) U⁻¹X^{-1/2}, ε = ln((2ν+1)/(2ν−1)). Large ε needs ν − ½ ~ e^{−ε}, so everything (including X and P) is computed in arbitrary precision (python-flint arb, 500 bits; convergence checked at 800 bits).
+- **Local inverse temperature.** β_π(j) = 𝒩_jj (the proper π² coefficient of ℋ is ½); β_link(j) = −ℳ_{j,j+1}.
+- **P1** is scored on β_π(j)/(2π(j − ½)) for 3 ≤ j ≤ 20 at m = 0.05 (j = 1, 2 are "at the cut"), all within 10% of 1.
+- **P2 operational Tolman prediction.** Write the metric as N²(−dt² + dy²) with dy = dx/N. The boost Killing vector about the cut has norm N·(y − y_cut), so β_loc(x) = 2π N(x) ∫_cut^x dx'/N(x'). To first order in ε, δβ(x) = 2πε[x f(x) − ∫_0^x f]. Lapse N = 1 + εf, f(x) = exp(−(x − 10)²/(2·4²)) on the region side only (f = 0 for x < 0), ε = 0.1, m = 0.05. Score: the lattice δβ_π = β_π(N) − β_π(flat) over 3 ≤ j ≤ 20 against the prediction; pass if the RMS difference is ≤ 10% of the RMS predicted change. Also shown, not scored: the naive local "β ∝ N" form δβ = 2πεx f(x). Expected caveat: the mass term m²N² breaks the conformal map at order ε(mx)², which is small here.
+- **P3.** max |ℳ_{ij}| over |i − j| ≥ 2, relative to the nearest-neighbour ℳ, and the largest off-diagonal 𝒩 relative to the diagonal, in rows j ≤ 20.
+- **G1.** The entropy from K's spectrum (eigenvalues of 𝒩ℳ are ε²) equals the double-precision symplectic entropy of the same block (38A's `sym_entropy`).
+- **G2.** Continuum approach: β_π/(2πx) at fixed x·m = 0.5 for m = 0.1, 0.05, 0.025 should tend to 1.
