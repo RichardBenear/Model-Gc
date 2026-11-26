@@ -1,6 +1,6 @@
 # EX-GC36B — order-free particles, odd vacuum forks, and a calibrated delayed-join test
 
-2026-11-25 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC36B_plan.md). PI closure pending. Cloud container, Python 3.13. About 0.69 core-h of the 2 core-h cap.
+2026-11-25 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC36B_plan.md). **PI CLOSED 2026-11-25** (Richard: "Close 36A/B/C"). Cloud container, Python 3.13. About 0.69 core-h of the 2 core-h cap.
 
 **Only 1 of CRR's 80 closed-particle rules (66427) keeps its particle once the vertex-order condition is removed. Rule 55744 does not.** The repaired test now finds known delayed joins, including ones of unequal length. Under it, the published Wolfram rule's forks all rejoin. But the branches of CRR particles still do not reconverge. For 55744's particle that holds through 6 events per side. For 66427's order-free particle it holds through 5 per side, where the state cap was reached. In the 55744 vacuum, only 1 of 28 competing forks rejoined within 6.
 
