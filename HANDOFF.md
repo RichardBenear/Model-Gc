@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## EX-GC42 completed (Claude, exploratory, PI closure pending)
+
+PI go-ahead 2026-11-26 17:27 UTC. [Plan](spec/EX-GC42_plan.md) · [Note](results/EX-GC42/EX-GC42_note.md). The 40A pair network is coupled to a lapse N by 37B weights (links N_vN_w, sites N_v), and N is fixed by lattice Poisson sourced by energy density.
+- **With the local vacuum energy subtracted (variant A), a hub sources a universal 1/r.** It holds for 1 or 7 sites and every Δλ, λ₀ and G: the coefficient is the same to 3e-5, the mass equals ΔE₀, and G_eff = G/(1 + 4πG c₂) with c₂ ≈ 0.49 (mostly the half-link energy bookkeeping).
+- **If all energy gravitates (variant B), there is no Newton law.** dρ_vac/dN ≈ −6 makes the constraint a Helmholtz equation, which is box-resonant with no unique decaying solution. This is the cosmological-constant problem in miniature.
+- **A hub's mass is negative** (sharing lowers the energy), so it raises N nearby.
+- **The EP fails under 37B weights** (ΔE₀/N changes 11–17% over N = 0.9–1.1).
+- Suggested next questions (not approved): a natural reason for the vacuum subtraction; whether a positive-energy excitation sources the same G_eff; an N-independent hub.
+
 ## EX-GC41 and EX-GC40C completed (Claude, exploratory, PI closure pending)
 
 These follow the Codex review of 40A/B. Plans: [EX-GC41](spec/EX-GC41_plan.md), [EX-GC40C](spec/EX-GC40C_plan.md).
