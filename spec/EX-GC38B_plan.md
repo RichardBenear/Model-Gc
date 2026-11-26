@@ -1,6 +1,6 @@
 # EX-GC38B — is the entanglement temperature the clock? (lattice Bisognano–Wichmann and Tolman)
 
-2026-11-26 | EXPLORATORY | Claude | **DRAFT: awaiting PI go-ahead. Nothing has been run.** Default cap 2 core-hours; expected under 0.5. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | PI go-ahead on decision card ("Yes, plan and run 38A then 38B", 2026-11-26 02:10 UTC). Written before any run. Default cap 2 core-hours; expected under 0.5. This is our construction, not LaViolette's Model G.
 
 ## Why
 
