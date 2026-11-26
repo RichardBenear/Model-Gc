@@ -1,6 +1,20 @@
 # Handoff — current state
 
-## EX-GC37A and EX-GC37B completed (Claude, exploratory, PI closure pending)
+## EX-GC38A and 38B completed (Claude, exploratory, PI closure pending)
+
+Richard's question (2026-11-26): is what makes matter gravitate the mechanism of entanglement?
+- [38A](results/EX-GC38A/EX-GC38A_note.md): vacuum entanglement per unit area vs 37A's induced 1/(4G), same lattice scalar. The universal m² ln m terms agree exactly (1/24π, for both cut orientations and both graviton polarisations). The cutoff-dominated parts do not: the ratio is 2.0–4.8. The plan's continuum value had a factor-2 slip, recorded as a failed clause.
+- [38B](results/EX-GC38B/EX-GC38B_note.md): the half-chain entanglement Hamiltonian is the boost generator, to 0.02–0.8% (lattice Bisognano–Wichmann). With a lapse bump, the local entanglement temperature moves the Tolman way but only about 60% as much as the optical-length prediction. That is a P2 FAIL, and it is not caused by the mass. Open.
+- Next idea (not approved): a Jacobson design note, i.e. use δS = δ⟨K⟩ on small cuts to derive the equation for the lapse N.
+
+## EX-GC37C, 37D and 37A-S2 completed (Claude, exploratory, PI closure pending)
+
+- [37C](results/EX-GC37C/EX-GC37C_note.md): moving source. A diffusing, consumed carrier gives a wake and self-drag, i.e. a preferred frame. A wave field with speed 1, sourced by the same consumption, is fore/aft symmetric, Lorentz-contracted (γ within 1.3% to v = 0.4) and drag-free. The 37B mechanism needs N to be a relativistic wave field.
+- [37D](results/EX-GC37D/EX-GC37D_note.md): realising coincidences randomly, event by event, on a wave pumps energy and destroys coherence. A coherent wave has to be a coarse-grained mode of many coincidences.
+- [37A S2](results/EX-GC37A/EX-GC37A_note.md): static scalar sector of induced gravity on Y1. γ = 0.236 (gauge h_L = 0), large Ward violations, but the lapse stays non-dynamical. Fails worse than the spin-2 sector.
+- Next idea (not approved): a rule where firing-rate changes propagate by the same two-site coincidences as light, so N obeys a wave equation at the light speed.
+
+## EX-GC37A and EX-GC37B completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 Both test a *mechanism* for gravity rather than putting GR's equation in by hand (Richard's restated goal, 2026-11-25).
 - [37B](results/EX-GC37B/EX-GC37B_note.md): sites fire at a local rate N. Clocks are one-site events (rate N). Propagation needs two sites to fire together (speed N²). That gives the weak-field metric with γ = 1: token delay ratio 2.00–2.08, wave bending ratio 2.04, no spatial metric put in. A consumed, diffusing carrier sets N = 1 − GM/r. Open: why propagation is a coincidence, second order, and the moving-source / preferred-frame test (B3).

@@ -1,6 +1,6 @@
 # EX-GC37A — does gravity's stiffness come from the matter field? (induced gravity on Y1, spin-2 sector)
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37A_plan.md). PI closure pending. Cloud container, Python 3.13. Under 0.05 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37A_plan.md). **PI CLOSED 2026-11-26** (Richard: "close 37A/B"). Cloud container, Python 3.13. Under 0.05 core-h. This is our construction, not LaViolette's Model G.
 
 **Partly.** One lattice scalar on Y1 does make spacetime stiff, with the right sign: induced spin-2 gravitons have positive energy. But the stiffness is not GR's:
 - the induced gravitons travel at only **0.78–0.85 c** (c_g² = 0.61–0.72 for a light scalar; corrected 2026-11-26, first run said 0.70–0.78 c);
@@ -50,6 +50,35 @@ The continuum control, regulated in a Lorentz-invariant way, gives c_g = 1 exact
 - **The mass term is enormous.** contact + bubble(0) is about 0.75 in lattice units, against A ≈ 10⁻³. Without a hand-tuned counterterm, the induced graviton would have a mass far above the cutoff. This is the lattice form of the cosmological-constant problem, which the plan subtracted as one recorded tuning.
 - **Coefficient fits are stable.** With steps (.02, .04), (.04, .08) and (.1, .2), c_g² changes by less than 1e-4.
 - **P3 (γ) and P4 (two modes, λ) are not scored.** S2 was not run. It needs the lapse and shift couplings at second order and their Ward identities, which is the 34S–34Z difficulty. This is a deviation from the plan's two-stage scope.
+
+## Stage S2, static scalar sector (amendment A2, run 2026-11-26)
+
+**P3 FAIL.** In the static scalar sector the induced kernel is not GR's:
+- in the gauge h_L = 0 the light-bending parameter comes out **γ = 0.236**;
+- the kernel strongly violates the static displacement-gauge identity, so that number depends on the gauge;
+- one GR feature does come out right: the induced lapse stays non-dynamical.
+
+**Static kernel, q² coefficients** (m = 0.5; 32³ and 48³ agree to 4 digits):
+
+| | nn | nT | nL | TT | TL | LL |
+|---|---:|---:|---:|---:|---:|---:|
+| b (q² coefficient) | −9e-6 | 0.0433 | 0.0219 | 0.0918 | 0.0219 | −0.0010 |
+
+- **γ = Π_Tn / (2Π_TT) = 0.236** with h_L = 0, sourced through n. The registered gate was within 2% of 1.
+- **The same formula on the 34N Y1 Einstein–Hilbert kernel gives exactly 1** (control), and that kernel's nn, nL, TL and LL entries vanish.
+- **Ward residuals** (0 if the induced action were invariant under static displacements):
+  - Π_TL/Π_TT = 0.24;
+  - Π_nL/Π_nT = 0.51;
+  - Π_LL/Π_TT = −0.011.
+- **Without a gauge choice the result is not even isotropic.** If h_L is treated as physical, the solve gives h_T = −0.92n and h_L = +1.86n, i.e. "γ_T" 0.46 and "γ_L" −0.93. Not a metric GR would recognise.
+- **What does come out right:** Π_nn has essentially no q² term (nn/nT = −2e-4) and is exactly 0 at q = 0. The lapse stays a Lagrange-multiplier-like field, as in GR. That is structural, because the Hamiltonian is linear in N.
+- **Separate path:** full real-space 6³ diagonalisation agrees with the block method to 2e-16.
+- **Caveat on model dependence.** The linear vertices are 34O's. The second-order (seagull) terms were chosen ultralocal so that they add no q dependence. An exactly displacement-invariant second-order lattice action could change the q² parts. 34S–34Z found no exact cubic gauge identity on Y1, so no such action is known to exist. The S2 numbers are therefore for the stated model, and the Ward violation says that this model, like Y1's cutoff, breaks spatial diffeomorphism invariance at O(1).
+- The dynamic part of S2 (λ and the mode count) was not run.
+
+**What S2 adds (inference).** The static, Newtonian-plus-bending sector fails more badly than the spin-2 sector. The induced theory on Y1 is not GR in any sector except the lapse's multiplier structure. That strengthens the 37A lesson: induced gravity needs a substrate whose cutoff respects the spacetime symmetries, not a lattice that only approximates them.
+
+Code: [src/exgc37a_s2.py](../../src/exgc37a_s2.py) · results `s2_run.json`, `s2_check.json`.
 
 ## Checks
 

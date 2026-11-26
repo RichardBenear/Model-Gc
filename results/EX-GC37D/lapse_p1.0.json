@@ -1,0 +1,41 @@
+{
+  "rows": [
+    {
+      "mode": "lapse",
+      "p0": 1.0,
+      "seed": 1,
+      "group_angle": -1.61764997020487,
+      "phase_angle": -1.5118516100860542,
+      "norm_ratio": 0.974578429168832,
+      "coherent_fraction": 0.9949503632064604,
+      "acceptance": 0.9999873956495082,
+      "finite": true,
+      "out_hash": -8971372202835362358
+    },
+    {
+      "mode": "lapse",
+      "p0": 1.0,
+      "seed": 2,
+      "group_angle": -1.6171911448188947,
+      "phase_angle": -1.5110688659970368,
+      "norm_ratio": 0.9745817815413415,
+      "coherent_fraction": 0.9946946797014554,
+      "acceptance": 0.9999870994800062,
+      "finite": true,
+      "out_hash": 8656335523062780441
+    },
+    {
+      "mode": "lapse",
+      "p0": 1.0,
+      "seed": 3,
+      "group_angle": -1.6219816244686336,
+      "phase_angle": -1.5157513651441035,
+      "norm_ratio": 0.9746728172256104,
+      "coherent_fraction": 0.9948246047681644,
+      "acceptance": 0.9999874221488847,
+      "finite": true,
+      "out_hash": 1759907900402393335
+    }
+  ],
+  "cpu_seconds": 114.059549151
+}
