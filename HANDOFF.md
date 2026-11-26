@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## EX-GC39A, 39B and 39C completed (Claude, exploratory, PI closure pending)
+
+Richard's question (2026-11-26): does matter set the lapse, or does the lapse set how matter emerges? Design: [spec/EX-GC39_design.md](spec/EX-GC39_design.md).
+- [39B](results/EX-GC39B/EX-GC39B_note.md): the lapse can shape matter invisibly (same proper size and clock; geodesic fall at 0.997) only if matter is wave-built from the same events as light. A Skyrmion needs its quartic term at weight N⁶. Model Gc's reaction–diffusion particles fail (proper size ∝ N^-1/2). A self-sourced lapse well holds its own field (the Schrödinger–Newton family), up to GμM ≈ 0.55, with no mass selected.
+- [39C](results/EX-GC39C/EX-GC39C_note.md): a free wave lapse radiates 1/6 of GR's quadrupole power, so binary pulsars exclude a free N. The lapse must be constrained by matter, as in GR.
+- [39A](results/EX-GC39A/EX-GC39A_note.md): entanglement equilibrium on a fixed lattice gives a G, but its size and even its sign depend on how "fixed volume" is defined. The responses are boundary effects. For geometry to come from entanglement, the counts of sites and links must themselves be the geometry.
+- Next idea (not approved): a graph or causal-set substrate where area = number of cut links, with the 39A test repeated there.
+
 ## EX-GC38A and 38B completed (Claude, exploratory, PI closure pending)
 
 Richard's question (2026-11-26): is what makes matter gravitate the mechanism of entanglement?
