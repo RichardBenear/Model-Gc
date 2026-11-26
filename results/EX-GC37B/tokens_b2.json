@@ -1,0 +1,22 @@
+{
+  "b2": {
+    "core1.5": {
+      "GM_fit": 0.16011014454715977,
+      "GM_continuum": 0.15915494309189535,
+      "box_term_B": -2.1570015276797645e-07,
+      "box_term_predicted": 1.5894571940104166e-07,
+      "max_rel_fit_residual": 0.00035936203909174265
+    },
+    "core3.0": {
+      "GM_fit": 0.15837974846687458,
+      "GM_continuum": 0.15915494309189535,
+      "box_term_B": -7.648758253908748e-08,
+      "box_term_predicted": 1.5894571940104166e-07,
+      "max_rel_fit_residual": 0.0009360714025932642
+    },
+    "universality_rel_diff": 0.010807535557345708
+  },
+  "tau": 0.01,
+  "tokens": 400,
+  "cpu_seconds": 0.577713071
+}
