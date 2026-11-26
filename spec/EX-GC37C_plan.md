@@ -45,3 +45,5 @@ Which kind of carrier field reproduces that?
 ## Outputs
 
 `src/exgc37c.py`, `results/EX-GC37C/`. The separate check is a v = 0 limit, which must reproduce the 37B B2 fit, and an analytic continuum comparison for the wave case.
+
+**Amendment A1 (before any run).** Y1 and the 35I/35K event hosts have continuous time, so the comoving time derivative of a moving profile is −v∂_x with the exact Fourier symbol ik_x, not the lattice symbol K_x. The wave case is therefore (K² − v²k_x²)ĉ = −ŝ/D. The grid is 160³, not 128³, to keep the 40-cell far-field readout away from the periodic images.
