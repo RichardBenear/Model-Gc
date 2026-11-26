@@ -1,0 +1,23 @@
+{
+  "mode": "handshake",
+  "h": 0.12,
+  "proper_step": 0.02,
+  "events": 574614015,
+  "group_angle": -3.1826291649681284,
+  "phase_angle": -3.065060793716004,
+  "eikonal_angle": -2.872788547888593,
+  "initial_centroid": [
+    -24.13972199152837,
+    7.499999316200151
+  ],
+  "final_centroid": [
+    23.558888085161183,
+    6.202522059147604
+  ],
+  "norm_ratio": 0.9955380043713729,
+  "finite": true,
+  "GM": 0.095,
+  "impact": 7.5,
+  "ideal_full_deg": 2.902986161996171,
+  "cpu_seconds": 118.01123654199999
+}

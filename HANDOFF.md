@@ -1,5 +1,11 @@
 # Handoff — current state
 
+## EX-GC37A and EX-GC37B completed (Claude, exploratory, PI closure pending)
+
+Both test a *mechanism* for gravity rather than putting GR's equation in by hand (Richard's restated goal, 2026-11-25).
+- [37B](results/EX-GC37B/EX-GC37B_note.md): sites fire at a local rate N. Clocks are one-site events (rate N). Propagation needs two sites to fire together (speed N²). That gives the weak-field metric with γ = 1: token delay ratio 2.00–2.08, wave bending ratio 2.04, no spatial metric put in. A consumed, diffusing carrier sets N = 1 − GM/r. Open: why propagation is a coincidence, second order, and the moving-source / preferred-frame test (B3).
+- [37A](results/EX-GC37A/EX-GC37A_note.md): Sakharov induced gravity on Y1, spin-2 sector. The right sign, but gravitons at 0.70–0.78 c, the two polarisations 2.7× apart, and a huge mass term. The Lorentz-invariant continuum control gives c_g = 1. So an induced-stiffness substrate needs a locally Lorentz-symmetric cutoff. S2 (γ, modes) not run.
+
 ## EX-GC36C completed (Claude, exploratory, PI CLOSED 2026-11-25)
 
 [Results](results/EX-GC36C/EX-GC36C_note.md). Rule 66427's order-free particle does not persist in its own debris. The median lifetime is 3 events, and only 5–16% of schedules are alive at 500, every one of them as a proliferating swarm of particle-shaped supports. The 55744 control lives longer and shows the same pattern. Combined with 36A/36B, the CRR 80-rule catalogue has no order-free persistent particle and no particle whose forks rejoin. The 36B vacuum join count is a lower bound for version L (ChatGPT review).

@@ -1,6 +1,6 @@
 # EX-GC37B — gravity as an event-counting effect: clocks are one-site events, propagation needs two
 
-2026-11-25 | EXPLORATORY | Claude | **DRAFT: awaiting PI go-ahead. Nothing has been run.** Default cap 2 core-hours; expected under 0.5. This is our construction, not LaViolette's Model G.
+2026-11-25 | EXPLORATORY | Claude | PI go-ahead in thread ("go ahead with both", 2026-11-26 00:13 UTC). Written before any run. Default cap 2 core-hours; expected under 0.5. This is our construction, not LaViolette's Model G.
 
 ## The idea in plain words
 
@@ -93,3 +93,5 @@ This is a first-order (weak-field) coincidence until tested. GR's second-order t
 `src/exgc37b.py`, `src/exgc37b_eikonal.py` (G3), `results/EX-GC37B/`.
 
 Before running: an `explore/LOG.md` entry and PI go-ahead.
+
+**Amendment A1 (before any run, 2026-11-26).** Tokens that keep a fixed direction cannot refract, so "token beam deflection" in B1a is ill-posed. B1a instead measures the speed exponent and the **Shapiro delay** along straight paths past the mass. The delay is proportional to (1 + γ), so the two-site/one-site delay ratio plays the role of the bending ratio. Bending is measured only from the wave version, B1b. P2 for tokens therefore reads: the two-site/one-site delay ratio matches the G3 sum within 3% at every b and tends to 2 in the weak field. The wave rule is fixed as follows. Each site event advances a fixed proper step and applies face weight N_x N_y, which is the handshake rate relative to the vacuum. That gives coordinate speed² N⁴. The lapse-only control is 35I/35K's harmonic face N_f/N_x, which gives speed N. The packet, metric source and readouts are 35K's: GM = .095, b = 7.5, h = .16 and .12, proper step .04 and .02.

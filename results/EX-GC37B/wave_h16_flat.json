@@ -1,0 +1,23 @@
+{
+  "mode": "flat",
+  "h": 0.16,
+  "proper_step": 0.04,
+  "events": 162923750,
+  "group_angle": -7.161317594823638e-07,
+  "phase_angle": -6.99848895213022e-07,
+  "eikonal_angle": 0.0,
+  "initial_centroid": [
+    -23.585902865517152,
+    7.499999501752271
+  ],
+  "final_centroid": [
+    23.73451661608752,
+    7.499999553424595
+  ],
+  "norm_ratio": 1.00157949300422,
+  "finite": true,
+  "GM": 0.095,
+  "impact": 7.5,
+  "ideal_full_deg": 2.902986161996171,
+  "cpu_seconds": 32.4787558
+}
