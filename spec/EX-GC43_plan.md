@@ -1,6 +1,6 @@
 # EX-GC43 — what does the lapse couple to? One energy functional, positive-energy excitations, and the vacuum term
 
-2026-11-26 | EXPLORATORY | Claude | Plan only. PI request in thread: "yes, write 43" (2026-11-26 18:19 UTC). **Not run. Running needs a separate PI go-ahead.** Follows the [Codex review of GC42](../review/EX-GC42_codex_review.md). Cap 2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
+2026-11-26 | EXPLORATORY | Claude | Plan only. PI request in thread: "yes, write 43" (2026-11-26 18:19 UTC). PI run go-ahead 2026-11-26 18:23 UTC ("go ahead"), given after this plan was pushed and before any run. Follows the [Codex review of GC42](../review/EX-GC42_codex_review.md). Cap 2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
 
 ## Why
 
