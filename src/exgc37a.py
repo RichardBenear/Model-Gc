@@ -43,9 +43,13 @@ def F2(kx, ky, kz, q, pol, lattice=True):
     if pol == "cross":
         # f_x f_y' + f_x' f_y with f_x = i K_x cos(k_y/2), f_y = i K_y cos(k_x/2); k'_x = -k_x, k'_y = -k_y
         F = -(Kx * cy * Kyp * cx + Kxp * cy * Ky * cx)
-    else:
-        # f_x f_x' - f_y f_y' with f_a = i K_a
+    elif pol == "plus":
+        # f_x f_x' - f_y f_y' with f_a = i K_a  (plain G_a^2 vertex: the vertex of the first run, NOT the 34O action)
         F = -(Kx * Kxp) + (Ky * Kyp)
+    else:
+        # plus34o: 34O vertex for h_xx = -h_yy: (1/4) h [G_a^2 + G_a(v) G_a(v-e_a)] per axis, i.e. K_a^2 -> K_a^2 cos^2(k_a/2)
+        # (half plain square, half forward-backward product; ChatGPT 37AB review)
+        F = -(Kx * Kxp) * cx ** 2 + (Ky * Kyp) * cy ** 2
     return F ** 2
 
 
@@ -72,10 +76,14 @@ def delta_bubble(kx, ky, kz, w, m, Om, q, pol, lattice=True):
     return -0.5 * np.sum(w * (a - b))
 
 
-def contact(kx, ky, kz, w, m, lattice=True):
+def contact(kx, ky, kz, w, m, lattice=True, pol="cross"):
     E = energy(kx, ky, kz, m, lattice)
     Kx2 = Kf(kx) ** 2 if lattice else kx ** 2
     Ky2 = Kf(ky) ** 2 if lattice else ky ** 2
+    if pol == "plus34o" and lattice:
+        # matched second order: the h^2/2 terms on G_x^2, G_y^2 split the same way (half plain, half product)
+        cx2, cy2 = np.cos(kx / 2) ** 2, np.cos(ky / 2) ** 2
+        return np.sum(w * (Kx2 * (3 + cx2) + Ky2 * (3 + cy2)) / (8 * E))
     return np.sum(w * (Kx2 + Ky2) / (2 * E))
 
 
@@ -92,7 +100,7 @@ def coeffs(n, m, pol, steps=(0.04, 0.08)):
         M = np.array([[s1 ** 2, s1 ** 4], [s2 ** 2, s2 ** 4]])
         return np.linalg.solve(M, [y1, y2])[0]
     A, B = fit(0), fit(1)
-    pc = contact(kx, ky, kz, w, m)
+    pc = contact(kx, ky, kz, w, m, pol=pol)
     pb0 = bubble(kx, ky, kz, w, m, 0.0, 0.0, pol)
     return dict(n=n, m=m, pol=pol, A=float(A), B=float(B), cg2=float(B / A), inv_G=float(16 * np.pi * A),
                 G_ind=float(1 / (16 * np.pi * A)), contact=float(pc), bubble0=float(pb0),
@@ -117,8 +125,11 @@ def g3(n=24, m=0.3, q_index=2, pol="cross", eps=1e-3):
                 diag = (1 + hz2 / 2) * (Kx2 + Ky2) + (1 - hz2 / 2) * m ** 2
                 if pol == "cross":
                     diag = diag - 2 * hz * Kf(kx) * Kf(ky) * np.cos(kx / 2) * np.cos(ky / 2)
-                else:
+                elif pol == "plus":
                     diag = diag + (-hz) * Kx2 + hz * Ky2
+                else:
+                    cx2, cy2 = np.cos(kx / 2) ** 2, np.cos(ky / 2) ** 2
+                    diag = diag + (-hz) * Kx2 * cx2 + hz * Ky2 * cy2 + (hz2 / 2) * (Kx2 * (cx2 - 1) + Ky2 * (cy2 - 1)) / 2
                 czz = 1 - (hz2 + np.roll(hz2, -1)) / 4          # link z+1/2 between z and z+1
                 M = np.diag(diag + czz + np.roll(czz, 1))
                 M -= np.diag(czz[:-1], 1) + np.diag(czz[:-1], -1)
@@ -136,7 +147,7 @@ def g3(n=24, m=0.3, q_index=2, pol="cross", eps=1e-3):
     # same quantity from the momentum formulas on the same discrete grid
     kk = np.meshgrid(k, k, k, indexing="ij")
     w = 1.0 / V
-    formula = contact(*kk, w, m) + bubble(*kk, w, m, 0.0, q, pol)
+    formula = contact(*kk, w, m, pol=pol) + bubble(*kk, w, m, 0.0, q, pol)
     return dict(n=n, m=m, q=float(q), pol=pol, exact=float(exact), formula=float(formula),
                 rel_diff=float(abs(exact - formula) / abs(formula)))
 
@@ -169,9 +180,16 @@ if __name__ == "__main__":
     part = sys.argv[1]
     t0 = time.process_time()
     if part == "g3":
-        res = [g3(pol=p, q_index=qi) for p in ("cross", "plus") for qi in (1, 3)]
+        res = [g3(pol=p, q_index=qi) for p in ("cross", "plus", "plus34o") for qi in (1, 3)]
     elif part == "g2":
         res = [g2(pol="cross", kmax=km, nr=nr) for km, nr in ((60.0, 300), (120.0, 600), (240.0, 1200))] + [g2(pol="plus", kmax=120.0, nr=600)]
+    elif part == "s1b":
+        res = []
+        for m in (0.1, 0.5, 1.0):
+            for n in (64, 128):
+                r = coeffs(n, m, "plus34o")
+                res.append(r)
+                print(r, flush=True)
     elif part == "s1":
         res = []
         for pol in ("cross", "plus"):

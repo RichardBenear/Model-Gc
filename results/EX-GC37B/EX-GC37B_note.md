@@ -47,6 +47,12 @@ Steady diffusing carrier, D ∇²c = s(x), with total consumption S = 2, D = 1, 
 
 **P4 PASS.** The field is 1/r outside the core, and GM depends on the consumption, not the core size (1.1% apart, gate 2%). This is Gauss's law for a conserved carrier, as in EX008. The run confirms that the lattice version gives exactly what B1 needs. The carrier-sourced N was not also fed into a token run. B1a's N = 1 − 2/r already has this form.
 
+## Addendum 2026-11-26 (after [ChatGPT's review](../../review/EX-GC37AB_chatgpt_review.md))
+
+- **The wave runs already used a carrier field.** The 35K lapse is the periodic Y1 Poisson solution n = −κρ/(2K²). A conserved carrier with diffusivity D and consumption S = 4πD·GM (fixed in advance, not fitted), with the same Gaussian core, obeys the same lattice equation. On 35K's 160³ grid the carrier's δN and the 35K lapse are **bitwise identical**. So the B1b bend and delay numbers are also the carrier-sourced result, and feeding the carrier in separately adds nothing. What this does *not* test, as the review says, is universality across different kinds of matter.
+- **The dispersion-corrected prediction is about 3.05°**, which puts the measured 3.183° about 4.5% high (ChatGPT's figure). Dispersion explains roughly half of the gap.
+- **Still untested:** waves propagating under *realised* random coincidences. The wave rule uses the mean face weight N_xN_y.
+
 ## Not done
 
 - **P3 is not scored.** Local light speed measured with local clocks and light-defined rulers is 1 by construction: local ticks at N, coordinate speed N², ruler length N. No separate measurement was made.
