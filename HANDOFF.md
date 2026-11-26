@@ -1,5 +1,12 @@
 # Handoff — current state
 
+## EX-GC38A and 38B completed (Claude, exploratory, PI closure pending)
+
+Richard's question (2026-11-26): is what makes matter gravitate the mechanism of entanglement?
+- [38A](results/EX-GC38A/EX-GC38A_note.md): vacuum entanglement per unit area vs 37A's induced 1/(4G), same lattice scalar. The universal m² ln m terms agree exactly (1/24π, for both cut orientations and both graviton polarisations). The cutoff-dominated parts do not: the ratio is 2.0–4.8. The plan's continuum value had a factor-2 slip, recorded as a failed clause.
+- [38B](results/EX-GC38B/EX-GC38B_note.md): the half-chain entanglement Hamiltonian is the boost generator, to 0.02–0.8% (lattice Bisognano–Wichmann). With a lapse bump, the local entanglement temperature moves the Tolman way but only about 60% as much as the optical-length prediction. That is a P2 FAIL, and it is not caused by the mass. Open.
+- Next idea (not approved): a Jacobson design note, i.e. use δS = δ⟨K⟩ on small cuts to derive the equation for the lapse N.
+
 ## EX-GC37C, 37D and 37A-S2 completed (Claude, exploratory, PI closure pending)
 
 - [37C](results/EX-GC37C/EX-GC37C_note.md): moving source. A diffusing, consumed carrier gives a wake and self-drag, i.e. a preferred frame. A wave field with speed 1, sourced by the same consumption, is fore/aft symmetric, Lorentz-contracted (γ within 1.3% to v = 0.4) and drag-free. The 37B mechanism needs N to be a relativistic wave field.
