@@ -1,5 +1,16 @@
 # Handoff — current state
 
+## EX-GC43 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC43_plan.md) · [Note](results/EX-GC43/EX-GC43_note.md). This follows the Codex review of 42: the lapse couples to the conjugate source ∂H/∂N, derived from one functional.
+- **Mass is not energy.** The charge is Q = ΔE + ΔE_link. Free packets attract at 1.8–2.25× their energy (a pair up to 3.2×), and hubs at 0.10–0.41×. No state has Q = ΔE, so the equivalence principle fails at order 1. It is the same defect as 42A's redshift failure.
+- **The vacuum term needs a counterterm.** χ(0) ≈ −6 makes the raw constraint Helmholtz and boundary-set. The local counterterm gives 1/r, with G screened by c₂χ ≈ 1.
+- **Inference.** GR gets Q = E for bound bodies from von Laue (stresses integrate to zero). This lattice has no dilations and no self-bound states, so nothing forces it.
+- **Suggested next (not approved):**
+  - an interacting network with bound composites (does the excess link energy vanish for bound states?);
+  - or lapse weights designed so that the conjugate charge equals the energy for stationary states.
+- **Recommendation:** stop scaling up the Gaussian pair network.
+
 **2026-11-26 closures.** Richard: "go ahead and close anything that is open" (11:05 America/Denver). Every Model Gc exploration still open is now PI CLOSED: EX-GC01–26B3 (rows with no closure recorded), 35Q, 35U–X, 37A-S2, 37C, 37D, 38A, 38B, 39A–C, 40A–C, 41A/B and 42. No result was changed. Nothing is open now; the next study needs a new plan and go-ahead.
 
 ## EX-GC42 completed (Claude, exploratory, PI CLOSED 2026-11-26)

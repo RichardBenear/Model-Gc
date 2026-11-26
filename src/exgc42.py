@@ -161,6 +161,7 @@ def hub_source(L, lam0, dl, hubsites, half=6, nq=160):
     # rho_v = Re[ sum_{i in v} sum_j h_ij P_ji ]: on-site part lam0*J (+dl*J on hub), link part -P_{partner,i}
     Pr = A.P_real(*A.bands(L, lam0)[:2]); P0ss = Pr[0, 0, 0]
     S = np.zeros(len(sites))
+    Slink = np.real(np.sum(-dPlink, axis=1))           # half of the adjacent link energies at each site (used by EX-GC43)
     hubset = {tuple(h): k for k, h in enumerate(hub)}
     for s in range(len(sites)):
         onsite = lam0 * J
@@ -171,7 +172,7 @@ def hub_source(L, lam0, dl, hubsites, half=6, nq=160):
             k = hubset[key]
             Pfull = P0ss + dPss[s]
             S[s] += np.real(np.trace(dl * J @ Pfull))
-    return dict(sites=sites, S=S, dE0=float(dE), sumS=float(S.sum()))
+    return dict(sites=sites, S=S, dE0=float(dE), sumS=float(S.sum()), Slink=Slink)
 
 
 # ---------------------------------------------------------------- far field
