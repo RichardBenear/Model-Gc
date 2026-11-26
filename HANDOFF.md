@@ -1,5 +1,17 @@
 # Handoff — current state
 
+## EX-GC41 and EX-GC40C completed (Claude, exploratory, PI closure pending)
+
+These follow the Codex review of 40A/B. Plans: [EX-GC41](spec/EX-GC41_plan.md), [EX-GC40C](spec/EX-GC40C_plan.md).
+- **[41](results/EX-GC41/EX-GC41_note.md): delay works, bending does not.**
+  - On a random network, the front delay matches the continuum lapse calculation to 2% (the Shapiro delay, recovered absolutely).
+  - Bending from the front slope is swamped by first-passage roughness.
+  - With shared site clocks, the median-of-histories two-site delay is 16% above the mean-field value. So GR's factor 2 is a mean-field property of the rule.
+- **[40C](results/EX-GC40C/EX-GC40C_note.md): a hub is a local defect.**
+  - It binds states and two hubs attract, but all responses decay exponentially (about ξ_C/2), with no 1/r.
+  - So free pair networks cannot make long-range gravity.
+  - Suggested next step (not approved): couple a pair network to a lapse field sourced by its energy density, and ask whether a hub sources a universal 1/r lapse.
+
 ## EX-GC40A and 40B completed (Claude, exploratory, PI closure pending); 40C outlined, not approved
 
 Richard shared the Chain Theory compendium (2026-11-26). Its gravity is unfinished: its own field equation fails at all 60 cells it tests, and inertia is not treated. We took only its axiom, a vacuum made of maximally entangled pairs. Plan: [spec/EX-GC40_plan.md](spec/EX-GC40_plan.md).
