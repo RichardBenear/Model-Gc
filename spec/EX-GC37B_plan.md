@@ -1,6 +1,6 @@
 # EX-GC37B — gravity as an event-counting effect: clocks are one-site events, propagation needs two
 
-2026-11-25 | EXPLORATORY | Claude | **DRAFT: awaiting PI go-ahead. Nothing has been run.** Default cap 2 core-hours; expected under 0.5. This is our construction, not LaViolette's Model G.
+2026-11-25 | EXPLORATORY | Claude | PI go-ahead in thread ("go ahead with both", 2026-11-26 00:13 UTC). Written before any run. Default cap 2 core-hours; expected under 0.5. This is our construction, not LaViolette's Model G.
 
 ## The idea in plain words
 
