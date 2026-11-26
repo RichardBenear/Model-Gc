@@ -1,6 +1,6 @@
 # EX-GC37A — does gravity's stiffness come from the matter field? (induced gravity on Y1, spin-2 sector)
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37A_plan.md). PI closure pending. Cloud container, Python 3.13. Under 0.05 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37A_plan.md). **PI CLOSED 2026-11-26** (Richard: "close 37A/B"). Cloud container, Python 3.13. Under 0.05 core-h. This is our construction, not LaViolette's Model G.
 
 **Partly.** One lattice scalar on Y1 does make spacetime stiff, with the right sign: induced spin-2 gravitons have positive energy. But the stiffness is not GR's:
 - the induced gravitons travel at only **0.78–0.85 c** (c_g² = 0.61–0.72 for a light scalar; corrected 2026-11-26, first run said 0.70–0.78 c);

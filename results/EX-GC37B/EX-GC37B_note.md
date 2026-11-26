@@ -1,6 +1,6 @@
 # EX-GC37B — gravity as event counting: clocks are one-site events, propagation needs two
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37B_plan.md), with amendment A1, made before any run. PI closure pending. Cloud container, Python 3.13, numba. About 0.1 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37B_plan.md), with amendment A1, made before any run. **PI CLOSED 2026-11-26** (Richard: "close 37A/B"). Cloud container, Python 3.13, numba. About 0.1 core-h. This is our construction, not LaViolette's Model G.
 
 **The counting rule works.** Sites fire at a local rate N. A clock needs one site to fire. A signal needs two sites to fire together, and that alone makes signals move at N². That gives the factor of two in light deflection, with no Einstein equation and no separate spatial metric. Tokens slow as N^1.99. Their delay past a mass is 2.00–2.08 times the one-site control, and the wave packet bends 2.04 times as much. A carrier consumed by matter gives N = 1 − GM/r, with GM set by the consumption alone (1.1% between two core sizes). The one registered miss is the absolute bending. It is 9.6% above 4GM/b at the finest spacing, the same lattice-dispersion excess as 35K.
 

@@ -1,6 +1,6 @@
 # Handoff — current state
 
-## EX-GC37A and EX-GC37B completed (Claude, exploratory, PI closure pending)
+## EX-GC37A and EX-GC37B completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 Both test a *mechanism* for gravity rather than putting GR's equation in by hand (Richard's restated goal, 2026-11-25).
 - [37B](results/EX-GC37B/EX-GC37B_note.md): sites fire at a local rate N. Clocks are one-site events (rate N). Propagation needs two sites to fire together (speed N²). That gives the weak-field metric with γ = 1: token delay ratio 2.00–2.08, wave bending ratio 2.04, no spatial metric put in. A consumed, diffusing carrier sets N = 1 − GM/r. Open: why propagation is a coincidence, second order, and the moving-source / preferred-frame test (B3).
