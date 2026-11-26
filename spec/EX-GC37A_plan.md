@@ -70,3 +70,22 @@ Integrate out one lattice scalar field on Y1 in the vacuum, at one loop. Does th
 `src/exgc37a.py`, `src/exgc37a_recompute.py` (G3), `results/EX-GC37A/` (note and JSON).
 
 Before running: an `explore/LOG.md` entry and PI go-ahead.
+
+**Amendment A2 (2026-11-26, before any S2 run; PI "Go ahead with the next steps").** S2 is run in its **static scalar sector** only. The dynamic λ and mode-count parts stay deferred.
+- **Fields:** static n, h_T (h_xx = h_yy) and h_L (h_zz), all at sites, each ∝ cos(qz), with q along z.
+- **Matter model, to all orders, written before the run.** Each site v carries:
+  - kinetic N/√γ;
+  - mass N√γ m²;
+  - per axis a, the plain-square share ½C_a·½(G_a(v)² + G_a(v−e)²) with C_a = N(√γγ^{aa} + ½h_aa);
+  - the product term R_a G_a(v)G_a(v−e) with R_a = −¼N h_aa.
+
+  At linear order this reproduces 34O exactly: link averages become site shares, and the sums are preserved. At second order it is ultralocal.
+- **Method:** exact vacuum energy from all normal modes, in blocks of (k_x, k_y), with symmetric finite differences giving the 3×3 static kernel Π_ij(q).
+- **Readouts:**
+  - **Ward residual** for the static displacement gauge: for q ∥ z the gauge direction is pure h_L, so it is the q-dependent parts of Π_nL, Π_TL and Π_LL relative to Π_TT;
+  - **γ = Π_Tn / (2Π_TT)** from the q² coefficients, in the gauge h_L = 0, sourced through n only (static dust);
+  - the ratio of the q² coefficient of Π_nn to that of Π_Tn. EH has no n² term, so this is 0 in GR.
+- **Controls:**
+  - the same γ formula applied to the 34N Y1 Einstein–Hilbert kernel must give 1;
+  - a separate path: full real-space 3D diagonalisation on an 8³ lattice must reproduce the block-diagonal E0 to 1e-10.
+- **P3 as registered:** γ_ind within 2% of 1. Expectation: uncertain.

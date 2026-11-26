@@ -1,5 +1,12 @@
 # Handoff — current state
 
+## EX-GC37C, 37D and 37A-S2 completed (Claude, exploratory, PI closure pending)
+
+- [37C](results/EX-GC37C/EX-GC37C_note.md): moving source. A diffusing, consumed carrier gives a wake and self-drag, i.e. a preferred frame. A wave field with speed 1, sourced by the same consumption, is fore/aft symmetric, Lorentz-contracted (γ within 1.3% to v = 0.4) and drag-free. The 37B mechanism needs N to be a relativistic wave field.
+- [37D](results/EX-GC37D/EX-GC37D_note.md): realising coincidences randomly, event by event, on a wave pumps energy and destroys coherence. A coherent wave has to be a coarse-grained mode of many coincidences.
+- [37A S2](results/EX-GC37A/EX-GC37A_note.md): static scalar sector of induced gravity on Y1. γ = 0.236 (gauge h_L = 0), large Ward violations, but the lapse stays non-dynamical. Fails worse than the spin-2 sector.
+- Next idea (not approved): a rule where firing-rate changes propagate by the same two-site coincidences as light, so N obeys a wave equation at the light speed.
+
 ## EX-GC37A and EX-GC37B completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 Both test a *mechanism* for gravity rather than putting GR's equation in by hand (Richard's restated goal, 2026-11-25).
