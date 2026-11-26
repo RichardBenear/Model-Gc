@@ -1,0 +1,166 @@
+{
+ "result": {
+  "rows": {
+   "two_20": {
+    "delay": 1823.6406528194716,
+    "delay_se": 39.29929687764711,
+    "turn": 0.3686107794360012,
+    "turn_se": 0.04167231136981194,
+    "flat_speed": 0.020860196116735015,
+    "rmin": 25.414099660828864,
+    "halfA": {
+     "delay": 1893.5847344598703,
+     "turn": 0.3800169247185818
+    },
+    "halfB": {
+     "delay": 1753.696571179072,
+     "turn": 0.3572046341534204
+    }
+   },
+   "two_40": {
+    "delay": 1430.9443470379615,
+    "delay_se": 31.260549808369284,
+    "turn": 0.375608272526027,
+    "turn_se": 0.05076197120813541,
+    "flat_speed": 0.0209491088856043,
+    "rmin": 39.15396381869071,
+    "halfA": {
+     "delay": 1428.6211784200943,
+     "turn": 0.35098208929552516
+    },
+    "halfB": {
+     "delay": 1433.2675156558284,
+     "turn": 0.400234455756529
+    }
+   },
+   "two_60": {
+    "delay": 1109.5048633648073,
+    "delay_se": 16.536886106389673,
+    "turn": 0.198655110411852,
+    "turn_se": 0.04491971975106804,
+    "flat_speed": 0.020846218982134262,
+    "rmin": 54.09672959093291,
+    "halfA": {
+     "delay": 1082.547846539529,
+     "turn": 0.21944819778006197
+    },
+    "halfB": {
+     "delay": 1136.4618801900865,
+     "turn": 0.17786202304364201
+    }
+   },
+   "one_20": {
+    "delay": 19.123134224289984,
+    "delay_se": 0.6219872671660612,
+    "turn": 0.2581215563532736,
+    "turn_se": 0.05679893245296445,
+    "flat_speed": 1.0482335465998287,
+    "rmin": 21.12178808402511,
+    "halfA": {
+     "delay": 20.268621117705933,
+     "turn": 0.2888646697159169
+    },
+    "halfB": {
+     "delay": 17.97764733087404,
+     "turn": 0.22737844299063026
+    }
+   },
+   "one_40": {
+    "delay": 14.352240018373127,
+    "delay_se": 0.39408635312166,
+    "turn": 0.12973670872500415,
+    "turn_se": 0.06251036222658052,
+    "flat_speed": 1.0527014502824354,
+    "rmin": 25.414099660828864,
+    "halfA": {
+     "delay": 14.266743304485056,
+     "turn": 0.08202908690673497
+    },
+    "halfB": {
+     "delay": 14.437736732261206,
+     "turn": 0.1774443305432733
+    }
+   },
+   "one_60": {
+    "delay": 11.01978209891623,
+    "delay_se": 0.19957746302667836,
+    "turn": 0.14963634313027113,
+    "turn_se": 0.0474728251398679,
+    "flat_speed": 1.047531189762345,
+    "rmin": 44.02902314352353,
+    "halfA": {
+     "delay": 10.671715495977873,
+     "turn": 0.21944819778006197
+    },
+    "halfB": {
+     "delay": 11.36784870185459,
+     "turn": 0.0798244884804803
+    }
+   }
+  },
+  "summary": {
+   "20": {
+    "delay_ratio": 1.897756661068794,
+    "delay_ratio_halves": [
+     1.8591775738956375,
+     1.9412520576903947
+    ],
+    "turn_ratio": 1.4280511269330347,
+    "turn_ratio_halves": [
+     1.3155534911635551,
+     1.5709696550615397
+    ],
+    "continuum_turn_two": 0.4303578161232495,
+    "continuum_turn_one": 0.2663731657745897,
+    "continuum_turn_ratio": 1.6156200076378073,
+    "turn_two_over_continuum": 0.8565216329902448,
+    "turn_one_over_continuum": 0.9690223698122101,
+    "straight_delay_ratio_continuum": 2.1292059647901147,
+    "delay_two_equiv_length_over_straight_continuum": 0.7963763727146256,
+    "delay_one_equiv_length_over_straight_continuum": 0.8935019740870922
+   },
+   "40": {
+    "delay_ratio": 1.9840992249974707,
+    "delay_ratio_halves": [
+     1.9927488609500128,
+     1.97555203106392
+    ],
+    "turn_ratio": 2.8951580182458883,
+    "turn_ratio_halves": [
+     4.278751629828369,
+     2.2555494138987098
+    ],
+    "continuum_turn_two": 0.28948961073114,
+    "continuum_turn_one": 0.1633410675865487,
+    "continuum_turn_ratio": 1.772301448793639,
+    "turn_two_over_continuum": 1.297484464390222,
+    "turn_one_over_continuum": 0.7942687692809477,
+    "straight_delay_ratio_continuum": 2.0694521746740966,
+    "delay_two_equiv_length_over_straight_continuum": 0.9283050763895243,
+    "delay_one_equiv_length_over_straight_continuum": 0.9682393576348246
+   },
+   "60": {
+    "delay_ratio": 2.003625434240149,
+    "delay_ratio_halves": [
+     2.018706561584814,
+     1.9894678302288813
+    ],
+    "turn_ratio": 1.3275859744775096,
+    "turn_ratio_halves": [
+     1.0,
+     2.228163642879279
+    ],
+    "continuum_turn_two": 0.19764727835883994,
+    "continuum_turn_one": 0.10576924170365118,
+    "continuum_turn_ratio": 1.8686649840283114,
+    "turn_two_over_continuum": 1.0050991446043709,
+    "turn_one_over_continuum": 1.4147434615209655,
+    "straight_delay_ratio_continuum": 2.048892596574889,
+    "delay_two_equiv_length_over_straight_continuum": 0.9280862219129934,
+    "delay_one_equiv_length_over_straight_continuum": 0.9490541278648877
+   }
+  }
+ },
+ "cpu_seconds": 23.580200476999998,
+ "platform": "python 3.13.18, numpy 2.5.3"
+}
