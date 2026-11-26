@@ -3,7 +3,7 @@
 2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC40_plan.md). PI closure pending. Cloud container, Python 3.13, numpy 2.5, mpmath. About 0.8 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction (only its axiom, a vacuum made of maximally entangled pairs, is used).
 
 **Counting fixes the geometry side, but the matter side still does not give a constant G.**
-- **Pure pairs do not respond to matter at all.** In a vacuum made only of maximally entangled pairs, matter changes no block's entanglement at first order, so it cannot curve this geometry.
+- **Pure pairs show no first-order entropy response.** For the perturbation tested here, a vacuum of only maximally entangled pairs has zero first-order change in every block's entanglement. *(Wording narrowed 2026-11-26 after the Codex review: at λ = 0 the first-order energy-density change also vanishes, so the ratio k_B is undefined. This shows entropy stationarity along this perturbation. How a pure-pair vacuum responds to an excitation that carries energy at leading order is still open.)*
 - **Area as "cut links" works.** Once pairs share entanglement with their neighbours (λ > 0):
   - every cut link carries the same entropy, wherever it is, to within 3% (all gapped λ);
   - matter now does change entanglement, with the attractive sign.
@@ -94,7 +94,7 @@ G_eq = 3k_B / (4π s_link ℓ⁴). For comparison, 1/(4 s_link) ≈ 0.36.
 ## What it means (inference)
 
 - **On the idea that mass comes from pairs sharing entanglement:**
-  - Pure pairs are inert to matter: a vacuum of only maximally entangled pairs has no first law.
+  - Pure pairs give no first-order entropy response to the tested perturbation, which also carries no first-order energy (see the narrowed wording above).
   - Only once pairs share entanglement with their neighbours does matter register in the entanglement at all. That fits Chain Theory's picture of hubs, and it is what 40C would localise.
 - **Counting solves 39A's geometry problem.** Rewiring at a fixed number of sites changes the entropy by exactly s_link per cut link, wherever the change is made. 39A's ambiguity about "fixed volume" is gone.
 - **It does not solve the matter problem.** The response grows like ℓ^2.4–2.9, between surface (2) and volume (3), and never reaches Jacobson's ℓ⁴. Two effects contribute:
