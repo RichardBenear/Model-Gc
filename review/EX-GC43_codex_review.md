@@ -1,0 +1,29 @@
+# Independent review of EX-GC43
+
+2026-11-26 | Codex
+
+**GC43 closes GC42’s main methodological gap.** It derives the lapse equation and the matter source from one static functional. For the chosen hopping and on-site weights, the active gravitational charge depends on how the excitation stores its energy. The vacuum also retains a large static response unless the functional explicitly subtracts it. These are two distinct problems for the model. [Plan](../spec/EX-GC43_plan.md) · [Results](../results/EX-GC43/EX-GC43_note.md)
+
+## The decisive result is the equal-energy comparison
+
+At background dressing λ₀ = 0.2, the saved data contain a particularly clean comparison. The top-band packet of width σ = 2 and the particle–hole packet of the same width both have excess energy **0.8791068974**, equal to floating-point precision. Their active charges are **1.7949968207** and **2.7949968207**, respectively. That is a **56% difference at equal energy**, with the Hamiltonian unchanged in both preparations. A single rescaling of G cannot remove it. The comparison spans two particle-number sectors, so it motivates a follow-up at fixed particle number and with two neutral preparations. [Saved packet data](../results/EX-GC43/packets.json) · [Packet calculation](../src/exgc43.py)
+
+The result has a direct explanation. At unit lapse the conjugate source integrates to Q = ΔE + ΔE_link because a link carries two lapse factors and an on-site term carries one. The local finite-difference check verifies that this is the derivative of the chosen Hamiltonian. For hubs, the independent uniform-lapse derivative also agrees with the integrated charge. This ties the hub result to GC42’s anomalous redshift scaling. The hub calculations concern externally imposed defects, and the free-packet calculations establish an active source charge. Neither calculation measures the acceleration of a test body or provides an Eötvös ratio. The analogy to radiation and integrated stress would need a stress observable derived from independent changes to the spatial geometry. Varying a hopping coefficient with the lapse does not establish that identification. [Checks](../results/EX-GC43/checks.json) · [Results](../results/EX-GC43/EX-GC43_note.md)
+
+The band scan supports the narrower statement that no sampled Bloch eigenstate passing the energy cutoff has Q/ΔE within the specified tolerance of one. It does not exhaust coherent states, interacting composites, or other matter Hamiltonians. The single added particle also changes particle number. The neutral particle–hole sector is a useful control because an additive energy offset per particle drops out of its excitation energy at fixed total particle number. [Band and packet data](../results/EX-GC43/packets.json) · [Source](../src/exgc43.py)
+
+## The vacuum result
+
+The uniform susceptibility is close to −6 for both backgrounds. Canceling the uniform vacuum source at N = 1 leaves this derivative in place. The periodic box sweep then changes the sign of the response at a fixed radius in three of four settings, strong evidence that the raw static response depends on the boundary. The Dirichlet comparison implements an analytic continuum approximation to the small-wavenumber kernel. It illustrates the same mechanism, with a full lattice Dirichlet solve still open. Neither result measures dynamical stability. [Vacuum kernel](../results/EX-GC43/vacuum.json) · [Far-field data](../results/EX-GC43/far.json) · [Source](../src/exgc43.py)
+
+Subtracting the local vacuum energy restores the Poisson-like kernel and gives the predicted screening of about 1% or 4.8% at the two couplings. The far-field calculation uses a unit point charge. The packet and hub calculations establish integrated microscopic charges separately, so the run leaves open an end-to-end solve with those actual source profiles. The excitation-only prescription is a formal comparison in the plan. The recorded far-field runs compare the local subtraction and raw variants. [Plan](../spec/EX-GC43_plan.md) · [Far-field driver](../src/exgc43.py)
+
+## What I would do next
+
+1. **Turn the equal-energy comparison into an end-to-end benchmark.** Compare two equal-energy neutral sources with different link-energy fractions, and retain the existing charged-versus-neutral comparison as a second case. Build their spatial conjugate-charge profiles, solve for the lapse with one coupling and one vacuum prescription, and check whether the far-field amplitudes follow the predicted charge ratio. For spreading packets, specify the time window or the static source preparation before the run.
+2. **Use a uniform-lapse scaling control before building interacting matter.** If the entire matter Hamiltonian scales as H(N) = N H(1) under uniform lapse, Q = ΔE follows at N = 1. Use that identity as a control, then ask whether a separate spatial propagation rule can retain the GC41 optical delay and bending targets with the same lapse. This isolates the conflict between the matter charge and the optical prescription.
+3. **Require a derived stress identity before relying on bound-state cancellation.** If pursuing an interacting network, define how the Hamiltonian responds to spatial strain independently of lapse, and verify that a mobile bound state exists. Test cancellation of integrated stress and the actual value of Q/ΔE separately. The current formula would require zero excess link energy for Q = ΔE, and stationarity alone supplies no such identity.
+
+GC43 gives sufficient reason to stop scaling the current Gaussian matter model in search of universal charge. A revised model should explain both why the vacuum leaves the long-range constraint intact and why distinct equal-energy matter states source the same lapse.
+
+Review scope includes the plan, implementation, results note, and saved packet, kernel, far-field, and check outputs. The simulations were not rerun.
