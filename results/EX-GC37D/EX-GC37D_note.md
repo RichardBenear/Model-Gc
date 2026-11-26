@@ -1,6 +1,6 @@
 # EX-GC37D — waves under realised random coincidences
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37D_plan.md). PI closure pending. Cloud container, Python 3.13, numba. About 0.3 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37D_plan.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numba. About 0.3 core-h. This is our construction, not LaViolette's Model G.
 
 **Fails.** If each face transfer of the wave is realised as a random yes/no event, the randomness pumps energy into the wave.
 - **p0 = 0.5 and 0.25:** the field grows by 10¹⁷ and 10⁵⁰. That is noise-driven, parametric growth.

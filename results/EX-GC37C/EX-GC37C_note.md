@@ -1,6 +1,6 @@
 # EX-GC37C — does the event-counting mechanism survive a moving mass?
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37C_plan.md), with amendment A1 (before any run). PI closure pending. Cloud container, Python 3.13. Under 3 CPU-seconds. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC37C_plan.md), with amendment A1 (before any run). PI CLOSED 2026-11-26. Cloud container, Python 3.13. Under 3 CPU-seconds. This is our construction, not LaViolette's Model G.
 
 **Only if the firing-rate field is a wave field.**
 - **A diffusing, consumed carrier (Model Gc's picture) fails at once.** A moving sink leaves a wake. Its field is 2.6× weaker ahead than behind at v = 0.1, and the sink feels a backward pull from its own field, i.e. drag.

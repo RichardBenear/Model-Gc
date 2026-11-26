@@ -298,7 +298,7 @@ if __name__ == "__main__":
     elif part == "kernel":
         res = {}
         for lam0 in (0.1, 0.2):
-            res[str(lam0)] = dict(K0=K0(lam0), axis=kernel_axis(lam0, ms=range(1, 17)), diag=kernel_diag(lam0))
+            res[str(lam0)] = dict(K0=K0(lam0), axis=kernel_axis(lam0, ms=range(1, 17)), diag=kernel_diag(lam0), qpi_norm="1/L")
     elif part == "source":
         res = {"cases": {}}
         for lam0 in (0.1, 0.2):
@@ -317,8 +317,10 @@ if __name__ == "__main__":
         for lam0 in (0.1, 0.2):
             kd = kern[str(lam0)]; K0v = kd["K0"]
             qx = np.array([0.0] + [v["qt2"] for v in kd["axis"].values()])
-            # kernel.json was written before the q = pi normalisation fix (cos^2 = 1 there, so 1/L not 2/L): halve m = 16
-            Kx = np.array([K0v] + [v["K_B"] * (0.5 if int(m) == 16 else 1.0) for m, v in kd["axis"].items()])
+            # The committed kernel.json predates the q = pi normalisation fix (cos^2 = 1 there, so 1/L not 2/L) and has no
+            # "qpi_norm" flag: halve its m = 16 entry. A kernel.json written by the fixed generator carries the flag.
+            fixq = kd.get("qpi_norm") != "1/L"
+            Kx = np.array([K0v] + [v["K_B"] * (0.5 if (fixq and int(m) == 16) else 1.0) for m, v in kd["axis"].items()])
             o = np.argsort(qx); qx, Kx = qx[o], Kx[o]
             Kfun = lambda q2, qx=qx, Kx=Kx: np.interp(q2, qx, Kx)      # constant beyond the measured range
             small = qx[1:5]; c2 = float(np.polyfit(small, Kx[1:5] - K0v, 1)[0])

@@ -1,6 +1,6 @@
 # EX-GC40C — is a shared-entanglement hub a mass, or only a local defect?
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC40C_plan.md), with predictions written after 40A and following the [Codex review](../../review/EX-GC40AB_codex_review.md). PI closure pending. Cloud container, Python 3.13, numpy 2.5. About 0.2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC40C_plan.md), with predictions written after 40A and following the [Codex review](../../review/EX-GC40AB_codex_review.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numpy 2.5. About 0.2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
 
 **A hub is a local defect, not a gravitational source.**
 - **It has some properties of a mass.** It lowers the ground-state energy, it traps bound states in the gap, and two hubs attract.

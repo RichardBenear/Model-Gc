@@ -1,6 +1,6 @@
 # EX-GC40A — entanglement equilibrium on a pair network
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC40_plan.md). PI closure pending. Cloud container, Python 3.13, numpy 2.5, mpmath. About 0.8 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction (only its axiom, a vacuum made of maximally entangled pairs, is used).
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC40_plan.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numpy 2.5, mpmath. About 0.8 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction (only its axiom, a vacuum made of maximally entangled pairs, is used).
 
 **Counting fixes the geometry side, but the matter side still does not give a constant G.**
 - **Pure pairs show no first-order entropy response.** For the perturbation tested here, a vacuum of only maximally entangled pairs has zero first-order change in every block's entanglement. *(Wording narrowed 2026-11-26 after the Codex review: at λ = 0 the first-order energy-density change also vanishes, so the ratio k_B is undefined. This shows entropy stationarity along this perturbation. How a pure-pair vacuum responds to an excitation that carries energy at leading order is still open.)*

@@ -1,6 +1,6 @@
 # EX-GC41 — event-counting optics on a random network: front bending and shared site clocks
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC41_plan.md), following the [Codex review](../../review/EX-GC40AB_codex_review.md). PI closure pending. Cloud container, Python 3.13, numpy 2.5, scipy, numba. About 0.3 core-h. This is our construction, not LaViolette's Model G.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC41_plan.md), following the [Codex review](../../review/EX-GC40AB_codex_review.md). PI CLOSED 2026-11-26. Cloud container, Python 3.13, numpy 2.5, scipy, numba. About 0.3 core-h. This is our construction, not LaViolette's Model G.
 
 **The time delay is robust. The bending is not measurable this way, and sharing site clocks changes the two-site delay by about 16%.**
 - **41A, delay: PASS.** On a random network with no lengths, the arrival-time delay behind the lens matches the continuum ray calculation to within 2.3%, at b = 40 and 60. This holds for both rules and both lens strengths. This is GR's Shapiro delay (for the two-site rule) recovered absolutely, not only as a ratio.
