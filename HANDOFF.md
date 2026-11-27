@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## EX-GC44 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC44_plan.md) · [Note](results/EX-GC44/EX-GC44_note.md). Follows the Codex review of 43: separate the clock (lapse N, on everything) from space (link factor a).
+- **Lapse-homogeneous weights:** mass equals energy for every state, and the redshift test passes. But light bends at only the Newtonian value.
+- **A spatial link factor:** gives a second charge, the strain stress Q_a = ΔE_link (the lattice 3p). 43's charge is Q_N + Q_a.
+- **This network's matter is radiation-like:** Q_a ≈ ΔE even at rest.
+- **A mobile exciton binds,** but its stress cancels only if the attraction grows as links stretch (w* < 0). No ordinary interaction does that.
+- **Suggested next (not approved):** matter whose rest energy is on-site (Q_a = 0 at rest). Test whether its composites are stress-free.
+
 ## EX-GC43 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC43_plan.md) · [Note](results/EX-GC43/EX-GC43_note.md). This follows the Codex review of 42: the lapse couples to the conjugate source ∂H/∂N, derived from one functional.
