@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC47R completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC47R_plan.md) · [Note](results/EX-GC47R/EX-GC47R_note.md). Corrections to 47 after the Codex review. The release packet is now periodic about its own centre, and the form factors are Hellmann–Feynman consistent (projector-derivative term). 47's conclusions stand: acceleration = −2 t_pair ∂V/∂r within 4.4%, a/a_N ≈ 1.2 × 10⁻⁴, force = point-charge force to 4e-4 and → 1/r² with box size. The energy-drift gate failed (split-step, 2.3e-7). Next per Codex (not approved): a massive band tested against 2 t_pair E_rest = c_signal², with c_signal measured independently.
+
 ## EX-GC47 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC47_plan.md) · [Note](results/EX-GC47/EX-GC47_note.md). Implements the Codex GC46 review's three-stage two-body test.
