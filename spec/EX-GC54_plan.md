@@ -135,3 +135,16 @@ for m in (0.3, 0.6, 1.2):
         v = (G.disp(K + e1, 1, m, 0) - G.disp(K - e1, 1, m, 0)) / (2 * h); E = G.disp(K, 1, m, 0)
         P = np.sum(w * np.sin(K[..., 0])); print(m, V, 4 * np.sum(w * q * v) / P, 4 * np.sum(w * E * v) / P)
 ```
+
+## Amendment A1 (2026-11-27, written with the code, before any scored run)
+
+The operator check (P2) ran first, with the final code, and is scored as registered (`results/EX-GC54/EX-GC54_ops.json`). It showed something I did not foresee when writing the plan:
+- **The registered D2-q operator is exactly twice the energy current.** At uniform N, Q̂ = Σ_x ∂Ĥ/∂N_x = 2Ĥ − mβ̂, and the Dirac mass matrix β̂ anticommutes with the velocity v̂ = i[Ĥ, X̂], so ½{Q̂, v̂} = 2 · ½{Ĥ, v̂}. Measured: Σs(D2-q)/Σs(D2-E) = 2.0000, so the D2-q operator has λ_eff = 7.70, not 4.70.
+- **Why the plan's table differs.** The table's D2-q column used the band-diagonal product q(k)v(k). The operator also has interband (Zitterbewegung) parts, which the table left out. D2-E has none, because Ĥ commutes with the band projector, and it matches the table to 1.5 × 10⁻¹⁰.
+- **Consequences, recorded and not re-scored.** P2's 1% k-space clause fails for D2-q (0.64). P3's number (0.977 ± 0.008) was computed from the wrong λ_eff and will be scored as registered. The registered operator is the one that runs. Because D2-q = D2-E at strength 8 (up to O(ψ) differences in the bond weights), its run is also a far point for the linearity test (P5). The linear prediction for it, written now, is R_dyn(0.2) = 0.9975 − 0.0294 × 3.70 = 0.889 (reported, not scored).
+
+Implementation choices fixed now:
+1. **Source refresh.** For the two rules the link current is recomputed once per time step from the state at the start of the step and held over the four RK stages. This keeps the cost near the cap. C2 (dt/2) measures the effect. For 53's law (P) the source is evaluated at every stage, as in 53E.
+2. **C1.** 53's law run through the 54 code at V = 0.2 to T = 8 is compared with 53E's stored P₁(t) for t ≤ 8, to 1e-10.
+3. **C2.** D2-E at V = 0.2 with dt = 0.05 to T = 8, against the dt = 0.1 run, P₁(t) for 2 ≤ t ≤ 8, within 1e-5 relative to max |P₁|.
+4. **Ring (C3 and the reported J)** at n = 129, uniform N, ℓ = +2, 0, −2, spin-balanced as in 53C.
