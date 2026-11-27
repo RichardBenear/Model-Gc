@@ -1,6 +1,6 @@
 # EX-GC45 — heavy on-site matter: can a body's spatial charge be small, and does its binding energy gravitate as energy?
 
-2026-11-27 | EXPLORATORY | Claude | Plan only. PI request in thread: "Read and determine a next test" (2026-11-27 01:31 UTC). **Not run. Running needs a separate PI go-ahead.** Follows the [Codex review of GC44](../review/EX-GC44_codex_review.md), items 1 and 2. Item 3, a two-field optics test, is deferred to a later study. Cap 2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
+2026-11-27 | EXPLORATORY | Claude | Plan only. PI request in thread: "Read and determine a next test" (2026-11-27 01:31 UTC). PI run go-ahead 2026-11-27 01:37 UTC ("ok, go ahead with 45"), given after this plan was pushed and before any run. Follows the [Codex review of GC44](../review/EX-GC44_codex_review.md), items 1 and 2. Item 3, a two-field optics test, is deferred to a later study. Cap 2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
 
 ## Why
 
