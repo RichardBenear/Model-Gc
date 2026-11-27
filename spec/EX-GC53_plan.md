@@ -111,3 +111,23 @@ with λ = 4 for GR and κ = 4πG from 51. N̄ is the mean N of the link, and the
 ## Outputs
 
 `src/exgc53.py`, `src/exgc53_recompute.py`, `results/EX-GC53/`, note, LOG row and HANDOFF section.
+
+## Amendment A1 (2026-11-27, after 53A/53B/C0 had run and before 53C–E, C1–C3)
+
+**What had already run.** 53A, 53B and C0 were run first, with the final code. 53A gave registered fails:
+- pattern (a): 0.983 of the readout (pass);
+- pattern (b): 0.76% of (a) (fail; the limit was 0.1%);
+- pattern (c): 0.904 of the readout (fail);
+- weak-field N: 0.825 of the readout (fail).
+
+**What diagnosis showed** (recorded as post hoc in the note):
+- *The weak-N miss* is an artefact of the clock's centroid density. u² + w² is not the conserved energy when N varies. With the conserved energy density, the weak-N ratio equals the uniform one (0.938 against 0.936).
+- *The remaining 6%* is lattice dispersion at k₀ = 0.5. The lattice eikonal gives a factor cos k₀ / cos²(k₀/2) = 0.935, and the wave matches it to 0.1%.
+- *So the clock does read Σβ*, through a known lattice factor. The registered numbers stand.
+
+**Changes for the parts not yet run:**
+1. **53D small loops.** These are scored with the readout sum 2Σβ/N⁴ (the quantity 53A validated up to the lattice factor), not with a wave. An 8 × 8 loop has a perimeter of 32 sites, too short for 16-site-wide pulses.
+2. **53D enclosing loops.** P3(d) is scored on the readout sum against the analytic dipole. The wave delay, now with the conserved-energy centroid, is reported against readout × 0.935 but not scored.
+3. **53D tilted ring, P3(e).** The ratio (readout sum / analytic dipole sum along the same staircase loop) for the tilted ring equals that for the aligned ring, along a staircase loop of the same radius, within 3%.
+4. **C2.** Shortened to fit the cap. 53E at V = 0.2 runs to T = 8 at dt and at dt/2, with the same κ. The packet-1 momentum difference P₁(t) at shared times must agree within 1% at t ≥ 2.
+5. **C3.** With the shift off, the P₁(t) values of 53E's V = 0.2 setup over 0 ≤ t ≤ 2 equal 52's recorded P₁(t) to 1e-10.

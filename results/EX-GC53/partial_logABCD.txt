@@ -1,0 +1,24 @@
+53A a_uniform {'dt': np.float64(0.5034413315954112), 'readout': 0.5120000000000002}
+53A b_gauge {'dt': np.float64(0.003891369346376905), 'readout': 8.673617379884035e-18}
+53A c_one_side {'dt': np.float64(0.11575736229048061), 'readout': 0.128}
+53A a_weakN {'dt': np.float64(0.4228745023330589), 'readout': 0.5122560286419915}
+53A zero 6.252776074688882e-13
+A done 12s
+53B {'total_P': [0.12223005631572662, -1.5417354892743873e-16, -2.336362052140066e-18], 'sin_k': [0.12223005631569486, -1.5144164415444805e-16, -2.2671704136911824e-18], 'rel_total': 2.5977553689633973e-13, 'dHdb_err_max': 9.779786476746113e-17, 'rest_spin_current': {'max': 2.431358413384869e-06, 'net': [2.329439084270973e-16, -2.413434035952733e-16, -2.672904917174777e-18], 'moving_max': 0.0001645600958272282}}
+B done 3s
+53C0 {'ratio_mean': 0.9772527156353232, 'ratio_min': 0.9557116441406999, 'ratio_max': 0.9900027714559755, 'Ptot': 0.11597851709805293}
+C0 done 1s
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+53C ell 2 J [0.       0.       1.976197] Q 0.899617 12s
+53C ell 0 J [-0. -0. -0.] Q 0.813209 3s
+53C ell -2 J [-0.       -0.       -1.976197] Q 0.899617 12s
+53D enclosing h 20 {'2': {'readout': -0.367879, 'wave_energy': -0.347404, 'lattice_factor': 0.934801}, '0': {'readout': -1.75376e-20, 'wave_energy': 5.00222e-12, 'lattice_factor': 0.934801}, '-2': {'readout': 0.367879, 'wave_energy': 0.347404, 'lattice_factor': 0.934801}, 'dipole': np.float64(-0.32994990712771877)}
+53D enclosing h 28 {'2': {'readout': -0.2497, 'wave_energy': -0.237317, 'lattice_factor': 0.934801}, '0': {'readout': -7.57664e-22, 'wave_energy': 2.27374e-13, 'lattice_factor': 0.934801}, '-2': {'readout': 0.2497, 'wave_energy': 0.237317, 'lattice_factor': 0.934801}, 'dipole': np.float64(-0.23566948873030502)}
+53D enclosing h 36 {'2': {'readout': -0.190182, 'wave_energy': -0.181585, 'lattice_factor': 0.934801}, '0': {'readout': 3.4498e-21, 'wave_energy': 2.84217e-12, 'lattice_factor': 0.934801}, '-2': {'readout': 0.190182, 'wave_energy': 0.181585, 'lattice_factor': 0.934801}, 'dipole': np.float64(-0.18329560515687457)}
+53D small d 16 inplane 3.0450e-02 (dip 2.0071e-02) axis -2.2010e-02 (dip -3.2359e-02)
+53D small d 24 inplane 7.4033e-03 (dip 5.6386e-03) axis -8.4476e-03 (dip -1.0230e-02)
+53D small d 32 inplane 2.7173e-03 (dip 2.3344e-03) axis -3.9583e-03 (dip -4.4184e-03)
+53D small d 40 inplane 1.3116e-03 (dip 1.1848e-03) axis -2.1355e-03 (dip -2.2872e-03)
+53D tilted {'readout': -0.2787464593971096, 'dipole': np.float64(-0.26051040797031033), 'aligned_readout': -0.2796695450942982, 'aligned_dipole': np.float64(-0.26130118398530977), 'wall': 12.030318975448608, 'ratio_tilted': np.float64(1.070001239370358), 'ratio_aligned': np.float64(1.0702957438953706)}
+CD done 68s

@@ -1,0 +1,15 @@
+{
+ "study": "EX-GC53",
+ "part": "C0",
+ "label": "EXPLORATORY",
+ "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39",
+ "python": "3.13.18",
+ "numpy": "2.5.3",
+ "wall_s": 0.5116126537322998,
+ "result": {
+  "ratio_mean": 0.9772527156353232,
+  "ratio_min": 0.9557116441406999,
+  "ratio_max": 0.9900027714559755,
+  "Ptot": 0.11597851709805293
+ }
+}
