@@ -1,5 +1,21 @@
 # Handoff — current state
 
+## EX-GC52 completed (Claude, exploratory, closure pending)
+
+[Plan](spec/EX-GC52_plan.md) · [Note](results/EX-GC52/EX-GC52_note.md). Moving source in the 51 model (PI go-ahead 19:54 UTC). About 1.0 core-h.
+- **Field of a moving mass is right:** Lorentz-contracted with charge Q(V), g₀₀ = boosted static (amplitude 1.000 after ±y symmetrisation).
+- **Preferred frame confirmed:** co-moving pair R(V) = γṗ(V)/ṗ(0) = 1.02/1.11/1.28 (V = 0.1/0.2/0.3; symmetrised 1.03/1.13/1.33 = lattice prediction to 0.4%); full dynamic R_dyn(0.2) = 1.115. Lorentz invariance needs 1. Missing g₀ᵢ (PPN α₁ ≈ −8, α₂ ≈ −1).
+- **Side finding:** moving spin-up Dirac packet's charge centre shifts −0.18 sites in y at V = 0.2 (reverses with spin; Møller-shift size). This made the P3 1% match and P5 fail.
+- **Suggested next (not approved):** a minimal direction-carrying addition (torsion / handed coincidences sourced by matter current, per PI's idea) and rerun 52D (0.4 core-h) to see if R → 1.
+
+## EX-GC51 completed (Claude, exploratory, closure pending)
+
+[Plan](spec/EX-GC51_plan.md) · [Note](results/EX-GC51/EX-GC51_note.md). Codex 48/49/50 review recommendation 3: one declared model (Wilson–Dirac matter with coincidence weights, N carried as light's slowness, sourced by q = ∂H/∂N, light by 37B), run end to end. About 6.5 core-h (PI raised cap twice).
+- **Passes:** G_eff = 1 to 3e-5; field and light arrive together to 0.1%; reciprocity |F₁+F₂|/|F₁| = 0.014; ray Shapiro ratio 2.02–2.04.
+- **Registered fails:** c_N = 1.08 (light reads the same; likely the Dirichlet-box target); β separation as coded 1.06 (used κ not κQ; post hoc 1.000); wave Shapiro 2.076 at b = 8 (second-order U); all P3 clauses (comparator omitted ⟨E_k E_kN⟩∂N; σ = 3/m probes differ in size, so r = 0 equal fall was untestable).
+- **Post hoc:** with the velocity term, fall matches the lattice dispersion within 2–6%; point limit (1 + rm)×GR.
+- **Suggested next (not approved):** moving source (does a scalar give g₀ᵢ effects?); radiation from an orbiting pair; clean universality rerun with equal σ; an action for the coupled rule.
+
 ## EX-GC50 completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC50_plan.md) · [Note](results/EX-GC50/EX-GC50_note.md). Idea 4 from the GC40 recap: a natural reason for 42's vacuum subtraction.
@@ -22,7 +38,7 @@
 [Plan](spec/EX-GC48_plan.md) · [Note](results/EX-GC48/EX-GC48_note.md). Idea 7 from the GC40 recap (Codex GC47R test): a Wilson–Dirac lattice fermion under the 44 rules.
 - **One fermion is relativistic matter:** 2 t_pair E_rest/c² = 1 + r m (exact), with c measured from massless packets; dust at rest (Q_a/E ∝ σ⁻²); moving stress ∝ v². The whole Wilson term must stretch with a (W1); otherwise Q_a/E = −3r/m.
 - **47 calibration:** with the network's own fastest signal (0.174), the 47 pairs have 2 t_pair E/v² ≈ 0.004. The inertia failure stands.
-- **A contact-bound composite is not:** inertia 28–79% of its energy, binding stress η = 40–318. Contact binding is cutoff-scale (T, |V| 2–3 ≫ m); instantaneous potential energy carries no inertia or stress.
+- **A contact-bound composite is not:** inertia 1.27–3.6 times its energy/c² (corrected 2026-11-27; R_c = 0.28–0.79 is the reciprocal), binding stress η = 40–318. Contact binding is cutoff-scale (T, |V| 2–3 ≫ m); instantaneous potential energy carries no inertia or stress.
 - **Suggested next (not approved):** binding by exchange of a propagating lattice field, to test whether field momentum/stress restore R_c = 1, η = 0.
 - Fails recorded: P2 at m = 0.2 (asymptotic formula scored too early), P3b one point, P3d at m = 0.2, C1 Q_a finite-difference noise.
 

@@ -1,0 +1,13 @@
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+51B U12 0.01 kappa 1.5618 Q 0.950487 (Q0 0.965547) it 8 res 7.5e-12 | Geff {'axis': 1.0, 'face': 0.99998, 'body': 0.99997} | beta raw {'axis': 1.0131, 'face': 0.9914, 'body': 0.9792}
+51B U12 0.02 kappa 3.1235 Q 0.936301 (Q0 0.965547) it 10 res 6.2e-12 | Geff {'axis': 0.99999, 'face': 0.99998, 'body': 0.99997} | beta raw {'axis': 1.006, 'face': 0.9958, 'body': 0.9899}
+51B U12 0.035 kappa 5.4662 Q 0.916475 (Q0 0.965547) it 12 res 7.9e-12 | Geff {'axis': 0.99999, 'face': 0.99998, 'body': 0.99997} | beta raw {'axis': 1.003, 'face': 0.9977, 'body': 0.9945}
+51B U12 0.05 kappa 7.8089 Q 0.898183 (Q0 0.965547) it 14 res 3.0e-12 | Geff {'axis': 0.99999, 'face': 0.99998, 'body': 0.99997} | beta raw {'axis': 1.0017, 'face': 0.9984, 'body': 0.9964}
+51B beta separated {'axis': 1.0595, 'face': 1.0616, 'body': 1.0625}
+B done 126s
+51E b 8 {'eikonal_two': 6.415583275009986, 'eikonal_one': 3.1486692022789073, 'ratio_eikonal': 2.037553919721573, 'wave_two': 7.818434372152453, 'wave_one': 3.7655814844406876, 'ratio_wave': 2.0762887231249882}
+51E b 16 {'eikonal_two': 4.76510218654453, 'eikonal_one': 2.3560938001256564, 'ratio_eikonal': 2.0224586076710507, 'wave_two': 5.267759041580334, 'wave_one': 2.5855132417001414, 'ratio_wave': 2.037413290568353}
+51E b 24 {'eikonal_two': 3.859328666873704, 'eikonal_one': 1.9136772565117215, 'ratio_eikonal': 2.0167082269183383, 'wave_two': 3.992461465161952, 'wave_one': 1.9726628780084496, 'ratio_wave': 2.0238944574212496}
+E done 2s
+51C m 0.25 r 1.0: a/aGR 1.03604 a/asemi 0.76548 semi/GR 1.35345 (1+rm 1.250) dEmax 1.8e-10 1292s

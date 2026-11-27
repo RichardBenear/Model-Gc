@@ -1,0 +1,38 @@
+{
+ "study": "EX-GC52",
+ "part": "checks12",
+ "platform": "Linux-6.18.44-fc-v880-x86_64-with-glibc2.39",
+ "wall_s": 3.9159650802612305,
+ "result": {
+  "C1": {
+   "maxdiff": 8.881784197001252e-16,
+   "it_moving": {
+    "iters": 6,
+    "resid": 2.2115592777233184e-12,
+    "Q": 0.7321695586097696
+   },
+   "it_static": {
+    "iters": 6,
+    "resid": 2.2111266810564967e-12,
+    "Q": 0.7321695586097696
+   }
+  },
+  "C2": {
+   "rel": 1.7162441728532247e-07,
+   "cg_flag": 0,
+   "info": {
+    "iters": 60,
+    "resid": 2.1947640466855096e-15,
+    "Q": 0.8649084486720033
+   }
+  }
+ },
+ "posthoc_C2_kappa_scan": {
+  "note": "post hoc, after C2 missed 1e-8: rel grows as 1/kappa, i.e. a floating-point floor from forming f - f(1) with f ~ -0.5, not solver error",
+  "rel": {
+   "1e-6": 1.7162441728532247e-07,
+   "1e-7": 1.842308107624717e-06,
+   "1e-8": 1.787606004977622e-05
+  }
+ }
+}

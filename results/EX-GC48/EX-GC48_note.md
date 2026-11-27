@@ -6,7 +6,7 @@
 
 **One Wilson–Dirac fermion fixes both problems from 47 at once.** Its inertia equals its energy over c², up to a correction of order mass/cutoff. At rest it is dust: its spatial ("stress") charge goes to zero as the packet widens. When it moves it carries the relativistic stress, in proportion to v². Here c is the speed of the same field when it is massless, measured from a moving packet.
 
-**But a composite of two such fermions bound by an on-site contact is not relativistic.** Its inertia is only 28–79% of its energy. Its uncancelled binding stress is 40–320 times its binding energy, against 0 in GR.
+**But a composite of two such fermions bound by an on-site contact is not relativistic.** ~~Its inertia is only 28–79% of its energy.~~ Its inertia is 1.27–3.6 times its energy over c² (R_c = (E₀/c²)/m_i = 0.28–0.79; corrected 2026-11-27, see below). Its uncancelled binding stress is 40–320 times its binding energy, against 0 in GR.
 
 The reason is that a contact interaction on a lattice binds at the cutoff scale: the internal kinetic and potential energies are each 2–3, while m ≤ 0.5. The potential energy of an instantaneous site interaction carries no inertia and no stress.
 
@@ -50,7 +50,7 @@ Under the W2 reading, where the Wilson on-site part does not stretch, Q_a/E = �
 
 **48C, the composite** ([C.json](C.json)). Values are at r = 1, W1, along the axis.
 
-| m | E_b/2m | L | U | T | V | R_c | δR | V/⟨E₁+E₂⟩ | η | Q_a/E₀ |
+| m | E_b/2m | L | U | T | V | R_c = (E₀/c²)/m_i | δR | V/⟨E₁+E₂⟩ | η | Q_a/E₀ |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 0.5 | 0.02 | 96 | 5.78 | 1.99 | −2.01 | 0.787 | −0.475 | −0.672 | 110 | 2.24 |
 | 0.5 | 0.08 | 96 | 5.91 | 2.91 | −2.99 | 0.488 | −0.675 | −0.764 | 40 | 3.46 |
@@ -72,3 +72,13 @@ Under the W2 reading, where the Wilson on-site part does not stretch, Q_a/E = �
 - It shows that relativistic single-particle matter can be put on the lattice with the 44 clock and space rules intact: inertia = energy, and dust at rest. The rest energy does not need to sit on a site.
 - It does not give relativistic composites. Any instantaneous lattice interaction carries no momentum and no stress, so its potential energy has no inertia and its binding stress is not cancelled. A shallow, longer-range potential would shrink δR to about V/E, of order the binding fraction, but would not remove it.
 - **Suggested next (not approved):** bind two fermions by exchange of a propagating lattice field (for example a massless or light scalar coupled to ψ̄ψ, with its own link and site terms under the 44 rules), and check whether the field's momentum and stress restore R_c = 1 and η = 0. This is a lattice von Laue test, a field version of idea 6.
+
+## Correction (2026-11-27, after the Codex review of 48/49/50)
+
+The conclusion and the HANDOFF line inverted the composite mass ratio. R_c = 2 t_c E₀/c² = (E₀/c²)/m_i, because m_i = 1/(2t_c). So the saved R_c = 0.276–0.787 means the composite's inertia is **1.27–3.62 times E₀/c²**, not 28–79% of it. For example, the m = 0.5, E_b/2m = 0.02 point has m_i c²/E₀ = 1.27.
+
+The physics reading is unchanged:
+- Inertia misses the negative potential energy, so the composite is too heavy for its energy.
+- It would fall more slowly than a free fermion, as the evidence section says.
+
+From here on, tables give both m_i c²/E₀ and its labelled reciprocal. The registered scoring is unchanged. [Codex review](../../review/EX-GC48_49_50_codex_review.md)
