@@ -1,5 +1,31 @@
 # Handoff — current state
 
+## EX-GC50 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC50_plan.md) · [Note](results/EX-GC50/EX-GC50_note.md). Idea 4 from the GC40 recap: a natural reason for 42's vacuum subtraction.
+- **Clock sector: yes, exact.** Under 44's homogeneous weights the vacuum has no lapse mass (Euler) and χ_NN ≤ 0 (concavity); network q² stiffness −0.0025/−0.010 (vs 43's +1.00); Dirac sea only q⁴.
+- **Spatial sector: no.** χ_Na(0) = −ε_link and χ_aa(0) (equal to 43's 37B χ(0) exactly) remain: the counterterm of 42–47 lives there. Lattice cosmological-constant problem.
+- **Only exact boson–fermion partners cancel it** (Dirac sea + partner, zero to 1e-16); unbroken lattice SUSY. 47's G_eff would be ~1% larger; conclusions unchanged.
+- Fails recorded: Dirac χ₀ clause at L = 32 (q⁴ behaviour; post hoc L = 96 fine).
+- **Suggested next (not approved):** a spatial-factor coupling homogeneous like the clock's (does Q_a and light's factor 2 survive?), or softly broken partners.
+
+## EX-GC49 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC49_plan.md) · [Note](results/EX-GC49/EX-GC49_note.md). Idea 1 from the GC40 recap: firing-rate changes carried by the same two-site coincidences as light.
+- **The rule derives a wave equation for N and shares the light cone** (light and δN Shapiro delays agree to 0.05% at k₀ = 1).
+- **But passing on N itself gives PPN β = −1/2** (N³ harmonic): perihelion 1.5× GR, ruled out. Of four transported quantities only the light slowness 1/N² gives β = 1 (exponential metric).
+- Scored lattice fit missed ±0.05 for 3 of 4 from a linear-in-strength lattice anisotropy artefact; post hoc separation recovers the continuum β to 0.006.
+- **Suggested next (not approved):** a reason in the event picture for passing on delay (slowness) rather than rate; large-amplitude behaviour (no horizon in the exponential metric).
+
+## EX-GC48 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC48_plan.md) · [Note](results/EX-GC48/EX-GC48_note.md). Idea 7 from the GC40 recap (Codex GC47R test): a Wilson–Dirac lattice fermion under the 44 rules.
+- **One fermion is relativistic matter:** 2 t_pair E_rest/c² = 1 + r m (exact), with c measured from massless packets; dust at rest (Q_a/E ∝ σ⁻²); moving stress ∝ v². The whole Wilson term must stretch with a (W1); otherwise Q_a/E = −3r/m.
+- **47 calibration:** with the network's own fastest signal (0.174), the 47 pairs have 2 t_pair E/v² ≈ 0.004. The inertia failure stands.
+- **A contact-bound composite is not:** inertia 28–79% of its energy, binding stress η = 40–318. Contact binding is cutoff-scale (T, |V| 2–3 ≫ m); instantaneous potential energy carries no inertia or stress.
+- **Suggested next (not approved):** binding by exchange of a propagating lattice field, to test whether field momentum/stress restore R_c = 1, η = 0.
+- Fails recorded: P2 at m = 0.2 (asymptotic formula scored too early), P3b one point, P3d at m = 0.2, C1 Q_a finite-difference noise.
+
 ## EX-GC47R completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC47R_plan.md) · [Note](results/EX-GC47R/EX-GC47R_note.md). Corrections to 47 after the Codex review. The release packet is now periodic about its own centre, and the form factors are Hellmann–Feynman consistent (projector-derivative term). 47's conclusions stand: acceleration = −2 t_pair ∂V/∂r within 4.4%, a/a_N ≈ 1.2 × 10⁻⁴, force = point-charge force to 4e-4 and → 1/r² with box size. The energy-drift gate failed (split-step, 2.3e-7). Next per Codex (not approved): a massive band tested against 2 t_pair E_rest = c_signal², with c_signal measured independently.
