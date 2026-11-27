@@ -1,6 +1,6 @@
 # EX-GC43 — what does the lapse couple to? One energy functional, positive-energy excitations, and the vacuum term
 
-2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC43_plan.md), written and pushed before the PI's run go-ahead ("go ahead", 2026-11-26 18:23 UTC) and before any run. It follows the [Codex review of GC42](../../review/EX-GC42_codex_review.md). PI closure pending. Cloud container (1 core), Python 3.13, numpy 2.5. About 0.14 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
+2026-11-26 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC43_plan.md), written and pushed before the PI's run go-ahead ("go ahead", 2026-11-26 18:23 UTC) and before any run. It follows the [Codex review of GC42](../../review/EX-GC42_codex_review.md). PI CLOSED 2026-11-26. Cloud container (1 core), Python 3.13, numpy 2.5. About 0.14 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
 
 **Under one consistent functional, gravitational mass is not energy, and it is not universal.** All six predictions and all four checks pass.
 - **Free excitations attract, at about twice their energy.** Every positive-energy packet of the unchanged network has positive charge. But Q/ΔE runs from 1.81 to 2.25 for single particles, and 2.40–3.18 for a particle–hole pair. No state anywhere in the zone has ratio 1.

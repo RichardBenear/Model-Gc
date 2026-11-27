@@ -1,6 +1,21 @@
 # Handoff — current state
 
-## EX-GC45 completed (Claude, exploratory, PI closure pending)
+## EX-GC47 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC47_plan.md) · [Note](results/EX-GC47/EX-GC47_note.md). Implements the Codex GC46 review's three-stage two-body test.
+- **Two bound heavy pairs attract** through the 44 fields exactly as the point-charge formula −G(E₁E₂ + E₁Q_a2 + Q_a1E₂) predicts (to 0.14% at L = 32), reciprocally, and the attraction moves them (acceleration = −2 t_pair ∂V/∂r to ≤ 2.6%, validated against the exact two-body problem at L = 6 to 1.9%).
+- **But they fall at about 1.2 × 10⁻⁴ of the Newtonian rate.** A pair's inertia 1/(2 t_pair) ≈ 8,000 is not tied to its energy ≈ 1. The on-site rest energy that made matter dust-like (45/46) is what breaks m_i = E.
+- **Two clauses fail:** F_a(0) = Q_a (0.8%: projected model breaks strain Hellmann–Feynman), and B1 vs B2 free fall differs by 5–9%, not > 20%.
+- **Suggested next (not approved):** a Dirac-type (Wilson) lattice fermion with relativistic dispersion. It would give m_i = E/c² and Q_a = 0 at rest without a small parameter; test its bound pairs for m_i = E and zero binding stress.
+
+## EX-GC46 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC46_plan.md) · [Note](results/EX-GC46/EX-GC46_note.md). Follows the Codex review of 45 (tests 1 and 2). 43, 44 and 45 were PI CLOSED 2026-11-26 (Richard's go-ahead).
+- **Four upper bands per carrier** (rank-1 contact in a larger basis) keep the binding-stress result: η = δQ_a/E_b is −2.3 to −1.1 at strong hybridisation and +1.1 to +4.9 at weak. At the middle point it is −0.033 (Codex: −0.039). The projection error in E_b is 13–18% at strong hybridisation and 0.3% at weak.
+- **Small-g limit:** the pair's total spatial charge is 0.2–0.3% of its energy at g = 0.0125, and its mobility falls as g². η tends to a finite positive value (0.4–2.7). The sign flip belongs to g, the size to m₀.
+- **Suggested next (not approved):** Codex test 3, a finite-range interaction with a pre-fixed strain law, to see whether η can be made to vanish; or a lattice dilation that scales interaction and hopping together.
+
+## EX-GC45 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 [Plan](spec/EX-GC45_plan.md) · [Note](results/EX-GC45/EX-GC45_note.md). Follows the Codex review of 44 (items 1 and 2; item 3, a two-field optics test, deferred).
 - **Heavy on-site matter is nearly dust.** A rest mode on a site, reached by hybridisation g, has Q_a/ΔE ≈ 0.008 at g = 0.025, falling as g². But Q_a stays 0.3–0.7 of its band width: dust only in the heavy (non-relativistic) limit.
@@ -9,7 +24,7 @@
 - **44's exciton at its true minimum** stays radiation-like (Q_a/ΔE 1.40–2.17).
 - **Suggested next (not approved):** an interaction that acts across links with the same strain factor a as hopping (a lattice dilation), to test whether a von Laue identity then holds; or Codex's two-field optics test.
 
-## EX-GC44 completed (Claude, exploratory, PI closure pending)
+## EX-GC44 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 [Plan](spec/EX-GC44_plan.md) · [Note](results/EX-GC44/EX-GC44_note.md). Follows the Codex review of 43: separate the clock (lapse N, on everything) from space (link factor a).
 - **Lapse-homogeneous weights:** mass equals energy for every state, and the redshift test passes. But light bends at only the Newtonian value.
@@ -18,7 +33,7 @@
 - **A mobile exciton binds,** but its stress cancels only if the attraction grows as links stretch (w* < 0). No ordinary interaction does that.
 - **Suggested next (not approved):** matter whose rest energy is on-site (Q_a = 0 at rest). Test whether its composites are stress-free.
 
-## EX-GC43 completed (Claude, exploratory, PI closure pending)
+## EX-GC43 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 [Plan](spec/EX-GC43_plan.md) · [Note](results/EX-GC43/EX-GC43_note.md). This follows the Codex review of 42: the lapse couples to the conjugate source ∂H/∂N, derived from one functional.
 - **Mass is not energy.** The charge is Q = ΔE + ΔE_link. Free packets attract at 1.8–2.25× their energy (a pair up to 3.2×), and hubs at 0.10–0.41×. No state has Q = ΔE, so the equivalence principle fails at order 1. It is the same defect as 42A's redshift failure.

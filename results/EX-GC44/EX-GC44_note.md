@@ -1,6 +1,6 @@
 # EX-GC44 — separating the clock from space: lapse homogeneity, a spatial link factor, and whether a bound composite is stress-free
 
-2026-11-27 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC44_plan.md), pushed before the PI's run go-ahead ("go ahead and execute the plan for doing those", 2026-11-27 00:00 UTC) and before any run. It follows the [Codex review of GC43](../../review/EX-GC43_codex_review.md). PI closure pending. Cloud container (1 core), Python 3.13, numpy 2.5, scipy. Under 0.1 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
+2026-11-27 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC44_plan.md), pushed before the PI's run go-ahead ("go ahead and execute the plan for doing those", 2026-11-27 00:00 UTC) and before any run. It follows the [Codex review of GC43](../../review/EX-GC43_codex_review.md). PI CLOSED 2026-11-26. Cloud container (1 core), Python 3.13, numpy 2.5, scipy. Under 0.1 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
 
 **Separating time from space fixes the equivalence-principle failure, and shows exactly what is left over.**
 - **Weight the whole Hamiltonian by the lapse (44B), and mass equals energy, identically.**
