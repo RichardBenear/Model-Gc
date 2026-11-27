@@ -39,7 +39,7 @@ Quantities: Q_N/E, Q_a/E, and v_g² = ⟨(∂E/∂kₓ)²⟩ at the packet.
 
 **48C. Bound composite: does binding energy carry inertia, and does it cancel its own stress?** Two distinguishable Dirac fermions of equal mass m are bound by an on-site contact −U Σₓ n₁(x) n₂(x), with n = ψ†ψ (all components). The contact is a site term, so it does not scale with a. It is projected onto positive-energy states of each fermion (no-pair, as in 45–46).
 - **Solver.** With total momentum K, the bound energy solves λ_max[M(E)] = 1, where M(E) = (U/N) Σ_k [Π₁(k+K) ⊗ Π₂(−k)]/(E₁ + E₂ − E). Here Π = ½(1 + h/E) is the positive-band projector, built analytically as a 5 × 5 sum over (1, α₁, α₂, α₃, β) times Dirac-matrix products.
-- **Points.** m = 0.2 and 0.5; U chosen so that E_b/(2m) = 0.01 and 0.05; L = 64 (m = 0.5) and 96 (m = 0.2); r = 1, W1.
+- **Points.** m = 0.2 and 0.5; U chosen so that E_b/(2m) = 0.02 and 0.08; L = 96 (m = 0.5) and 128 (m = 0.2), with a size check at 0.75 L (amended A1); r = 1, W1.
 - **Measurements.**
   - E₀ and E_b.
   - The internal kinetic energy T = ⟨E₁ + E₂⟩ − 2m and the potential energy V = E₀ − ⟨E₁ + E₂⟩.
@@ -56,15 +56,19 @@ Quantities: Q_N/E, Q_a/E, and v_g² = ⟨(∂E/∂kₓ)²⟩ at the packet.
 
 - **P1 (free inertia).** R = 1 + r m to 1e-3 relative at every m (from E² = m² + (1 + r m)k² + O(k⁴)), along both directions. The measured massless c = 1 within 1%. So inertia = energy/c² for fermions much lighter than the cutoff 1/r, with a correction of order m/cutoff.
 - **P1-2 (47 calibration, diagnostic).** R₄₇ < 0.05 for B1 and B2: the 47 inertia failure survives an independent signal speed. If R₄₇ falls between 0.5 and 2, I withdraw the 47 "inertia failure" as a units problem.
-- **P2 (dust at rest, W1).** Q_N/E = 1 to 1e-12. The rest-packet Q_a/E falls as σ⁻², with a log-slope between σ = 16 and 32 of −2 ± 0.1. At σ = 32 it lies within 10% of 3(1 + r m)/(2σ²m²).
-- **P2m (moving, W1).** Q_a(k₀) − Q_a(rest, same σ) over E equals ⟨v_g²⟩ − ⟨v_g²⟩_rest within 5% for k₀ ≤ 0.2. The relativistic trace is ∫T^ii = p·v, so a moving fermion has radiation-like stress in proportion to v².
+- **P2 (dust at rest, W1).** Q_N/E = 1 to 1e-12. The rest-packet Q_a/E falls as σ⁻², with a log-slope between σ = 16 and 32 of −2 ± 0.1. At σ = 32 it lies within 5% of 3(1 + r m/2)/(2σ²m²) (amended A1).
+- **P2m (moving, W1; amended A1).** [Q_a(k₀) − Q_a(rest, same σ)]/E equals [⟨v_g²⟩ − ⟨v_g²⟩_rest]·(1 + r m/2)/(1 + r m)² within 5% for k₀ ≤ 0.2. In the continuum the trace is ∫T^ii = p·v, which is the r m → 0 limit of this; the lattice factor is the same order-m/cutoff correction as in P1.
 - **P2-W2 (contrast).** At rest, Q_a/E ≈ −3r/m (order 1 or larger), so W2 is not dust. The scaling of the Wilson on-site part is decisive.
-- **P3 (composite).**
+- **P3 (composite).** Scored at the full L.
   - **(a)** Q_N = E₀ exactly, so gravitational charge counts binding.
   - **(b)** The inertia of the composite misses its potential energy: δR < 0, with δR within 30% of V/E₀ (the instantaneous contact carries no momentum, so only kinetic energy adds inertia). GR needs δR = 0.
   - **(c)** η > 0.5 at every point. Binding kinetic stress is not cancelled by the a-independent contact (no von Laue); GR needs η = 0.
   - **(d)** The spectator formula reproduces t_c within 5%.
 - **C1–C2 (checks).** L = 8 dense equals the 5 × 5 solver to 1e-9; real-space ⟨H_link⟩ equals k-space Q_a to 1e-10.
+
+## Amendment A1 (2026-11-27, before any run)
+
+Working the small-k algebra for the code before running anything showed two errors in the plan as pushed. With the W1 rule, t∂E/∂t = k²(1 + r m/2)/E at small k, while the low-k curvature carries (1 + r m), because the r m k² piece of E² scales as t¹, not t². So the rest-packet formula in P2 becomes 3(1 + r m/2)/(2σ²m²), and the P2m comparison carries the factor (1 + r m/2)/(1 + r m)². Separately, the 48C box sizes were too small for the weakest binding (bound-state radius about 40 sites at m = 0.2, E_b/(2m) = 0.01). The binding points move to E_b/(2m) = 0.02 and 0.08 with larger boxes. No data had been computed when these changes were made.
 
 ## What the outcomes mean
 
