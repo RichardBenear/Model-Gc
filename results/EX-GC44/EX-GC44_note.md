@@ -115,6 +115,14 @@ For w ∈ {0, 0.5, 1, 2} the excess stress δQ_a = δlink + w⟨V⟩ is negative
   - The question is whether a composite of such constituents has zero excess stress, given ordinary interactions.
   - That is a well-posed next test, and it does not need a new substrate.
 
+## Correction after review (2026-11-27, Codex review of GC44)
+
+The registered P4 scoring above stands. The interpretation in the headline and in "What it means" was wrong on one point.
+- w* cancels only the *binding* change of the stress. The gravitational question is whether the *whole* composite has Q_a = L_bound + w⟨V⟩ = 0.
+- From the saved D.json, that requires w = +3.68 / +2.64 / +1.94 (λ₀ = 0.1) and +1.72 / +1.36 / +1.09 (λ₀ = 0.2) at binding fractions 5 / 15 / 30%.
+- These are positive and strongly state-dependent. So "cancellation needs an interaction that strengthens as links stretch" applies to the binding increment only.
+- What survives: no single strain law cancels the total charge across states. See [EX-GC45](../../spec/EX-GC45_plan.md).
+
 ## Files
 
 [Code](../../src/exgc44.py) · [Recompute](../../src/exgc44_recompute.py) · `A.json` (44A), `BC.json` (44B, 44C), `C0.json`, `D.json` (44D), `recompute.json`
