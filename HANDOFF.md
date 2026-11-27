@@ -1,5 +1,12 @@
 # Handoff — current state
 
+## EX-GC46 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC46_plan.md) · [Note](results/EX-GC46/EX-GC46_note.md). Follows the Codex review of 45 (tests 1 and 2). 43, 44 and 45 were PI CLOSED 2026-11-26 (Richard's go-ahead).
+- **Four upper bands per carrier** (rank-1 contact in a larger basis) keep the binding-stress result: η = δQ_a/E_b is −2.3 to −1.1 at strong hybridisation and +1.1 to +4.9 at weak. At the middle point it is −0.033 (Codex: −0.039). The projection error in E_b is 13–18% at strong hybridisation and 0.3% at weak.
+- **Small-g limit:** the pair's total spatial charge is 0.2–0.3% of its energy at g = 0.0125, and its mobility falls as g². η tends to a finite positive value (0.4–2.7). The sign flip belongs to g, the size to m₀.
+- **Suggested next (not approved):** Codex test 3, a finite-range interaction with a pre-fixed strain law, to see whether η can be made to vanish; or a lattice dilation that scales interaction and hopping together.
+
 ## EX-GC45 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 [Plan](spec/EX-GC45_plan.md) · [Note](results/EX-GC45/EX-GC45_note.md). Follows the Codex review of 44 (items 1 and 2; item 3, a two-field optics test, deferred).
