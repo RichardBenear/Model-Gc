@@ -1,6 +1,6 @@
 # Handoff — current state
 
-## EX-GC45 completed (Claude, exploratory, PI closure pending)
+## EX-GC45 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 [Plan](spec/EX-GC45_plan.md) · [Note](results/EX-GC45/EX-GC45_note.md). Follows the Codex review of 44 (items 1 and 2; item 3, a two-field optics test, deferred).
 - **Heavy on-site matter is nearly dust.** A rest mode on a site, reached by hybridisation g, has Q_a/ΔE ≈ 0.008 at g = 0.025, falling as g². But Q_a stays 0.3–0.7 of its band width: dust only in the heavy (non-relativistic) limit.
@@ -9,7 +9,7 @@
 - **44's exciton at its true minimum** stays radiation-like (Q_a/ΔE 1.40–2.17).
 - **Suggested next (not approved):** an interaction that acts across links with the same strain factor a as hopping (a lattice dilation), to test whether a von Laue identity then holds; or Codex's two-field optics test.
 
-## EX-GC44 completed (Claude, exploratory, PI closure pending)
+## EX-GC44 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 [Plan](spec/EX-GC44_plan.md) · [Note](results/EX-GC44/EX-GC44_note.md). Follows the Codex review of 43: separate the clock (lapse N, on everything) from space (link factor a).
 - **Lapse-homogeneous weights:** mass equals energy for every state, and the redshift test passes. But light bends at only the Newtonian value.
@@ -18,7 +18,7 @@
 - **A mobile exciton binds,** but its stress cancels only if the attraction grows as links stretch (w* < 0). No ordinary interaction does that.
 - **Suggested next (not approved):** matter whose rest energy is on-site (Q_a = 0 at rest). Test whether its composites are stress-free.
 
-## EX-GC43 completed (Claude, exploratory, PI closure pending)
+## EX-GC43 completed (Claude, exploratory, PI CLOSED 2026-11-26)
 
 [Plan](spec/EX-GC43_plan.md) · [Note](results/EX-GC43/EX-GC43_note.md). This follows the Codex review of 42: the lapse couples to the conjugate source ∂H/∂N, derived from one functional.
 - **Mass is not energy.** The charge is Q = ΔE + ΔE_link. Free packets attract at 1.8–2.25× their energy (a pair up to 3.2×), and hubs at 0.10–0.41×. No state has Q = ΔE, so the equivalence principle fails at order 1. It is the same defect as 42A's redshift failure.
