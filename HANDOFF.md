@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## EX-GC50 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC50_plan.md) · [Note](results/EX-GC50/EX-GC50_note.md). Idea 4 from the GC40 recap: a natural reason for 42's vacuum subtraction.
+- **Clock sector: yes, exact.** Under 44's homogeneous weights the vacuum has no lapse mass (Euler) and χ_NN ≤ 0 (concavity); network q² stiffness −0.0025/−0.010 (vs 43's +1.00); Dirac sea only q⁴.
+- **Spatial sector: no.** χ_Na(0) = −ε_link and χ_aa(0) (equal to 43's 37B χ(0) exactly) remain: the counterterm of 42–47 lives there. Lattice cosmological-constant problem.
+- **Only exact boson–fermion partners cancel it** (Dirac sea + partner, zero to 1e-16); unbroken lattice SUSY. 47's G_eff would be ~1% larger; conclusions unchanged.
+- Fails recorded: Dirac χ₀ clause at L = 32 (q⁴ behaviour; post hoc L = 96 fine).
+- **Suggested next (not approved):** a spatial-factor coupling homogeneous like the clock's (does Q_a and light's factor 2 survive?), or softly broken partners.
+
 ## EX-GC49 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC49_plan.md) · [Note](results/EX-GC49/EX-GC49_note.md). Idea 1 from the GC40 recap: firing-rate changes carried by the same two-site coincidences as light.
