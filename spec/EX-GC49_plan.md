@@ -45,6 +45,18 @@ For every f, the linearised speed of δN on a uniform background N₀ is N₀²,
 
 **Separate path.** For 49A, a continuum radial solution. Integrate (1/r²)(r² n² f′(n) N′)′ = s(r) by solve_bvp with the same Gaussian source and the far-field condition, apply the same fit window and fit to get β, and also check against the analytic exterior form above.
 
+## Amendment A1 (2026-11-27, before any run)
+
+Two changes were made while writing the code, before anything was computed.
+
+1. **Source size, strengths and fit window.** With a core of radius 1.5 and U(6) = 0.15, the potential at the centre would be about 0.5. Then 1 − 3U < 0, so the f = N rule has no static solution there (N³ would have to go negative). The registered strengths are therefore changed:
+   - core: Gaussian exp(−r²/2σ²) with σ = 2;
+   - strengths: S such that Q/10 = 0.015, 0.03, 0.045 and 0.06 (largest central potential about 0.24);
+   - fit window: 10 ≤ r ≤ 40, so the source is enclosed to about 1e-3.
+
+   Each strength is also fitted on its own, with N² − 1 as a polynomial a₁x + a₂x² + a₃x³ + a₄x⁴ in x = 1/r, which gives β = 2a₂/a₁². The joint fit with β common is the scored number.
+2. **Continuum path.** In the continuum the equation is linear in F: ∇²F = s. So the continuum solution is analytic, F = −Q erf(r/√2σ)/r and N = F⁻¹(F). This replaces the solve_bvp integration. It is exact and needs no fitting choices beyond the shared fit window.
+
 ## Predictions (scored)
 
 - **P1 (lattice β).** The fitted lattice β equals the table value within ±0.05 for each f: −0.5, 0, +0.5, +1.0.
