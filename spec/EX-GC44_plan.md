@@ -1,6 +1,6 @@
 # EX-GC44 — separating the clock from space: lapse homogeneity, a spatial link factor, and whether a bound composite is stress-free
 
-2026-11-26 | EXPLORATORY | Claude | Plan only. PI request in thread: "Give me you plan based on that review" (2026-11-26 23:54 UTC). **Not run. Running needs a separate PI go-ahead.** It follows the [Codex review of GC43](../review/EX-GC43_codex_review.md). Cap 2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
+2026-11-26 | EXPLORATORY | Claude | Plan only. PI request in thread: "Give me you plan based on that review" (2026-11-26 23:54 UTC). PI run go-ahead 2026-11-27 00:00 UTC ("go ahead and execute the plan for doing those"), given after this plan was pushed and before any run. It follows the [Codex review of GC43](../review/EX-GC43_codex_review.md). Cap 2 core-h. This is our construction. It is not LaViolette's Model G, and it is not the Chain Theory construction.
 
 ## Why
 
