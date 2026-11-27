@@ -1,6 +1,6 @@
 # EX-GC49 — firing-rate changes carried by the same coincidences as light
 
-2026-11-27 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC49_plan.md), with amendment A1 made before any run | About 0.05 core-h on the cloud container (Linux, Python 3.13, numpy 2.x). This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-27 | EXPLORATORY | Claude | PI CLOSED 2026-11-27 | [Plan](../../spec/EX-GC49_plan.md), with amendment A1 made before any run | About 0.05 core-h on the cloud container (Linux, Python 3.13, numpy 2.x). This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 

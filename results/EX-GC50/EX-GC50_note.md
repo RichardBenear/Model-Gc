@@ -1,6 +1,6 @@
 # EX-GC50 — is there a natural reason for the vacuum subtraction?
 
-2026-11-27 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC50_plan.md) | About 0.3 core-h on the cloud container (Linux, Python 3.13, numpy 2.x). This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-27 | EXPLORATORY | Claude | PI CLOSED 2026-11-27 | [Plan](../../spec/EX-GC50_plan.md) | About 0.3 core-h on the cloud container (Linux, Python 3.13, numpy 2.x). This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 
