@@ -75,14 +75,14 @@ def packet(n, m, r, N0, x0, sigma, chi=(1, 0, 0, 0)):
 
 
 # ------------------------------------------------------------------ static field for frozen matter
-def static(psis, ms, r, kappa, n, centre, tol=1e-11, maxit=300, gauss=True):
+def static(psis, ms, r, kappa, n, centre, tol=1e-11, maxit=300, gauss=True, qfix=None):
     c = np.array(centre, float); x = np.arange(n); X = np.stack(np.meshgrid(x, x, x, indexing="ij"), -1)
     rr = np.sqrt(np.sum((X - c) ** 2, -1)); rr = np.where(rr == 0, 1e-9, rr)
     N = np.ones((n, n, n)); mI = n - 2
     k = np.arange(1, mI + 1); l1 = 2 * np.cos(np.pi * k / (mI + 1)) - 2; lam = l1[:, None, None] + l1[None, :, None] + l1[None, None, :]
     I = (slice(1, -1),) * 3; Fh, Gh = [], []
     for it in range(maxit):
-        q = sum(charge(p, N, mm, r) for p, mm in zip(psis, ms)); Q = q.sum()
+        q = qfix if qfix is not None else sum(charge(p, N, mm, r) for p, mm in zip(psis, ms)); Q = q.sum()
         Nb = np.exp(-kappa * Q / (4 * np.pi * rr)) if gauss else np.ones_like(rr)
         f = fN(N); fb = fN(Nb); f[0], f[-1], f[:, 0], f[:, -1], f[:, :, 0], f[:, :, -1] = fb[0], fb[-1], fb[:, 0], fb[:, -1], fb[:, :, 0], fb[:, :, -1]
         N = Nf(f)
@@ -227,6 +227,14 @@ def semi(K, w, N0, m, r, grad):
     return float(-np.sum(w * Ekk * EN) * grad), float(1 / np.sum(w * Ekk))
 
 
+def semi_vterm(K, w, N0, m, r, grad):
+    """POST-RUN DIAGNOSTIC (not registered): the term the A1 comparator omits, <E_k E_kN> dN/dx, from d(E_k)/dt = E_kk kdot + E_kN xdot dN/dx."""
+    h = 1e-4; e = np.array([h, 0, 0]); d = lambda k, N: disp(k, N, m, r)
+    Ek = (d(K + e, N0) - d(K - e, N0)) / (2 * h)
+    EkN = ((d(K + e, N0 + h) - d(K - e, N0 + h)) - (d(K + e, N0 - h) - d(K - e, N0 - h))) / (4 * h * h)
+    return float(np.sum(w * Ek * EkN) * grad)
+
+
 # ------------------------------------------------------------------ 51C
 def part_C(Bfield=None, u=0.035, sub=96, d0=16, T=12.0, dt=0.1, cases=None, nB=129):
     if Bfield is None:
@@ -244,10 +252,13 @@ def part_C(Bfield=None, u=0.035, sub=96, d0=16, T=12.0, dt=0.1, cases=None, nB=1
             _, _, hist = evolve([psi], [m], r, fN(Nf_), 0.0, T, dt, False, lambda ps, f, t: (t, centroid(ps[0]), energy(ps[0], Nf_, m, r)))
             runs[lab] = dict(t=[h[0] for h in hist], x=[h[1] for h in hist], dE_max=float(max(abs(h[2] - E0) for h in hist)))
         dx = np.array(runs["field"]["x"]) - np.array(runs["flat"]["x"]); a = fit_acc(runs["field"]["t"], dx)
+        av = semi_vterm(K, w, Nloc, m, r, grad); tt = np.asarray(runs["field"]["t"]); late = tt >= T / 2
+        a_plain = float(np.mean(dx[late] / (tt[late] ** 2 / 2)))   # diagnostic: mean of 2 dx/t^2 over the second half
         res[f"{m}_{r}"] = dict(m=m, r=r, sigma=sigma, N0=N0, Nloc=Nloc, grad=grad, a=a, a_GR=aGR, a_semi=asemi, m_i=mi,
+                               diag_a_semi_full=asemi + av, diag_a_plain=a_plain,
                                a_over_GR=a / aGR, a_over_semi=a / asemi, pred_inf=1 + r * m, dE_max={k: v["dE_max"] for k, v in runs.items()},
                                t=runs["field"]["t"], dx=dx.tolist(), wall=time.time() - t0)
-        print("51C m %.2f r %.1f: a/aGR %.5f a/asemi %.5f semi/GR %.5f (1+rm %.3f) dEmax %.1e %.0fs" % (m, r, a / aGR, a / asemi, asemi / aGR, 1 + r * m,
+        print("51C m %.2f r %.1f: a/aGR %.5f a/asemi %.5f semi/GR %.5f (1+rm %.3f) | diag a/semi_full %.5f plain/semi_full %.5f | dEmax %.1e %.0fs" % (m, r, a / aGR, a / asemi, asemi / aGR, 1 + r * m, a / (asemi + av), a_plain / (asemi + av),
               runs["field"]["dE_max"], time.time() - t0), flush=True)
     for r in (1.0, 0.5, 0.0):
         if f"0.25_{r}" in res and f"0.5_{r}" in res:
@@ -325,4 +336,6 @@ def save(name, obj, t0):
 if __name__ == "__main__":
     OUT.mkdir(parents=True, exist_ok=True)
     for p in sys.argv[1:]:
+        if p.startswith("Cm"):   # one probe mass, all three r (lets the two masses run in parallel); merged by exgc51_recompute.py merge
+            t0 = time.time(); mm = float(p[2:]); save("C_m" + p[2:], part_C(cases=[(mm, r) for r in (1.0, 0.5, 0.0)]), t0); print(p, "done", flush=True); continue
         t0 = time.time(); save(p, {"A": part_A, "B": part_B, "C": part_C, "D": part_D, "E": part_E}[p](), t0); print(p, "done %.0fs" % (time.time() - t0), flush=True)
