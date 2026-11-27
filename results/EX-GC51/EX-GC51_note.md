@@ -1,6 +1,6 @@
 # EX-GC51 — one declared model end to end: Dirac matter, a coincidence-carried slowness field, and light
 
-2026-11-27 | EXPLORATORY | Claude | Closure pending | [Plan](../../spec/EX-GC51_plan.md) (amendment A1 before any run) | About 6.5 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). The PI raised the cap from 2 to 5 core-h, then to about 7, and dropped the last two C4 checks. Scoring and post-run diagnostics: `src/exgc51_summary.py` → `summary.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-27 | EXPLORATORY | Claude | PI CLOSED 2026-11-27 (Richard: "go ahead and close 51, 52, 53 then run 54") | [Plan](../../spec/EX-GC51_plan.md) (amendment A1 before any run) | About 6.5 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). The PI raised the cap from 2 to 5 core-h, then to about 7, and dropped the last two C4 checks. Scoring and post-run diagnostics: `src/exgc51_summary.py` → `summary.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 

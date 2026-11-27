@@ -1,6 +1,6 @@
 # EX-GC53 — a link shift for moving matter: clocks read it, matter sources it, and it removes 52's preferred frame
 
-2026-11-27 | EXPLORATORY | Claude | Closure pending | [Plan](../../spec/EX-GC53_plan.md) (amendment A1 after 53A/B/C0, before 53C–E and the checks) | About 1.6 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring: `src/exgc53_summary.py` → `summary.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-27 | EXPLORATORY | Claude | PI CLOSED 2026-11-27 (Richard: "go ahead and close 51, 52, 53 then run 54") | [Plan](../../spec/EX-GC53_plan.md) (amendment A1 after 53A/B/C0, before 53C–E and the checks) | About 1.6 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring: `src/exgc53_summary.py` → `summary.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 
