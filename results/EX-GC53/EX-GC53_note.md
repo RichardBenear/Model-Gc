@@ -64,6 +64,10 @@
 
 So the lab-frame force now falls as 1/γ, as relativity requires. In 52 it rose.
 
+**Scope (added after the Codex review, 2026-11-27).**
+- *One observable only.* This is one transverse-force observable, with motion along a lattice axis. General absence of a preferred frame would need other orientations, longitudinal dynamics and other source configurations.
+- *λ\* is an interpolation.* It interpolates between two chosen strengths (0 and 4). It does not determine the strength independently, and linearity in λ is assumed until a third strength is run.
+
 ## Checks
 
 | | | |
