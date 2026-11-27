@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## EX-GC53 completed (Claude, exploratory, closure pending)
+
+[Plan](spec/EX-GC53_plan.md) · [Note](results/EX-GC53/EX-GC53_note.md). A signed link shift β (GR's g₀ᵢ), coupled to matter by H = −Σβ·Im(ψ†ψ′) and to light by D_t = ∂_t − β·∇, sourced by the matter current with GR's strength (λ = 4). About 1.6 core-h.
+- **Preferred frame removed:** co-moving pair R_dyn = 1.000/0.997/0.989 at V = 0.1/0.2/0.3 (52: 1.115 at 0.2); λ* = 3.91 from 52+53 (GR 4), so the 51 scalar sector is GR-compatible for moving sources.
+- **Rotating ring, one-clock light loop:** delay flips with J, zero without rotation, tilt-independent to 0.03%; magnitude → GR dipole as loops grow (registered far-field tests fail: ring radius 10 too large; exact Biot–Savart of the lattice current agrees 1–5%).
+- **Still put in by hand:** the shift law and λ = 4 (derivation from firing order did not close).
+- **Suggested next (not approved):** a non-symmetric coincidence rule as the shift's mechanism (does it give λ = 4? test with 53E); cleaner far-field ring; later torsion from the 53B spin current, directional strain for tensor waves.
+
 ## EX-GC52 completed (Claude, exploratory, closure pending)
 
 [Plan](spec/EX-GC52_plan.md) · [Note](results/EX-GC52/EX-GC52_note.md). Moving source in the 51 model (PI go-ahead 19:54 UTC). About 1.0 core-h.

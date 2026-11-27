@@ -1,0 +1,46 @@
+{
+ "enc20": {
+  "lattice_over_free": 1.02642785988816,
+  "free_over_dipole": 1.0862482927132326
+ },
+ "enc28": {
+  "lattice_over_free": 1.0179110801739846,
+  "free_over_dipole": 1.0408924290652461
+ },
+ "enc36": {
+  "lattice_over_free": 1.0132011477432512,
+  "free_over_dipole": 1.0240527253067395
+ },
+ "inplane16": {
+  "lattice_over_free": 1.1437508957991993,
+  "free_over_dipole": 1.3264104980020772
+ },
+ "axis16": {
+  "lattice_over_free": 1.0303528257733479,
+  "free_over_dipole": 0.6601458842110156
+ },
+ "inplane24": {
+  "lattice_over_free": 1.0479353136119296,
+  "free_over_dipole": 1.252917312088191
+ },
+ "axis24": {
+  "lattice_over_free": 1.0229270236478474,
+  "free_over_dipole": 0.8072317235245011
+ },
+ "inplane32": {
+  "lattice_over_free": 1.0354436656772241,
+  "free_over_dipole": 1.1241860570459161
+ },
+ "axis32": {
+  "lattice_over_free": 1.0182071170788023,
+  "free_over_dipole": 0.879854060732181
+ },
+ "inplane40": {
+  "lattice_over_free": 1.0296746055788386,
+  "free_over_dipole": 1.0751115636165716
+ },
+ "axis40": {
+  "lattice_over_free": 1.015907997378226,
+  "free_over_dipole": 0.9190396321449256
+ }
+}
