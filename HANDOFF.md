@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## EX-GC49 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC49_plan.md) · [Note](results/EX-GC49/EX-GC49_note.md). Idea 1 from the GC40 recap: firing-rate changes carried by the same two-site coincidences as light.
+- **The rule derives a wave equation for N and shares the light cone** (light and δN Shapiro delays agree to 0.05% at k₀ = 1).
+- **But passing on N itself gives PPN β = −1/2** (N³ harmonic): perihelion 1.5× GR, ruled out. Of four transported quantities only the light slowness 1/N² gives β = 1 (exponential metric).
+- Scored lattice fit missed ±0.05 for 3 of 4 from a linear-in-strength lattice anisotropy artefact; post hoc separation recovers the continuum β to 0.006.
+- **Suggested next (not approved):** a reason in the event picture for passing on delay (slowness) rather than rate; large-amplitude behaviour (no horizon in the exponential metric).
+
 ## EX-GC48 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC48_plan.md) · [Note](results/EX-GC48/EX-GC48_note.md). Idea 7 from the GC40 recap (Codex GC47R test): a Wilson–Dirac lattice fermion under the 44 rules.
