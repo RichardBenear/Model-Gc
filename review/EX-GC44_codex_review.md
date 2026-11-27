@@ -1,0 +1,32 @@
+# Independent review of EX-GC44
+
+**GC44 separates the clock coupling from the spatial response and confirms GC43’s equal-energy counterexample under the original rule. Its most consequential open question is whether an entire bound body can have negligible spatial charge.** The reported negative interaction exponents cancel only the change due to binding. Reanalysis of the saved data shows that canceling the whole composite charge requires positive exponents, with large variation between states. [Plan](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/spec/EX-GC44_plan.md) · [Results](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/results/EX-GC44/EX-GC44_note.md)
+
+## 44A — The original charge difference survives the field solve
+
+The group-projected preparations make the original GC43 comparison more suitable for a far-field test. At λ₀ = 0.2, a charged packet and a neutral particle–hole packet each have ΔE ≈ 0.90006, and the neutral source has 55.3% more active charge. The lattice flux recovers the monopole ratio after accounting for the compensating periodic background. This is a useful end-to-end check of the prescribed linear solver at t = 0. The registered axis fit still misses tolerance for the anisotropic neutral profiles, and the flux estimator was added post hoc. Use the flux estimator prospectively, with an anisotropic source and a point-source control. The equal-energy comparison between two neutral states remains untested. The group-projected states also mix bands, so their instantaneous charges should not be treated as conserved without a time-window check. [Results](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/results/EX-GC44/EX-GC44_note.md) · [44A outputs](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/results/EX-GC44/A.json)
+
+## 44B/C — A clean clock control and a separate spatial coupling
+
+Linear scaling of the entire matter Hamiltonian with a uniform lapse forces the clock charge Q_N to equal ΔE at unit lapse and makes the tested proper defect energies independent of uniform N. This supplies the intended control. In the two-field model, the actual source of the time potential Φ is Q_N + Q_a, while Ψ is sourced by Q_N. Equal energy therefore still leaves room for different time potentials and optical responses if the spatial charge differs. The corresponding static source equations are supplied by the plan. The units-source check verifies those equations numerically, and the tabulated bending factors follow from their coefficients. The top-band group-velocity exponent at uniform N also verifies a scaling identity. Actual delay, ray deflection and free fall through the resulting inhomogeneous fields were not measured. The C2 hub mapping missed its finite-difference tolerance, even though the uniform mapping follows algebraically from the stated weights. [Plan](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/spec/EX-GC44_plan.md) · [Results](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/results/EX-GC44/EX-GC44_note.md)
+
+## 44D — Binding stress and total stress answer different questions
+
+The projected solver finds bound excitons with nonzero dispersion. The dense projected-matrix check supports the separable solver. The measured energy falls away from K = 0 along the sampled direction, so the zero-momentum result should not be treated as the true band minimum. The strain derivative should be repeated at the minimum and checked against the local continuum threshold there. The reported C4 comparison verifies the interaction derivative with respect to U. The direct hopping-derivative expectation check proposed in the plan is a separate check, especially because the projected band orbitals vary with hopping. [Solver](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/src/exgc44.py) · [44D outputs](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/results/EX-GC44/D.json)
+
+The experiment reports δQ_a = (L_bound − L_edges) + w⟨V⟩, where L denotes the hopping-scale response. Its negative w* cancels this change relative to the unbound constituents. The gravitational question is whether the entire composite has Q_a = L_bound + w⟨V⟩ = 0. Using the saved L_bound and ⟨V⟩, I obtain these cancellation exponents at binding fractions 5%, 15%, and 30%:
+
+| Background λ₀ | w* for binding contribution | w for total composite charge |
+|---|---|---|
+| 0.1 | −0.156, −0.144, −0.133 | **3.68, 2.64, 1.94** |
+| 0.2 | −0.520, −0.507, −0.493 | **1.72, 1.36, 1.09** |
+
+Thus positive exponents can cancel the total charge for individual cases, several within the original scan range. One fixed exponent fails to cancel it across the sampled states. This reverses the sign of the strain law inferred for cancellation of the entire body's charge, while leaving the negative exponents for the binding contribution intact. The reported 10% drift clause for the binding contribution also failed at λ₀ = 0.2. [44D outputs](https://github.com/RichardBenear/Model-Gc/blob/claude/project-thread-yzw1l2/results/EX-GC44/D.json)
+
+## Priority follow-ups
+
+1. **Measure total composite charge first.** Reuse the exciton solver to locate the actual dispersion minimum, verify binding against the continuum there, and measure the full derivative under isotropic and directional strain. Carry both the total and binding-only derivatives in the output. Pick one interaction law before changing binding strength or background dressing.
+2. **Test a heavy on-site mode with finite mobility.** Vary the on-site to hopping energy ratio and measure Q_a/ΔE for a single carrier and a mobile bound pair. Also track residual Q_a relative to the kinetic and binding scales. A large rest energy can make the fractional discrepancy small without producing a stress cancellation identity.
+3. **Run a two-field optics test through the sourced profiles.** Use the same flat calibration for equal-energy compact sources with different measured Q_a. Compare actual delay and deflection against the appropriate two-potential continuum calculation, with a dust-like source as a control. Keep this distinct from the unresolved GC41 microscopic propagation question.
+
+I reviewed the plan, source, results note and saved outputs on Claude’s experiment branch. The total-charge exponents are arithmetic reanalysis of saved data. The simulations were not rerun.
