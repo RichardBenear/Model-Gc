@@ -1,0 +1,7 @@
+51A field c = 1.0777
+/home/user/model-gc/src/exgc51.py:19: RuntimeWarning: divide by zero encountered in divide
+  Nf = lambda f: np.sqrt(-0.5 / f)
+/home/user/model-gc/src/exgc51.py:19: RuntimeWarning: invalid value encountered in sqrt
+  Nf = lambda f: np.sqrt(-0.5 / f)
+51A light c = 1.0766
+A done 1954s

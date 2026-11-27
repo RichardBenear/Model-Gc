@@ -1,0 +1,4 @@
+51C m 0.25 r 1.0: a/aGR 1.03604 a/asemi 0.76548 semi/GR 1.35345 (1+rm 1.250) | diag a/semi_full 0.87333 plain/semi_full 0.94428 | dEmax 1.8e-10 1264s
+51C m 0.25 r 0.5: a/aGR 0.95806 a/asemi 0.79247 semi/GR 1.20896 (1+rm 1.125) | diag a/semi_full 0.89764 plain/semi_full 0.95290 | dEmax 1.7e-10 1350s
+51C m 0.25 r 0.0: a/aGR 0.88149 a/asemi 0.82433 semi/GR 1.06934 (1+rm 1.000) | diag a/semi_full 0.92705 plain/semi_full 0.96254 | dEmax 1.5e-10 1345s
+Cm0.25 done
