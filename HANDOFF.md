@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## EX-GC45 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC45_plan.md) · [Note](results/EX-GC45/EX-GC45_note.md). Follows the Codex review of 44 (items 1 and 2; item 3, a two-field optics test, deferred).
+- **Heavy on-site matter is nearly dust.** A rest mode on a site, reached by hybridisation g, has Q_a/ΔE ≈ 0.008 at g = 0.025, falling as g². But Q_a stays 0.3–0.7 of its band width: dust only in the heavy (non-relativistic) limit.
+- **Binding energy does not gravitate as energy.** A bound pair has a lattice Nordtvedt ratio η = δQ_a/E_b of −2.7 to +4.9 (GR: 0), with a sign set by the hybridisation. No interaction strain exponent cancels it universally (−0.6 to +1.4).
+- **C5 (projection error) failed at its registered point**, where η is near its sign change; elsewhere the error is small enough that the sign and size of η stand.
+- **44's exciton at its true minimum** stays radiation-like (Q_a/ΔE 1.40–2.17).
+- **Suggested next (not approved):** an interaction that acts across links with the same strain factor a as hopping (a lattice dilation), to test whether a von Laue identity then holds; or Codex's two-field optics test.
+
 ## EX-GC44 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC44_plan.md) · [Note](results/EX-GC44/EX-GC44_note.md). Follows the Codex review of 43: separate the clock (lapse N, on everything) from space (link factor a).
