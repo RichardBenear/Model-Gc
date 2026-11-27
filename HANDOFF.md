@@ -1,6 +1,6 @@
 # Handoff — current state
 
-## EX-GC50 completed (Claude, exploratory, PI closure pending)
+## EX-GC50 completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC50_plan.md) · [Note](results/EX-GC50/EX-GC50_note.md). Idea 4 from the GC40 recap: a natural reason for 42's vacuum subtraction.
 - **Clock sector: yes, exact.** Under 44's homogeneous weights the vacuum has no lapse mass (Euler) and χ_NN ≤ 0 (concavity); network q² stiffness −0.0025/−0.010 (vs 43's +1.00); Dirac sea only q⁴.
@@ -9,7 +9,7 @@
 - Fails recorded: Dirac χ₀ clause at L = 32 (q⁴ behaviour; post hoc L = 96 fine).
 - **Suggested next (not approved):** a spatial-factor coupling homogeneous like the clock's (does Q_a and light's factor 2 survive?), or softly broken partners.
 
-## EX-GC49 completed (Claude, exploratory, PI closure pending)
+## EX-GC49 completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC49_plan.md) · [Note](results/EX-GC49/EX-GC49_note.md). Idea 1 from the GC40 recap: firing-rate changes carried by the same two-site coincidences as light.
 - **The rule derives a wave equation for N and shares the light cone** (light and δN Shapiro delays agree to 0.05% at k₀ = 1).
@@ -17,7 +17,7 @@
 - Scored lattice fit missed ±0.05 for 3 of 4 from a linear-in-strength lattice anisotropy artefact; post hoc separation recovers the continuum β to 0.006.
 - **Suggested next (not approved):** a reason in the event picture for passing on delay (slowness) rather than rate; large-amplitude behaviour (no horizon in the exponential metric).
 
-## EX-GC48 completed (Claude, exploratory, PI closure pending)
+## EX-GC48 completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC48_plan.md) · [Note](results/EX-GC48/EX-GC48_note.md). Idea 7 from the GC40 recap (Codex GC47R test): a Wilson–Dirac lattice fermion under the 44 rules.
 - **One fermion is relativistic matter:** 2 t_pair E_rest/c² = 1 + r m (exact), with c measured from massless packets; dust at rest (Q_a/E ∝ σ⁻²); moving stress ∝ v². The whole Wilson term must stretch with a (W1); otherwise Q_a/E = −3r/m.
@@ -26,11 +26,11 @@
 - **Suggested next (not approved):** binding by exchange of a propagating lattice field, to test whether field momentum/stress restore R_c = 1, η = 0.
 - Fails recorded: P2 at m = 0.2 (asymptotic formula scored too early), P3b one point, P3d at m = 0.2, C1 Q_a finite-difference noise.
 
-## EX-GC47R completed (Claude, exploratory, PI closure pending)
+## EX-GC47R completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC47R_plan.md) · [Note](results/EX-GC47R/EX-GC47R_note.md). Corrections to 47 after the Codex review. The release packet is now periodic about its own centre, and the form factors are Hellmann–Feynman consistent (projector-derivative term). 47's conclusions stand: acceleration = −2 t_pair ∂V/∂r within 4.4%, a/a_N ≈ 1.2 × 10⁻⁴, force = point-charge force to 4e-4 and → 1/r² with box size. The energy-drift gate failed (split-step, 2.3e-7). Next per Codex (not approved): a massive band tested against 2 t_pair E_rest = c_signal², with c_signal measured independently.
 
-## EX-GC47 completed (Claude, exploratory, PI closure pending)
+## EX-GC47 completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC47_plan.md) · [Note](results/EX-GC47/EX-GC47_note.md). Implements the Codex GC46 review's three-stage two-body test.
 - **Two bound heavy pairs attract** through the 44 fields exactly as the point-charge formula −G(E₁E₂ + E₁Q_a2 + Q_a1E₂) predicts (to 0.14% at L = 32), reciprocally, and the attraction moves them (acceleration = −2 t_pair ∂V/∂r to ≤ 2.6%, validated against the exact two-body problem at L = 6 to 1.9%).
@@ -38,7 +38,7 @@
 - **Two clauses fail:** F_a(0) = Q_a (0.8%: projected model breaks strain Hellmann–Feynman), and B1 vs B2 free fall differs by 5–9%, not > 20%.
 - **Suggested next (not approved):** a Dirac-type (Wilson) lattice fermion with relativistic dispersion. It would give m_i = E/c² and Q_a = 0 at rest without a small parameter; test its bound pairs for m_i = E and zero binding stress.
 
-## EX-GC46 completed (Claude, exploratory, PI closure pending)
+## EX-GC46 completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC46_plan.md) · [Note](results/EX-GC46/EX-GC46_note.md). Follows the Codex review of 45 (tests 1 and 2). 43, 44 and 45 were PI CLOSED 2026-11-26 (Richard's go-ahead).
 - **Four upper bands per carrier** (rank-1 contact in a larger basis) keep the binding-stress result: η = δQ_a/E_b is −2.3 to −1.1 at strong hybridisation and +1.1 to +4.9 at weak. At the middle point it is −0.033 (Codex: −0.039). The projection error in E_b is 13–18% at strong hybridisation and 0.3% at weak.
