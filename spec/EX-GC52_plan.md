@@ -97,3 +97,14 @@ All parts use r = 0 (naive fermion, with packets at small k so the doublers are 
 ## Outputs
 
 `src/exgc52.py`, `src/exgc52_recompute.py`, `results/EX-GC52/`, note, LOG row and HANDOFF section.
+
+## Amendment A1 (2026-11-27, written with the code, before any scored run)
+
+A smoke test of the code at small size (n = 48 and 33, not a registered run) showed the following. At σ = 5 the packets carry enough internal momentum that Q(0) = 1.22 m (r = 0). So the continuum clause of P1, Q/(γm(1 + V²)) within 2% of 1, measures the packet's spread, not the moving-source physics. The changes below were all made before the scored runs.
+
+1. **P1.** Only the lattice-exact clause is scored: Q equals ⟨∂E/∂N⟩ to 1e-6. Q(V)/Q(0) against γ(1 + V²) is reported, not scored.
+2. **P2 contraction readout.** The contraction is read as an amplitude ratio. For a point source, ψ·ρ at X = 0 is −κQγ/4π and ψ·|X| on the axis is −κQ/4π, so their ratio is γ. The score is that ratio over γ, within 2%, averaged over 12 ≤ ρ, |X| ≤ 36 (both signs of X).
+3. **52D size.** n = 65 instead of 81, to keep within the cap. The packets sit at y = c ± 7, about 25 sites from the faces.
+4. **52D self-field.** As in 51D, a single-packet run with the same V is subtracted. Only packet 1's force is scored.
+5. **C2 method.** The linear part (κ = 10⁻⁶) is checked against an independent conjugate-gradient solve of the same discrete anisotropic problem (scipy sparse), to 1e-8, instead of the periodic FFT with images.
+6. **C3.** The check is F₁(V = 0.2) at dt/2, within 1%, rather than R_dyn, to keep within the cap.
