@@ -1,0 +1,10 @@
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+52D V 0.0 pair 560s (init it 7 res 4.2e-11)
+52D V 0.0 one 285s (init it 7 res 1.0e-11)
+52D V 0.0 F1 4.68456e-04
+52D V 0.2 pair 492s (init it 7 res 7.1e-11)
+52D V 0.2 one 220s (init it 7 res 1.7e-11)
+52D V 0.2 F1 5.11863e-04
+52D R_dyn(0.2) 1.11519
+D done 1558s

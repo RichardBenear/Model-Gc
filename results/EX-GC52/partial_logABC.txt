@@ -1,0 +1,19 @@
+52A r 0.0 V 0.0 k0 0.0000 Q 0.733764 E 0.646206 pred 0.733764 rel -5.3e-12 Q/(gam m(1+V2)) 1.2229
+52A r 0.0 V 0.1 k0 0.0605 Q 0.741080 E 0.648814 pred 0.741080 rel -5.3e-12 Q/(gam m(1+V2)) 1.2168
+52A r 0.0 V 0.2 k0 0.1238 Q 0.764076 E 0.657041 pred 0.764076 rel -5.5e-12 Q/(gam m(1+V2)) 1.1997
+52A r 0.0 V 0.3 k0 0.1939 Q 0.806518 E 0.672342 pred 0.806518 rel -5.9e-12 Q/(gam m(1+V2)) 1.1764
+52A r 1.0 V 0.0 k0 0.0000 Q 0.782889 E 0.673099 pred 0.782889 rel -3.6e-12 Q/(gam m(1+V2)) 1.3048
+52A r 1.0 V 0.1 k0 0.0376 Q 0.786718 E 0.674691 pred 0.786718 rel -3.6e-12 Q/(gam m(1+V2)) 1.2917
+52A r 1.0 V 0.2 k0 0.0760 Q 0.798454 E 0.679578 pred 0.798454 rel -3.6e-12 Q/(gam m(1+V2)) 1.2537
+52A r 1.0 V 0.3 k0 0.1161 Q 0.818881 E 0.688115 pred 0.818881 rel -3.7e-12 Q/(gam m(1+V2)) 1.1944
+A done 25s
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+52B V 0.0 it 7 res 4.6e-12 Q 0.730511 | amp rho 1.0004 (z 1.0004) amp x 1.0004/1.0004 | contraction/gam 1.0000 | pdot -3.3331e-04  23s
+52B V 0.1 it 7 res 5.2e-12 Q 0.737604 | amp rho 0.9964 (z 1.0003) amp x 1.0006/1.0006 | contraction/gam 0.9957 | pdot -3.3899e-04  24s
+52B V 0.2 it 7 res 7.6e-12 Q 0.759872 | amp rho 0.9925 (z 1.0002) amp x 1.0015/1.0015 | contraction/gam 0.9910 | pdot -3.6184e-04  24s
+52B V 0.3 it 8 res 3.6e-13 Q 0.800853 | amp rho 0.9889 (z 1.0002) amp x 1.0029/1.0029 | contraction/gam 0.9861 | pdot -4.0808e-04  26s
+52C V 0.1 R 1.02216 pred(lattice) 1.02994 cont 1.04081 | rest transverse impulse / GR 0.9833
+52C V 0.2 R 1.10798 pred(lattice) 1.12767 cont 1.17361 | rest transverse impulse / GR 0.9623
+52C V 0.3 R 1.28345 pred(lattice) 1.32238 cont 1.43473 | rest transverse impulse / GR 0.9363
+BC done 113s

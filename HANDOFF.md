@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## EX-GC52 completed (Claude, exploratory, closure pending)
+
+[Plan](spec/EX-GC52_plan.md) · [Note](results/EX-GC52/EX-GC52_note.md). Moving source in the 51 model (PI go-ahead 19:54 UTC). About 1.0 core-h.
+- **Field of a moving mass is right:** Lorentz-contracted with charge Q(V), g₀₀ = boosted static (amplitude 1.000 after ±y symmetrisation).
+- **Preferred frame confirmed:** co-moving pair R(V) = γṗ(V)/ṗ(0) = 1.02/1.11/1.28 (V = 0.1/0.2/0.3; symmetrised 1.03/1.13/1.33 = lattice prediction to 0.4%); full dynamic R_dyn(0.2) = 1.115. Lorentz invariance needs 1. Missing g₀ᵢ (PPN α₁ ≈ −8, α₂ ≈ −1).
+- **Side finding:** moving spin-up Dirac packet's charge centre shifts −0.18 sites in y at V = 0.2 (reverses with spin; Møller-shift size). This made the P3 1% match and P5 fail.
+- **Suggested next (not approved):** a minimal direction-carrying addition (torsion / handed coincidences sourced by matter current, per PI's idea) and rerun 52D (0.4 core-h) to see if R → 1.
+
 ## EX-GC51 completed (Claude, exploratory, closure pending)
 
 [Plan](spec/EX-GC51_plan.md) · [Note](results/EX-GC51/EX-GC51_note.md). Codex 48/49/50 review recommendation 3: one declared model (Wilson–Dirac matter with coincidence weights, N carried as light's slowness, sourced by q = ∂H/∂N, light by 37B), run end to end. About 6.5 core-h (PI raised cap twice).
