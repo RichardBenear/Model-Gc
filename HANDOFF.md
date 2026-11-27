@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## EX-GC48 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC48_plan.md) · [Note](results/EX-GC48/EX-GC48_note.md). Idea 7 from the GC40 recap (Codex GC47R test): a Wilson–Dirac lattice fermion under the 44 rules.
+- **One fermion is relativistic matter:** 2 t_pair E_rest/c² = 1 + r m (exact), with c measured from massless packets; dust at rest (Q_a/E ∝ σ⁻²); moving stress ∝ v². The whole Wilson term must stretch with a (W1); otherwise Q_a/E = −3r/m.
+- **47 calibration:** with the network's own fastest signal (0.174), the 47 pairs have 2 t_pair E/v² ≈ 0.004. The inertia failure stands.
+- **A contact-bound composite is not:** inertia 28–79% of its energy, binding stress η = 40–318. Contact binding is cutoff-scale (T, |V| 2–3 ≫ m); instantaneous potential energy carries no inertia or stress.
+- **Suggested next (not approved):** binding by exchange of a propagating lattice field, to test whether field momentum/stress restore R_c = 1, η = 0.
+- Fails recorded: P2 at m = 0.2 (asymptotic formula scored too early), P3b one point, P3d at m = 0.2, C1 Q_a finite-difference noise.
+
 ## EX-GC47R completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC47R_plan.md) · [Note](results/EX-GC47R/EX-GC47R_note.md). Corrections to 47 after the Codex review. The release packet is now periodic about its own centre, and the form factors are Hellmann–Feynman consistent (projector-derivative term). 47's conclusions stand: acceleration = −2 t_pair ∂V/∂r within 4.4%, a/a_N ≈ 1.2 × 10⁻⁴, force = point-charge force to 4e-4 and → 1/r² with box size. The energy-drift gate failed (split-step, 2.3e-7). Next per Codex (not approved): a massive band tested against 2 t_pair E_rest = c_signal², with c_signal measured independently.
