@@ -1,6 +1,6 @@
 # EX-GC48 — a Dirac-type lattice fermion under the 44 coupling rules
 
-2026-11-27 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC48_plan.md) (with amendment A1, made before any run) | about 0.03 core-h on the cloud container (Linux, Python 3.11, numpy). Our construction; not LaViolette's Model G, not Chain Theory.
+2026-11-27 | EXPLORATORY | Claude | [Plan](../../spec/EX-GC48_plan.md) (with amendment A1, made before any run) | about 0.03 core-h on the cloud container (Linux, Python 3.13, numpy 2.x). Our construction; not LaViolette's Model G, not Chain Theory.
 
 ## Conclusion
 
