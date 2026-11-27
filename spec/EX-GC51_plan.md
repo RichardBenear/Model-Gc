@@ -49,6 +49,26 @@ Everything lives on one cubic lattice (h = 1). There is one scalar field N(x), t
   - **Setup.** Use the static 51B field at the largest strength. Pass light packets at impact parameters b = 8, 16 and 24.
   - **Measurement.** Measure the Shapiro delay relative to the one-site control rule (speed N) in the same field. 37B's ratio was 2 for a prescribed N; here N is the model's own field.
 
+## Amendment A1 (2026-11-27, PI go-ahead 17:06 UTC, written with the code and before any run)
+
+1. **51C comparators and probes.** A wave packet with internal momentum spread falls at a rate that depends on its velocity distribution (in GR too, since light falls twice as fast transversely). So 1 + rm holds only as σm → ∞. Three changes follow.
+   - **Probes.** Use σ = 3/m with masses 0.25 and 0.5, so both have the same σm = 3. Evolve them in a 96³ sub-box of the 51B field at U(12) = 0.035, and run for T = 12.
+   - **Comparators.**
+     - a_GR = −N³⟨∂ₓN⟩, the coordinate acceleration of a slow particle in the model's metric g₀₀ = −N², g_ij = N⁻²δ_ij. This replaces the plain −∇N.
+     - a_semi = −⟨∂²E/∂kₓ² · ∂E/∂N⟩⟨∂ₓN⟩ from the lattice dispersion, weighted over the packet's k distribution.
+   - **Scored P3.**
+     - a/a_semi = 1 ± 0.03 for every (m, r).
+     - Within each r, a(0.25)/a(0.5) equals a_semi's ratio within 1%.
+     - At r = 0, a(0.25)/a(0.5) = 1 within 1%.
+     - Reported but not scored: a/a_GR, and a_semi/a_GR against 1 + rm.
+2. **51D.**
+   - **Initial state.** The field starts from the static solution of the frozen pair, so there is no retardation transient. Accelerations are fitted from t = 0.
+   - **Reciprocity, scored P4.** The canonical lattice momentum ⟨kₓ⟩ of each packet gives the force F = dP/dt. The score is |F₁ + F₂|/|F₁| < 0.05.
+   - **Diagnostic only.** The inertia-weighted acceleration balance.
+   - **Parameters.** Masses 0.4 and 0.6, σ = 3/m, separation 20, n = 97, U(20) = 0.01.
+3. **51A.** Use a flat Dirichlet boundary for both the dynamic run and its static target. The light comparison is the linear field u on N ≡ 1 with the same source.
+4. **C4 scope, for the compute cap.** Halve dt for 51C (one case) and for 51D. Run the box 1.5 times larger for 51C only.
+
 ## Predictions (scored)
 
 - **P1 (one cone).** c_N = 1.00 ± 0.02. Its arrival-time slope equals the light pulse's within 1%.
