@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## EX-GC47 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC47_plan.md) · [Note](results/EX-GC47/EX-GC47_note.md). Implements the Codex GC46 review's three-stage two-body test.
+- **Two bound heavy pairs attract** through the 44 fields exactly as the point-charge formula −G(E₁E₂ + E₁Q_a2 + Q_a1E₂) predicts (to 0.14% at L = 32), reciprocally, and the attraction moves them (acceleration = −2 t_pair ∂V/∂r to ≤ 2.6%, validated against the exact two-body problem at L = 6 to 1.9%).
+- **But they fall at about 1.2 × 10⁻⁴ of the Newtonian rate.** A pair's inertia 1/(2 t_pair) ≈ 8,000 is not tied to its energy ≈ 1. The on-site rest energy that made matter dust-like (45/46) is what breaks m_i = E.
+- **Two clauses fail:** F_a(0) = Q_a (0.8%: projected model breaks strain Hellmann–Feynman), and B1 vs B2 free fall differs by 5–9%, not > 20%.
+- **Suggested next (not approved):** a Dirac-type (Wilson) lattice fermion with relativistic dispersion. It would give m_i = E/c² and Q_a = 0 at rest without a small parameter; test its bound pairs for m_i = E and zero binding stress.
+
 ## EX-GC46 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC46_plan.md) · [Note](results/EX-GC46/EX-GC46_note.md). Follows the Codex review of 45 (tests 1 and 2). 43, 44 and 45 were PI CLOSED 2026-11-26 (Richard's go-ahead).
