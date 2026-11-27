@@ -21,7 +21,7 @@
 | t spread over x, y, z, (1,1,1) | 2e-4 | 5e-5 |
 | rms relative separation | 0.50 sites | 0.45 sites |
 | probability both on one site | 78% | 81% |
-| min breakup gap over sampled K | ≥ E_b(K = 0) (see A.json) | |
+| min breakup gap over sampled K | 1.121e-3 (at K = 0) | 1.167e-3 (at K = 0) |
 | **m_i/E = 1/(2 t_pair E)** | **8,496** | **7,778** |
 
 **Scoring P1: PASS.**
