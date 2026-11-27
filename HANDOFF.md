@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## EX-GC51 completed (Claude, exploratory, closure pending)
+
+[Plan](spec/EX-GC51_plan.md) · [Note](results/EX-GC51/EX-GC51_note.md). Codex 48/49/50 review recommendation 3: one declared model (Wilson–Dirac matter with coincidence weights, N carried as light's slowness, sourced by q = ∂H/∂N, light by 37B), run end to end. About 6.5 core-h (PI raised cap twice).
+- **Passes:** G_eff = 1 to 3e-5; field and light arrive together to 0.1%; reciprocity |F₁+F₂|/|F₁| = 0.014; ray Shapiro ratio 2.02–2.04.
+- **Registered fails:** c_N = 1.08 (light reads the same; likely the Dirichlet-box target); β separation as coded 1.06 (used κ not κQ; post hoc 1.000); wave Shapiro 2.076 at b = 8 (second-order U); all P3 clauses (comparator omitted ⟨E_k E_kN⟩∂N; σ = 3/m probes differ in size, so r = 0 equal fall was untestable).
+- **Post hoc:** with the velocity term, fall matches the lattice dispersion within 2–6%; point limit (1 + rm)×GR.
+- **Suggested next (not approved):** moving source (does a scalar give g₀ᵢ effects?); radiation from an orbiting pair; clean universality rerun with equal σ; an action for the coupled rule.
+
 ## EX-GC50 completed (Claude, exploratory, PI CLOSED 2026-11-27)
 
 [Plan](spec/EX-GC50_plan.md) · [Note](results/EX-GC50/EX-GC50_note.md). Idea 4 from the GC40 recap: a natural reason for 42's vacuum subtraction.
