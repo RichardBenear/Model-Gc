@@ -1,6 +1,6 @@
 # Handoff — current state
 
-## EX-GC60 completed (Claude, exploratory, PI closure pending)
+## EX-GC60 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC60_plan.md) · [Note](results/EX-GC60/EX-GC60_note.md). What the spin detector responds to, coupling unchanged. About 0.57 core-h. 6 of 8 predictions and all checks pass.
 - Rotation is read exactly by Σ and J (−0.998 to −1.000, σ = 3–5, two orientations).
@@ -11,7 +11,7 @@
 - Code: `src/exgc60.py` (+ summary, recompute).
 - Next (not approved): an event rule for the shift's own transport, scored with nothing refitted on 59's on-axis precession, 60C's diagonal prediction and 55's co-moving pair.
 
-## EX-GC59 completed (Claude, exploratory, PI closure pending)
+## EX-GC59 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC59_plan.md) · [Note](results/EX-GC59/EX-GC59_note.md). Spin source to spin probe, end to end. About 0.23 core-h scored.
 - On axis a polarised source makes a transverse probe spin precess at the solved field's curl to 0.03–0.1% (free-space GR 0.977–0.987, the gap = zero-boundary images in n = 97).
