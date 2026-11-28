@@ -1,0 +1,8 @@
+57A k0 0.25 w  8  a: E/eps 0.999986 env/u2 0.999970 | b: E/pred56 0.972713
+57A k0 0.25 w 16  a: E/eps 0.999991 env/u2 0.999994 | b: E/pred56 0.994239
+57A k0 0.25 w 32  a: E/eps 0.999993 env/u2 0.999994 | b: E/pred56 0.998726
+57A k0 0.50 w  8  a: E/eps 0.999994 env/u2 0.999996 | b: E/pred56 0.988285
+57A k0 0.50 w 16  a: E/eps 0.999993 env/u2 0.999994 | b: E/pred56 0.997207
+57A k0 0.50 w 32  a: E/eps 0.999994 env/u2 0.999994 | b: E/pred56 0.999427
+57A C1 {'zero_drift': 0.0, 'rk4_drift': np.float64(-0.9623906522398329), 'fourier_drift': np.float64(-0.9623906587063402), 'rel': np.float64(6.719212519712414e-09)}
+done A 1s

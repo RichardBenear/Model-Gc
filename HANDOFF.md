@@ -1,5 +1,15 @@
 # Handoff — current state
 
+## EX-GC57 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC57_plan.md) · [Note](results/EX-GC57/EX-GC57_note.md). Frame dragging read by light, orbiting matter and spin. About 0.014 core-h scored.
+- 56's light miss closed: a one-way lattice mode drifts by the mode-energy-weighted −β⟨cos k⟩ to 1.4e-5 (launch and readout were the cause).
+- Rotating ring (53, momentum rule): an orbiting probe precesses at the local −½∇×β (0.96–1.07; vs its own loop integral 0.997–1.003); torque agrees. The lattice curl equals source-integrated linearised GR to 0.5% (post hoc).
+- Spin feels only 2c_B of it (0.109 at σ = 3, 0.048 at σ = 5): the coupling is the canonical momentum, so spin and orbit gyroscopes disagree.
+- Registered fails: P2 (small light clock instrument 1.045; in-plane part even in ℓ from the N well), P3 (point-dipole comparator wrong for the ring's near field).
+- Code: `src/exgc57.py`, `exgc57_summary.py`, `exgc57_recompute.py`, `exgc57_posthoc.py`.
+- Next (approved): EX-GC58 directed-coincidence rule; also check which momentum density it counts (spin term).
+
 ## EX-GC56 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC56_plan.md) · [Note](results/EX-GC56/EX-GC56_note.md). The shift as a substrate drift. About 2.2 core-h (over the 2 cap, recorded).
