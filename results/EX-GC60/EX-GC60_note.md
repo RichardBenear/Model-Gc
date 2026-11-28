@@ -4,7 +4,7 @@
 
 ## Conclusion
 
-**The spin detector is now fully characterised, and 59's off-axis "failures" are a readout convention, not a fault in the coupling.** The probe reads rotation exactly. Its spin vector Σ also drifts in a sheared shift, and the gauge test shows that the same drift appears when the shift is nothing but a relabelling of time. So it comes from reading Σ on a slice of constant coordinate time, not from the coupling. The plan's diagnosis (a gauge defect of the momentum coupling) was wrong: P6b failed. The 61 coupling change is not needed. Six of the eight predictions and all checks passed.
+**The spin detector is now fully characterised, and 59's off-axis "failures" are a readout convention, not a fault in the coupling.** [Correction 2026-11-28, Codex review: "fully characterised" and "entirely a readout convention" overstate what was shown. See the Addendum.] The probe reads rotation exactly. Its spin vector Σ also drifts in a sheared shift, and the gauge test shows that the same drift appears when the shift is nothing but a relabelling of time. So it comes from reading Σ on a slice of constant coordinate time, not from the coupling. The plan's diagnosis (a gauge defect of the momentum coupling) was wrong: P6b failed. The 61 coupling change is not needed. Six of the eight predictions and all checks passed.
 
 - **Rotation is read exactly (P1 PASS).** Spin and total angular momentum turn at:
   - −0.9976 of the rate at σ = 3;
@@ -14,7 +14,7 @@
   This holds in both orientations. With links only, the spin turns at −0.101.
 - **The shear response fades with packet width (P2, mostly).** The spin's response per unit shear is 0.0927, 0.0634 and 0.0456 at σ = 3, 4, 5. That is 0.92, 0.96 and 0.99 of the packet's orbital share 1 − ⟨Σ⟩, a spread of 7.6% against a 10% gate. P2 still fails on its last clause: links-only and PS differ by 7 × 10⁻⁶ at σ = 5 (gate 10⁻⁶). The difference comes from the curl operator's wrap-around at the box faces, which a wide packet's tail reaches. In the interior the curl of the shear field is zero.
 - **Total J is nearly immune (P3 PASS).** J responds to shear at only 2.1%, 1.3% and 0.9% of the spin's response.
-- **The fields are linear and additive (P4 PASS).** The sum field gives rotation plus shear to 10⁻¹⁰, and the yz orientation matches xy to 10⁻¹⁰ (P5 PASS).
+- **The fields are linear and additive (P4 PASS).** The sum field gives rotation plus shear to 10⁻¹⁰, and the yz orientation matches xy to 2.5 × 10⁻⁸ (P5 PASS). [Correction 2026-11-28: this first said 10⁻¹⁰ for both; the scorecard's largest orientation difference is 2.45 × 10⁻⁸.]
 - **Gauge test (P6a PASS, P6b FAIL).**
   - Under the exact first-order resynchronisation coupling H_g = −(i/2)[χ, H²], the evolution matches the gauge-transformed free evolution to 3 × 10⁻⁹. The test is sound.
   - In that pure-gauge evolution, the spin angle still drifts at 0.0864 per unit, 0.93 of the momentum coupling's 0.0927.
@@ -64,3 +64,17 @@
   - No coupling change is indicated: the planned 61 resync coupling would change only that 7%, and would cost 56's drift universality.
 - **For later detector tests:** score total J or a frame-transformed spin, or use wide packets. A raw Σ in a sheared region mixes in the coordinate effect.
 - **Suggested next (not approved).** The mechanism step: an event rule for how the shift itself propagates, so that offsets travel by coincidences the way N does. Score it with nothing refitted on 59's zero-boundary on-axis precession (now with a fully characterised detector), on 60C's diagonal prediction, and on 55's co-moving pair.
+
+## Addendum 2026-11-28 (after the Codex review; nothing re-scored)
+
+[Review](../../review/EX-GC60_codex_review.md). The verdicts above stand. Three statements in this note went further than the data:
+
+1. **"Fully characterised" and "a readout convention" are too strong.** What was shown:
+   - the two-coefficient calibration (rotation plus xy shear) transfers to one new site, the diagonal, at σ = 3;
+   - an exactly gauge-equivalent coupling leaves 93% of the raw Σ shear drift, at one width and one orientation.
+
+   That rules out the coupling difference as the main cause of the drift. It does not prove that the whole drift is a coordinate effect. The remaining 7% was not predicted independently, and tilted spins, other gradient components and off-symmetry positions were not tested. Better wording: **the calibrated detector predicts a new site, and most of Σ's shear drift is also present under a pure time relabelling.** EX-GC61D is planned to test this directly.
+2. **P5.** The largest orientation difference in the scorecard is 2.45 × 10⁻⁸, not 10⁻¹⁰. It still passes the 1% gate.
+3. **P6a.** The plan named the full angle history, but the scoring used only the final angle difference, and the run did not save the gauge-run histories. Record P6a as **"endpoint and slope agree; the full-history gate is unverified"**. The P6a check is also internal, because the same transformation is used in the evolution and at readout. It is not a comparison of a transformed physical detector.
+
+The diagonal result is also narrower than the summary suggests. It discriminates for Σ (rotation alone would miss by 23.5%). For J, rotation alone already passes (−0.05%), so the site gives little leverage on J's small shear coefficient. Both comparisons use the gradients of the solved lattice field, so they test the detector's response to a given field, not the field law itself.
