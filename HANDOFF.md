@@ -1,6 +1,6 @@
 # Handoff — current state
 
-## EX-GC54 completed (Claude, exploratory, closure pending)
+## EX-GC54 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC54_plan.md) · [Note](results/EX-GC54/EX-GC54_note.md). Source rule for the 53 link shift from Doppler-squared two-site counting (strength 2 × 2 = 4). About 2.7 core-h (PI raised cap to 3).
 - Energy-current rule (4κ·½{H, v}): R_dyn(0.2) = 1.019 (registered 1.002 ± 0.008 FAIL; within 2% PASS). Post hoc: in-place strength 3.37 vs 3.85 in uniform N (the current is smaller in the packets' N wells); predicts 1.016.
