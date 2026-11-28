@@ -4,7 +4,7 @@
 
 ## Conclusion
 
-**A rotating source drags light loops and orbiting matter the same way, and the drag is GR's. But an elementary spin feels only about 5–11% of it.** Three of the six registered predictions failed. All three failures were my choice of instrument or comparator, not the physics. The post-hoc checks below show this, and they are not re-scored.
+**A rotating source drags light loops and orbiting matter the same way, and the drag is GR's. But an elementary spin feels only about 5–11% of it.** Two of the six registered predictions (P2, P3) and one check (C3) failed; four predictions passed. [Correction 2026-11-28, Codex review: this sentence first said three predictions failed.] All three failures were my choice of instrument or comparator, not the physics. The post-hoc checks below show this, and they are not re-scored.
 
 - **56's light miss is closed (P1 PASS).** With an exact one-way lattice mode, light's energy centroid drifts by the mode-energy-weighted −β⟨cos k⟩ to 1.4 × 10⁻⁵, in all six cases (k₀ = 0.25 and 0.5; widths 8, 16 and 32). The envelope centroid matches the |û|² weighting to 3 × 10⁻⁵. 56's launch, propagated exactly, reproduces its 0.9942 and 0.9972. So the 0.6% was the launch (it is not a pure one-way mode) and the readout (an energy centroid weights by ω²|û|²). Light and matter share the drift exactly.
 - **Orbiting matter reads the local frame dragging.** A small probe ring (radius 5, L ≈ ±0.97) gives a precession frequency Ω_orb = ΔE/ΔL:
