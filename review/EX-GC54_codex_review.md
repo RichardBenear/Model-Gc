@@ -1,0 +1,26 @@
+# Independent review of EX-GC54
+
+**GC54 strengthens the calibration of GC53’s shift and identifies the energy current as a plausible source. A reciprocal microscopic rule and a gauge-independent clock reading remain open.** The new moving-pair result is a test at one nonzero speed. Rotation was checked at the level of the source current. The experiment does not independently measure frame dragging from that current with a clock or gyroscope. [Plan and A1](../spec/EX-GC54_plan.md) · [Results](../results/EX-GC54/EX-GC54_note.md)
+
+## What passed and what missed
+
+- **The midpoint is the cleanest new result.** With GC53’s momentum source and strength two, the normalized transverse force is 1.0562. The arithmetic midpoint of the zero- and four-strength values is 1.05635 using the rounded endpoints. This supports the interpolation giving 3.91 for this packet and geometry. It does not determine the microscopic normalization.
+- **The energy-current rule improves the force but misses its numerical prediction.** At speed 0.2 the ratio is 1.019, within the broader 2% gate around unity and outside the registered 1.002 ± 0.008. The charge-current rule gives 0.916. In uniform lapse its operator gives twice the energy current for the chosen Dirac Hamiltonian, so the comparison largely tests source normalization. The original charge-current prediction used a band-diagonal product that omitted interband terms. A1 documented that discrepancy before the dynamics.
+- **The tested lapse-history construction has too little circulation.** Its curl reaches only 1.2 × 10⁻⁴ of the benchmark on the sampled line. At leading order the construction is a lattice gradient. The finite check samples one moving packet, one plaquette orientation and one radial window. This is a negative result for that rule, not an exclusion of all possible history-dependent rules.
+- **The ring provides a source test.** The energy-current angular moment is 96.5% of the GC53 momentum value, changes sign with orbital circulation, and vanishes for the spin-balanced stationary ring. A field-and-probe test with that source is still needed. [Scorecard](../results/EX-GC54/summary.json) · [Implementation](../src/exgc54.py)
+
+## The main consistency question
+
+In the evolution code the new energy current drives the link field, while the matter Hamiltonian still feels the link field through GC53’s momentum coupling. These are distinct operators, and the difference grows in the packet’s own lapse well. In uniform lapse, the energy source corresponds to a momentum-source strength of 3.85. In the initial two-packet state it gives 3.37. That post hoc number explains much of the force discrepancy, but an integrated current at one instant cannot determine the full evolving field. More importantly, the calculation has not shown that the source and response follow from a common interaction or obey a joint momentum and energy balance. The factor of four has a counting rationale conditional on the chosen tick observable and directional weighting. The code evaluates an imposed current operator. [Evolution and source operators](../src/exgc54.py)
+
+## The clock control is still a failure
+
+A pure change of synchronization should have zero closed-loop timing effect. The three scored smooth-gradient cases give normalized residuals of 0.011, 0.063 and 0.097 against a 0.001 limit. Shifting the phase so the offset is small at the clock almost eliminates the signal. That implicates the launch/readout protocol, but selecting a special clock location or subtracting a fitted offset would not establish gauge independence. Transform the initial pulse, emission event and detector time consistently, then repeat with the same physical clock event at several phases. Retain a real circulating shift as a positive control to ensure that the corrected readout still detects it. [GC54 results](../results/EX-GC54/EX-GC54_note.md)
+
+## Priority next steps
+
+1. **Derive the local-time weighting and the reciprocal coupling before tuning the force.** Specify which events are counted, the time interval used to normalize the count, and the source and response produced by the same interaction. Check the proposed current against a local energy continuity equation or directly track energy and momentum exchange with the field. A correct total current in uniform lapse does not fix its local distribution.
+2. **Separate speed dependence from well depth.** Freeze the rule, then vary the source strength at fixed speed and the speed at fixed source strength. Include a different packet width and a held-out speed. Compare with the momentum-source benchmark and report the source profile as well as the force. This tests whether local-time normalization generalizes beyond the single 0.2 calibration.
+3. **Return to rotation with the corrected clock.** Use the unchanged energy-current rule to predict an absolute ring delay and an independent matter-probe response under reversal of the orbital current. Success in both observables would connect the directed-source hypothesis to frame dragging more directly than the transverse-force fit.
+
+I reviewed the registered plan, amendment, implementation, results note and saved scorecard. I checked the midpoint interpolation from the recorded force ratios. The simulations were not rerun.
