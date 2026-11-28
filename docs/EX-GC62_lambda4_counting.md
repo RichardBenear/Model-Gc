@@ -19,7 +19,7 @@
   In 3D these are 1, 1, 2 and 4. On a cubic lattice, 2(D − 1) is the number of plaquettes that share a given link, and D − 1 is the number of coordinate planes containing it.
 
   So one candidate answer to "how many things are counted" is: **momentum registers on every plaquette around a link (4 in 3D), and light registers once per plane through the link (2 in 3D).** This is a hypothesis drawn from the pattern of integers, not a derivation.
-- **37B's rule gets the right numbers only because D = 3.** Clocks are one-site events and signals are two-site coincidences, so light/clock = 2 in any dimension. GR needs 3/2 in D = 4 and has no Newtonian clock coupling at all in D = 2. 54's Doppler-squared count gives λ = 4 in any dimension, which GR rules out for D ≠ 3.
+- **37B's rule gets the right numbers only because D = 3.** Clocks are one-site events and signals are two-site coincidences, so light/clock = 2 in any dimension. GR needs 3/2 in D = 4 and has no Newtonian clock coupling at all in D = 2. 54's Doppler-squared count gives λ = 4 in any dimension, which GR rules out for D ≠ 3. (Correction, same day: that failure is inherited from the two-site signal weight, i.e. from 37B, not from 54's Doppler step; see section 1b.)
 - **What this means for the substrate.** In D = 3 the clock and the ruler couple equally (γ = 1), so a clock-first substrate (event rates, ours) and a ruler-first substrate (entanglement and area counts, Cao et al.'s) cannot be told apart there. They separate in D = 2 and D = 4. That is the D study the PI asked for next.
 - **The entanglement route to the second 2.** Cao et al. derive only the energy equation, G₀₀ = 8πG T₀₀. The shift equation is the momentum constraint, G₀ᵢ = 8πG T₀ᵢ, and they assume it by covariance.
   - Jacobson-style, applying the entanglement first law for every boosted local frame brings in the cross term 2kᵗkⁱT₀ᵢ. That is the same symmetric double count (g₀ᵢ dt dxⁱ + gᵢ₀ dxⁱ dt) as the factor 2 above.
@@ -72,9 +72,9 @@ So **shift/light = 2 in every dimension.** The 2 is the shift entering the line 
 1. **1 + γ** is a genuine counting question about the clock and signal counts. 37B answers it in 3D. The dimension dependence sits entirely here.
 2. **The factor 2** is not a further count to discover. It is what local boost invariance demands of whatever carries the shift. The mechanism question is then: **what substrate process makes a moving source's field the boosted image of its static light potential?**
 
-**Counting reading of that process.** For a source moving at v, a link's forward and backward signal coincidences are Doppler-shifted by (1 + v) and (1 − v). If the shift is the forward-minus-backward asymmetry of the **signal** count (the light potential, weight 1 + γ), it comes out as 2v × (1 + γ)Φ. That gives λ = 2(1 + γ) with nothing tuned.
+**Counting reading of that process.** For a source moving at v, each endpoint's tick rate, seen along a link, is Doppler-shifted by (1 + v) or (1 − v). If the shift is the forward-minus-backward asymmetry of the **signal** count (the light potential, weight 1 + γ), each endpoint of the coincidence is Doppler-shifted, so each direction's count changes by (1 ∓ v)² ≈ 1 ∓ 2v. The one-way delays per unit length are then −(1 + γ)Φ(1 ∓ 2v). Their difference, 4(1 + γ)Φv, equals 2h₀ₓ, so the shift is 2(1 + γ)Φv. That gives λ = 2(1 + γ) with nothing tuned. (Correction: the first draft used a single Doppler factor per direction, which gives only (1 + γ) = 2 in 3D. The square, one factor per endpoint, is what supplies the boost's factor 2.)
 
-54 instead attached the Doppler factors to the clock-type endpoint rates in one direction (the (1 ∓ v)² count). That anchors the shift to the clock rather than to the light count, and it missed: λ_eff was 3.85, or 3.37 inside the wells.
+**Correction (same day).** The first draft said 54 anchored the shift to the clock count. That was wrong. 54's D2 rule is this rule: each direction of a link counts its own two-site (signal) coincidences, Doppler-shifted at both endpoints, (1 ∓ v)², giving 2 × 2 = 4. In 3D the two are identical. 54's miss was in the operator that stands for "count × velocity": the lattice energy current ½{Ĥ, v̂} gives strength 3.85 in uniform N (against 53's momentum law at 4), and 3.37 inside the packets' own clock-rate wells, because its hops carry N weights. 54 itself named the open question: count per local tick, which removes the well factor.
 
 So the specific prediction is: **shift = directed asymmetry of the signal count, normalised by the same coincidence weights that set light's speed.**
 
@@ -105,7 +105,7 @@ The question "how many things are counted" becomes concrete: in 3D, does a unit 
 ## 3. Our earlier attempts, read this way
 
 - **37B: clock = 1 site, signal = 2 sites.** This gives light/clock = 2 in any D. It is right in 3D only. Read in ruler units, two sites in 3D equals two planes through a link, so 37B cannot tell which of the two is being counted.
-- **54: Doppler-squared,** (1 ∓ v)² → 2 × 2 = 4. One 2 is the two endpoints, which is the light/clock factor in 3D. The other is the linear Doppler factor. It gives 4 in any D, so as a mechanism it fails outside 3D. Its numerical miss in 3D (λ_eff = 3.85, and 3.37 inside the wells) is consistent with it counting the wrong things even there.
+- **54: Doppler-squared,** (1 ∓ v)² → 2 × 2 = 4. One 2 is light's two-site weight (1 + γ in 3D). The other is the Doppler square, one factor per endpoint, which is the boost's factor 2 and holds in any D. On our substrate the two-site weight is 2 in every D, so the rule gives 4 everywhere; the D ≠ 3 failure is 37B's, not the Doppler step's. Its numerical miss in 3D (3.85 in uniform N, 3.37 inside the wells) comes from the N weights in the energy-current operator. (Corrected; the first draft said it counted the wrong things.)
 - **53–61:** λ = 4 is put in by hand. All the consistency results (no preferred frame, spin sourcing, local transport, the probe reading free-space GR) hold with that value, so the target is well defined.
 
 ## 4. The entanglement angle and the second 2
@@ -136,7 +136,7 @@ Candidate rules and what each predicts:
 | Rule | light/clock | shift/light |
 |---|---|---|
 | 37B clock-first (site events, two-site coincidences) | 2 in any D (wrong in D ≠ 3) | — |
-| 54 Doppler-squared | — | gives λ = 4 in any D (wrong in D ≠ 3) |
+| 54 Doppler-squared | — | gives λ = 2 × (two-site weight) = 4 in any D; wrong in D ≠ 3 only through 37B's weight |
 | Ruler-first or plaquette counting (this note's reading) | (D − 1)/(D − 2) | 2 |
 
 The ruler-first rule's numbers come straight from the integer counts in section 2. The study would build the lattice counts in D = 2, 3 and 4 (cheap, because the lattices are small and these are static source solves) and read the four ratios. The rule passes only if it hits all of them without D-specific tuning.
