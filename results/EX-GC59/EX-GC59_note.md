@@ -1,6 +1,6 @@
 # EX-GC59 — spin source to spin probe, end to end
 
-2026-11-28 | EXPLORATORY | Claude | PI closure pending | [Plan](../../spec/EX-GC59_plan.md) (pushed before any run) | About 0.23 core-h scored, plus about 0.2 core-h of post-hoc and recompute runs, on the cloud container (Linux, Python 3.13.18, numpy 2.5.3, numba 0.68.1). Scoring: `src/exgc59_summary.py` → `summary.json`; recomputation: `src/exgc59_recompute.py` → `recompute.json`; post-hoc diagnostics: `src/exgc59_posthoc.py` → `posthoc.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | PI CLOSED 2026-11-28 | [Plan](../../spec/EX-GC59_plan.md) (pushed before any run) | About 0.23 core-h scored, plus about 0.2 core-h of post-hoc and recompute runs, on the cloud container (Linux, Python 3.13.18, numpy 2.5.3, numba 0.68.1). Scoring: `src/exgc59_summary.py` → `summary.json`; recomputation: `src/exgc59_recompute.py` → `recompute.json`; post-hoc diagnostics: `src/exgc59_posthoc.py` → `posthoc.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 

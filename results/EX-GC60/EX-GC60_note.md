@@ -1,6 +1,6 @@
 # EX-GC60 — what the spin detector responds to: rotation, shear and a gauge test, with the coupling unchanged
 
-2026-11-28 | EXPLORATORY | Claude | PI closure pending | [Plan](../../spec/EX-GC60_plan.md) (pushed before any run) | About 0.57 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3; 4 workers). Scoring: `src/exgc60_summary.py` → `summary.json`; recomputation: `src/exgc60_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | PI CLOSED 2026-11-28 | [Plan](../../spec/EX-GC60_plan.md) (pushed before any run) | About 0.57 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3; 4 workers). Scoring: `src/exgc60_summary.py` → `summary.json`; recomputation: `src/exgc60_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 
