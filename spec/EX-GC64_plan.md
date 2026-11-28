@@ -1,6 +1,6 @@
 # EX-GC64 — does the per-local-tick count transfer, is it one interaction, and does it coexist with the spin term?
 
-2026-11-28 | EXPLORATORY | Claude | Plan only; not run. PI asked for it ("yes", 18:25 UTC, to "Should I write the 64 plan?"), responding to the Codex 63 review. Go-ahead to run pending. Requested cap: 2.5 core-h (expected about 1.9). Our construction; not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | Plan only; not run. PI asked for it ("yes", 18:25 UTC, to "Should I write the 64 plan?"), responding to the Codex 63 review. PI go-ahead 2026-11-28 18:28 UTC ("go ahead", to the 2.5 core-h cap request). Requested cap: 2.5 core-h (expected about 1.9). Our construction; not LaViolette's Model G and not Chain Theory.
 
 ## Why
 
