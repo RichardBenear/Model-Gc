@@ -1,6 +1,33 @@
 # Handoff — current state
 
-## EX-GC56 completed (Claude, exploratory, closure pending)
+## EX-GC59 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC59_plan.md) · [Note](results/EX-GC59/EX-GC59_note.md). Spin source to spin probe, end to end. About 0.23 core-h scored.
+- On axis a polarised source makes a transverse probe spin precess at the solved field's curl to 0.03–0.1% (free-space GR 0.977–0.987, the gap = zero-boundary images in n = 97).
+- Reversal, unpolarised, links-only, calibrated light loop, asynchronous event order all pass.
+- Fails: in-plane 0.775, box/dipole boundary 2.5%, gradient null 7.7%, norm bound. All but the box trace to a shear response of Σ (+0.093 per unit shear) through the canonical link coupling; curl + shear calibrations predict the rates to 0.04%.
+- Code: `src/exgc59.py` (+ summary, recompute, posthoc, fixpred).
+- Next (not approved): a shift coupling built from the time-resync generator so β = ∇χ is exact gauge (removes shear response); then 60, an event rule for β's transport.
+
+## EX-GC58 completed (Claude, exploratory, PI CLOSED 2026-11-28)
+
+[Plan](spec/EX-GC58_plan.md) · [Note](results/EX-GC58/EX-GC58_note.md). The shift as local events. About 0.62 core-h. All registered predictions and checks pass.
+- Link event = real rotation of (ψ_x, ψ_{x+a}) by β dt/2 (directed transfer); plaquette event = spinor rotation by (dt/4)(curl β)·Σ (Belinfante term); source = conjugate count P + ¼Cᵀs (rule label PS in `src/exgc58.py`, which patches 55's `coupling`).
+- Order-free to O((β dt)²); drift universality kept; spin precesses at Ω per unit J (3e-4); a resting spin sources J = L + S; energy conserved; pair R 0.9967.
+- Still put in: strength 4, β's field law, the ¼.
+- Next (not approved): a coincidence transport rule for β itself; radiation; counting the ¼.
+
+## EX-GC57 completed (Claude, exploratory, PI CLOSED 2026-11-28)
+
+[Plan](spec/EX-GC57_plan.md) · [Note](results/EX-GC57/EX-GC57_note.md). Frame dragging read by light, orbiting matter and spin. About 0.014 core-h scored.
+- 56's light miss closed: a one-way lattice mode drifts by the mode-energy-weighted −β⟨cos k⟩ to 1.4e-5 (launch and readout were the cause).
+- Rotating ring (53, momentum rule): an orbiting probe precesses at the local −½∇×β (0.96–1.07; vs its own loop integral 0.997–1.003); torque agrees. The lattice curl equals source-integrated linearised GR to 0.5% (post hoc).
+- Spin feels only 2c_B of it (0.109 at σ = 3, 0.048 at σ = 5): the coupling is the canonical momentum, so spin and orbit gyroscopes disagree.
+- Registered fails: P2 (small light clock instrument 1.045; in-plane part even in ℓ from the N well), P3 (point-dipole comparator wrong for the ring's near field).
+- Code: `src/exgc57.py`, `exgc57_summary.py`, `exgc57_recompute.py`, `exgc57_posthoc.py`.
+- Next (approved): EX-GC58 directed-coincidence rule; also check which momentum density it counts (spin term).
+
+## EX-GC56 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC56_plan.md) · [Note](results/EX-GC56/EX-GC56_note.md). The shift as a substrate drift. About 2.2 core-h (over the 2 cap, recorded).
 - −β·P is exactly a real directed amplitude transfer; it carries every Dirac packet by −β⟨cos k⟩ (7e-5), the same as light. The energy current is mass-dependent (Wilson 1.32–2.22×), so it is excluded by the equivalence principle.
@@ -9,7 +36,7 @@
 - Code: `src/exgc56.py`, `exgc56_summary.py`, `exgc56_recompute.py`.
 - Suggested next (not approved): directed-coincidence amplitude-transfer rule (continuum −β·P, source P, strength 4); ring + matter probe with the synchronised clock.
 
-## EX-GC55 completed (Claude, exploratory, closure pending)
+## EX-GC55 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC55_plan.md) · [Note](results/EX-GC55/EX-GC55_note.md). One interaction for the shift (Codex 54 review). About 0.75 core-h.
 - Energy bookkeeping: P/P and reciprocal J_E/J_E conserve; 54's mixed rule does not.

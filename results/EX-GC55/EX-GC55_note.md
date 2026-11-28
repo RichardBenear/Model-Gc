@@ -1,6 +1,6 @@
 # EX-GC55 — one interaction for the link shift: momentum, not energy current; and a clock that reads the shift exactly once it is synchronised
 
-2026-11-28 | EXPLORATORY | Claude | Closure pending | [Plan](../../spec/EX-GC55_plan.md) (pushed before any run) | About 0.75 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring: `src/exgc55_summary.py` → `summary.json`; recomputation from raw records: `src/exgc55_recompute.py` → `recompute.json`; post-hoc diagnostics: `src/exgc55_posthoc.py`, `src/exgc55_posthoc2.py`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | PI CLOSED 2026-11-28 (Richard: "close 55 and 56") | [Plan](../../spec/EX-GC55_plan.md) (pushed before any run) | About 0.75 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring: `src/exgc55_summary.py` → `summary.json`; recomputation from raw records: `src/exgc55_recompute.py` → `recompute.json`; post-hoc diagnostics: `src/exgc55_posthoc.py`, `src/exgc55_posthoc2.py`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 

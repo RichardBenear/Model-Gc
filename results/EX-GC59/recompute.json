@@ -1,0 +1,21 @@
+{
+ "axis_12": {
+  "Omega_dt05": 7.324777397904875e-05,
+  "rel_to_main": 2.042714003858137e-05,
+  "Omega_lattice_curl": 7.332401644901362e-05,
+  "lattice_over_free": 0.9877830342420222,
+  "meas_over_lattice": 0.9989601978498015
+ },
+ "axis_16": {
+  "Omega_dt05": 3.0808342032162704e-05,
+  "rel_to_main": 2.5402461740764437e-06,
+  "Omega_lattice_curl": 3.0816019702053504e-05,
+  "lattice_over_free": 0.9772271145574062,
+  "meas_over_lattice": 0.9997508545891055
+ },
+ "light_loop": {
+  "Omega_loop_lattice": 1.9964809238363247e-05,
+  "free": 2.0668342958764275e-05,
+  "ratio": 0.9659608067369184
+ }
+}

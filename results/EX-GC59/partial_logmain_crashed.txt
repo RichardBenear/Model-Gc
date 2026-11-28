@@ -1,0 +1,21 @@
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+59 fields n 97 kap 1.6378 {'up': {'L': 0.04913573314809195, 'Sz': 0.4496344342377997, 'J_PS': 0.4987701673859717}, 'down': {'L': -0.049135733148091956, 'Sz': -0.4496344342377997, 'J_PS': -0.4987701673859717}} 10s
+59 97 zero axis_12 pred 7.4231e-05 (centre 7.4314e-05, dipole 7.5237e-05) meas 7.3246e-05 ratio 0.98674  110s
+Traceback (most recent call last):
+  File "/home/user/model-gc/src/exgc59.py", line 214, in <module>
+    save(job, jobs[job](), t0); print("done", job, "%.0fs" % (time.time() - t0), flush=True)
+              ~~~~~~~~~^^
+  File "/home/user/model-gc/src/exgc59.py", line 213, in <lambda>
+    jobs = {"main": lambda: part_main(), "n129": lambda: part_main(129, "zero", ("axis_16",), full=False), "dip": lambda: part_main(97, "dip", ("axis_16",), full=False), "async": part_async}
+                            ~~~~~~~~~^^
+  File "/home/user/model-gc/src/exgc59.py", line 176, in part_main
+    row["zero"] = run_ham(Ns, None, "PS"); row["zero_Ndown"] = run_ham(cut_site(Nd, x0), None, "PS")
+                  ~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/user/model-gc/src/exgc59.py", line 82, in run_ham
+    psi = probe(); C = X.curl_op(Bs) if rule == "PS" else None
+                       ~~~~~~~~~^^^^
+  File "/home/user/model-gc/src/exgc58.py", line 36, in curl_op
+    out = np.zeros((3,) + B[0].shape)
+                          ~^^^
+TypeError: 'NoneType' object is not subscriptable

@@ -1,6 +1,6 @@
 # EX-GC56 — the link shift as a substrate drift: one offset carries light and every kind of matter alike
 
-2026-11-28 | EXPLORATORY | Claude | Closure pending | [Plan](../../spec/EX-GC56_plan.md) (pushed before any run) | About 2.2 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3), over the 2 core-h cap (see Deviations). Scoring: `src/exgc56_summary.py` → `summary.json`; recomputation: `src/exgc56_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | PI CLOSED 2026-11-28 (Richard: "close 55 and 56") | [Plan](../../spec/EX-GC56_plan.md) (pushed before any run) | About 2.2 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3), over the 2 core-h cap (see Deviations). Scoring: `src/exgc56_summary.py` → `summary.json`; recomputation: `src/exgc56_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 
