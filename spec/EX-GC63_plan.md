@@ -1,6 +1,6 @@
 # EX-GC63 — the directed signal count, per local tick: does it supply the shift with nothing tuned?
 
-2026-11-28 | EXPLORATORY | Claude | Plan only; not run. PI chose "Directed signal-count rule (3D)" on the decision card; this plan is the refined version proposed after finding that the chosen rule is 54's D2 rule (EX-GC62 note, corrected section 1b). Go-ahead for this refined version pending. Requested cap: 2 core-h (expected about 1). Our construction; not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | Plan only; not run. PI chose "Directed signal-count rule (3D)" on the decision card; this plan is the refined version proposed after finding that the chosen rule is 54's D2 rule (EX-GC62 note, corrected section 1b). PI go-ahead 2026-11-28 17:47 UTC: chose "54 rule, per local tick" on the card "Which test should EX-GC63 be, now that the chosen rule is 54's?". Requested cap: 2 core-h (expected about 1). Our construction; not LaViolette's Model G and not Chain Theory.
 
 ## Why
 
