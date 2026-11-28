@@ -145,3 +145,14 @@ Measured from 60: a 48³ probe run takes about 60 s, and a matched readout about
 ## Outputs
 
 `src/exgc61.py`, `src/exgc61_summary.py`, `src/exgc61_recompute.py` (P5 and P6 from an independent spin readout and a polyfit; arrival from a cubic-spline crossing), `results/EX-GC61/`, note, LOG row, HANDOFF section.
+
+## Amendment A1 (2026-11-28, before any EX-GC61 run; only the source and N were built to check sizes)
+
+A size check on 59's source (n = 97) found that N is 0.985 at r = 8 and 0.9925 at r = 16. With the N̄ weights, the event law's static limit is the weighted operator, not 59's flat ∇²β = λκ j. That changes the settled field by O(1 − N), about 1–2% at the probe. It would confound P3 and P5, which compare against the flat law (59's static field and linearised GR) and allow 1–1.5%.
+
+Change:
+- The **main runs (all of 61A–61C, scored)** use the event rule with N̄ = 1. Their static limit is exactly 59/60's field law, so 61 tests the propagation of the same law and nothing else.
+- The N̄-weighted rule (53's law) is run as a **secondary variant in 61B only**. Its arrival times and its settled field against its own weighted static solve are reported, not scored.
+- Consequence: in the main runs the field front moves at 1, while light in the well moves at N² (1.5% slower at r = 8). That is a known difference, recorded here, and second order in the weak-field sense.
+
+No predictions or gates change.
