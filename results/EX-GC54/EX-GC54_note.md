@@ -1,6 +1,6 @@
 # EX-GC54 — where the link shift comes from: Doppler-squared counting of a pattern's ticks gives frame dragging of about the right strength
 
-2026-11-27 | EXPLORATORY | Claude | Closure pending | [Plan](../../spec/EX-GC54_plan.md) (amendment A1 after the operator check, before every other run) | About 2.7 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). The PI raised the cap from 2 to about 3 core-h to finish the λ = 2 point and the dt/2 check. Scoring: `src/exgc54_summary.py` → `summary.json`; separate recomputation: `src/exgc54_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-27 | EXPLORATORY | Claude | PI CLOSED 2026-11-28 (Richard: "close 54 and write up 55 and run it") | [Plan](../../spec/EX-GC54_plan.md) (amendment A1 after the operator check, before every other run) | About 2.7 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). The PI raised the cap from 2 to about 3 core-h to finish the λ = 2 point and the dt/2 check. Scoring: `src/exgc54_summary.py` → `summary.json`; separate recomputation: `src/exgc54_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 
