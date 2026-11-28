@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC64 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC64_plan.md) · [Note](results/EX-GC64/EX-GC64_note.md). The 63 per-local-tick count transfers across depth, width, boost and dt (offset from P depth-independent); reciprocal use costs ~7% (λ_eff 3.71); hybrid spin source 0.992 of PS on axis, 0.986 in plane (fail). The P rule's own R depends on depth (open). 1.81 core-h.
+
 ## EX-GC63 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC63_plan.md) · [Note](results/EX-GC63/EX-GC63_note.md). 54's directed signal-count rule counted per local tick (flat weights) keeps the co-moving pair Lorentz-invariant with nothing tuned: R_dyn(0.2) = 1.0028 (54: 1.019). The count has no spin term: resting-spin moment 9.2% of PS (= canonical P's). EX-GC62 note (paper, docs/) corrected the same day on 54. 0.92 core-h.
