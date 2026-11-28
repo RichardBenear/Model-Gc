@@ -1,0 +1,4 @@
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+61B 129 False {"axis_8": 8.121948927542551, "plane_8": 5.175227411916665, "axis_12": 11.425520761852413, "plane_12": 8.130712847851573, "axis_16": 14.962175641879096, "plane_16": 11.435382991187275, "axis_24": 22.3191546134965, "plane_24": 18.423068144700746} {}
+done B129 240s

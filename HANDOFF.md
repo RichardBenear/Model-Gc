@@ -1,5 +1,15 @@
 # Handoff — current state
 
+## EX-GC61 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC61_plan.md) · [Note](results/EX-GC61/EX-GC61_note.md). The shift as a travelling field. About 1.25 core-h scored plus 0.4 post hoc. 6 of 10 predictions and all checks pass.
+- β carried by local order-free events (drift, two-link coincidence, source) whose limit is 53's wave law; settles to the free-space field (0.22%).
+- Probe in the travelling field, nothing refitted: axis Σ 1.001 and J 1.007 of free-space GR (59's 2.3% box deficit was the static solve); diagonal frozen prediction 1.0002 (Σ), 0.995 (J); boxes 97/129 identical to 1e-13 in the window.
+- Fails: arrival timed as a point source (P2, P4); detector add-on omitted the transformed preparation (P8a–d; post hoc with Uψ0 the matched readout removes the shear drift to 1e-8 and keeps rotation); J vector at an off-symmetry source site 41% (orbital L not isotropic).
+- Prescribed switch-on of a spin radiates; reflected, it dominates the late probe (−80%).
+- Code: `src/exgc61.py` (+ summary, recompute, posthoc).
+- Next (not approved): dynamical, J-conserving source (back-reaction, no switch-on radiation); a counting reason for λ = 4; off-symmetry J response.
+
 ## EX-GC60 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC60_plan.md) · [Note](results/EX-GC60/EX-GC60_note.md). What the spin detector responds to, coupling unchanged. About 0.57 core-h. 6 of 8 predictions and all checks pass.
