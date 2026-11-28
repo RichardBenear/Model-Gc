@@ -18,7 +18,9 @@
   - 0.109 of the local Ω at σ = 3;
   - 0.048 of it at σ = 5.
 
-  That is 1.12 and 1.06 times 2c_B, where c_B is the small spin part of the lattice momentum density, fitted on the same packet. GR predicts 1. So the momentum coupling is the canonical one. An elementary spin feels only a lattice remnant of frame dragging, and that remnant shrinks as the packet widens. Spin and orbital gyroscopes disagree.
+  That is 1.12 and 1.06 times 2c_B, where c_B is the spin-curl part of the lattice momentum density, fitted on the same packet. GR predicts 1.
+  - What c_B is: it tracks the packet's orbital share of its angular momentum, (1 − ⟨Σ_z⟩)/2 = 0.050 and 0.023, to 3%. A localised spin-½ packet carries a little orbital motion in its small components. So the coupling feels only the orbital part of the packet's angular momentum, not its spin. I called it a lattice remnant in the plan; it is real Dirac physics and goes to zero for wide packets.
+  - So the momentum coupling is the canonical one. An elementary spin is nearly blind to frame dragging, and spin and orbital gyroscopes disagree.
 - **Pure-gradient control (P6 PASS).** In β = ∇χ, orbit, spin and light all read below 6 × 10⁻⁴ of their ring values.
 
 | | What was scored | Result | Verdict |
