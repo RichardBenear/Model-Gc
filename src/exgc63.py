@@ -44,7 +44,8 @@ def part_B(n=97):
 
 
 def part_checks(n=65):
-    m = E54.S.M; p1, p2, kap = E54.packets(0.2, n); q1, _, _ = E54.packets(-0.2, n); N1 = np.ones((n,) * 3)
+    m = E54.S.M; p1, p2, kap = E54.packets(0.2, n); N1 = np.ones((n,) * 3); c = n // 2; S = E54.S
+    q1, _, _ = S.packet_k(n, m, 0.0, (c, c - 7, c), S.SIG, (-S.k_for_v(0.2, m, 0.0), 0, 0), chi=E54.UP)   # k_for_v bisects k > 0 only
     s1 = d2e1(p1, m); sm = d2e1(q1, m); P1 = T53.link_P(p1)
     c1 = float(np.abs(d2e1(np.zeros_like(p1), m)).max())
     c2 = float(np.abs(s1.sum(axis=(1, 2, 3)) + sm.sum(axis=(1, 2, 3))).max() / np.abs(s1.sum(axis=(1, 2, 3))).max())
