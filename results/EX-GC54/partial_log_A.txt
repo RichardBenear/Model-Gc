@@ -1,0 +1,4 @@
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+54A max curl ratio 1.214e-04  |b|max 1.592e-04 |B|max 2.095e-02
+A done 5s
