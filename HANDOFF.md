@@ -1,6 +1,6 @@
 # Handoff — current state
 
-## EX-GC58 completed (Claude, exploratory, PI closure pending)
+## EX-GC58 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC58_plan.md) · [Note](results/EX-GC58/EX-GC58_note.md). The shift as local events. About 0.62 core-h. All registered predictions and checks pass.
 - Link event = real rotation of (ψ_x, ψ_{x+a}) by β dt/2 (directed transfer); plaquette event = spinor rotation by (dt/4)(curl β)·Σ (Belinfante term); source = conjugate count P + ¼Cᵀs (rule label PS in `src/exgc58.py`, which patches 55's `coupling`).
@@ -8,7 +8,7 @@
 - Still put in: strength 4, β's field law, the ¼.
 - Next (not approved): a coincidence transport rule for β itself; radiation; counting the ¼.
 
-## EX-GC57 completed (Claude, exploratory, PI closure pending)
+## EX-GC57 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC57_plan.md) · [Note](results/EX-GC57/EX-GC57_note.md). Frame dragging read by light, orbiting matter and spin. About 0.014 core-h scored.
 - 56's light miss closed: a one-way lattice mode drifts by the mode-energy-weighted −β⟨cos k⟩ to 1.4e-5 (launch and readout were the cause).

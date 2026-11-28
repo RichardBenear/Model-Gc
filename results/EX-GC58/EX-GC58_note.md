@@ -1,6 +1,6 @@
 # EX-GC58 — the shift as local events: directed transfers on links, circulation on plaquettes, and the spin term GR needs
 
-2026-11-28 | EXPLORATORY | Claude | PI closure pending | [Plan](../../spec/EX-GC58_plan.md) (pushed before any run) | About 0.62 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3; 4 workers). Scoring: `src/exgc58_summary.py` → `summary.json`; recomputation: `src/exgc58_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | PI CLOSED 2026-11-28 (Richard: "you can close 57 and 58") | [Plan](../../spec/EX-GC58_plan.md) (pushed before any run) | About 0.62 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3; 4 workers). Scoring: `src/exgc58_summary.py` → `summary.json`; recomputation: `src/exgc58_recompute.py` → `recompute.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 

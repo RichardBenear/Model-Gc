@@ -1,6 +1,6 @@
 # EX-GC57 — frame dragging read by light, by orbiting matter and by spin; and 56's light miss closed
 
-2026-11-28 | EXPLORATORY | Claude | PI closure pending | [Plan](../../spec/EX-GC57_plan.md) (pushed before any run) | About 0.014 core-h scored (A 1 s, B 49 s), plus about 0.03 core-h of post-hoc and recompute runs, on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring: `src/exgc57_summary.py` → `summary.json`; recomputation: `src/exgc57_recompute.py` → `recompute.json`; post-hoc diagnostics: `src/exgc57_posthoc.py` → `posthoc.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | PI CLOSED 2026-11-28 (Richard: "you can close 57 and 58") | [Plan](../../spec/EX-GC57_plan.md) (pushed before any run) | About 0.014 core-h scored (A 1 s, B 49 s), plus about 0.03 core-h of post-hoc and recompute runs, on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring: `src/exgc57_summary.py` → `summary.json`; recomputation: `src/exgc57_recompute.py` → `recompute.json`; post-hoc diagnostics: `src/exgc57_posthoc.py` → `posthoc.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 
