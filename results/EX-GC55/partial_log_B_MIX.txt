@@ -1,0 +1,2 @@
+55B MIX dt 0.100 drift 7.287e-06  |Ei0| 1.732e-03  rel 4.208e-03  164s
+B_MIX done 167s

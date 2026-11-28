@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## EX-GC55 completed (Claude, exploratory, closure pending)
+
+[Plan](spec/EX-GC55_plan.md) · [Note](results/EX-GC55/EX-GC55_note.md). One interaction for the shift (Codex 54 review). About 0.75 core-h.
+- Energy bookkeeping: P/P and reciprocal J_E/J_E conserve; 54's mixed rule does not.
+- Pair (n = 49, T = 8): P/P R = 0.9986; reciprocal energy current R = 1.047 (fails). The momentum P is the consistent operator (ADM −β·p).
+- Clock: registered gauge test fails (the covariant term is not the cause). Post hoc, preparing the pulse in the clock's locally synchronised frame (`src/exgc55_posthoc2.py`, sign −1) gives gauge residual ≤ 9e-5 and ring wave/readout 0.999–1.005.
+- Code: `src/exgc55.py` (covariant loop, je_terms/coupling, evolve with energy), `exgc55_summary.py`, `exgc55_recompute.py`.
+- Suggested next (not approved): derive −β·P from directed hop weights; well-depth/speed generalisation with P; ring + matter probe with the synchronised clock.
+
 ## EX-GC54 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC54_plan.md) · [Note](results/EX-GC54/EX-GC54_note.md). Source rule for the 53 link shift from Doppler-squared two-site counting (strength 2 × 2 = 4). About 2.7 core-h (PI raised cap to 3).

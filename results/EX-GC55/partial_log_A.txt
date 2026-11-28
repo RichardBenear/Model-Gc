@@ -1,0 +1,21 @@
+55A 16 0.001 0.0 rel 9.74e-06  covOld -1.05e-05 advNew -6.60e-06
+55A 32 0.001 0.0 rel 1.10e-02  covOld -1.13e-02 advNew -1.08e-02
+55A 64 0.001 0.0 rel 6.26e-02  covOld -6.34e-02 advNew -6.26e-02
+55A 128 0.001 0.0 rel 9.65e-02  covOld -9.73e-02 advNew -9.65e-02
+55A 64 0.001 0.785 rel 4.43e-02  covOld -4.48e-02 advNew -4.43e-02
+55A 64 0.001 1.571 rel 2.28e-11  covOld -4.93e-11 advNew 3.22e-11
+55A 64 0.001 2.356 rel 4.43e-02  covOld 4.48e-02 advNew 4.43e-02
+55A 64 0.0001 0.0 rel 6.26e-02  covOld -6.34e-02 advNew -6.26e-02
+55A 64 0.01 0.0 rel 6.26e-02  covOld -6.34e-02 advNew -6.26e-02
+55A uniform ratio 0.93698 one-side 0.2323
+/home/user/model-gc/src/exgc51.py:18: RuntimeWarning: divide by zero encountered in divide
+  fN = lambda N: -0.5 / N ** 2          # slowness transport variable
+55A ring ell 2 h 20 readout -3.678795e-01 wave -3.464669e-01 ratio 0.94179 (/LF 1.00748)
+55A ring ell 2 h 28 readout -2.497003e-01 wave -2.375074e-01 ratio 0.95117 (/LF 1.01751)
+55A ring ell 2 h 36 readout -1.901823e-01 wave -1.819471e-01 ratio 0.95670 (/LF 1.02343)
+55A ring ell 2 23s
+55A ring ell -2 h 20 readout 3.678795e-01 wave 3.464669e-01 ratio 0.94179 (/LF 1.00748)
+55A ring ell -2 h 28 readout 2.497003e-01 wave 2.375074e-01 ratio 0.95117 (/LF 1.01751)
+55A ring ell -2 h 36 readout 1.901823e-01 wave 1.819471e-01 ratio 0.95670 (/LF 1.02343)
+55A ring ell -2 22s
+A done 150s
