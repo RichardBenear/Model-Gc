@@ -1,6 +1,6 @@
 # EX-GC52 — a moving source in the 51 model: does a single coincidence-carried scalar pick out a preferred frame?
 
-2026-11-27 | EXPLORATORY | Claude | Closure pending | [Plan](../../spec/EX-GC52_plan.md) (amendment A1 before the scored runs) | About 1.0 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring and diagnostics: `src/exgc52_summary.py` → `summary.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
+2026-11-27 | EXPLORATORY | Claude | PI CLOSED 2026-11-27 (Richard: "go ahead and close 51, 52, 53 then run 54") | [Plan](../../spec/EX-GC52_plan.md) (amendment A1 before the scored runs) | About 1.0 core-h on the cloud container (Linux, Python 3.13.18, numpy 2.5.3). Scoring and diagnostics: `src/exgc52_summary.py` → `summary.json`. This is our construction, not LaViolette's Model G and not Chain Theory.
 
 ## Conclusion
 
