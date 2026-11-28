@@ -47,7 +47,7 @@ That settles the cause of 54's deficit: it was the clock-well weighting.
 
 ## Deviations and caveats
 
-1. **ΔR runs about 0.001 above the line prediction everywhere.** It is inside the band, but it is systematic. This is the shape difference between the counted current and P, which the line ignores. The sign matches the in-place strength being slightly lower in the moving pair than at t = 0.
+1. **ΔR runs about 0.001 above the line prediction everywhere.** It is inside the band, but it is systematic. A likely cause (not checked) is the shape difference between the counted current and P, which the line ignores.
 2. **The momentum rule's own R depends on well depth**: 1.0031 (κ₀/2), 0.9986 (κ₀), 0.9897 (2κ₀). This was not predicted and is not scored. At fixed λ = 4, the P rule's Lorentz invariance in this box shifts by about 1.3% per doubling of depth. Candidates are post-Newtonian terms of order κ² (the field law is linear in the source but the dynamics are not) and the n = 49, T = 8 box. It does not affect ΔR, which is depth-independent. But it means "λ* = 3.91" belongs to one depth, and the next pair test should separate κ² terms from the box.
 3. **P6's plane failure is not diagnosed.** On axis the shear of β vanishes by symmetry; in the plane, Σ responds to shear at 0.093 per unit (59/60). The hybrid changes the orbital, near-field part of the source, and so the shear at the probe, by more than its dipole. Reading J (total angular momentum), which is nearly shear-blind (60), would test that. 59's pipeline records only Σ.
 
