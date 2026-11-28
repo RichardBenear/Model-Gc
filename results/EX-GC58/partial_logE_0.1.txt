@@ -1,0 +1,2 @@
+55B PS dt 0.100 drift 6.644e-08  |Ei0| 2.023e-03  rel 3.285e-05  81s
+E_0.1 done 83s

@@ -1,5 +1,13 @@
 # Handoff — current state
 
+## EX-GC58 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC58_plan.md) · [Note](results/EX-GC58/EX-GC58_note.md). The shift as local events. About 0.62 core-h. All registered predictions and checks pass.
+- Link event = real rotation of (ψ_x, ψ_{x+a}) by β dt/2 (directed transfer); plaquette event = spinor rotation by (dt/4)(curl β)·Σ (Belinfante term); source = conjugate count P + ¼Cᵀs (rule label PS in `src/exgc58.py`, which patches 55's `coupling`).
+- Order-free to O((β dt)²); drift universality kept; spin precesses at Ω per unit J (3e-4); a resting spin sources J = L + S; energy conserved; pair R 0.9967.
+- Still put in: strength 4, β's field law, the ¼.
+- Next (not approved): a coincidence transport rule for β itself; radiation; counting the ¼.
+
 ## EX-GC57 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC57_plan.md) · [Note](results/EX-GC57/EX-GC57_note.md). Frame dragging read by light, orbiting matter and spin. About 0.014 core-h scored.
