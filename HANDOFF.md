@@ -1,5 +1,16 @@
 # Handoff — current state
 
+## EX-GC60 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC60_plan.md) · [Note](results/EX-GC60/EX-GC60_note.md). What the spin detector responds to, coupling unchanged. About 0.57 core-h. 6 of 8 predictions and all checks pass.
+- Rotation is read exactly by Σ and J (−0.998 to −1.000, σ = 3–5, two orientations).
+- Σ's shear response fades with packet width and equals the orbital share 1 − ⟨Σ⟩ to 0.92–0.99; J is nearly immune.
+- Gauge test: the exact lattice resync coupling H_g = −(i/2)[χ, H²] gives 0.93 of the same shear drift (P6b FAIL). So the shear response is a readout convention (Σ read at equal coordinate time under a position-dependent time relabelling), not a fault of −β·P. 59's plane and gradient "failures" are explained; the planned resync-coupling change is not needed.
+- Frozen σ = 3 calibration predicted a new diagonal site to 1.0002 (Σ) and 0.994 (J).
+- For later detector tests: score J, a frame-transformed spin, or wide packets.
+- Code: `src/exgc60.py` (+ summary, recompute).
+- Next (not approved): an event rule for the shift's own transport, scored with nothing refitted on 59's on-axis precession, 60C's diagonal prediction and 55's co-moving pair.
+
 ## EX-GC59 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC59_plan.md) · [Note](results/EX-GC59/EX-GC59_note.md). Spin source to spin probe, end to end. About 0.23 core-h scored.
