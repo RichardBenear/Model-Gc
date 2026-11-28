@@ -1,6 +1,6 @@
 # EX-GC61 — the shift as a travelling field: local events, arrival, settling and the detector without refitting
 
-2026-11-28 | EXPLORATORY | Claude | Plan only. PI asked for it to be written ("Yes, do 1 and write the 2 plan and also 3 addon", 13:52 UTC). **Not run: it needs a go-ahead.** Requested cap: 2 core-h (expected about 1). Our construction; not LaViolette's Model G and not Chain Theory.
+2026-11-28 | EXPLORATORY | Claude | Plan only. PI asked for it to be written ("Yes, do 1 and write the 2 plan and also 3 addon", 13:52 UTC). PI go-ahead 2026-11-28 13:58 UTC ("go ahead with 61"). Requested cap: 2 core-h (expected about 1). Our construction; not LaViolette's Model G and not Chain Theory.
 
 ## Why
 
