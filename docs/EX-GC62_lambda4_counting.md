@@ -4,6 +4,8 @@
 
 ## Summary
 
+**Main point (section 1b).** λ is not independent: once γ is fixed, the absence of a preferred frame forces λ = 2(1 + γ). This is the PPN condition α₁ = 0, and it is what 52 and 53 measured (λ* ≈ 3.91). So the factor to count is 1 + γ, which 37B does in 3D. The remaining 2 is what local boost invariance demands. A counting rule that would supply it: the shift is the forward-minus-backward Doppler asymmetry of the **signal** (light) count.
+
 - **λ = 4 is two factors of 2, and they are different kinds of thing.**
   - The first 2 is light against the clock: 1 + γ.
   - The second 2 is the shift against light. It is the same in every dimension.
@@ -53,6 +55,28 @@ Two details matter:
 - The shift is not split, because g₀ᵢ has no trace part.
 
 So **shift/light = 2 in every dimension.** The 2 is the shift entering the line element twice, as g₀ᵢ dt dxⁱ + gᵢ₀ dxⁱ dt, whereas a potential enters a rate (a square root of the interval) at half weight.
+
+## 1b. λ is not a third independent number: given γ, the absence of a preferred frame fixes it
+
+(This was added after the first draft. It changes what has to be explained.)
+
+- **Boost argument.** Take a static source's field, h₀₀ = −2Φ and hₓₓ = −2γΦ, and boost it to velocity v. To first order the boosted field has
+
+  |h₀ₓ| = v |h₀₀ + hₓₓ| = 2(1 + γ) |Φ| v.
+
+  So a moving source's shift is the Lorentz image of the light potential (h₀₀ + hₓₓ), and its strength relative to the clock is 2(1 + γ). The factor 2 is the boost mixing t and x in both slots of the symmetric metric.
+- **PPN form.** In the parametrised post-Newtonian metric, the transverse part of g₀ᵢ carries the coefficient 2(1 + γ) + α₁/2, where α₁ measures preferred-frame effects. **α₁ = 0 holds exactly when λ = 2(1 + γ).**
+- **Our own data say the same.** 52 found a preferred frame with no shift (α₁ ≈ −8). 53 removed it with λ = 4, and the combined 52 + 53 data put the required value at λ* ≈ 3.91. That is the measured form of this identity, with γ = 1 from 37B's counting.
+
+**Consequence.** The "how many things are counted" question for λ splits cleanly:
+1. **1 + γ** is a genuine counting question about the clock and signal counts. 37B answers it in 3D. The dimension dependence sits entirely here.
+2. **The factor 2** is not a further count to discover. It is what local boost invariance demands of whatever carries the shift. The mechanism question is then: **what substrate process makes a moving source's field the boosted image of its static light potential?**
+
+**Counting reading of that process.** For a source moving at v, a link's forward and backward signal coincidences are Doppler-shifted by (1 + v) and (1 − v). If the shift is the forward-minus-backward asymmetry of the **signal** count (the light potential, weight 1 + γ), it comes out as 2v × (1 + γ)Φ. That gives λ = 2(1 + γ) with nothing tuned.
+
+54 instead attached the Doppler factors to the clock-type endpoint rates in one direction (the (1 ∓ v)² count). That anchors the shift to the clock rather than to the light count, and it missed: λ_eff was 3.85, or 3.37 inside the wells.
+
+So the specific prediction is: **shift = directed asymmetry of the signal count, normalised by the same coincidence weights that set light's speed.**
 
 ## 2. Counting in ruler units
 
