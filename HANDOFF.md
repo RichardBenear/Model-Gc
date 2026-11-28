@@ -1,5 +1,9 @@
 # Handoff — current state
 
+## EX-GC63 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC63_plan.md) · [Note](results/EX-GC63/EX-GC63_note.md). 54's directed signal-count rule counted per local tick (flat weights) keeps the co-moving pair Lorentz-invariant with nothing tuned: R_dyn(0.2) = 1.0028 (54: 1.019). The count has no spin term: resting-spin moment 9.2% of PS (= canonical P's). EX-GC62 note (paper, docs/) corrected the same day on 54. 0.92 core-h.
+
 ## EX-GC61 completed (Claude, exploratory, PI closure pending)
 
 [Plan](spec/EX-GC61_plan.md) · [Note](results/EX-GC61/EX-GC61_note.md). The shift as a travelling field. About 1.25 core-h scored plus 0.4 post hoc. 6 of 10 predictions and all checks pass.
