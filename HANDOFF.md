@@ -1,6 +1,6 @@
 # Handoff — current state
 
-## EX-GC56 completed (Claude, exploratory, closure pending)
+## EX-GC56 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC56_plan.md) · [Note](results/EX-GC56/EX-GC56_note.md). The shift as a substrate drift. About 2.2 core-h (over the 2 cap, recorded).
 - −β·P is exactly a real directed amplitude transfer; it carries every Dirac packet by −β⟨cos k⟩ (7e-5), the same as light. The energy current is mass-dependent (Wilson 1.32–2.22×), so it is excluded by the equivalence principle.
@@ -9,7 +9,7 @@
 - Code: `src/exgc56.py`, `exgc56_summary.py`, `exgc56_recompute.py`.
 - Suggested next (not approved): directed-coincidence amplitude-transfer rule (continuum −β·P, source P, strength 4); ring + matter probe with the synchronised clock.
 
-## EX-GC55 completed (Claude, exploratory, closure pending)
+## EX-GC55 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC55_plan.md) · [Note](results/EX-GC55/EX-GC55_note.md). One interaction for the shift (Codex 54 review). About 0.75 core-h.
 - Energy bookkeeping: P/P and reciprocal J_E/J_E conserve; 54's mixed rule does not.
