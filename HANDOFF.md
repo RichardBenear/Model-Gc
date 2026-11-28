@@ -1,5 +1,14 @@
 # Handoff — current state
 
+## EX-GC59 completed (Claude, exploratory, PI closure pending)
+
+[Plan](spec/EX-GC59_plan.md) · [Note](results/EX-GC59/EX-GC59_note.md). Spin source to spin probe, end to end. About 0.23 core-h scored.
+- On axis a polarised source makes a transverse probe spin precess at the solved field's curl to 0.03–0.1% (free-space GR 0.977–0.987, the gap = zero-boundary images in n = 97).
+- Reversal, unpolarised, links-only, calibrated light loop, asynchronous event order all pass.
+- Fails: in-plane 0.775, box/dipole boundary 2.5%, gradient null 7.7%, norm bound. All but the box trace to a shear response of Σ (+0.093 per unit shear) through the canonical link coupling; curl + shear calibrations predict the rates to 0.04%.
+- Code: `src/exgc59.py` (+ summary, recompute, posthoc, fixpred).
+- Next (not approved): a shift coupling built from the time-resync generator so β = ∇χ is exact gauge (removes shear response); then 60, an event rule for β's transport.
+
 ## EX-GC58 completed (Claude, exploratory, PI CLOSED 2026-11-28)
 
 [Plan](spec/EX-GC58_plan.md) · [Note](results/EX-GC58/EX-GC58_note.md). The shift as local events. About 0.62 core-h. All registered predictions and checks pass.

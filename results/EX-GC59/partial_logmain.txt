@@ -1,0 +1,6 @@
+59 fields n 97 kap 1.6378 {'up': {'L': 0.04913573314809195, 'Sz': 0.4496344342377997, 'J_PS': 0.4987701673859717}, 'down': {'L': -0.049135733148091956, 'Sz': -0.4496344342377997, 'J_PS': -0.4987701673859717}} 9s
+59 97 zero axis_12 pred 7.4231e-05 (centre 7.4314e-05, dipole 7.5237e-05) meas 7.3246e-05 ratio 0.98674  96s
+  p = np.array(x, float) - c; p[ax] += 0.5 * sg; r, v = srcs[ax]; tot += sg * (-(LAM * kap / (4 * np.pi)) * np.sum(v / np.linalg.norm(p - r, axis=1)))
+59 97 zero axis_16 pred 3.1534e-05 (centre 3.1529e-05, dipole 3.1741e-05) meas 3.0808e-05 ratio 0.97698 P 3.060e-07 light -0.00000 f 1.0451 355s
+59 97 zero plane_16 pred -1.5994e-05 (centre -1.5996e-05, dipole -1.5870e-05) meas -1.2397e-05 ratio 0.77513  443s
+done main 443s
